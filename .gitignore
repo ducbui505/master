@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+checkpoints/
+data/*.pt
+*.pt
+*.pkl
+ADR_ontology_v3.3.xlsx

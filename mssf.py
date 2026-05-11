@@ -267,7 +267,7 @@ def train_test(data_train, data_test, args, fold):
 
     # Set the runtime device for the program
     torch.backends.cudnn.benchmark = True
-    os.environ["CUDA_VISIBLE_DEVICES"] = "3" # Set GPU device index
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0" # Set GPU device index
     use_cuda = False
     if torch.cuda.is_available():
         use_cuda = True

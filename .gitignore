@@ -5,4 +5,6 @@ __pycache__/
 checkpoints/
 data/*.pt
 *.pt
+!data/drug_llm_features.pt
+!data/se_llm_features.pt
 ADR_ontology_v3.3.xlsx

@@ -56,7 +56,11 @@ def load_ckpt(path, model, optimizer, device):
     optimizer.load_state_dict(ckpt["optimizer"])
 
     rs = ckpt.get("rng_state", {})
-    if "torch" in rs: torch.set_rng_state(rs["torch"])
+    if "torch" in rs:
+        rng = rs["torch"]
+        if not isinstance(rng, torch.ByteTensor):
+            rng = rng.cpu().byte()
+        torch.set_rng_state(rng)
     if "numpy" in rs: np.random.set_state(rs["numpy"])
     if "python" in rs: random.setstate(rs["python"])
     return ckpt

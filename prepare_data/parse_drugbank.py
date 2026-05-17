@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-XML_PATH = os.path.join(BASE, "Datas", "drugbank_all_full_database.xml")
+XML_PATH = os.path.join(BASE, "full database.xml")
 OUTPUT   = os.path.join(BASE, "data", "drugbank_text.csv")
 
 NS = {'db': 'http://www.drugbank.ca'}

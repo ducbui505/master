@@ -31,21 +31,51 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model  = model.to(device)
 print(f"Device: {device}")
 
-def encode_texts(texts, batch_size=32, max_length=256):
-    """Encode list of texts -> (N, 768) tensor using CLS token."""
-    all_embeddings = []
-    for i in range(0, len(texts), batch_size):
-        batch = texts[i : i + batch_size]
-        encoded = tokenizer(
-            batch, padding=True, truncation=True,
-            max_length=max_length, return_tensors="pt"
-        )
-        encoded = {k: v.to(device) for k, v in encoded.items()}
+def encode_single(text, max_length=512, stride=256):
+    """Encode một text dài bằng sliding window chunking + mean pooling.
+    
+    Tokenize toàn bộ text, chia thành các chunk 512 token (overlap stride token),
+    encode từng chunk lấy CLS embedding, rồi average tất cả chunks lại.
+    """
+    tokens = tokenizer(text, return_tensors="pt", truncation=False,
+                       add_special_tokens=False)
+    input_ids = tokens["input_ids"][0]  # (N_tokens,)
+
+    cls_id = tokenizer.cls_token_id
+    sep_id = tokenizer.sep_token_id
+
+    chunk_embeddings = []
+    # Mỗi chunk thực sự chứa max_length-2 token nội dung (trừ [CLS] và [SEP])
+    content_len = max_length - 2
+    pos = 0
+    while pos < len(input_ids):
+        chunk = input_ids[pos : pos + content_len]
+        # Thêm [CLS] đầu và [SEP] cuối
+        chunk_ids = torch.cat([
+            torch.tensor([cls_id]),
+            chunk,
+            torch.tensor([sep_id])
+        ]).unsqueeze(0).to(device)
+        attn = torch.ones_like(chunk_ids)
         with torch.no_grad():
-            out = model(**encoded)
-            cls = out.last_hidden_state[:, 0, :]  # (batch, 768)
-        all_embeddings.append(cls.cpu())
-        print(f"  Encoded {min(i + batch_size, len(texts))}/{len(texts)}")
+            out = model(input_ids=chunk_ids, attention_mask=attn)
+            cls_emb = out.last_hidden_state[:, 0, :]  # (1, 768)
+        chunk_embeddings.append(cls_emb.cpu())
+        if pos + content_len >= len(input_ids):
+            break
+        pos += content_len - stride  # bước nhảy = content_len - overlap
+
+    return torch.stack(chunk_embeddings).mean(0)  # (1, 768)
+
+
+def encode_texts(texts, max_length=512, stride=256):
+    """Encode list of texts -> (N, 768) tensor dùng chunking + mean pooling."""
+    all_embeddings = []
+    for i, text in enumerate(texts):
+        emb = encode_single(text, max_length=max_length, stride=stride)
+        all_embeddings.append(emb)
+        if (i + 1) % 50 == 0 or (i + 1) == len(texts):
+            print(f"  Encoded {i + 1}/{len(texts)}")
     return torch.cat(all_embeddings, dim=0)
 
 # -- Drug texts ----------------------------------------------------------------

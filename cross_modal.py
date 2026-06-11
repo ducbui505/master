@@ -44,7 +44,8 @@ class CrossModalGatedFusion(nn.Module):
         """
         gate = torch.sigmoid(self.gate_proj(torch.cat([f_structured, f_llm], dim=1)))
         v_llm = self.value_proj(f_llm)
-        fused = gate * f_structured + (1.0 - gate) * v_llm
+        # FIXED: gate small → mostly baseline, gate large → mostly LLM
+        fused = (1.0 - gate) * f_structured + gate * v_llm
         return self.layer_norm(fused + f_structured)  # residual
 
 

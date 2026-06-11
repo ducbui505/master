@@ -228,9 +228,18 @@ def fold_files(data_train, data_test,args):
         drug_llm_test  = drug_llm_all[data_test[:, 0].astype(int)].numpy()
         se_llm_test    = se_llm_all[data_test[:, 1].astype(int)].numpy()
 
+        # Load masks
+        drug_mask_all = torch.load('data/drug_text_mask.pt', map_location='cpu')
+        se_mask_all   = torch.load('data/se_text_mask.pt', map_location='cpu')
+        drug_mask_train = drug_mask_all[data_train[:, 0].astype(int)].numpy()
+        se_mask_train   = se_mask_all[data_train[:, 1].astype(int)].numpy()
+        drug_mask_test  = drug_mask_all[data_test[:, 0].astype(int)].numpy()
+        se_mask_test    = se_mask_all[data_test[:, 1].astype(int)].numpy()
+
         return (drug_test, side_test, f_test,
                 drug_train, side_train, f_train,
-                drug_llm_train, se_llm_train, drug_llm_test, se_llm_test)
+                drug_llm_train, se_llm_train, drug_llm_test, se_llm_test,
+                drug_mask_train, se_mask_train, drug_mask_test, se_mask_test)
 
     return drug_test, side_test, f_test, drug_train, side_train, f_train
 
@@ -241,16 +250,19 @@ def train_test(data_train, data_test, args, fold):
     if getattr(args, 'use_llm', False):
         (drug_test, side_test, f_test,
          drug_train, side_train, f_train,
-         drug_llm_train, se_llm_train, drug_llm_test, se_llm_test) = fold_result
+         drug_llm_train, se_llm_train, drug_llm_test, se_llm_test,
+         drug_mask_train, se_mask_train, drug_mask_test, se_mask_test) = fold_result
 
         trainset = torch.utils.data.TensorDataset(
             torch.FloatTensor(drug_train), torch.FloatTensor(side_train),
             torch.FloatTensor(f_train),
-            torch.FloatTensor(drug_llm_train), torch.FloatTensor(se_llm_train))
+            torch.FloatTensor(drug_llm_train), torch.FloatTensor(se_llm_train),
+            torch.FloatTensor(drug_mask_train), torch.FloatTensor(se_mask_train))
         testset = torch.utils.data.TensorDataset(
             torch.FloatTensor(drug_test), torch.FloatTensor(side_test),
             torch.FloatTensor(f_test),
-            torch.FloatTensor(drug_llm_test), torch.FloatTensor(se_llm_test))
+            torch.FloatTensor(drug_llm_test), torch.FloatTensor(se_llm_test),
+            torch.FloatTensor(drug_mask_test), torch.FloatTensor(se_mask_test))
     else:
         drug_test, side_test, f_test, drug_train, side_train, f_train = fold_result
         trainset = torch.utils.data.TensorDataset(torch.FloatTensor(drug_train), torch.FloatTensor(side_train),
@@ -373,8 +385,9 @@ def calculate_loss(multi_pred,recCon,recAdd,mu, logvar,batch_ratings,batch_drug,
     # Compute KL divergence
     kl_div = kl_func(mu, logvar).mean()
 
-    # Define multi-class classification loss
-    loss_func = nn.CrossEntropyLoss() 
+    # Define multi-class classification loss with class weights for imbalance
+    class_weights = torch.tensor([1.0, 1.0, 1.0, 2.0, 5.0]).to(device)
+    loss_func = nn.CrossEntropyLoss(weight=class_weights) 
 
     # Convert frequencies to integer class indices: -> {0,1,2,3,4}
     multi_labels = (batch_ratings.long()-1).to(device)
@@ -430,17 +443,17 @@ def train(model, train_loader, optimizer, device, args=None, supcon_loss_fn=None
 
         # Unpack the batch
         if args is not None and getattr(args, 'use_llm', False):
-            batch_drug, batch_side, batch_ratings, batch_drug_llm, batch_se_llm = data
+            batch_drug, batch_side, batch_ratings, batch_drug_llm, batch_se_llm, batch_drug_mask, batch_se_mask = data
         else:
             batch_drug, batch_side, batch_ratings = data
-            batch_drug_llm = batch_se_llm = None
+            batch_drug_llm = batch_se_llm = batch_drug_mask = batch_se_mask = None
        
         # Clear gradients from the previous step
         optimizer.zero_grad()
 
         # model outputs 
         if batch_drug_llm is not None:
-            outputs = model(batch_drug, batch_side, device, batch_drug_llm, batch_se_llm)
+            outputs = model(batch_drug, batch_side, device, batch_drug_llm, batch_se_llm, batch_drug_mask, batch_se_mask)
             multi_pred, recCon, recAdd, mu, logvar, f_fused = outputs
         else:
             multi_pred, recCon, recAdd, mu, logvar = model(batch_drug, batch_side, device)
@@ -453,7 +466,7 @@ def train(model, train_loader, optimizer, device, args=None, supcon_loss_fn=None
                               alpha_supcon=getattr(args, 'alpha_supcon', 0.1) if args else 0.1)
 
         # Backward pass to compute gradients
-        loss.backward(retain_graph = True)
+        loss.backward()
 
         # Update model parameters
         optimizer.step()
@@ -475,14 +488,14 @@ def test(model, test_loader, device, args=None):
 
         # Unpack the batch
         if args is not None and getattr(args, 'use_llm', False):
-            test_drug, test_side, test_ratings, test_drug_llm, test_se_llm = data
+            test_drug, test_side, test_ratings, test_drug_llm, test_se_llm, test_drug_mask, test_se_mask = data
         else:
             test_drug, test_side, test_ratings = data
-            test_drug_llm = test_se_llm = None
+            test_drug_llm = test_se_llm = test_drug_mask = test_se_mask = None
 
         # Obtain predicted data
         if test_drug_llm is not None:
-            outputs = model(test_drug, test_side, device, test_drug_llm, test_se_llm)
+            outputs = model(test_drug, test_side, device, test_drug_llm, test_se_llm, test_drug_mask, test_se_mask)
             multi_pred = outputs[0]
         else:
             multi_pred, recCon, recAdd, mu, logvar = model(test_drug, test_side, device)

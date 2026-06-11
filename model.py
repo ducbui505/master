@@ -25,7 +25,7 @@ class GaussianParametrizer(nn.Module):
         log_var = self.h2(x) 
         return mu, log_var
 
-# Attention mechanism
+# Attention mechanism (legacy: used inside EncoderConnection & EncoderAddition)
 class Attention(nn.Module): 
     def __init__(self,inputdim,heads):
         super(Attention,self).__init__()
@@ -65,7 +65,56 @@ class Attention(nn.Module):
         x = self.LN1(att + x)  # Add & Norm
         output = self.l1(x)
         x = self.LN2(output + x) # Add & Norm
-                                                    
+                                                     
+        return x
+
+
+# FIXED: Self-attention over the 3 feature streams (NOT over the batch dimension)
+class FeatureAttention(nn.Module):
+    """
+    Input:  [B, 384] — concatenation of feature1, feature2, feature3 (each 128-d)
+    Output: [B, 384]
+    
+    Reshapes to [B, 3, 128] and applies self-attention over the 3 features,
+    so each feature can attend to the other two within the SAME sample.
+    """
+    def __init__(self, inputdim, heads):
+        super(FeatureAttention, self).__init__()
+        self.inputdim = inputdim          # 384
+        self.heads = heads                # 4
+        self.n_features = 3               # feature1, feature2, feature3
+        self.d_feature = inputdim // self.n_features  # 128
+
+        assert self.d_feature % heads == 0, \
+            f"d_feature ({self.d_feature}) must be divisible by heads ({heads})"
+
+        self.mha = nn.MultiheadAttention(
+            embed_dim=self.d_feature,
+            num_heads=heads,
+            batch_first=True
+        )
+        self.ln1 = nn.LayerNorm(inputdim)
+        self.ff = nn.Sequential(
+            nn.Linear(inputdim, inputdim),
+            nn.LeakyReLU(0.01),
+            nn.Dropout(0.1)
+        )
+        self.ln2 = nn.LayerNorm(inputdim)
+
+    def forward(self, x):
+        B = x.size(0)
+        # Reshape: [B, 384] -> [B, 3, 128]
+        seq = x.view(B, self.n_features, self.d_feature)
+        
+        # Self-attention over the 3 features (intra-sample, NOT inter-batch)
+        out, _ = self.mha(seq, seq, seq)  # [B, 3, 128]
+        
+        # Reshape back: [B, 3, 128] -> [B, 384]
+        out = out.reshape(B, -1)
+
+        x = self.ln1(out + x)      # Add & Norm
+        out2 = self.ff(x)
+        x = self.ln2(out2 + x)     # Add & Norm
         return x
 
 
@@ -92,8 +141,13 @@ class EncoderConnection(nn.Module):
 
         )
 
-        # attention block
-        self.attention = Attention(inputdim=self.latent_dim,heads=self.heads)
+        # attention block (FIXED: replaced with MLP to avoid batch-dimension bug)
+        self.attention = nn.Sequential(
+            nn.Linear(self.latent_dim, self.latent_dim),
+            nn.LeakyReLU(0.01),
+            nn.Dropout(args.dropout),
+            nn.LayerNorm(self.latent_dim)
+        )
         self.l2 = nn.Linear(self.latent_dim,self.feature_dim)                    # second linear layer
 
         # decoder
@@ -104,6 +158,57 @@ class EncoderConnection(nn.Module):
 
             nn.Linear(self.latent_dim,self.drugs_inputdim+self.sides_inputdim)   # linear layer
         )
+
+
+    def forward(self,drugs,sides):
+        x = torch.cat((drugs,sides),dim=1) # Concatenate
+        x = self.l1(x)                     # Linear + BN + Activation
+        x = self.attention(x)              # MLP (was: batch-dimension attention)
+        x = self.l2(x)                     # Linear + BN + Activation
+
+        rec_conn = self.l3(x)              # Reconstruct
+
+        return x,rec_conn                  # Return
+
+
+# Autoencoder for addition features
+class EncoderAddition(nn.Module):
+    def __init__(self,drugs_inputdim,sides_inputdim,latent_dim,feature_dim,heads,args):
+            super(EncoderAddition,self).__init__()
+
+            # parameters
+            self.drugs_inputdim = drugs_inputdim            # Combined drug feature dimension (after addition)
+            self.sides_inputdim = sides_inputdim            # Combined side effect feature dimension (after addition)
+            self.latent_dim = latent_dim                    # Intermediate latent dimension
+            self.feature_dim = feature_dim                  # Bottleneck feature dimension
+            self.heads = heads                              # Number of attention heads
+
+            # Common activation + dropout block
+            self.reluDrop = nn.Sequential(nn.LeakyReLU(0.01),nn.Dropout(args.dropout))
+
+            # encoder
+            self.l1 = nn.Sequential(
+            nn.Linear(self.drugs_inputdim + self.sides_inputdim, self.latent_dim),  # Linear layer
+            nn.BatchNorm1d(self.latent_dim),                                        # Batch normalization
+            self.reluDrop                                                           # Activation + dropout
+            )
+            # FIXED: replaced with MLP to avoid batch-dimension bug
+            self.attention = nn.Sequential(
+                nn.Linear(self.latent_dim, self.latent_dim),
+                nn.LeakyReLU(0.01),
+                nn.Dropout(args.dropout),
+                nn.LayerNorm(self.latent_dim)
+            )
+            self.l2 = nn.Linear(self.latent_dim,self.feature_dim)
+
+            # decoder
+            self.l3 = nn.Sequential(
+                nn.Linear(self.feature_dim,self.latent_dim),                         # linear layer
+                nn.BatchNorm1d(self.latent_dim),                                     # Batch normalization
+                self.reluDrop,                                                       # Activation + dropout
+
+                nn.Linear(self.latent_dim,self.drugs_inputdim+self.sides_inputdim)   # linear layer
+            )
 
 
     def forward(self,drugs,sides):
@@ -138,16 +243,22 @@ class EncoderAddition(nn.Module):
             nn.BatchNorm1d(self.latent_dim),                                        # Batch normalization
             self.reluDrop                                                           # Activation + dropout
             )
-            self.attention = Attention(inputdim=self.latent_dim,heads=self.heads)
+            # FIXED: replaced with MLP to avoid batch-dimension bug
+            self.attention = nn.Sequential(
+                nn.Linear(self.latent_dim, self.latent_dim),
+                nn.LeakyReLU(0.01),
+                nn.Dropout(args.dropout),
+                nn.LayerNorm(self.latent_dim)
+            )
             self.l2 = nn.Linear(self.latent_dim,self.feature_dim)
 
             # decoder
             self.l3 = nn.Sequential(
-                nn.Linear(self.feature_dim,self.latent_dim),                         # Linear layer
+                nn.Linear(self.feature_dim,self.latent_dim),                         # linear layer
                 nn.BatchNorm1d(self.latent_dim),                                     # Batch normalization
                 self.reluDrop,                                                       # Activation + dropout
 
-                nn.Linear(self.latent_dim,self.drugs_inputdim+self.sides_inputdim)   # Linear layer
+                nn.Linear(self.latent_dim,self.drugs_inputdim+self.sides_inputdim)   # linear layer
             )
 
 
@@ -167,7 +278,7 @@ class EncoderAddition(nn.Module):
         # Concatenate the summed drug and side effect representations
         add_features = torch.cat((drugs,sides),dim=1)
         x = self.l1(add_features) # Linear + BN + Activation
-        x = self.attention(x)     # attention
+        x = self.attention(x)     # MLP (was: batch-dimension attention)
         x = self.l2(x)            # Linear + BN + Activation
 
         rec_add = self.l3(x)      # Reconstruct
@@ -387,7 +498,7 @@ class Mulmodel(nn.Module):
         self.preprocess = Preprocess(drug_inputdim=757,side_inputdim=994,embeddim=128,args=args)       # Preprocess each features of drug and side effect representations
         self.crossProduction = CrossProduction(cross_dim=128,feature_dim=128,input_channel=self.feature_nums) # Cross-product module
 
-        self.attention = Attention(inputdim=128*3,heads=4) # Attention module
+        self.attention = FeatureAttention(inputdim=128*3,heads=4) # FIXED: attention over 3 features, not batch
 
         self.gaussian_parametrizer = GaussianParametrizer(feature_dim=128*3,latent_dim=args.gp)  # BVE module
 
@@ -419,7 +530,7 @@ class Mulmodel(nn.Module):
             return mu
 
     # Forward pass of the full model
-    def forward(self,drugs,sides,device,drug_llm=None,se_llm=None):     
+    def forward(self,drugs,sides,device,drug_llm=None,se_llm=None,drug_mask=None,se_mask=None):     
         drugs = drugs.to(device) # Move drug input to device
         sides = sides.to(device) # Move side effect input to device
         
@@ -440,7 +551,12 @@ class Mulmodel(nn.Module):
         if self.use_llm and drug_llm is not None and se_llm is not None:
             drug_llm = drug_llm.to(device)
             se_llm = se_llm.to(device)
-            f_llm = self.llm_branch(drug_llm, se_llm)  # [B, 384]
+            # Apply mask if provided
+            if drug_mask is not None:
+                drug_mask = drug_mask.to(device)
+            if se_mask is not None:
+                se_mask = se_mask.to(device)
+            f_llm = self.llm_branch(drug_llm, se_llm, drug_mask, se_mask)  # [B, 384]
 
             if self.use_cross_modal:
                 features = self.cross_modal(features, f_llm)  # [B, 384]

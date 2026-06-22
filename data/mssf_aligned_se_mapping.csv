@@ -1,0 +1,995 @@
+idx,umls_cui,se_name,benchmark_idx,resolution_status,evidence
+0,C0232487,abdominal discomfort,650,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+1,C0000731,abdominal distension,361,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+2,C0000737,abdominal pain,886,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+3,C0232495,abdominal pain lower,52,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+4,C0232492,abdominal pain upper,571,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+5,C0233514,abnormal behaviour,833,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+6,C0234458,abnormal dreams,235,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+7,C0162287,abnormal faeces,492,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+8,C0000833,abscess,187,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+9,C0152198,accommodation disorder,742,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+10,C0001122,acidosis,277,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+11,C0702166,acne,767,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+12,C0022602,actinic keratosis,148,resolved_by_auxiliary_semantic_features,Nearest semantic/glove neighbors include lichenoid keratosis and hyperkeratosis; paired complement to seborrhoeic keratosis row 823.
+13,C0948089,acute coronary syndrome,813,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+14,C0155626,acute myocardial infarction,692,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+15,C0035222,acute respiratory distress syndrome,976,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+16,C0001623,adrenal insufficiency,306,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+17,C0233472,affect lability,652,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+18,C0525045,affective disorder,285,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+19,C2364111,ageusia,540,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+20,C0001807,aggression,2,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+21,C0085631,agitation,659,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+22,C0001824,agranulocytosis,418,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+23,C0392156,akathisia,900,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+24,C0085623,akinesia,614,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+25,C0151905,alanine aminotransferase increased,371,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+26,C0001925,albuminuria,455,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+27,C0151474,alcohol intolerance,882,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+28,C0002170,alopecia,842,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+29,C0150450,altered state of consciousness,672,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+30,C0002390,alveolitis allergic,74,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+31,C0002418,amblyopia,454,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+32,C0002453,amenorrhoea,872,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+33,C0002622,amnesia,645,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+34,C0151479,amylase increased,529,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+35,C0002871,anaemia,841,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+36,C0002886,anaemia macrocytic,215,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+37,C0002888,anaemia megaloblastic,670,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+38,C0033775,anal pruritus,388,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+39,C0002792,anaphylactic shock,594,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+40,C0340865,anaphylactoid reaction,333,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+41,C0002940,aneurysm,484,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+42,C0002957,anger,356,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+43,C0002962,angina pectoris,782,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+44,C0002994,angioedema,888,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+45,C0042373,angiopathy,609,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+46,C0017605,angle closure glaucoma,156,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+47,C2242737,anorectal discomfort,898,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+48,C0687707,anorectal disorder,54,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+49,C0234022,anorgasmia,914,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+50,C0233523,antisocial behaviour,768,resolved_by_auxiliary_semantic_features,Glove nearest neighbor is abnormal behaviour; semantic neighbors include aggression and hostility.
+51,C0003431,antisocial personality disorder,495,resolved_by_auxiliary_semantic_features,Glove nearest neighbor is personality disorder.
+52,C0003460,anuria,109,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+53,C0003467,anxiety,116,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+54,C0085632,apathy,498,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+55,C0003537,aphasia,567,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+56,C0034902,aplasia pure red cell,386,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+57,C0002874,aplastic anaemia,240,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+58,C0003578,apnoea,588,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+59,C0003615,appendicitis,256,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+60,C0877661,application site burn,402,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+61,C0877098,application site dryness,570,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+62,C0853700,application site erythema,654,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+63,C0521490,application site irritation,127,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+64,C0521491,application site pain,452,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+65,C0877096,application site paraesthesia,194,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+66,C0853714,application site pruritus,752,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+67,C0521495,application site rash,316,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+68,C0151505,application site reaction,547,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+69,C0877097,application site vesicles,807,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+70,C0003635,apraxia,221,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+71,C0003811,arrhythmia,608,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+72,C0428974,arrhythmia supraventricular,804,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+73,C0003850,arteriosclerosis,937,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+74,C0003862,arthralgia,803,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+75,C0003864,arthritis,55,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+76,C0022408,arthropathy,394,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+77,C0003962,ascites,49,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+78,C0233528,asocial behaviour,879,resolved_by_auxiliary_semantic_features,Behavioral semantic/glove neighborhood; paired complement after assigning antisocial behaviour and antisocial personality disorder.
+79,C0151904,aspartate aminotransferase increased,966,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+80,C0004093,asthenia,22,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+81,C0004095,asthenopia,154,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+82,C0004096,asthma,634,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+83,C0004134,ataxia,928,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+84,C0004144,atelectasis,565,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+85,C0004238,atrial fibrillation,295,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+86,C0004239,atrial flutter,600,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+87,C0004245,atrioventricular block,718,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+88,C0151517,atrioventricular block complete,16,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+89,C0085614,atrioventricular block first degree,468,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+90,C0262385,autonomic nervous system imbalance,626,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+91,C0242528,azotaemia,794,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+92,C0004604,back pain,729,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+93,C0004610,bacteraemia,93,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+94,C0004623,bacterial infection,946,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+95,C0575090,balance disorder,174,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+96,C0007117,basal cell carcinoma,75,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+97,C0004998,benign neoplasm of skin,343,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+98,C0151824,biliary colic,617,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+99,C0005586,bipolar disorder,18,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+100,C0853193,bipolar i disorder,658,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+101,C0005684,bladder cancer,432,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+102,C0232849,bladder pain,890,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+103,C0151529,bleeding time prolonged,761,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+104,C0005741,blepharitis,903,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+105,C0005747,blepharospasm,406,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+106,C0456909,blindness,238,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+107,C0005758,blister,576,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+108,C0853777,blood albumin decreased,951,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+109,C0852911,blood alkaline phosphatase increased,478,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+110,C0311468,blood bilirubin increased,9,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+111,C3665624,blood calcium decreased,178,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+112,C0595930,blood cholesterol increased,393,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+113,C0853034,blood creatine phosphokinase increased,157,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+114,C0235431,blood creatinine increased,170,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+115,C0018939,blood disorder,413,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+116,C0595883,blood glucose decreased,315,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+117,C0595877,blood glucose increased,496,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+118,C0853149,blood lactate dehydrogenase increased,10,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+119,C0877517,blood phosphorus decreased,533,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+120,C0853761,blood potassium decreased,828,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+121,C0853760,blood potassium increased,219,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+122,C0497247,blood pressure increased,894,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+123,C0854082,blood prolactin increased,764,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+124,C0853692,blood triglycerides increased,521,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+125,C0151539,blood urea increased,936,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+126,C0235416,blood uric acid increased,351,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+127,C0947999,blood urine present,644,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+128,C0020672,body temperature decreased,124,resolved_by_auxiliary_semantic_features,Glove nearest neighbor is body temperature increased; semantic neighbors include body temperature increased and weight decreased.
+129,C0015967,body temperature increased,618,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+130,C0005940,bone disorder,735,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+131,C0151825,bone pain,809,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+132,C0428977,bradycardia,556,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+133,C0233565,bradykinesia,139,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+134,C1527311,brain oedema,210,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+135,C0006142,breast cancer,476,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+136,C0149741,breast discharge,628,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+137,C0006145,breast disorder,328,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+138,C0085688,breast engorgement,357,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+139,C2225524,breast enlargement,687,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+140,C1458155,breast neoplasm,345,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+141,C0024902,breast pain,44,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+142,C0262397,breast tenderness,158,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+143,C0018520,breath odour,266,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+144,C0231856,breath sounds abnormal,846,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+145,C0085129,bronchial hyperreactivity,666,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+146,C0006277,bronchitis,119,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+147,C0006266,bronchospasm,202,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+148,C0236072,bronchospasm paradoxical,542,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+149,C0006325,bruxism,727,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+150,C0006384,bundle branch block,41,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+151,C0085624,burning sensation,86,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+152,C0006444,bursitis,368,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+153,C0006625,cachexia,457,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+154,C0006840,candida infection,15,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+155,C0018790,cardiac arrest,113,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+156,C0018799,cardiac disorder,806,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+157,C0018801,cardiac failure,230,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+158,C0018802,cardiac failure congestive,758,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+159,C0016385,cardiac flutter,584,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+160,C0018808,cardiac murmur,824,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+161,C0007166,cardiac output decreased,417,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+162,C0036980,cardiogenic shock,623,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+163,C0018800,cardiomegaly,5,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+164,C0878544,cardiomyopathy,224,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+165,C0007222,cardiovascular disorder,104,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+166,C0007286,carpal tunnel syndrome,916,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+167,C0086543,cataract,528,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+168,C0949103,catheter site pain,932,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+169,C0007642,cellulitis,534,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+170,C0007760,cerebellar syndrome,963,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+171,C2937358,cerebral haemorrhage,163,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+172,C0007785,cerebral infarction,637,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+173,C0917798,cerebral ischaemia,585,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+174,C0038454,cerebrovascular accident,710,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+175,C0007820,cerebrovascular disorder,723,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+176,C0007867,cervix disorder,983,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+177,C0278008,change of bowel habit,132,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+178,C0007971,cheilitis,112,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+179,C0235710,chest discomfort,899,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+180,C0008031,chest pain,143,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+181,C0085593,chills,832,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+182,C0008325,cholecystitis,870,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+183,C0008350,cholelithiasis,168,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+184,C0008370,cholestasis,564,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+185,C0085583,choreoathetosis,88,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+186,C0474381,chromatopsia,159,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+187,C0541832,chromaturia,38,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+188,C0024117,chronic obstructive pulmonary disease,715,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+189,C0238106,clostridium difficile colitis,200,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+190,C0005779,coagulopathy,730,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+191,C0009241,cognitive disorder,771,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+192,C0232431,cold sweat,447,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+193,C0009319,colitis,115,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+194,C0162529,colitis ischaemic,208,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+195,C0009324,colitis ulcerative,21,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+196,C0009421,coma,398,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+197,C0852733,completed suicide,84,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+198,C0264886,conduction disorder,475,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+199,C0009676,confusional state,322,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+200,C0015393,congenital eye disorder,887,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+201,C0009760,conjunctival haemorrhage,354,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+202,C1761613,conjunctival hyperaemia,959,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+203,C0151601,conjunctival oedema,962,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+204,C0009763,conjunctivitis,517,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+205,C0009766,conjunctivitis allergic,990,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+206,C0009782,connective tissue disorder,191,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+207,C0009806,constipation,85,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+208,C0009938,contusion,891,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+209,C0009946,conversion disorder,147,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+210,C0520966,coordination abnormal,129,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+211,C0392163,corneal erosion,632,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+212,C0151571,corneal lesion,32,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+213,C0010038,corneal opacity,262,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+214,C1956346,coronary artery disease,671,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+215,C0010200,cough,339,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+216,C0010346,crohn's disease,198,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+217,C0010399,crying,677,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+218,C0010481,cushing's syndrome,745,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+219,C0010520,cyanosis,253,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+220,C0010709,cyst,283,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+221,C0010692,cystitis,420,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+222,C0085692,cystitis haemorrhagic,226,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+223,C0403632,cystitis noninfective,778,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+224,C0011053,deafness,707,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+225,C0232462,decreased appetite,24,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+226,C0149871,deep vein thrombosis,979,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+227,C0011175,dehydration,441,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+228,C0011206,delirium,435,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+229,C0011253,delusion,923,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+230,C0497327,dementia,854,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+231,C0011334,dental caries,656,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+232,C0549249,depressed level of consciousness,73,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+233,C0344315,depressed mood,667,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+234,C0011570,depression,756,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+235,C0233754,derealisation,938,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+236,C0011603,dermatitis,137,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+237,C0234894,dermatitis acneiform,442,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+238,C0011615,dermatitis atopic,149,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+239,C0085932,dermatitis bullous,444,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+240,C0011616,dermatitis contact,613,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+241,C0011606,dermatitis exfoliative,755,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+242,C0011849,diabetes mellitus,387,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+243,C0011991,diarrhoea,274,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+244,C0151594,diarrhoea haemorrhagic,563,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+245,C0012569,diplopia,213,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+246,C0234215,discomfort,797,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+247,C0233407,disorientation,8,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+248,C0012739,disseminated intravascular coagulation,76,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+249,C0233414,disturbance in attention,133,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+250,C0855242,disturbance in sexual arousal,724,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+251,C0012813,diverticulitis,397,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+252,C0012833,dizziness,624,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+253,C0234987,dizziness postural,815,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+254,C0011609,drug eruption,323,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+255,C0013182,drug hypersensitivity,739,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+256,C0852908,drug ineffective,885,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+257,C0314719,dry eye,136,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+258,C0043352,dry mouth,708,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+259,C0151908,dry skin,67,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+260,C0235234,dry throat,551,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+261,C0013295,duodenal ulcer,830,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+262,C0013298,duodenitis,279,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+263,C0392699,dysaesthesia,827,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+264,C0013362,dysarthria,636,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+265,C0013378,dysgeusia,483,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+266,C0013384,dyskinesia,107,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+267,C0013390,dysmenorrhoea,485,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+268,C1384606,dyspareunia,201,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+269,C0013395,dyspepsia,881,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+270,C0011168,dysphagia,640,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+271,C1527344,dysphonia,737,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+272,C0233477,dysphoria,324,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+273,C0013404,dyspnoea,300,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+274,C0231807,dyspnoea exertional,941,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+275,C0013428,dysuria,906,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+276,C0013447,ear disorder,341,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+277,C0699744,ear infection,599,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+278,C0013456,ear pain,429,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+279,C0013491,ecchymosis,232,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+280,C0013595,eczema,661,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+281,C0234047,ejaculation delayed,358,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+282,C0235969,ejaculation disorder,190,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+283,C0278106,ejaculation failure,114,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+284,C0522055,electrocardiogram abnormal,477,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+285,C0151878,electrocardiogram qt prolonged,949,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+286,C0520887,electrocardiogram st segment depression,153,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+287,C0151611,electroencephalogram abnormal,276,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+288,C0342579,electrolyte imbalance,805,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+289,C0013922,embolism,503,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+290,C0340726,embolism venous,535,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+291,C0233459,emotional disorder,843,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+292,C0034067,emphysema,89,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+293,C0085584,encephalopathy,151,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+294,C0014130,endocrine disorder,241,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+295,C0151622,endometrial disorder,222,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+296,C0014236,endophthalmitis,142,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+297,C0014335,enteritis,422,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+298,C0014356,enterocolitis,904,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+299,C0014394,enuresis,682,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+300,C0014457,eosinophilia,270,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+301,C0014534,epididymitis,287,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+302,C1291078,epigastric discomfort,863,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+303,C0014591,epistaxis,958,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+304,C0242350,erectile dysfunction,943,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+305,C0014724,eructation,919,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+306,C0041834,erythema,175,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+307,C0014742,erythema multiforme,258,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+308,C0014743,erythema nodosum,910,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+309,C0239454,erythema of eyelid,558,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+310,C0235146,euphoric mood,861,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+311,C0015256,excoriation,257,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+312,C0015300,exophthalmos,978,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+313,C1442903,exostosis,81,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+314,C0015371,extrapyramidal disorder,901,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+315,C0340464,extrasystoles,577,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+316,C0015376,extravasation,250,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+317,C0423006,eye discharge,29,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+318,C0015397,eye disorder,13,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+319,C0015402,eye haemorrhage,702,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+320,C0015403,eye infection,831,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+321,C0235266,eye irritation,647,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+322,C0743680,eye oedema,440,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+323,C0151827,eye pain,896,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+324,C0022281,eye pruritus,848,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+325,C0270996,eye swelling,545,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+326,C0162285,eyelid oedema,786,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+327,C0542571,face oedema,766,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+328,C0015734,faecalith,857,resolved_by_auxiliary_semantic_features,Faeces-related semantic/glove neighborhood; paired complement to faecaloma row 329.
+329,C1321686,faecaloma,812,resolved_by_auxiliary_semantic_features,Glove nearest neighbor is intestinal obstruction; faecaloma is a fecal mass associated with obstruction.
+330,C0235315,faeces discoloured,902,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+331,C0015663,fasting,591,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+332,C0015672,fatigue,799,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+333,C0746883,febrile neutropenia,583,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+334,C1443060,feeling abnormal,95,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+335,C0234192,feeling cold,344,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+336,C0522172,feeling drunk,376,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+337,C2939147,feeling hot,233,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+338,C0549209,feeling jittery,770,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+339,C0016034,fibrocystic breast disease,592,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+340,C0016199,flank pain,557,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+341,C0233471,flat affect,246,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+342,C0016204,flatulence,209,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+343,C0546817,fluid overload,691,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+344,C0268000,fluid retention,940,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+345,C0016382,flushing,823,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+346,C0239571,foetor hepaticus,162,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+347,C0016436,folliculitis,308,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+348,C0016658,fracture,362,resolved_by_auxiliary_semantic_features,"Musculoskeletal injury neighborhood includes ligament sprain, bone pain, tendon disorder, contusion."
+349,C0559031,functional gastrointestinal disorder,1,resolved_by_auxiliary_semantic_features,Glove nearest neighbor is gastrointestinal disorder.
+350,C0026946,fungal infection,145,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+351,C0011630,fungal skin infection,30,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+352,C0242301,furuncle,164,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+353,C0575081,gait disturbance,31,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+354,C0235660,galactorrhoea,111,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+355,C0151662,gamma-glutamyltransferase increased,731,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+356,C0017086,gangrene,363,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+357,C0038358,gastric ulcer,586,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+358,C0017152,gastritis,615,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+359,C0017160,gastroenteritis,347,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+360,C0151544,gastrointestinal carcinoma,186,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+361,C0017178,gastrointestinal disorder,606,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+362,C0017181,gastrointestinal haemorrhage,265,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+363,C1264613,gastrointestinal infection,296,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+364,C0687713,gastrointestinal pain,825,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+365,C0151664,gastrointestinal perforation,884,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+366,C0237938,gastrointestinal ulcer,774,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+367,C0017168,gastrooesophageal reflux disease,332,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+368,C0151603,generalised oedema,810,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+369,C0343863,genital candidiasis,102,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+370,C0017565,gingival bleeding,705,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+371,C0239739,gingival pain,929,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+372,C0017574,gingivitis,355,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+373,C0017601,glaucoma,704,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+374,C0017675,glossitis,181,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+375,C0017672,glossodynia,453,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+376,C0271650,glucose tolerance impaired,0,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+377,C0017979,glycosuria,657,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+378,C0018021,goitre,622,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+379,C0018099,gout,384,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+380,C0235437,gravitational oedema,17,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+381,C0018418,gynaecomastia,954,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+382,C0018926,haematemesis,140,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+383,C0018932,haematochezia,952,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+384,C0744727,haematocrit decreased,331,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+385,C0018944,haematoma,814,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+386,C0018965,haematuria,449,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+387,C0518015,haemoglobin,530,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+388,C0162119,haemoglobin decreased,790,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+389,C0002878,haemolytic anaemia,378,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+390,C0019061,haemolytic uraemic syndrome,410,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+391,C0019079,haemoptysis,176,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+392,C0019080,haemorrhage,908,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+393,C0151699,haemorrhage intracranial,472,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+394,C0019087,haemorrhagic disorder,933,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+395,C0019112,haemorrhoids,28,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+396,C0474378,hair colour changes,696,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+397,C0018500,hair disorder,72,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+398,C0235807,hair texture abnormal,974,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+399,C0018524,hallucination,118,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+400,C0221100,hangover,858,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+401,C0018681,headache,589,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+402,C0018991,hemiplegia,847,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+403,C0345904,hepatic cancer,383,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+404,C0235996,hepatic enzyme increased,607,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+405,C0085605,hepatic failure,675,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+406,C0086565,hepatic function abnormal,433,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+407,C0151798,hepatic necrosis,697,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+408,C2711227,hepatic steatosis,260,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+409,C0019158,hepatitis,462,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+410,C0149904,hepatitis cholestatic,101,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+411,C0267792,hepatobiliary disease,267,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+412,C0151763,hepatocellular injury,218,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+413,C0019209,hepatomegaly,412,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+414,C0235378,hepatotoxicity,408,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+415,C0019270,hernia,507,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+416,C0019348,herpes simplex,264,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+417,C0019372,herpes virus infection,254,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+418,C0019360,herpes zoster,179,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+419,C3489393,hiatus hernia,725,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+420,C0019521,hiccups,327,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+421,C0019572,hirsutism,981,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+422,C0020039,hostility,141,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+423,C0600142,hot flush,192,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+424,C0034880,hyperacusis,237,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+425,C0020452,hyperaemia,395,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+426,C0020453,hyperaesthesia,125,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+427,C0020433,hyperbilirubinaemia,944,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+428,C0020437,hypercalcaemia,883,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+429,C0020438,hypercalciuria,792,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+430,C0020443,hypercholesterolaemia,845,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+431,C0020456,hyperglycaemia,816,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+432,C0020458,hyperhidrosis,510,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+433,C0020461,hyperkalaemia,515,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+434,C0870082,hyperkeratosis,59,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+435,C0424295,hyperkinesia,419,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+436,C0795692,hyperlactacidaemia,301,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+437,C0020473,hyperlipidaemia,411,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+438,C0151714,hypermagnesaemia,694,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+439,C0020488,hypernatraemia,989,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+440,C0020429,hyperpathia,689,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+441,C0085681,hyperphosphataemia,638,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+442,C0151889,hyperreflexia,716,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+443,C0020517,hypersensitivity,303,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+444,C0917799,hypersomnia,783,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+445,C0020538,hypertension,488,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+446,C0020550,hyperthyroidism,866,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+447,C0026826,hypertonia,779,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+448,C0020555,hypertrichosis,421,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+449,C0020557,hypertriglyceridaemia,741,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+450,C0740394,hyperuricaemia,877,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+451,C0020578,hyperventilation,669,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+452,C0020580,hypoaesthesia,630,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+453,C0521592,hypoaesthesia oral,802,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+454,C0239981,hypoalbuminaemia,559,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+455,C0020598,hypocalcaemia,987,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+456,C0085680,hypochloraemia,146,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+457,C0002884,hypochromic anaemia,560,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+458,C0020615,hypoglycaemia,60,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+459,C0020620,hypohidrosis,180,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+460,C0020621,hypokalaemia,838,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+461,C0086439,hypokinesia,25,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+462,C0151723,hypomagnesaemia,46,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+463,C0241934,hypomania,835,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+464,C0020625,hyponatraemia,64,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+465,C0085682,hypophosphataemia,171,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+466,C0020639,hypoproteinaemia,546,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+467,C0151888,hyporeflexia,62,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+468,C0020649,hypotension,918,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+469,C0413252,hypothermia,469,resolved_by_auxiliary_semantic_features,Semantic/glove neighborhood includes systemic low-temperature/dehydration/hypoxia terms; paired complement to body temperature decreased.
+470,C0020676,hypothyroidism,738,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+471,C0026827,hypotonia,229,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+472,C3203358,hypoventilation,370,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+473,C0242184,hypoxia,77,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+474,C1258215,ileus,605,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+475,C0030446,ileus paralytic,555,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+476,C2047937,ill-defined disorder,506,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+477,C0021053,immune system disorder,298,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+478,C0522063,impaired gastric emptying,721,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+479,C0151692,impaired healing,437,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+480,C0021099,impetigo,390,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+481,C0021141,inappropriate antidiuretic hormone secretion,524,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+482,C0021167,incontinence,217,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+483,C0232461,increased appetite,426,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+484,C1262144,increased bronchial secretion,537,resolved_by_auxiliary_semantic_features,"Respiratory secretion neighborhood includes rhonchi, rales, pleuritic pain and secretion/increased labelling."
+485,C0423798,increased tendency to bruise,800,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+486,C0332534,induration,189,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+487,C0021308,infarction,926,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+488,C0009450,infection,777,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+489,C1384353,infestation,917,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+490,C0021368,inflammation,961,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+491,C0021400,influenza,502,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+492,C0521839,influenza like illness,760,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+493,C1096035,infusion site pain,451,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+494,C1096343,infusion site reaction,248,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+495,C0521508,injection site bruising,785,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+496,C0852625,injection site erythema,352,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+497,C0151698,injection site haemorrhage,337,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+498,C0521509,injection site induration,448,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+499,C0151734,injection site inflammation,912,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+500,C0151828,injection site pain,554,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+501,C0852995,injection site pruritus,513,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+502,C0151735,injection site reaction,69,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+503,C0151605,injection site swelling,123,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+504,C3263723,injury,531,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+505,C0917801,insomnia,320,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+506,C0858797,instillation site pain,391,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+507,C0021775,intermittent claudication,289,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+508,C0853225,international normalised ratio increased,205,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+509,C0206062,interstitial lung disease,829,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+510,C0021843,intestinal obstruction,897,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+511,C0021845,intestinal perforation,763,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+512,C0151740,intracranial pressure increased,379,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+513,C0234708,intraocular pressure increased,921,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+514,C0022081,iritis,930,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+515,C0162316,iron deficiency anaemia,953,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+516,C0022107,irritability,819,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+517,C0022104,irritable bowel syndrome,130,resolved_by_auxiliary_semantic_features,Glove nearest neighbors include syndrome terms; GI functional/bowel semantic neighborhood.
+518,C0022116,ischaemia,993,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+519,C0022346,jaundice,19,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+520,C0022354,jaundice cholestatic,698,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+521,C0162298,joint stiffness,548,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+522,C0152031,joint swelling,400,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+523,C0022568,keratitis,291,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+524,C0022638,ketosis,389,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+525,C0438215,laboratory test abnormal,471,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+526,C0022893,labyrinthitis,695,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+527,C0043246,laceration,431,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+528,C0022904,lacrimal disorder,310,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+529,C3495920,lacrimal structural disorder,92,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+530,C0152227,lacrimation increased,401,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+531,C0001125,lactic acidosis,425,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+532,C0023052,laryngeal oedema,856,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+533,C0549373,laryngeal pain,259,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+534,C0023067,laryngitis,166,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+535,C0023066,laryngospasm,155,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+536,C0023380,lethargy,385,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+537,C0023518,leukocytosis,184,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+538,C0162835,leukoderma,90,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+539,C0023530,leukopenia,42,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+540,C0011124,libido decreased,947,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+541,C0854382,libido disorder,973,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+542,C0021177,libido increased,934,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+543,C1274594,lichenoid keratosis,372,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+544,C0435002,ligament sprain,409,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+545,C0549475,lipase increased,325,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+546,C0877192,lipodystrophy acquired,726,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+547,C0023895,liver disorder,247,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+548,C0151766,liver function test abnormal,925,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+549,C0160390,liver injury,197,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+550,C0853619,local swelling,292,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+551,C0041657,loss of consciousness,78,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+552,C2981158,loss of libido,227,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+553,C0149725,lower respiratory tract infection,183,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+554,C0024115,lung disorder,668,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+555,C0876973,lung infection,152,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+556,C0235896,lung infiltration,514,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+557,C0497156,lymphadenopathy,252,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+558,C0853986,lymphocyte count decreased,821,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+559,C0024282,lymphocytosis,538,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+560,C0024236,lymphoedema,927,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+561,C0024299,lymphoma,211,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+562,C0024312,lymphopenia,648,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+563,C1269683,major depression,688,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+564,C0231218,malaise,878,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+565,C0025202,malignant melanoma,840,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+566,C0162429,malnutrition,214,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+567,C0338831,mania,6,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+568,C0024894,mastitis,105,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+569,C0025061,mediastinal disorder,377,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+570,C0025222,melaena,837,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+571,C0025209,melanosis,236,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+572,C0233794,memory impairment,643,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+573,C0025289,meningitis,489,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+574,C0236075,menopausal symptoms,850,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+575,C0025320,menopause,223,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+576,C0025323,menorrhagia,305,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+577,C0025345,menstrual disorder,271,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+578,C0156404,menstruation irregular,436,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+579,C1306341,mental disability,399,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+580,C0004936,mental disorder,539,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+581,C0220981,metabolic acidosis,466,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+582,C0025874,metrorrhagia,329,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+583,C0042035,micturition disorder,769,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+584,C0085606,micturition urgency,915,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+585,C0149931,migraine,662,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+586,C0026205,miosis,20,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+587,C0085702,monocytosis,801,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+588,C0085633,mood swings,913,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+589,C0026603,motion sickness,621,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+590,C0149745,mouth ulceration,942,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+591,C0026650,movement disorder,48,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+592,C0333355,mucosal inflammation,602,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+593,C0151785,mucous membrane disorder,722,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+594,C0016655,multiple fractures,304,resolved_by_auxiliary_semantic_features,Musculoskeletal injury neighborhood; paired complement to generic fracture row 348.
+595,C0026846,muscle atrophy,681,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+596,C0235086,muscle contractions involuntary,505,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+597,C1142135,muscle relaxant therapy,642,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+598,C0026837,muscle rigidity,980,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+599,C0037763,muscle spasms,746,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+600,C0877322,muscle tightness,427,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+601,C0231530,muscle twitching,836,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+602,C0151786,muscular weakness,680,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+603,C0476280,musculoskeletal chest pain,367,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+604,C0948594,musculoskeletal discomfort,945,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+605,C0026858,musculoskeletal pain,493,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+606,C0948525,musculoskeletal stiffness,220,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+607,C0231528,myalgia,350,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+608,C0026961,mydriasis,294,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+609,C0026975,myelitis,678,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+610,C0027051,myocardial infarction,273,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+611,C0151744,myocardial ischaemia,321,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+612,C0027059,myocarditis,811,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+613,C0027066,myoclonus,709,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+614,C0026848,myopathy,629,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+615,C0027121,myositis,120,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+616,C0027339,nail disorder,683,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+617,C0027424,nasal congestion,82,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+618,C0858259,nasal discomfort,511,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+619,C0231919,nasal dryness,920,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+620,C0027441,nasopharyngitis,161,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+621,C0027497,nausea,748,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+622,C0007859,neck pain,751,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+623,C0027651,neoplasm,173,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+624,C0006826,neoplasm malignant,518,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+625,C0027697,nephritis,561,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+626,C0392525,nephrolithiasis,87,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+627,C0022658,nephropathy,261,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+628,C0595916,nephropathy toxic,604,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+629,C0027726,nephrotic syndrome,795,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+630,C0027765,nervous system disorder,719,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+631,C0027769,nervousness,744,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+632,C0027796,neuralgia,456,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+633,C0027813,neuritis,244,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+634,C0027849,neuroleptic malignant syndrome,787,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+635,C0031117,neuropathy peripheral,596,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+636,C0027932,neurosis,960,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+637,C0235032,neurotoxicity,23,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+638,C0027947,neutropenia,360,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+639,C0877153,neutropenic sepsis,543,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+640,C0853697,neutrophil count decreased,56,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+641,C0028077,night blindness,733,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+642,C0028081,night sweats,988,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+643,C0028084,nightmare,893,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+644,C0028734,nocturia,438,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+645,C0264893,nodal arrhythmia,569,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+646,C0028259,nodule,61,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+647,C0476281,non-cardiac chest pain,255,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+648,C0024305,non-hodgkin's lymphoma,311,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+649,C1320474,nuchal rigidity,631,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+650,C0028738,nystagmus,302,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+651,C0948595,ocular discomfort,434,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+652,C0155169,ocular hyperaemia,536,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+653,C0085637,oculogyric crisis,568,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+654,C0221150,odynophagia,263,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+655,C0013604,oedema,330,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+656,C0085649,oedema peripheral,907,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+657,C0014863,oesophageal spasm,714,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+658,C0014866,oesophageal stenosis,459,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+659,C0151970,oesophageal ulcer,482,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+660,C0014868,oesophagitis,527,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+661,C0028961,oliguria,593,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+662,C0040261,onychomycosis,196,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+663,C0029118,opportunistic infection,79,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+664,C0029124,optic atrophy,138,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+665,C0029134,optic neuritis,639,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+666,C0006849,oral candidiasis,574,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+667,C0341012,oral herpes,909,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+668,C0221776,oral pain,317,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+669,C1142011,orchitis noninfective,91,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+670,C0029261,orgasm abnormal,757,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+671,C2363730,oropharyngeal discomfort,740,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+672,C2363731,oropharyngeal pain,673,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+673,C0020651,orthostatic hypotension,712,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+674,C0029408,osteoarthritis,97,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+675,C0029443,osteomyelitis,580,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+676,C0029445,osteonecrosis,968,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+677,C0029456,osteoporosis,508,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+678,C0029878,otitis externa,278,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+679,C0029882,otitis media,497,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+680,C0235280,ototoxicity,439,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+681,C0029927,ovarian cyst,416,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+682,C0029928,ovarian disorder,526,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+683,C0030193,pain,365,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+684,C0030196,pain in extremity,581,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+685,C0236000,pain in jaw,396,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+686,C0241136,pain of skin,96,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+687,C0030232,pallor,855,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+688,C0030252,palpitations,299,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+689,C0030305,pancreatitis,284,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+690,C0001339,pancreatitis acute,686,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+691,C0030312,pancytopenia,465,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+692,C0086769,panic attack,957,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+693,C0030318,panic reaction,57,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+694,C0030332,panophthalmitis,11,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+695,C0030353,papilloedema,601,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+696,C0030554,paraesthesia,80,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+697,C0521591,paraesthesia oral,481,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+698,C0522224,paralysis,467,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+699,C1456784,paranoia,616,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+700,C0030552,paresis,663,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+701,C0242422,parkinsonism,373,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+702,C1510410,parosmia,195,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+703,C0030794,pelvic pain,461,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+704,C0030846,penis disorder,566,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+705,C0030920,peptic ulcer,103,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+706,C0031039,pericardial effusion,808,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+707,C0031046,pericarditis,424,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+708,C0240717,perineal pain,336,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+709,C0031099,periodontitis,14,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+710,C0151205,periorbital oedema,660,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+711,C0277925,peripheral coldness,66,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+712,C0235490,peripheral ischaemia,242,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+713,C0235025,peripheral motor neuropathy,867,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+714,C0151313,peripheral sensory neuropathy,346,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+715,C0085096,peripheral vascular disorder,297,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+716,C0031154,peritonitis,553,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+717,C0031212,personality disorder,239,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+718,C0031256,petechiae,905,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+719,C0236024,pharyngeal oedema,743,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+720,C0031350,pharyngitis,110,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+721,C0036689,pharyngitis streptococcal,407,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+722,C0031542,phlebitis,446,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+723,C0085636,photophobia,318,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+724,C0085635,photopsia,685,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+725,C0162830,photosensitivity reaction,922,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+726,C0549567,pigmentation disorder,674,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+727,C0032131,plasmacytoma,572,resolved_by_auxiliary_semantic_features,Neoplasm/hematology neighborhood; paired complement to plasma cell myeloma row 728.
+728,C0026764,plasma cell myeloma,579,resolved_by_auxiliary_semantic_features,Glove/semantic neighbors include lymphoma and blood-cell abnormality terms.
+729,C0392386,platelet count decreased,340,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+730,C0032227,pleural effusion,375,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+731,C0032231,pleurisy,818,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+732,C0008033,pleuritic pain,122,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+733,C0032285,pneumonia,117,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+734,C0032290,pneumonia aspiration,486,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+735,C0032326,pneumothorax,573,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+736,C0042023,pollakiuria,207,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+737,C0032461,polycythaemia,27,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+738,C0085602,polydipsia,280,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+739,C0152025,polyneuropathy,775,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+740,C0032617,polyuria,249,resolved_by_auxiliary_semantic_features,"Glove/semantic neighbors include polydipsia, nocturia and urinary terms."
+741,C0919874,post procedural haemorrhage,880,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+742,C0033046,premenstrual syndrome,185,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+743,C0700200,presyncope,474,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+744,C0033117,priapism,463,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+745,C1619712,procedural pain,713,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+746,C0034886,proctalgia,985,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+747,C0033246,proctitis,7,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+748,C0239134,productive cough,969,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+749,C0376358,prostate cancer,243,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+750,C0033575,prostatic disorder,859,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+751,C0033581,prostatitis,780,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+752,C0860901,protein total decreased,37,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+753,C0948586,protein urine present,491,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+754,C0033687,proteinuria,970,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+755,C0553732,prothrombin level decreased,99,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+756,C0151872,prothrombin level increased,701,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+757,C0033771,prurigo,522,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+758,C0033774,pruritus,972,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+759,C0475858,pruritus generalised,911,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+760,C0033777,pruritus genital,245,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+761,C0221269,pseudolymphoma,541,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+762,C1257843,pseudomembranous colitis,268,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+763,C0033860,psoriasis,776,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+764,C0424230,psychomotor retardation,796,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+765,C0033975,psychotic disorder,269,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+766,C0242073,pulmonary congestion,359,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+767,C0034065,pulmonary embolism,509,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+768,C0034069,pulmonary fibrosis,895,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+769,C0855775,pulmonary function test decreased,523,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+770,C0020542,pulmonary hypertension,955,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+771,C0034063,pulmonary oedema,39,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+772,C0259799,punctate keratitis,834,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+773,C0003079,pupils unequal,633,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+774,C0034150,purpura,849,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+775,C0034186,pyelonephritis,582,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+776,C0034359,pyuria,108,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+777,C0034642,rales,464,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+778,C0015230,rash,873,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+779,C0234913,rash erythematous,598,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+780,C0497365,rash generalised,720,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+781,C0221201,rash macular,348,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+782,C0423791,rash maculo-papular,869,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+783,C1519353,rash papular,982,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+784,C0085641,rash pustular,275,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+785,C0267596,rectal haemorrhage,36,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+786,C0232726,rectal tenesmus,382,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+787,C2004489,regurgitation,98,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+788,C0035078,renal failure,160,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+789,C1565489,renal impairment,334,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+790,C0558489,renal pain,234,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+791,C1720775,renal tubular necrosis,313,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+792,C1260922,respiration abnormal,706,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+793,C0235063,respiratory depression,753,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+794,C0035204,respiratory disorder,789,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+795,C0476273,respiratory distress,430,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+796,C1145670,respiratory failure,876,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+797,C0948349,respiratory tract congestion,380,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+798,C0035243,respiratory tract infection,282,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+799,C0035258,restless legs syndrome,135,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+800,C0232602,retching,473,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+801,C0035304,retinal degeneration,860,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+802,C0035305,retinal detachment,649,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+803,C0035309,retinal disorder,889,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+804,C0035317,retinal haemorrhage,871,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+805,C0151705,retroperitoneal haemorrhage,950,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+806,C0035410,rhabdomyolysis,169,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+807,C0003873,rheumatoid arthritis,53,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+808,C0035455,rhinitis,216,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+809,C2607914,rhinitis allergic,47,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+810,C1260880,rhinorrhoea,732,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+811,C0035508,rhonchi,445,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+812,C0221706,road traffic accident,868,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+813,C0035854,rosacea,212,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+814,C0020569,salivary gland enlargement,182,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+815,C0037036,salivary hypersecretion,826,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+816,C0036130,salpingitis,366,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+817,C0205204,scab,225,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+818,C0036358,schizophreniform disorder,288,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+819,C0036396,sciatica,754,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+820,C0036416,scleritis,126,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+821,C0018621,seasonal allergy,977,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+822,C0036508,seborrhoeic dermatitis,206,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+823,C0022603,seborrhoeic keratosis,272,resolved_by_auxiliary_semantic_features,Glove neighbors strongly include seborrhoeic dermatitis and lichenoid keratosis.
+824,C0423602,sensation of foreign body,603,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+825,C0152027,sensory disturbance,549,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+826,C0278134,sensory loss,646,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+827,C0243026,sepsis,641,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+828,C0036983,septic shock,892,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+829,C0699828,serotonin syndrome,128,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+830,C0036830,serum sickness,793,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+831,C0549622,sexual dysfunction,443,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+832,C0036974,shock,749,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+833,C0037023,sialoadenitis,392,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+834,C0085610,sinus bradycardia,595,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+835,C0152029,sinus congestion,309,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+836,C0037195,sinus headache,26,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+837,C0039239,sinus tachycardia,864,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+838,C0037199,sinusitis,188,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+839,C0151514,skin atrophy,131,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+840,C0241057,skin burning sensation,820,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+841,C0007114,skin cancer,45,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+842,C0151907,skin discolouration,349,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+843,C0037274,skin disorder,338,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+844,C0237849,skin exfoliation,293,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+845,C0162834,skin hyperpigmentation,63,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+846,C0151717,skin hypertrophy,851,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+847,C0037278,skin infection,307,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+848,C0152030,skin irritation,772,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+849,C0037284,skin lesion,967,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+850,C0281981,skin mass,653,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+851,C0234930,skin odour abnormal,326,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+852,C0347390,skin papilloma,68,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+853,C0152459,skin striae,501,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+854,C0037299,skin ulcer,552,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+855,C0037315,sleep apnoea syndrome,665,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+856,C0851578,sleep disorder,414,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+857,C0920289,sluggishness,610,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+858,C0037383,sneezing,231,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+859,C0037384,snoring,458,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+860,C0037672,somnambulism,490,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+861,C2830004,somnolence,70,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+862,C0037822,speech disorder,619,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+863,C0038002,splenomegaly,423,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+864,C0235567,sputum increased,144,resolved_by_auxiliary_semantic_features,"Semantic/glove neighbors include productive cough, cough and haemoptysis."
+865,C0038160,staphylococcal infection,852,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+866,C0038220,status epilepticus,286,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+867,C0038325,stevens-johnson syndrome,203,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+868,C0392162,sticky skin,956,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+869,C0038362,stomatitis,853,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+870,C0241705,strangury,3,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+871,C0038450,stridor,924,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+872,C0085628,stupor,525,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+873,C0038525,subarachnoid haemorrhage,251,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+874,C0018946,subdural haematoma,319,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+875,C0011071,sudden death,575,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+876,C0424000,suicidal ideation,935,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+877,C0038663,suicide attempt,717,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+878,C0038814,sunburn,931,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+879,C0033036,supraventricular extrasystoles,504,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+880,C0039240,supraventricular tachycardia,690,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+881,C0038999,swelling,611,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+882,C0151602,swelling face,500,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+883,C0039070,syncope,204,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+884,C0024141,systemic lupus erythematosus,544,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+885,C0039231,tachycardia,290,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+886,C0231835,tachypnoea,948,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+887,C0686347,tardive dyskinesia,597,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+888,C0039446,telangiectasia,512,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+889,C1112320,temperature intolerance,817,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+890,C0234233,tenderness,750,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+891,C0158350,tendinous contracture,312,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+892,C0151936,tendon disorder,765,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+893,C0039503,tendonitis,964,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+894,C0039520,tenosynovitis,50,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+895,C0233494,tension,791,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+896,C0033893,tension headache,165,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+897,C0039591,testicular pain,480,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+898,C0039621,tetany,676,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+899,C0853141,therapeutic response unexpected,759,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+900,C0233632,thinking abnormal,651,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+901,C0039971,thirst,335,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+902,C0700184,throat irritation,700,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+903,C0236071,throat tightness,865,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+904,C0040034,thrombocytopenia,627,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+905,C0836924,thrombocytosis,875,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+906,C0040046,thrombophlebitis,798,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+907,C0040053,thrombosis,734,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+908,C0034155,thrombotic thrombocytopenic purpura,83,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+909,C0040128,thyroid disorder,984,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+910,C0040136,thyroid neoplasm,71,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+911,C0040147,thyroiditis,450,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+912,C0040264,tinnitus,381,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+913,C0151596,tongue discolouration,971,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+914,C0040409,tongue disorder,51,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+915,C0151610,tongue oedema,342,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+916,C0235351,tongue ulceration,33,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+917,C0040425,tonsillitis,40,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+918,C0518988,tooth abscess,587,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+919,C0040435,tooth disorder,822,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+920,C0877046,tooth infection,693,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+921,C0040460,toothache,428,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+922,C0040479,torsade de pointes,58,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+923,C0040485,torticollis,728,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+924,C0014518,toxic epidermal necrolysis,711,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+925,C3160741,toxicity to various agents,487,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+926,C0040584,tracheitis,106,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+927,C0040586,tracheobronchitis,965,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+928,C0438717,transaminases increased,404,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+929,C0007787,transient ischaemic attack,4,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+930,C0040822,tremor,762,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+931,C0041105,trismus,684,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+932,C0041349,tubulointerstitial nephritis,679,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+933,C0041364,tumour lysis syndrome,177,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+934,C0041582,ulcer,134,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+935,C0010043,ulcerative keratitis,703,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+936,C0041747,unintended pregnancy,635,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+937,C0041912,upper respiratory tract infection,470,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+938,C2938875,upper-airway cough syndrome,612,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+939,C0041969,urethral disorder,773,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+940,C0041976,urethritis,519,resolved_by_auxiliary_semantic_features,"Semantic/glove neighbors include urinary tract infection, cystitis, pyelonephritis and infection terms."
+941,C1328337,urethritis noninfective,781,resolved_by_auxiliary_semantic_features,Glove nearest neighbors include cystitis noninfective and orchitis noninfective.
+942,C0152032,urinary hesitation,788,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+943,C0042024,urinary incontinence,199,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+944,C0080274,urinary retention,369,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+945,C0042075,urinary tract disorder,499,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+946,C0042029,urinary tract infection,562,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+947,C0235639,urine abnormality,844,resolved_by_auxiliary_semantic_features,"Semantic/glove neighbors include proteinuria, chromaturia, pyuria, haematuria and urine abnormalities."
+948,C0438142,urine analysis abnormal,172,resolved_by_auxiliary_semantic_features,"Glove neighbors include laboratory test abnormal, liver function test abnormal and urine present lab findings."
+949,C1167965,urine output increased,699,resolved_by_auxiliary_semantic_features,"Glove neighbors include oliguria, anuria and output-related renal/lab terms."
+950,C0042109,urticaria,228,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+951,C0042131,uterine disorder,193,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+952,C0042134,uterine haemorrhage,167,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+953,C0042133,uterine leiomyoma,150,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+954,C0151998,uterine spasm,405,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+955,C0042164,uveitis,625,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+956,C0227791,vaginal discharge,655,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+957,C2979982,vaginal haemorrhage,839,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+958,C0404521,vaginal infection,281,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+959,C0042345,varicose vein,121,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+960,C0042376,vascular headache,874,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+961,C1368065,vascular purpura,516,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+962,C0042384,vasculitis,975,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+963,C1142412,vasodilation procedure,578,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+964,C0085616,vasospasm,403,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+965,C0042487,venous thrombosis,479,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+966,C0085612,ventricular arrhythmia,100,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+967,C0151636,ventricular extrasystoles,94,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+968,C0042510,ventricular fibrillation,43,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+969,C0042514,ventricular tachycardia,34,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+970,C0042571,vertigo,494,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+971,C0042594,vestibular disorder,460,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+972,C0152517,viral diarrhoea,550,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+973,C0042769,viral infection,65,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+974,C0339916,viral upper respiratory tract infection,364,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+975,C0344232,vision blurred,747,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+976,C0234632,visual acuity reduced,939,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+977,C3665347,visual impairment,992,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+978,C0042963,vomiting,520,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+979,C0700345,vulvovaginal candidiasis,986,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+980,C0520589,vulvovaginal dryness,736,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+981,C1609512,vulvovaginal mycotic infection,35,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+982,C1112214,vulvovaginal pruritus,620,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+983,C0042998,vulvovaginitis,991,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+984,C0043096,weight decreased,532,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+985,C0043094,weight increased,374,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+986,C0043144,wheezing,415,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+987,C0750394,white blood cell count decreased,862,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+988,C0750426,white blood cell count increased,664,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+989,C0038587,withdrawal syndrome,353,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+990,C0043241,wound infection,784,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+991,C0406834,wound secretion,12,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+992,C0043349,xerophthalmia,590,resolved_by_frequency_matrix,Exact column match after resolved drug alignment
+993,C0043387,yawning,314,resolved_by_frequency_matrix,Exact column match after resolved drug alignment

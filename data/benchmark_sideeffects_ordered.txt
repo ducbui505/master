@@ -1,0 +1,994 @@
+1. glucose tolerance impaired
+2. functional gastrointestinal disorder
+3. aggression
+4. strangury
+5. transient ischaemic attack
+6. cardiomegaly
+7. mania
+8. proctitis
+9. disorientation
+10. blood bilirubin increased
+11. blood lactate dehydrogenase increased
+12. panophthalmitis
+13. wound secretion
+14. eye disorder
+15. periodontitis
+16. candida infection
+17. atrioventricular block complete
+18. gravitational oedema
+19. bipolar disorder
+20. jaundice
+21. miosis
+22. colitis ulcerative
+23. asthenia
+24. neurotoxicity
+25. decreased appetite
+26. hypokinesia
+27. sinus headache
+28. polycythaemia
+29. haemorrhoids
+30. eye discharge
+31. fungal skin infection
+32. gait disturbance
+33. corneal lesion
+34. tongue ulceration
+35. ventricular tachycardia
+36. vulvovaginal mycotic infection
+37. rectal haemorrhage
+38. protein total decreased
+39. chromaturia
+40. pulmonary oedema
+41. tonsillitis
+42. bundle branch block
+43. leukopenia
+44. ventricular fibrillation
+45. breast pain
+46. skin cancer
+47. hypomagnesaemia
+48. rhinitis allergic
+49. movement disorder
+50. ascites
+51. tenosynovitis
+52. tongue disorder
+53. abdominal pain lower
+54. rheumatoid arthritis
+55. anorectal disorder
+56. arthritis
+57. neutrophil count decreased
+58. panic reaction
+59. torsade de pointes
+60. hyperkeratosis
+61. hypoglycaemia
+62. nodule
+63. hyporeflexia
+64. skin hyperpigmentation
+65. hyponatraemia
+66. viral infection
+67. peripheral coldness
+68. dry skin
+69. skin papilloma
+70. injection site reaction
+71. somnolence
+72. thyroid neoplasm
+73. hair disorder
+74. depressed level of consciousness
+75. alveolitis allergic
+76. basal cell carcinoma
+77. disseminated intravascular coagulation
+78. hypoxia
+79. loss of consciousness
+80. opportunistic infection
+81. paraesthesia
+82. exostosis
+83. nasal congestion
+84. thrombotic thrombocytopenic purpura
+85. completed suicide
+86. constipation
+87. burning sensation
+88. nephrolithiasis
+89. choreoathetosis
+90. emphysema
+91. leukoderma
+92. orchitis noninfective
+93. lacrimal structural disorder
+94. bacteraemia
+95. ventricular extrasystoles
+96. feeling abnormal
+97. pain of skin
+98. osteoarthritis
+99. regurgitation
+100. prothrombin level decreased
+101. ventricular arrhythmia
+102. hepatitis cholestatic
+103. genital candidiasis
+104. peptic ulcer
+105. cardiovascular disorder
+106. mastitis
+107. tracheitis
+108. dyskinesia
+109. pyuria
+110. anuria
+111. pharyngitis
+112. galactorrhoea
+113. cheilitis
+114. cardiac arrest
+115. ejaculation failure
+116. colitis
+117. anxiety
+118. pneumonia
+119. hallucination
+120. bronchitis
+121. myositis
+122. varicose vein
+123. pleuritic pain
+124. injection site swelling
+125. body temperature decreased
+126. hyperaesthesia
+127. scleritis
+128. application site irritation
+129. serotonin syndrome
+130. coordination abnormal
+131. irritable bowel syndrome
+132. skin atrophy
+133. change of bowel habit
+134. disturbance in attention
+135. ulcer
+136. restless legs syndrome
+137. dry eye
+138. dermatitis
+139. optic atrophy
+140. bradykinesia
+141. haematemesis
+142. hostility
+143. endophthalmitis
+144. chest pain
+145. sputum increased
+146. fungal infection
+147. hypochloraemia
+148. conversion disorder
+149. actinic keratosis
+150. dermatitis atopic
+151. uterine leiomyoma
+152. encephalopathy
+153. lung infection
+154. electrocardiogram st segment depression
+155. asthenopia
+156. laryngospasm
+157. angle closure glaucoma
+158. blood creatine phosphokinase increased
+159. breast tenderness
+160. chromatopsia
+161. renal failure
+162. nasopharyngitis
+163. foetor hepaticus
+164. cerebral haemorrhage
+165. furuncle
+166. tension headache
+167. laryngitis
+168. uterine haemorrhage
+169. cholelithiasis
+170. rhabdomyolysis
+171. blood creatinine increased
+172. hypophosphataemia
+173. urine analysis abnormal
+174. neoplasm
+175. balance disorder
+176. erythema
+177. haemoptysis
+178. tumour lysis syndrome
+179. blood calcium decreased
+180. herpes zoster
+181. hypohidrosis
+182. glossitis
+183. salivary gland enlargement
+184. lower respiratory tract infection
+185. leukocytosis
+186. premenstrual syndrome
+187. gastrointestinal carcinoma
+188. abscess
+189. sinusitis
+190. induration
+191. ejaculation disorder
+192. connective tissue disorder
+193. hot flush
+194. uterine disorder
+195. application site paraesthesia
+196. parosmia
+197. onychomycosis
+198. liver injury
+199. crohn's disease
+200. urinary incontinence
+201. clostridium difficile colitis
+202. dyspareunia
+203. bronchospasm
+204. stevens-johnson syndrome
+205. syncope
+206. international normalised ratio increased
+207. seborrhoeic dermatitis
+208. pollakiuria
+209. colitis ischaemic
+210. flatulence
+211. brain oedema
+212. lymphoma
+213. rosacea
+214. diplopia
+215. malnutrition
+216. anaemia macrocytic
+217. rhinitis
+218. incontinence
+219. hepatocellular injury
+220. blood potassium increased
+221. musculoskeletal stiffness
+222. apraxia
+223. endometrial disorder
+224. menopause
+225. cardiomyopathy
+226. scab
+227. cystitis haemorrhagic
+228. loss of libido
+229. urticaria
+230. hypotonia
+231. cardiac failure
+232. sneezing
+233. ecchymosis
+234. feeling hot
+235. renal pain
+236. abnormal dreams
+237. melanosis
+238. hyperacusis
+239. blindness
+240. personality disorder
+241. aplastic anaemia
+242. endocrine disorder
+243. peripheral ischaemia
+244. prostate cancer
+245. neuritis
+246. pruritus genital
+247. flat affect
+248. liver disorder
+249. infusion site reaction
+250. polyuria
+251. extravasation
+252. subarachnoid haemorrhage
+253. lymphadenopathy
+254. cyanosis
+255. herpes virus infection
+256. non-cardiac chest pain
+257. appendicitis
+258. excoriation
+259. erythema multiforme
+260. laryngeal pain
+261. hepatic steatosis
+262. nephropathy
+263. corneal opacity
+264. odynophagia
+265. herpes simplex
+266. gastrointestinal haemorrhage
+267. breath odour
+268. hepatobiliary disease
+269. pseudomembranous colitis
+270. psychotic disorder
+271. eosinophilia
+272. menstrual disorder
+273. seborrhoeic keratosis
+274. myocardial infarction
+275. diarrhoea
+276. rash pustular
+277. electroencephalogram abnormal
+278. acidosis
+279. otitis externa
+280. duodenitis
+281. polydipsia
+282. vaginal infection
+283. respiratory tract infection
+284. cyst
+285. pancreatitis
+286. affective disorder
+287. status epilepticus
+288. epididymitis
+289. schizophreniform disorder
+290. intermittent claudication
+291. tachycardia
+292. keratitis
+293. local swelling
+294. skin exfoliation
+295. mydriasis
+296. atrial fibrillation
+297. gastrointestinal infection
+298. peripheral vascular disorder
+299. immune system disorder
+300. palpitations
+301. dyspnoea
+302. hyperlactacidaemia
+303. nystagmus
+304. hypersensitivity
+305. multiple fractures
+306. menorrhagia
+307. adrenal insufficiency
+308. skin infection
+309. folliculitis
+310. sinus congestion
+311. lacrimal disorder
+312. non-hodgkin's lymphoma
+313. tendinous contracture
+314. renal tubular necrosis
+315. yawning
+316. blood glucose decreased
+317. application site rash
+318. oral pain
+319. photophobia
+320. subdural haematoma
+321. insomnia
+322. myocardial ischaemia
+323. confusional state
+324. drug eruption
+325. dysphoria
+326. lipase increased
+327. skin odour abnormal
+328. hiccups
+329. breast disorder
+330. metrorrhagia
+331. oedema
+332. haematocrit decreased
+333. gastrooesophageal reflux disease
+334. anaphylactoid reaction
+335. renal impairment
+336. thirst
+337. perineal pain
+338. injection site haemorrhage
+339. skin disorder
+340. cough
+341. platelet count decreased
+342. ear disorder
+343. tongue oedema
+344. benign neoplasm of skin
+345. feeling cold
+346. breast neoplasm
+347. peripheral sensory neuropathy
+348. gastroenteritis
+349. rash macular
+350. skin discolouration
+351. myalgia
+352. blood uric acid increased
+353. injection site erythema
+354. withdrawal syndrome
+355. conjunctival haemorrhage
+356. gingivitis
+357. anger
+358. breast engorgement
+359. ejaculation delayed
+360. pulmonary congestion
+361. neutropenia
+362. abdominal distension
+363. fracture
+364. gangrene
+365. viral upper respiratory tract infection
+366. pain
+367. salpingitis
+368. musculoskeletal chest pain
+369. bursitis
+370. urinary retention
+371. hypoventilation
+372. alanine aminotransferase increased
+373. lichenoid keratosis
+374. parkinsonism
+375. weight increased
+376. pleural effusion
+377. feeling drunk
+378. mediastinal disorder
+379. haemolytic anaemia
+380. intracranial pressure increased
+381. respiratory tract congestion
+382. tinnitus
+383. rectal tenesmus
+384. hepatic cancer
+385. gout
+386. lethargy
+387. aplasia pure red cell
+388. diabetes mellitus
+389. anal pruritus
+390. ketosis
+391. impetigo
+392. instillation site pain
+393. sialoadenitis
+394. blood cholesterol increased
+395. arthropathy
+396. hyperaemia
+397. pain in jaw
+398. diverticulitis
+399. coma
+400. mental disability
+401. joint swelling
+402. lacrimation increased
+403. application site burn
+404. vasospasm
+405. transaminases increased
+406. uterine spasm
+407. blepharospasm
+408. pharyngitis streptococcal
+409. hepatotoxicity
+410. ligament sprain
+411. haemolytic uraemic syndrome
+412. hyperlipidaemia
+413. hepatomegaly
+414. blood disorder
+415. sleep disorder
+416. wheezing
+417. ovarian cyst
+418. cardiac output decreased
+419. agranulocytosis
+420. hyperkinesia
+421. cystitis
+422. hypertrichosis
+423. enteritis
+424. splenomegaly
+425. pericarditis
+426. lactic acidosis
+427. increased appetite
+428. muscle tightness
+429. toothache
+430. ear pain
+431. respiratory distress
+432. laceration
+433. bladder cancer
+434. hepatic function abnormal
+435. ocular discomfort
+436. delirium
+437. menstruation irregular
+438. impaired healing
+439. nocturia
+440. ototoxicity
+441. eye oedema
+442. dehydration
+443. dermatitis acneiform
+444. sexual dysfunction
+445. dermatitis bullous
+446. rhonchi
+447. phlebitis
+448. cold sweat
+449. injection site induration
+450. haematuria
+451. thyroiditis
+452. infusion site pain
+453. application site pain
+454. glossodynia
+455. amblyopia
+456. albuminuria
+457. neuralgia
+458. cachexia
+459. snoring
+460. oesophageal stenosis
+461. vestibular disorder
+462. pelvic pain
+463. hepatitis
+464. priapism
+465. rales
+466. pancytopenia
+467. metabolic acidosis
+468. paralysis
+469. atrioventricular block first degree
+470. hypothermia
+471. upper respiratory tract infection
+472. laboratory test abnormal
+473. haemorrhage intracranial
+474. retching
+475. presyncope
+476. conduction disorder
+477. breast cancer
+478. electrocardiogram abnormal
+479. blood alkaline phosphatase increased
+480. venous thrombosis
+481. testicular pain
+482. paraesthesia oral
+483. oesophageal ulcer
+484. dysgeusia
+485. aneurysm
+486. dysmenorrhoea
+487. pneumonia aspiration
+488. toxicity to various agents
+489. hypertension
+490. meningitis
+491. somnambulism
+492. protein urine present
+493. abnormal faeces
+494. musculoskeletal pain
+495. vertigo
+496. antisocial personality disorder
+497. blood glucose increased
+498. otitis media
+499. apathy
+500. urinary tract disorder
+501. swelling face
+502. skin striae
+503. influenza
+504. embolism
+505. supraventricular extrasystoles
+506. muscle contractions involuntary
+507. ill-defined disorder
+508. hernia
+509. osteoporosis
+510. pulmonary embolism
+511. hyperhidrosis
+512. nasal discomfort
+513. telangiectasia
+514. injection site pruritus
+515. lung infiltration
+516. hyperkalaemia
+517. vascular purpura
+518. conjunctivitis
+519. neoplasm malignant
+520. urethritis
+521. vomiting
+522. blood triglycerides increased
+523. prurigo
+524. pulmonary function test decreased
+525. inappropriate antidiuretic hormone secretion
+526. stupor
+527. ovarian disorder
+528. oesophagitis
+529. cataract
+530. amylase increased
+531. haemoglobin
+532. injury
+533. weight decreased
+534. blood phosphorus decreased
+535. cellulitis
+536. embolism venous
+537. ocular hyperaemia
+538. increased bronchial secretion
+539. lymphocytosis
+540. mental disorder
+541. ageusia
+542. pseudolymphoma
+543. bronchospasm paradoxical
+544. neutropenic sepsis
+545. systemic lupus erythematosus
+546. eye swelling
+547. hypoproteinaemia
+548. application site reaction
+549. joint stiffness
+550. sensory disturbance
+551. viral diarrhoea
+552. dry throat
+553. skin ulcer
+554. peritonitis
+555. injection site pain
+556. ileus paralytic
+557. bradycardia
+558. flank pain
+559. erythema of eyelid
+560. hypoalbuminaemia
+561. hypochromic anaemia
+562. nephritis
+563. urinary tract infection
+564. diarrhoea haemorrhagic
+565. cholestasis
+566. atelectasis
+567. penis disorder
+568. aphasia
+569. oculogyric crisis
+570. nodal arrhythmia
+571. application site dryness
+572. abdominal pain upper
+573. plasmacytoma
+574. pneumothorax
+575. oral candidiasis
+576. sudden death
+577. blister
+578. extrasystoles
+579. vasodilation procedure
+580. plasma cell myeloma
+581. osteomyelitis
+582. pain in extremity
+583. pyelonephritis
+584. febrile neutropenia
+585. cardiac flutter
+586. cerebral ischaemia
+587. gastric ulcer
+588. tooth abscess
+589. apnoea
+590. headache
+591. xerophthalmia
+592. fasting
+593. fibrocystic breast disease
+594. oliguria
+595. anaphylactic shock
+596. sinus bradycardia
+597. neuropathy peripheral
+598. tardive dyskinesia
+599. rash erythematous
+600. ear infection
+601. atrial flutter
+602. papilloedema
+603. mucosal inflammation
+604. sensation of foreign body
+605. nephropathy toxic
+606. ileus
+607. gastrointestinal disorder
+608. hepatic enzyme increased
+609. arrhythmia
+610. angiopathy
+611. sluggishness
+612. swelling
+613. upper-airway cough syndrome
+614. dermatitis contact
+615. akinesia
+616. gastritis
+617. paranoia
+618. biliary colic
+619. body temperature increased
+620. speech disorder
+621. vulvovaginal pruritus
+622. motion sickness
+623. goitre
+624. cardiogenic shock
+625. dizziness
+626. uveitis
+627. autonomic nervous system imbalance
+628. thrombocytopenia
+629. breast discharge
+630. myopathy
+631. hypoaesthesia
+632. nuchal rigidity
+633. corneal erosion
+634. pupils unequal
+635. asthma
+636. unintended pregnancy
+637. dysarthria
+638. cerebral infarction
+639. hyperphosphataemia
+640. optic neuritis
+641. dysphagia
+642. sepsis
+643. muscle relaxant therapy
+644. memory impairment
+645. blood urine present
+646. amnesia
+647. sensory loss
+648. eye irritation
+649. lymphopenia
+650. retinal detachment
+651. abdominal discomfort
+652. thinking abnormal
+653. affect lability
+654. skin mass
+655. application site erythema
+656. vaginal discharge
+657. dental caries
+658. glycosuria
+659. bipolar i disorder
+660. agitation
+661. periorbital oedema
+662. eczema
+663. migraine
+664. paresis
+665. white blood cell count increased
+666. sleep apnoea syndrome
+667. bronchial hyperreactivity
+668. depressed mood
+669. lung disorder
+670. hyperventilation
+671. anaemia megaloblastic
+672. coronary artery disease
+673. altered state of consciousness
+674. oropharyngeal pain
+675. pigmentation disorder
+676. hepatic failure
+677. tetany
+678. crying
+679. myelitis
+680. tubulointerstitial nephritis
+681. muscular weakness
+682. muscle atrophy
+683. enuresis
+684. nail disorder
+685. trismus
+686. photopsia
+687. pancreatitis acute
+688. breast enlargement
+689. major depression
+690. hyperpathia
+691. supraventricular tachycardia
+692. fluid overload
+693. acute myocardial infarction
+694. tooth infection
+695. hypermagnesaemia
+696. labyrinthitis
+697. hair colour changes
+698. hepatic necrosis
+699. jaundice cholestatic
+700. urine output increased
+701. throat irritation
+702. prothrombin level increased
+703. eye haemorrhage
+704. ulcerative keratitis
+705. glaucoma
+706. gingival bleeding
+707. respiration abnormal
+708. deafness
+709. dry mouth
+710. myoclonus
+711. cerebrovascular accident
+712. toxic epidermal necrolysis
+713. orthostatic hypotension
+714. procedural pain
+715. oesophageal spasm
+716. chronic obstructive pulmonary disease
+717. hyperreflexia
+718. suicide attempt
+719. atrioventricular block
+720. nervous system disorder
+721. rash generalised
+722. impaired gastric emptying
+723. mucous membrane disorder
+724. cerebrovascular disorder
+725. disturbance in sexual arousal
+726. hiatus hernia
+727. lipodystrophy acquired
+728. bruxism
+729. torticollis
+730. back pain
+731. coagulopathy
+732. gamma-glutamyltransferase increased
+733. rhinorrhoea
+734. night blindness
+735. thrombosis
+736. bone disorder
+737. vulvovaginal dryness
+738. dysphonia
+739. hypothyroidism
+740. drug hypersensitivity
+741. oropharyngeal discomfort
+742. hypertriglyceridaemia
+743. accommodation disorder
+744. pharyngeal oedema
+745. nervousness
+746. cushing's syndrome
+747. muscle spasms
+748. vision blurred
+749. nausea
+750. shock
+751. tenderness
+752. neck pain
+753. application site pruritus
+754. respiratory depression
+755. sciatica
+756. dermatitis exfoliative
+757. depression
+758. orgasm abnormal
+759. cardiac failure congestive
+760. therapeutic response unexpected
+761. influenza like illness
+762. bleeding time prolonged
+763. tremor
+764. intestinal perforation
+765. blood prolactin increased
+766. tendon disorder
+767. face oedema
+768. acne
+769. antisocial behaviour
+770. micturition disorder
+771. feeling jittery
+772. cognitive disorder
+773. skin irritation
+774. urethral disorder
+775. gastrointestinal ulcer
+776. polyneuropathy
+777. psoriasis
+778. infection
+779. cystitis noninfective
+780. hypertonia
+781. prostatitis
+782. urethritis noninfective
+783. angina pectoris
+784. hypersomnia
+785. wound infection
+786. injection site bruising
+787. eyelid oedema
+788. neuroleptic malignant syndrome
+789. urinary hesitation
+790. respiratory disorder
+791. haemoglobin decreased
+792. tension
+793. hypercalciuria
+794. serum sickness
+795. azotaemia
+796. nephrotic syndrome
+797. psychomotor retardation
+798. discomfort
+799. thrombophlebitis
+800. fatigue
+801. increased tendency to bruise
+802. monocytosis
+803. hypoaesthesia oral
+804. arthralgia
+805. arrhythmia supraventricular
+806. electrolyte imbalance
+807. cardiac disorder
+808. application site vesicles
+809. pericardial effusion
+810. bone pain
+811. generalised oedema
+812. myocarditis
+813. faecaloma
+814. acute coronary syndrome
+815. haematoma
+816. dizziness postural
+817. hyperglycaemia
+818. temperature intolerance
+819. pleurisy
+820. irritability
+821. skin burning sensation
+822. lymphocyte count decreased
+823. tooth disorder
+824. flushing
+825. cardiac murmur
+826. gastrointestinal pain
+827. salivary hypersecretion
+828. dysaesthesia
+829. blood potassium decreased
+830. interstitial lung disease
+831. duodenal ulcer
+832. eye infection
+833. chills
+834. abnormal behaviour
+835. punctate keratitis
+836. hypomania
+837. muscle twitching
+838. melaena
+839. hypokalaemia
+840. vaginal haemorrhage
+841. malignant melanoma
+842. anaemia
+843. alopecia
+844. emotional disorder
+845. urine abnormality
+846. hypercholesterolaemia
+847. breath sounds abnormal
+848. hemiplegia
+849. eye pruritus
+850. purpura
+851. menopausal symptoms
+852. skin hypertrophy
+853. staphylococcal infection
+854. stomatitis
+855. dementia
+856. pallor
+857. laryngeal oedema
+858. faecalith
+859. hangover
+860. prostatic disorder
+861. retinal degeneration
+862. euphoric mood
+863. white blood cell count decreased
+864. epigastric discomfort
+865. sinus tachycardia
+866. throat tightness
+867. hyperthyroidism
+868. peripheral motor neuropathy
+869. road traffic accident
+870. rash maculo-papular
+871. cholecystitis
+872. retinal haemorrhage
+873. amenorrhoea
+874. rash
+875. vascular headache
+876. thrombocytosis
+877. respiratory failure
+878. hyperuricaemia
+879. malaise
+880. asocial behaviour
+881. post procedural haemorrhage
+882. dyspepsia
+883. alcohol intolerance
+884. hypercalcaemia
+885. gastrointestinal perforation
+886. drug ineffective
+887. abdominal pain
+888. congenital eye disorder
+889. angioedema
+890. retinal disorder
+891. bladder pain
+892. contusion
+893. septic shock
+894. nightmare
+895. blood pressure increased
+896. pulmonary fibrosis
+897. eye pain
+898. intestinal obstruction
+899. anorectal discomfort
+900. chest discomfort
+901. akathisia
+902. extrapyramidal disorder
+903. faeces discoloured
+904. blepharitis
+905. enterocolitis
+906. petechiae
+907. dysuria
+908. oedema peripheral
+909. haemorrhage
+910. oral herpes
+911. erythema nodosum
+912. pruritus generalised
+913. injection site inflammation
+914. mood swings
+915. anorgasmia
+916. micturition urgency
+917. carpal tunnel syndrome
+918. infestation
+919. hypotension
+920. eructation
+921. nasal dryness
+922. intraocular pressure increased
+923. photosensitivity reaction
+924. delusion
+925. stridor
+926. liver function test abnormal
+927. infarction
+928. lymphoedema
+929. ataxia
+930. gingival pain
+931. iritis
+932. sunburn
+933. catheter site pain
+934. haemorrhagic disorder
+935. libido increased
+936. suicidal ideation
+937. blood urea increased
+938. arteriosclerosis
+939. derealisation
+940. visual acuity reduced
+941. fluid retention
+942. dyspnoea exertional
+943. mouth ulceration
+944. erectile dysfunction
+945. hyperbilirubinaemia
+946. musculoskeletal discomfort
+947. bacterial infection
+948. libido decreased
+949. tachypnoea
+950. electrocardiogram qt prolonged
+951. retroperitoneal haemorrhage
+952. blood albumin decreased
+953. haematochezia
+954. iron deficiency anaemia
+955. gynaecomastia
+956. pulmonary hypertension
+957. sticky skin
+958. panic attack
+959. epistaxis
+960. conjunctival hyperaemia
+961. neurosis
+962. inflammation
+963. conjunctival oedema
+964. cerebellar syndrome
+965. tendonitis
+966. tracheobronchitis
+967. aspartate aminotransferase increased
+968. skin lesion
+969. osteonecrosis
+970. productive cough
+971. proteinuria
+972. tongue discolouration
+973. pruritus
+974. libido disorder
+975. hair texture abnormal
+976. vasculitis
+977. acute respiratory distress syndrome
+978. seasonal allergy
+979. exophthalmos
+980. deep vein thrombosis
+981. muscle rigidity
+982. hirsutism
+983. rash papular
+984. cervix disorder
+985. thyroid disorder
+986. proctalgia
+987. vulvovaginal candidiasis
+988. hypocalcaemia
+989. night sweats
+990. hypernatraemia
+991. conjunctivitis allergic
+992. vulvovaginitis
+993. visual impairment
+994. ischaemia

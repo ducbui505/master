@@ -1,0 +1,14 @@
+txt_idx,txt_name,mapping_idx,mapping_name,score,reason
+210,alendronic acid,203,Alendronate,0.9800,same_stemmed_core
+22,cisatracurium,382,Cisatracurium Besylate,1.0000,same_core_without_salt_or_form
+372,cyproterone,629,Cyproterone acetate,1.0000,same_core_without_salt_or_form
+284,fondaparinux,216,Fondaparinux sodium,1.0000,same_core_without_salt_or_form
+366,ibandronic acid,141,Ibandronate,0.9800,same_stemmed_core
+14,medroxyprogesterone,560,Medroxyprogesterone Acetate,1.0000,same_core_without_salt_or_form
+701,methylnaltrexone bromide,469,Methylnaltrexone,1.0000,same_core_without_salt_or_form
+666,pamidronic acid,69,Pamidronate,0.9800,same_stemmed_core
+3,pentamidine isethionate,457,Pentamidine,1.0000,same_core_without_salt_or_form
+298,pentosan polysulfate sodium,323,Pentosan Polysulfate,1.0000,same_core_without_salt_or_form
+293,risedronic acid,106,Risedronate,0.9800,same_stemmed_core
+52,tiotropium bromide,265,Tiotropium,1.0000,same_core_without_salt_or_form
+385,zoledronic acid,57,Zoledronate,0.9800,same_stemmed_core

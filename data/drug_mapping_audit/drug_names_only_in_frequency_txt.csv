@@ -1,0 +1,236 @@
+txt_idx,txt_name,normalized_name,core_name,stemmed_core
+650,abarelix,abarelix,abarelix,abarelix
+100,acetylcysteine,acetylcysteine,acetylcysteine,acetylcysteine
+757,aclidinium bromide,aclidinium bromide,aclidinium,aclidinium
+56,afatinib,afatinib,afatinib,afatinib
+540,albumin,albumin,albumin,albumin
+572,aliskiren,aliskiren,aliskiren,aliskiren
+342,ambrisentan,ambrisentan,ambrisentan,ambrisentan
+450,amoxicillin,amoxicillin,amoxicillin,amoxicillin
+420,amprenavir,amprenavir,amprenavir,amprenavir
+663,apomorphine,apomorphine,apomorphine,apomorphine
+348,apremilast,apremilast,apremilast,apremilast
+417,argatroban,argatroban,argatroban,argatroban
+84,armodafinil,armodafinil,armodafinil,armodafinil
+110,arsenic trioxide,arsenic trioxide,arsenic trioxide,arsen triox
+6,atorvastatin,atorvastatin,atorvastatin,atorvastatin
+539,atovaquone,atovaquone,atovaquone,atovaquone
+461,auranofin,auranofin,auranofin,auranofin
+413,axitinib,axitinib,axitinib,axitinib
+374,aztreonam,aztreonam,aztreonam,aztreonam
+698,balsalazide,balsalazide,balsalazide,balsalaz
+661,bazedoxifene,bazedoxifene,bazedoxifene,bazedoxifene
+73,beclometasone,beclometasone,beclometasone,beclometasone
+473,bedaquiline,bedaquiline,bedaquiline,bedaquiline
+441,belinostat,belinostat,belinostat,belinostat
+583,benazepril,benazepril,benazepril,benazepril
+715,bendamustine,bendamustine,bendamustine,bendamustine
+36,benzoyl peroxide,benzoyl peroxide,benzoyl peroxide,benzoyl perox
+57,betaine,betaine,betaine,betaine
+474,bivalirudin,bivalirudin,bivalirudin,bivalirudin
+401,buserelin,buserelin,buserelin,buserelin
+395,cabozantinib,cabozantinib,cabozantinib,cabozantinib
+180,calcium folinate,calcium folinate,folinate,folin
+229,capsaicin,capsaicin,capsaicin,capsaicin
+549,carboplatin,carboplatin,carboplatin,carboplatin
+23,cefixime,cefixime,cefixime,cefixime
+528,cefprozil,cefprozil,cefprozil,cefprozil
+480,ceftaroline fosamil,ceftaroline fosamil,ceftaroline fosamil,ceftaroline fosamil
+227,ceftazidime,ceftazidime,ceftazidime,ceftazidime
+288,ceftobiprole medocaril,ceftobiprole medocaril,ceftobiprole medocaril,ceftobiprole medocaril
+43,chlormethine,chlormethine,chlormethine,chlormethine
+106,chlortalidone,chlortalidone,chlortalidone,chlortalidone
+390,ciclesonide,ciclesonide,ciclesonide,cicleson
+758,ciclosporin,ciclosporin,ciclosporin,ciclosporin
+48,clobetasol,clobetasol,clobetasol,clobetasol
+733,clobetasone,clobetasone,clobetasone,clobetasone
+746,clozapine,clozapine,clozapine,clozapine
+307,cobicistat,cobicistat,cobicistat,cobicistat
+144,colchicine,colchicine,colchicine,colchicine
+124,colesevelam,colesevelam,colesevelam,colesevelam
+148,colestilan,colestilan,colestilan,colestilan
+134,colestyramine,colestyramine,colestyramine,colestyramine
+121,corticotropin,corticotropin,corticotropin,corticotropin
+481,crizotinib,crizotinib,crizotinib,crizotinib
+277,cytarabine,cytarabine,cytarabine,cytarabine
+486,dacarbazine,dacarbazine,dacarbazine,dacarbazine
+643,dalbavancin,dalbavancin,dalbavancin,dalbavancin
+205,dalteparin,dalteparin,dalteparin,dalteparin
+647,dantrolene,dantrolene,dantrolene,dantrolene
+454,daptomycin,daptomycin,daptomycin,daptomycin
+72,darifenacin,darifenacin,darifenacin,darifenacin
+629,deferasirox,deferasirox,deferasirox,deferasirox
+178,desirudin,desirudin,desirudin,desirudin
+544,dexlansoprazole,dexlansoprazole,dexlansoprazole,dexlansoprazole
+658,dextromethorphan,dextromethorphan,dextromethorphan,dextromethorphan
+125,dicloxacillin,dicloxacillin,dicloxacillin,dicloxacillin
+523,dicycloverine,dicycloverine,dicycloverine,dicycloverine
+542,digoxin,digoxin,digoxin,digoxin
+654,dihydrocodeine,dihydrocodeine,dihydrocodeine,dihydrocodeine
+373,doripenem,doripenem,doripenem,doripenem
+553,doxercalciferol,doxercalciferol,doxercalciferol,doxercalciferol
+60,doxycycline,doxycycline,doxycycline,doxycycline
+258,droxidopa,droxidopa,droxidopa,droxidopa
+424,ecallantide,ecallantide,ecallantide,ecallant
+300,eflornithine,eflornithine,eflornithine,eflornithine
+114,eliglustat,eliglustat,eliglustat,eliglustat
+470,eltrombopag,eltrombopag,eltrombopag,eltrombopag
+70,elvitegravir,elvitegravir,elvitegravir,elvitegravir
+623,empagliflozin,empagliflozin,empagliflozin,empagliflozin
+186,enfuvirtide,enfuvirtide,enfuvirtide,enfuvirt
+61,eptifibatide,eptifibatide,eptifibatide,eptifibat
+143,eribulin,eribulin,eribulin,eribulin
+109,erythropoietin,erythropoietin,erythropoietin,erythropoietin
+406,eslicarbazepine,eslicarbazepine,eslicarbazepine,eslicarbazepine
+414,estramustine,estramustine,estramustine,estramustine
+471,estrone,estrone,estrone,estrone
+75,exenatide,exenatide,exenatide,exenat
+294,fampridine,fampridine,fampridine,fampridine
+438,febuxostat,febuxostat,febuxostat,febuxostat
+391,fidaxomicin,fidaxomicin,fidaxomicin,fidaxomicin
+448,finasteride,finasteride,finasteride,finaster
+191,florbetapir (18F),florbetapir 18f,florbetapir 18f,florbetapir 18f
+509,flucloxacillin,flucloxacillin,flucloxacillin,flucloxacillin
+735,fluocinonide,fluocinonide,fluocinonide,fluocinon
+418,flutemetamol (18F),flutemetamol 18f,flutemetamol 18f,flutemetamol 18f
+512,fluticasone,fluticasone,fluticasone,fluticasone
+686,fusidic acid,fusidic acid,fusidic acid,fusid
+164,gadobenic acid,gadobenic acid,gadobenic acid,gadoben
+731,gadobutrol,gadobutrol,gadobutrol,gadobutrol
+628,ganirelix,ganirelix,ganirelix,ganirelix
+204,glatiramer acetate,glatiramer acetate,glatiramer,glatiramer
+426,glutamine,glutamine,glutamine,glutamine
+214,glycerol phenylbutyrate,glycerol phenylbutyrate,glycerol phenylbutyrate,glycerol phenylbutyr
+160,glyceryl trinitrate,glyceryl trinitrate,glyceryl trinitrate,glyceryl trinitr
+262,glycopyrronium bromide,glycopyrronium bromide,glycopyrronium,glycopyrronium
+455,heparin,heparin,heparin,heparin
+179,histrelin,histrelin,histrelin,histrelin
+548,hydrocodone,hydrocodone,hydrocodone,hydrocodone
+265,hydroxycarbamide,hydroxycarbamide,hydroxycarbamide,hydroxycarbam
+165,hydroxyprogesterone,hydroxyprogesterone,hydroxyprogesterone,hydroxyprogesterone
+603,ibrutinib,ibrutinib,ibrutinib,ibrutinib
+358,idarubicin,idarubicin,idarubicin,idarubicin
+63,iloprost,iloprost,iloprost,iloprost
+296,indacaterol,indacaterol,indacaterol,indacaterol
+168,indometacin,indometacin,indometacin,indometacin
+202,insulin aspart,insulin aspart,insulin aspart,insulin aspart
+301,insulin detemir,insulin detemir,insulin detemir,insulin detemir
+38,insulin glargine,insulin glargine,insulin glargine,insulin glargine
+325,insulin lispro,insulin lispro,insulin lispro,insulin lispro
+299,interferon alfa-2b,interferon alfa-2b,interferon alfa-2b,interferon alfa-2b
+104,iodine ioflupane (123I),iodine ioflupane 123i,iodine ioflupane 123i,iodine ioflupane 123i
+562,iohexol,iohexol,iohexol,iohexol
+561,iopromide,iopromide,iopromide,ioprom
+311,iotrolan,iotrolan,iotrolan,iotrolan
+338,lamivudine and abacavir,lamivudine and abacavir,lamivudine and abacavir,lamivudine and abacavir
+171,lanreotide,lanreotide,lanreotide,lanreot
+518,lanthanum carbonate,lanthanum carbonate,lanthanum carbonate,lanthanum carbon
+402,lasofoxifene,lasofoxifene,lasofoxifene,lasofoxifene
+213,latanoprost,latanoprost,latanoprost,latanoprost
+289,lepirudin,lepirudin,lepirudin,lepirudin
+555,leuprorelin,leuprorelin,leuprorelin,leuprorelin
+491,levocarnitine,levocarnitine,levocarnitine,levocarnitine
+727,levodopa,levodopa,levodopa,levodopa
+344,levosimendan,levosimendan,levosimendan,levosimendan
+169,liraglutide,liraglutide,liraglutide,liraglut
+290,lodoxamide,lodoxamide,lodoxamide,lodoxam
+139,lorcaserin,lorcaserin,lorcaserin,lorcaserin
+704,megestrol,megestrol,megestrol,megestrol
+506,mercaptamine,mercaptamine,mercaptamine,mercaptamine
+580,mesna,mesna,mesna,mesna
+315,mifamurtide,mifamurtide,mifamurtide,mifamurt
+360,mifepristone,mifepristone,mifepristone,mifepristone
+744,minocycline,minocycline,minocycline,minocycline
+598,mipomersen,mipomersen,mipomersen,mipomersen
+42,moexipril,moexipril,moexipril,moexipril
+244,mupirocin,mupirocin,mupirocin,mupirocin
+464,muromonab-CD3,muromonab-cd3,muromonab-cd3,muromonab-cd3
+190,nadolol,nadolol,nadolol,nadolol
+181,naftifine,naftifine,naftifine,naftifine
+58,nalmefene,nalmefene,nalmefene,nalmefene
+59,nateglinide,nateglinide,nateglinide,nateglin
+522,nesiritide,nesiritide,nesiritide,nesirit
+129,nicorandil,nicorandil,nicorandil,nicorandil
+630,nizatidine,nizatidine,nizatidine,nizatidine
+141,ofatumumab,ofatumumab,ofatumumab,ofatumumab
+570,olanzapine,olanzapine,olanzapine,olanzapine
+396,olmesartan medoxomil,olmesartan medoxomil,olmesartan medoxomil,olmesartan medoxomil
+302,olodaterol,olodaterol,olodaterol,olodaterol
+546,olsalazine,olsalazine,olsalazine,olsalazine
+115,oritavancin,oritavancin,oritavancin,oritavancin
+488,ospemifene,ospemifene,ospemifene,ospemifene
+153,oxaliplatin,oxaliplatin,oxaliplatin,oxaliplatin
+589,oxytocin,oxytocin,oxytocin,oxytocin
+742,paracetamol,paracetamol,paracetamol,paracetamol
+503,pasireotide,pasireotide,pasireotide,pasireot
+521,pegvisomant,pegvisomant,pegvisomant,pegvisomant
+440,penbutolol,penbutolol,penbutolol,penbutolol
+201,perampanel,perampanel,perampanel,perampanel
+578,pinaverium,pinaverium,pinaverium,pinaverium
+532,piroxicam,piroxicam,piroxicam,piroxicam
+730,podophyllotoxin,podophyllotoxin,podophyllotoxin,podophyllotoxin
+96,porfimer sodium,porfimer sodium,porfimer,porfimer
+17,prucalopride,prucalopride,prucalopride,prucalopr
+732,quinapril,quinapril,quinapril,quinapril
+400,radium (223Ra) dichloride,radium 223ra dichloride,radium 223ra dichloride,radium 223ra dichlor
+29,rasburicase,rasburicase,rasburicase,rasburicase
+92,repaglinide,repaglinide,repaglinide,repaglin
+330,rescinnamine,rescinnamine,rescinnamine,rescinnamine
+7,retigabine,retigabine,retigabine,retigabine
+25,rifabutin,rifabutin,rifabutin,rifabutin
+44,rilpivirine,rilpivirine,rilpivirine,rilpivirine
+600,riociguat,riociguat,riociguat,riociguat
+189,romidepsin,romidepsin,romidepsin,romidepsin
+564,romiplostim,romiplostim,romiplostim,romiplostim
+362,rosuvastatin,rosuvastatin,rosuvastatin,rosuvastatin
+128,ruxolitinib,ruxolitinib,ruxolitinib,ruxolitinib
+399,saccharated iron oxide,saccharated iron oxide,saccharated iron oxide,saccharated iron oxide
+556,salmeterol and fluticasone,salmeterol and fluticasone,salmeterol and fluticasone,salmeterol and fluticasone
+550,samarium (153Sm) lexidronam,samarium 153sm lexidronam,samarium 153sm lexidronam,samarium 153sm lexidronam
+526,sapropterin,sapropterin,sapropterin,sapropterin
+577,secretin,secretin,secretin,secretin
+392,silodosin,silodosin,silodosin,silodosin
+2,simeprevir,simeprevir,simeprevir,simeprevir
+545,sodium aurothiomalate,sodium aurothiomalate,aurothiomalate,aurothiomal
+15,sodium oxybate,sodium oxybate,oxybate,oxyb
+195,sodium phenylbutyrate,sodium phenylbutyrate,phenylbutyrate,phenylbutyr
+240,sodium phosphate,sodium phosphate,,
+131,sofosbuvir,sofosbuvir,sofosbuvir,sofosbuvir
+272,streptomycin,streptomycin,streptomycin,streptomycin
+579,streptozocin,streptozocin,streptozocin,streptozocin
+501,sulfamethoxazole and trimethoprim,sulfamethoxazole and trimethoprim,sulfamethoxazole and trimethoprim,sulfamethoxazole and trimethoprim
+303,sulfasalazine,sulfasalazine,sulfasalazine,sulfasalazine
+407,suvorexant,suvorexant,suvorexant,suvorexant
+755,tafluprost,tafluprost,tafluprost,tafluprost
+748,tasimelteon,tasimelteon,tasimelteon,tasimelteon
+552,technetium (99mTc) exametazime,technetium 99mtc exametazime,technetium 99mtc exametazime,technetium 99mtc exametazime
+695,technetium (99mTc) tetrofosmin,technetium 99mtc tetrofosmin,technetium 99mtc tetrofosmin,technetium 99mtc tetrofosmin
+559,tedizolid,tedizolid,tedizolid,tedizolid
+415,teduglutide,teduglutide,teduglutide,teduglut
+672,temoporfin,temoporfin,temoporfin,temoporfin
+439,teniposide,teniposide,teniposide,tenipos
+237,tenofovir disoproxil,tenofovir disoproxil,tenofovir disoproxil,tenofovir disoproxil
+24,terconazole,terconazole,terconazole,terconazole
+119,teriflunomide,teriflunomide,teriflunomide,teriflunom
+457,teriparatide,teriparatide,teriparatide,teriparat
+208,tesamorelin,tesamorelin,tesamorelin,tesamorelin
+350,tigecycline,tigecycline,tigecycline,tigecycline
+16,tipranavir,tipranavir,tipranavir,tipranavir
+608,tirofiban,tirofiban,tirofiban,tirofiban
+591,tofacitinib,tofacitinib,tofacitinib,tofacitinib
+568,tolterodine,tolterodine,tolterodine,tolterodine
+87,toremifene,toremifene,toremifene,toremifene
+699,trabectedin,trabectedin,trabectedin,trabectedin
+261,triptorelin,triptorelin,triptorelin,triptorelin
+581,tropisetron,tropisetron,tropisetron,tropisetron
+712,ulipristal,ulipristal,ulipristal,ulipristal
+382,umeclidinium bromide,umeclidinium bromide,umeclidinium,umeclidinium
+508,urofollitropin,urofollitropin,urofollitropin,urofollitropin
+225,ustekinumab,ustekinumab,ustekinumab,ustekinumab
+393,vancomycin,vancomycin,vancomycin,vancomycin
+53,vernakalant,vernakalant,vernakalant,vernakalant
+394,vildagliptin,vildagliptin,vildagliptin,vildagliptin
+90,vorapaxar,vorapaxar,vorapaxar,vorapaxar
+632,vortioxetine,vortioxetine,vortioxetine,vortioxetine
+368,zanamivir,zanamivir,zanamivir,zanamivir
+398,ziconotide,ziconotide,ziconotide,ziconot

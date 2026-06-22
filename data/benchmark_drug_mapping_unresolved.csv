@@ -1,0 +1,6 @@
+idx,drug_name,resolution_method
+148,colestilan,unresolved_missing_from_local_sources
+240,sodium phosphate,unresolved_ambiguous_multiple_forms
+338,lamivudine and abacavir,unresolved_combo_missing_from_local_sources
+501,sulfamethoxazole and trimethoprim,unresolved_combo_missing_from_local_sources
+556,salmeterol and fluticasone,unresolved_combo_missing_from_local_sources

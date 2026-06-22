@@ -1,0 +1,995 @@
+idx,se_name,se_text,benchmark_idx
+0,abdominal discomfort,"Abdominal discomfort. Also known as: Abdo. discomfort, Abdomen burning sensation of, Abdominal discomfort",650
+1,abdominal distension,"Abdominal distension. Also known as: Abdo. bloating, Abdomen enlarged, Abdomen enlarged feeling of",361
+2,abdominal pain,"Abdominal pain. Also known as: Abd. pain, Abdo pain, Abdominal colic",886
+3,abdominal pain lower,"Abdominal pain lower. Also known as: Abdominal pain lower, Cramp in lower abdomen, Hypogastric pain",52
+4,abdominal pain upper,"Abdominal pain upper. Also known as: Abdominal pain peptic ulcer type, Abdominal pain upper, Ache stomach",571
+5,abnormal behaviour,"Abnormal behaviour. Also known as: Abnormal behaviour NOS, Behavior abnormal, Behaviour abnormal",833
+6,abnormal dreams,"Abnormal dreams. Also known as: Abnormal dreams, Bizarre dreams, Dream delirium",235
+7,abnormal faeces,"Abnormal faeces. Also known as: Abnormal faeces, Abnormal feces, Abnormal stools",492
+8,abscess,"Abscess. Also known as: Abscess, Abscess NOS, Haematapostema",187
+9,accommodation disorder,"Accommodation disorder. Also known as: Abnormality of accommodation, Accommodation abnormal, Accommodation debility",742
+10,acidosis,"Acidosis. Also known as: Acidosis, Acidosis NOS, Acidemia",277
+11,acne,"Acne. Also known as: Acne, Acne aggravated, Acne comedonal",767
+12,actinic keratosis,"Actinic keratosis. Also known as: Actinic keratosis, Senile keratosis, Solar keratosis",148
+13,acute coronary syndrome,"Acute coronary syndrome. Also known as: Attack coronary, Acute coronary syndrome, Non ST segment elevation acute coronary syndrome",813
+14,acute myocardial infarction,"Acute myocardial infarction. Also known as: Acute myocardial infarction, Acute myocardial infarction, of anterolateral wall, Acute myocardial infarction, of anterolateral wall, episode of care unspecified",692
+15,acute respiratory distress syndrome,"Acute respiratory distress syndrome. Also known as: A.R.D.S., Acute respiratory distress syndrome, Adult RDS",976
+16,adrenal insufficiency,"Adrenal insufficiency. Also known as: Adrenal cortex hypofunction, Adrenal cortex insufficiency, Adrenal cortex insuffiency",306
+17,affect lability,"Affect lability. Also known as: Emotional instability, Emotional lability, Instability emotional",652
+18,affective disorder,"Affective disorder. Also known as: Affecive disorder NOS, Affective disorder, Affective disorder NOS",285
+19,ageusia,"Ageusia. Also known as: Ageusia, Loss of taste, Taste absent",540
+20,aggression,"Aggression. Also known as: Aggression, Aggression aggravated, Aggressive behaviour",2
+21,agitation,"Agitation. Also known as: Agitated, Agitation, Agitation aggravated",659
+22,agranulocytosis,"Agranulocytosis. Also known as: Agranulocytic angina, Agranulocytosis, Angina agranulocytic",418
+23,akathisia,"Akathisia. Also known as: Acathesia, Akathisia, Motor restlessness",900
+24,akinesia,Akinesia. Also known as: Akinesia,614
+25,alanine aminotransferase increased,"Alanine aminotransferase increased. Also known as: Alanine aminotransferase increase, Alanine aminotransferase increased, ALT increased",371
+26,albuminuria,"Albuminuria. Also known as: Albuminuria, Albuminurias",455
+27,alcohol intolerance,"Alcohol intolerance. Also known as: Alcohol intolerance, Alcohol tolerance lowered, Disulfiram like reaction",882
+28,alopecia,"Alopecia. Also known as: Accelerated hair loss, Alopecia, Alopecia reversible",842
+29,altered state of consciousness,"Altered state of consciousness. Also known as: Altered state of consciousness, Consciousness abnormal, Consciousness disturbance transient",672
+30,alveolitis allergic,alveolitis allergic,74
+31,amblyopia,"Amblyopia. Also known as: Amblyopia, Amblyopia ex anopsia, Amblyopia NOS",454
+32,amenorrhoea,"Amenorrhoea. Also known as: Absence of menstruation, Amenorrhea, Amenorrhoea",872
+33,amnesia,"Amnesia. Also known as: Amnesia, Amnesia NEC, Amnesia transient",645
+34,amylase increased,"Amylase increased. Also known as: Amylase high, Amylase increased, Amylase serum increased",529
+35,anaemia,"Anaemia. Also known as: Anaemia, Anaemia aggravated, Anaemia NOS",841
+36,anaemia macrocytic,"Anaemia macrocytic. Also known as: Anaemia macrocytic, Anemia macrocytic, Macrocytic anaemia NOS",215
+37,anaemia megaloblastic,"Anaemia megaloblastic. Also known as: Anaemia megaloblastic, Anemia megaloblastic, Megaloblastic anaemia NOS",670
+38,anal pruritus,"Anal pruritus. Also known as: Perianal itching, Pruritus ani, Pruritus ani aggravated",388
+39,anaphylactic shock,"Anaphylactic shock. Also known as: Anaphylactic shock, Anaphylactic shock due to adverse food reaction, Anaphylactic shock due to crustaceans",594
+40,anaphylactoid reaction,"Anaphylactoid reaction. Also known as: Anaphylactic type reaction, Anaphylactoid reaction, Delayed anaphylactoid reaction",333
+41,aneurysm,"Aneurysm. Also known as: Aneurysm, Aneurysm of artery (excl aorta), Aneurysm of artery of neck",484
+42,anger,"Anger. Also known as: Anger, Driven mad, Irascibility",356
+43,angina pectoris,"Angina pectoris. Also known as: Angina, Angina aggravated, Angina attack",782
+44,angioedema,"Angioedema. Also known as: Acute angio oedema, Angio-edema, Angio-oedema",888
+45,angiopathy,"Angiopathy. Also known as: Degenerative and vascular disorders, unspecified, Disorder vascular, Vascular disorder",609
+46,angle closure glaucoma,"Angle closure glaucoma. Also known as: Acute angle closure glaucoma, Acute angle-closure glaucoma, Anatomical narrow angle borderline glaucoma",156
+47,anorectal discomfort,"Anorectal discomfort. Also known as: Anus discomfort, Burning rectal, Discomfort rectal",898
+48,anorectal disorder,"Anorectal disorder. Also known as: Anal disorder NOS, Ano-rectal disorder NOS, Anorectal disorder",54
+49,anorgasmia,"Anorgasmia. Also known as: Anorgasmia, Inability to orgasm",914
+50,antisocial behaviour,"Antisocial behaviour. Also known as: Adolescent antisocial behaviour, Antisocial behaviour, Antisocial reaction",768
+51,antisocial personality disorder,"Antisocial personality disorder. Also known as: Amoral personality, Antisocial personality, Antisocial personality disorder",495
+52,anuria,"Anuria. Also known as: Anuria, Arrest of urinary output, Failure of urine formation",109
+53,anxiety,"Anxiety. Also known as: Alarm (not alarm reaction), Angor animi, Anguish",116
+54,apathy,"Apathy. Also known as: Ambition loss of, Apathy, Initiative loss of",498
+55,aphasia,"Aphasia. Also known as: Anomia, Aphasia, Aphasia motor",567
+56,aplasia pure red cell,"Aplasia pure red cell. Also known as: Aplasia pure red cell, Aplasia, pure red cell, Red cell aplasia",386
+57,aplastic anaemia,"Aplastic anaemia. Also known as: Aleukia hemorrhagica, Anaemia aplastic, Anaemia aplastic aregenerative",240
+58,apnoea,"Apnoea. Also known as: Apnea, Apnoea, Apneas",588
+59,appendicitis,"Appendicitis. Also known as: Acute appendicitis, Acute appendicitis without mention of peritonitis, Appendicitis",256
+60,application site burn,"Application site burn. Also known as: Application site burn, Application site thermal burn, Application site chemical burn",402
+61,application site dryness,Application site dryness. Also known as: Application site dryness,570
+62,application site erythema,"Application site erythema. Also known as: Application site erythema, Application site redness",654
+63,application site irritation,Application site irritation. Also known as: Application site irritation,127
+64,application site pain,"Application site pain. Also known as: Application site pain, Pain after application, Application site burning",452
+65,application site paraesthesia,"Application site paraesthesia. Also known as: Application site paresthesia, Application site paraesthesia",194
+66,application site pruritus,"Application site pruritus. Also known as: Application site itching, Application site pruritus",752
+67,application site rash,Application site rash. Also known as: Application site rash,316
+68,application site reaction,"Application site reaction. Also known as: Application site reaction, Application site reaction NOS, Reaction application site",547
+69,application site vesicles,"Application site vesicles. Also known as: Application site vesicles, Application site bullae, Application site blister",807
+70,apraxia,"Apraxia. Also known as: Apraxia, Constructional apraxia, Dressing apraxia",221
+71,arrhythmia,"Arrhythmia. Also known as: Arrhythmia, Arrhythmia (NOS), Arrhythmia cardiac (NOS)",608
+72,arrhythmia supraventricular,"Arrhythmia supraventricular. Also known as: Arrhythmia atrial, Arrhythmia atrial (NOS), Arrhythmia supraventricular",804
+73,arteriosclerosis,"Arteriosclerosis. Also known as: Arteriosclerosis, Atherosclerosis, Atherosclerosis generalized",937
+74,arthralgia,"Arthralgia. Also known as: Ache wrists, Aching (l) knee, Aching (r) knee",803
+75,arthritis,"Arthritis. Also known as: Arthritis, Arthritis aggravated, Arthritis NOS",55
+76,arthropathy,"Arthropathy. Also known as: Arthropathy unspecified, involving hand, Arthropathy, Arthropathy (NOS)",394
+77,ascites,"Ascites. Also known as: Ascites, Ascites chylous, Chylous ascites",49
+78,asocial behaviour,"Asocial behaviour. Also known as: Asocial behavior, Asocial behaviour, Asocial reaction",879
+79,aspartate aminotransferase increased,"Aspartate aminotransferase increased. Also known as: Aspartate aminotransferase increase, Aspartate aminotransferase increased, AST increased",966
+80,asthenia,"Asthenia. Also known as: Adynamia, Asthenia, Collapse of legs",22
+81,asthenopia,"Asthenopia. Also known as: Asthenopia, Eye tired, Eyes heavy feeling of",154
+82,asthma,"Asthma. Also known as: Allergic asthma, Asthma, Asthma aggravated",634
+83,ataxia,"Ataxia. Also known as: Ataxia, Ataxia NEC, Ataxic",928
+84,atelectasis,"Atelectasis. Also known as: Atelectasis, Lobar collapse, Partial atelectasis",565
+85,atrial fibrillation,"Atrial fibrillation. Also known as: AF, AFib, Alcoholic atrial fibrillation",295
+86,atrial flutter,"Atrial flutter. Also known as: Atrial flutter, Flutter atrial, Paroxysmal atrial flutter",600
+87,atrioventricular block,"Atrioventricular block. Also known as: Atrioventricular block, Atrioventricular block (NOS), Atrioventricular block incomplete",718
+88,atrioventricular block complete,"Atrioventricular block complete. Also known as: Atrioventricular block complete, Atrioventricular block, complete, AV block complete",16
+89,atrioventricular block first degree,"Atrioventricular block first degree. Also known as: 1st degree heart block, Atrioventricular block first degree, Atrioventricular conduction time prolonged",468
+90,autonomic nervous system imbalance,"Autonomic nervous system imbalance. Also known as: Autonomic imbalance, Autonomic nervous system imbalance, Dysautonomia",626
+91,azotaemia,"Azotaemia. Also known as: Azotaemia, Azotemia, Azotemia of renal origin",794
+92,back pain,"Back pain. Also known as: Acute back pain, Back ache, Back distress",729
+93,bacteraemia,"Bacteraemia. Also known as: Bacteraemia, Bacteraemia, unspecified, Bacteremia",93
+94,bacterial infection,"Bacterial infection. Also known as: Anaerobic bacterial infection NOS, Bacterial infection due to other anaerobes, Bacterial infection due to other gram-negative organisms",946
+95,balance disorder,"Balance disorder. Also known as: Balance difficulty, Balance impaired NOS, Disequilibrium syndrome",174
+96,basal cell carcinoma,"Basal cell carcinoma. Also known as: Basal cell carcinoma, Basal cell epithelioma, Carcinoma basal cell",75
+97,benign neoplasm of skin,"Benign neoplasm of skin. Also known as: Benign neoplasm of ear and external auditory canal, Benign neoplasm of ear and external auricular canal, Benign neoplasm of other specified sites of skin",343
+98,biliary colic,"Biliary colic. Also known as: Biliary colic, Biliary pain, Biliary spasm",617
+99,bipolar disorder,"Bipolar disorder. Also known as: Bipolar affective disorder, Bipolar affective disorder aggr., Bipolar affective disorder aggravated",18
+100,bipolar i disorder,"Bipolar I disorder. Also known as: Bipolar affective disorder, depressed, Bipolar affective disorder, depressed, in full remission, Bipolar affective disorder, depressed, in partial or unspecified remission",658
+101,bladder cancer,"Bladder cancer. Also known as: Bladder cancer, Bladder cancer NOS, Bladder carcinoma",432
+102,bladder pain,"Bladder pain. Also known as: Bladder cramps, Bladder pain, Cystalgia",890
+103,bleeding time prolonged,"Bleeding time prolonged. Also known as: Bleeding time increased, Bleeding time prolonged, Haemostasis prolonged",761
+104,blepharitis,"Blepharitis. Also known as: Blepharitis, Blepharitis, unspecified, Inflammation of eyelids",903
+105,blepharospasm,"Blepharospasm. Also known as: Blepharospasm, Spasm eyelid, Eyelid twitching",406
+106,blindness,"Blindness. Also known as: Better eye: moderate vision impairment; lesser eye: blind, not further specified, Better eye: moderate vision impairment; lesser eye: impairment not further specified, Better eye: moderate vision impairment; lesser eye: near-total vision impairment",238
+107,blister,"Blister. Also known as: Blister, Blister of elbow, forearm, and wrist, without mention of infection, Blister of face, neck, and scalp except eye, without mention of infection",576
+108,blood albumin decreased,"Blood albumin decreased. Also known as: Albumin decreased, Albumin low, Albumin serum plasma decreased",951
+109,blood alkaline phosphatase increased,"Blood alkaline phosphatase increased. Also known as: Al-P increased, Alk phos raised, Alkaline phosphastase serum increase",478
+110,blood bilirubin increased,"Blood bilirubin increased. Also known as: Bilirubin elevated, Bilirubin increased, Bilirubin total high",9
+111,blood calcium decreased,"Blood calcium decreased. Also known as: Blood calcium decreased, Ca level lowered, Ca++ decreased",178
+112,blood cholesterol increased,"Blood cholesterol increased. Also known as: Blood cholesterol increased, Cholesterol blood increased, Cholesterol high",393
+113,blood creatine phosphokinase increased,"Blood creatine phosphokinase increased. Also known as: Blood creatine phosphokinase increased, CK increased, CPK increase",157
+114,blood creatinine increased,"Blood creatinine increased. Also known as: Blood creatinine increased, Creatinine blood increased, Creatinine high",170
+115,blood disorder,"Blood disorder. Also known as: Blood disorder NOS, Blood dyscrasia, Blood dyscrasia NOS",413
+116,blood glucose decreased,"Blood glucose decreased. Also known as: Blood glucose decreased, Blood sugar decreased, Decreased blood sugar",315
+117,blood glucose increased,"Blood glucose increased. Also known as: Blood glucose increased, Blood sugar increased, Fasting blood glucose level raised",496
+118,blood lactate dehydrogenase increased,"Blood lactate dehydrogenase increased. Also known as: Blood lactate dehydrogenase increased, Dehydrogenase lactic blood urine increased, Lactate dehydrogenase increased",10
+119,blood phosphorus decreased,"Blood phosphorus decreased. Also known as: Blood phosphate decreased, Phosphate decreased, Phosphate low",533
+120,blood potassium decreased,"Blood potassium decreased. Also known as: Blood potassium decreased, K+ decreased, Plasma potassium decreased",828
+121,blood potassium increased,"Blood potassium increased. Also known as: Blood potassium increased, Elevated K, K+ increased",219
+122,blood pressure increased,"Blood pressure increased. Also known as: Arterial pressure high, Arterial pressure NOS increased, Blood pressure increased",894
+123,blood prolactin increased,"Blood prolactin increased. Also known as: Blood prolactin increased, Increased prolactin level, Plasma prolactin increased",764
+124,blood triglycerides increased,"Blood triglycerides increased. Also known as: Blood triglycerides increased, Plasma triglycerides increased, Raised TG",521
+125,blood urea increased,"Blood urea increased. Also known as: Blood urea increased, Blood urea nitrogen increased, BUN increased",936
+126,blood uric acid increased,"Blood uric acid increased. Also known as: Blood urates increased, Blood uric acid increased, Raised serum uric acid",351
+127,blood urine present,"Blood urine present. Also known as: Blood in urine, Blood urine present",644
+128,body temperature decreased,"Body temperature decreased. Also known as: Body temperature decrease, Body temperature decreased, Temperature body decrease",124
+129,body temperature increased,"Body temperature increased. Also known as: Body temperature increased, Temperature elevation",618
+130,bone disorder,"Bone disorder. Also known as: Bone and (jd) of back, pelvis, & lower limbs of mother, comp preg, c/birth, or the puerp, Bone and (jd) of back, pelvis, and lower limbs of mother, with delivery, with ment of postpart comp, Bone and joint disorders of back, pelvis, and lower limbs of mother, antepartum",735
+131,bone pain,"Bone pain. Also known as: Bone pain, Bone pain aggravated, Bone swelling painful",809
+132,bradycardia,"Bradycardia. Also known as: Bradycardia, Bradycardia NOS, Bradycardia NOS (excl fetal)",556
+133,bradykinesia,"Bradykinesia. Also known as: Bradykinesia, Slow movement, Hypokinesia",139
+134,brain oedema,"Brain oedema. Also known as: Brain edema, Cerebral edema, Cerebral oedema",210
+135,breast cancer,"Breast cancer. Also known as: Breast adenocarcinoma, Breast cancer, Breast cancer NOS",476
+136,breast discharge,"Breast discharge. Also known as: Breast discharge, Breast discharge female, Breast discharge male",628
+137,breast disorder,"Breast disorder. Also known as: Breast disorder NOS, Other disorders of breast, Other signs and symptoms in breast",328
+138,breast engorgement,"Breast engorgement. Also known as: Breast engorgement, Engorgement of breast associated with childbirth, antepartum, Engorgement of breast associated with childbirth, postpartum",357
+139,breast enlargement,"Breast enlargement. Also known as: Breast enlargement, Breast enlargement female, Breast size increased",687
+140,breast neoplasm,"Breast neoplasm. Also known as: Breast neoplasm, Breast neoplasm female, Breast neoplasm male",345
+141,breast pain,"Breast pain. Also known as: Ache breast, Breast pain, Breast pain female",44
+142,breast tenderness,"Breast tenderness. Also known as: Breast tenderness, Tenderness breast",158
+143,breath odour,"Breath odour. Also known as: Bad breath, Breath odor, Breath odour",266
+144,breath sounds abnormal,"Breath sounds abnormal. Also known as: Abnormal chest sounds, Abnormal chest sounds NOS, Breath sounds decreased",846
+145,bronchial hyperreactivity,"Bronchial hyperreactivity. Also known as: Reactive airways disease, Bronchial hyperactivity, Hyperactive airway disease",666
+146,bronchitis,"Bronchitis. Also known as: Acute bronchitis, Acute bronchitis and bronchiolitis, Acute exacerbation of chronic bronchitis",119
+147,bronchospasm,"Bronchospasm. Also known as: Bronchial spasm, Bronchoconstriction, Bronchospasm",202
+148,bronchospasm paradoxical,"Bronchospasm paradoxical. Also known as: Bronchospasm paradoxical, Paradoxical bronchospasm",542
+149,bruxism,"Bruxism. Also known as: Bruxism, Bruxomania, Gnashing tooth",727
+150,bundle branch block,"Bundle branch block. Also known as: Block bundle branch, Bundle branch block, Bundle branch block NOS",41
+151,burning sensation,"Burning sensation. Also known as: Burning sensation, Burning sensation NOS, Extremities burning sensation of",86
+152,bursitis,"Bursitis. Also known as: Achillobursitis, Bursal synovitis, Bursitis",368
+153,cachexia,"Cachexia. Also known as: Cachexia, Emaciation, Wasting",457
+154,candida infection,"Candida infection. Also known as: Candida NOS, Candidiasis, Candidiasis NOS",15
+155,cardiac arrest,"Cardiac arrest. Also known as: Arrest cardiac, Asystole, Asystolia",113
+156,cardiac disorder,"Cardiac disorder. Also known as: Cardiac disorder NOS, Disorder cardiac (NOS), Heart disease aggravated",806
+157,cardiac failure,"Cardiac failure. Also known as: Cardiac failure, Cardiac failure (NOS), Cardiac failure aggravated",230
+158,cardiac failure congestive,"Cardiac failure congestive. Also known as: Bi-ventricular failure, Cardiac failure congestive, Cardiac failure, congestive",758
+159,cardiac flutter,"Cardiac flutter. Also known as: Heart fluttering, Cardiac flutter",584
+160,cardiac murmur,"Cardiac murmur. Also known as: Cardiac murmur, Cardiac murmur NOS, Diastolic murmur",824
+161,cardiac output decreased,Cardiac output decreased. Also known as: Cardiac output decreased,417
+162,cardiogenic shock,"Cardiogenic shock. Also known as: Cardiogenic shock, Shock cardiogenic, Shock, Cardiogenic",623
+163,cardiomegaly,"Cardiomegaly. Also known as: Cardiac dilatation, Cardiomegaly, Cardiomegaly (excl hypertensive)",5
+164,cardiomyopathy,"Cardiomyopathy. Also known as: Cardiomyopathy, Cardiomyopathy in other diseases classified elsewhere, Cardiomyopathy NOS",224
+165,cardiovascular disorder,"Cardiovascular disorder. Also known as: Cardiovascular disease, unspecified, Cardiovascular disorder, Cardiovascular disorder NOS",104
+166,carpal tunnel syndrome,"Carpal tunnel syndrome. Also known as: Carpal tunnel syndrome, Carpel tunnel syndrome, Syndrome carpel tunnel",916
+167,cataract,"Cataract. Also known as: Bilateral cataracts, Cataract, Cataract (left)",528
+168,catheter site pain,"Catheter site pain. Also known as: Catheter site pain, Cannula site pain, Catheter site burning",932
+169,cellulitis,"Cellulitis. Also known as: Cellulitis, Cellulitis and abscess of buttock, Cellulitis and abscess of face",534
+170,cerebellar syndrome,"Cerebellar syndrome. Also known as: Cerebellar syndrome, Syndrome cerebellar, Neocerebellar syndrome",963
+171,cerebral haemorrhage,"Cerebral haemorrhage. Also known as: Cerebral haemorrhage, Cerebral hemorrhage, Haemorrhage cerebral",163
+172,cerebral infarction,"Cerebral infarction. Also known as: Cerebral infarct, Cerebral infarction, Iatrogenic cerebrovascular infarction",637
+173,cerebral ischaemia,"Cerebral ischaemia. Also known as: Cerebral ischaemia, Cerebral ischemia, Ischemia cerebral",585
+174,cerebrovascular accident,"Cerebrovascular accident. Also known as: Accident cerebrovascular, Apoplexy, Cerebrovascular accident",710
+175,cerebrovascular disorder,"Cerebrovascular disorder. Also known as: Acute, but ill-defined, cerebrovascular disease, Cerebral vascular disturbance, Cerebral vascular disturbance (NOS)",723
+176,cervix disorder,"Cervix disorder. Also known as: Cervical disorder NOS, Cervical lesion NOS, Cervix disorder",983
+177,change of bowel habit,"Change of bowel habit. Also known as: Change in bowel habit NOS, Change in bowel habits, Change of bowel habit",132
+178,cheilitis,"Cheilitis. Also known as: Cheilitis, Desquamative cheilitis, Rash lips",112
+179,chest discomfort,"Chest discomfort. Also known as: Chest abnormal feeling of, Chest anxiety feeling of, Chest discomfort",899
+180,chest pain,"Chest pain. Also known as: Ache across chest, Chest ache, Chest aching",143
+181,chills,"Chills. Also known as: Chills, Rigor, Rigoring",832
+182,cholecystitis,"Cholecystitis. Also known as: Acalculous cholecystitis, Calculus of gallbladder with other cholecystitis, Calculus of gallbladder with other cholecystitis, with obstruction",870
+183,cholelithiasis,"Cholelithiasis. Also known as: Biliary sludge, Biliary stones, Calculus biliary",168
+184,cholestasis,"Cholestasis. Also known as: Biliary stasis, Cholestasis, Cholestasis extrahepatic",564
+185,choreoathetosis,"Choreoathetosis. Also known as: Choreoathetoid movements, Choreoathetosis, Hemichoreoathetosis",88
+186,chromatopsia,"Chromatopsia. Also known as: Chromatopsia, Vision color tinged",159
+187,chromaturia,"Chromaturia. Also known as: Chromaturia, Discoloration urine, Red urine",38
+188,chronic obstructive pulmonary disease,"Chronic obstructive pulmonary disease. Also known as: Chronic airflow limitation, Chronic airway obstruction, not elsewhere classified, Chronic airways obstruction, not elsewhere classified",715
+189,clostridium difficile colitis,"Clostridium difficile colitis. Also known as: C.difficile colitis, C.difficile diarrhea, C.difficile diarrhoea",200
+190,coagulopathy,"Coagulopathy. Also known as: Clotting, Coagulation abnormal, Coagulation defects",730
+191,cognitive disorder,"Cognitive disorder. Also known as: Cognitive deterioration, Cognitive disorder NEC, Cognitive disturbance",771
+192,cold sweat,"Cold sweat. Also known as: Clamminess, Clammy, Cold sweat",447
+193,colitis,"Colitis. Also known as: Caecal inflammation, Caecitis, Cecitis",115
+194,colitis ischaemic,"Colitis ischaemic. Also known as: Acute ischemic colitis, Colitis ischaemic, Colitis ischemic",208
+195,colitis ulcerative,"Colitis ulcerative. Also known as: Colitis ulcerative, Colitis ulcerative aggravated, Enteritis ulcerative",21
+196,coma,"Coma. Also known as: Coma, Coma (non-diabetic), Coma and stupor",398
+197,completed suicide,"Completed suicide. Also known as: Accomplished suicide, Completed suicide, Suicide",84
+198,conduction disorder,"Conduction disorder. Also known as: Conduction delayed transient, Conduction disorder, Conduction disorder NOS",475
+199,confusional state,"Confusional state. Also known as: Acute confusion state, Acute confusional state, Acute onset of confusion",322
+200,congenital eye disorder,"Congenital eye disorder. Also known as: Congenital anomalies of eye, Congenital anomalies of eyelids, lacrimal system, and orbit, Congenital deformity of eye",887
+201,conjunctival haemorrhage,"Conjunctival haemorrhage. Also known as: Conjunctiva hemorrhage, Conjunctival bleeding, Conjunctival ecchymosis",354
+202,conjunctival hyperaemia,"Conjunctival hyperaemia. Also known as: Bulbar conjunctiva hyperemia, Congestion conjunctival, Conjunctival congestion",959
+203,conjunctival oedema,"Conjunctival oedema. Also known as: Chemosis, Conjunctival edema, Conjunctival oedema",962
+204,conjunctivitis,"Conjunctivitis. Also known as: Acute conjunctivitis, Acute conjunctivitis, unspecified, Acute follicular conjunctivitis",517
+205,conjunctivitis allergic,"Conjunctivitis allergic. Also known as: Acute atopic conjunctivitis, Allergic conjunctivitis, Allergic rhinoconjunctivitis",990
+206,connective tissue disorder,"Connective tissue disorder. Also known as: Connective tissue disorder NOS, Diffuse diseases of connective tissue, Other specified diffuse diseases of connective tissue",191
+207,constipation,"Constipation. Also known as: Constipation, Constipation (excl faecal impaction), Iatrogenic constipation",85
+208,contusion,"Contusion. Also known as: Bruise, Bruise of head, Bruising",891
+209,conversion disorder,"Conversion disorder. Also known as: Conversion disorder, Conversion hysteria, Conversion neurosis",147
+210,coordination abnormal,"Coordination abnormal. Also known as: Asynergia, Coordination abnormal, Coordination abnormal NOS",129
+211,corneal erosion,"Corneal erosion. Also known as: Corneal erosion, Corneal erosion multiple",632
+212,corneal lesion,"Corneal lesion. Also known as: Corneal lesion, Corneal lesion NOS, Lesion corneal",32
+213,corneal opacity,"Corneal opacity. Also known as: Central opacity of cornea, Corneal cataract, Corneal epithelium opacity",262
+214,coronary artery disease,"Coronary artery disease. Also known as: CAD, Coronary artery disease, Coronary artery disease NOS",671
+215,cough,"Cough. Also known as: Cough, Cough increased, Cough nonproductive",339
+216,crohn's disease,"Crohn's disease. Also known as: Crohn's, Crohn's aggravated, Crohn's colitis",198
+217,crying,"Crying. Also known as: Crying, Crying abnormal, Crying uncontrollable",677
+218,cushing's syndrome,"Cushing's syndrome. Also known as: Cushing's syndrome, Cushings syndrome, Syndrome Cushing's",745
+219,cyanosis,"Cyanosis. Also known as: Acrocyanosis, Blue lips, Cyanosed",253
+220,cyst,"Cyst. Also known as: Cyst, Cyst NOS, Oil cyst",283
+221,cystitis,"Cystitis. Also known as: Acute cystitis, Acute cystitis (excl in pregnancy), Bladder infection",420
+222,cystitis haemorrhagic,"Cystitis haemorrhagic. Also known as: Cystitis haemorrhagic, Cystitis hemorrhagic, Hemorrhagic cystitis",226
+223,cystitis noninfective,"Cystitis noninfective. Also known as: Cystitis granulomatous, Cystitis noninfective, Bladder inflammation",778
+224,deafness,"Deafness. Also known as: Deaf, Deafness, Deafness NOS",707
+225,decreased appetite,"Decreased appetite. Also known as: Anorexia, Anorexic, Appetite absent",24
+226,deep vein thrombosis,"Deep vein thrombosis. Also known as: Deep phlebothrombosis, antepartum, unspecified as to episode of care, Deep phlebothrombosis, antepartum, with delivery, Deep phlebothrombosis, postpartum, unspecified as to episode of care",979
+227,dehydration,"Dehydration. Also known as: Dehydration, Fluid loss, Hypotonic dehydration",441
+228,delirium,"Delirium. Also known as: Acute brain syndrome, Acute delirium, Brain syndrome acute",435
+229,delusion,"Delusion. Also known as: Deluded, Delusion, Delusion NOS",923
+230,dementia,"Dementia. Also known as: Amentia, Brain failure, chronic, Brain syndrome chronic",854
+231,dental caries,"Dental caries. Also known as: Caries dental, Cavity, Cavity NOS",656
+232,depressed level of consciousness,"Depressed level of consciousness. Also known as: Arousal difficult, Central nervous system depression NOS, CNS depression",73
+233,depressed mood,"Depressed mood. Also known as: Chronic depressive mood, Dejection emotional, Depressed mood",667
+234,depression,"Depression. Also known as: Anxiety depression, Anxious depression, Atypical depressive disorder",756
+235,derealisation,"Derealisation. Also known as: Derealisation, Feeling unreal, Derealization",938
+236,dermatitis,"Dermatitis. Also known as: Acrodermatitis, Dermatitic reaction of face, Dermatitic reaction of neck",137
+237,dermatitis acneiform,"Dermatitis acneiform. Also known as: Acneiform dermatitis, Dermatitis acneiform, Dermatitis acniform",442
+238,dermatitis atopic,"Dermatitis atopic. Also known as: Atopic dermatitis, Atopic dermatitis and related conditions, Atopic eczema",149
+239,dermatitis bullous,"Dermatitis bullous. Also known as: Bulla auricular, Bulla dorsum manus, Bullous dermatitis",444
+240,dermatitis contact,"Dermatitis contact. Also known as: Acne detergicans, Adhesive plaster sensitivity, Allergy to lanolin",613
+241,dermatitis exfoliative,"Dermatitis exfoliative. Also known as: Dermatitis exfoliative, Dermatitis exfoliative NOS, Exfoliative dermatitis",755
+242,diabetes mellitus,"Diabetes mellitus. Also known as: Diabetes, Diabetes mellitus, Diabetes mellitus aggravated",387
+243,diarrhoea,"Diarrhoea. Also known as: Acute diarrhea, Antibiotic-associated diarrhea, Diarrhea",274
+244,diarrhoea haemorrhagic,"Diarrhoea haemorrhagic. Also known as: Bloody diarrhea, Diarrhea bloody, Diarrhoea bloody",563
+245,diplopia,"Diplopia. Also known as: Diplopia, Double vision, Vision double",213
+246,discomfort,"Discomfort. Also known as: Discomfort, Discomfort bodily, Discomfort NOS",797
+247,disorientation,"Disorientation. Also known as: Disorientated, Disorientation, Nocturnal disorientation",8
+248,disseminated intravascular coagulation,"Disseminated intravascular coagulation. Also known as: Consumption coagulopathy, Consumptive coagulopathy, Defibrination syndrome",76
+249,disturbance in attention,"Disturbance in attention. Also known as: Attention concentration difficulty, Attention impaired, Attentiveness decreased",133
+250,disturbance in sexual arousal,"Disturbance in sexual arousal. Also known as: Disturbance in arousal NOS, Increased sexual arousal, Sexual arousal decreased",724
+251,diverticulitis,"Diverticulitis. Also known as: Chronic diverticulitis, Diverticulitis, Diverticulitis intestinal",397
+252,dizziness,"Dizziness. Also known as: Dizziness, Dizziness (excl vertigo), Dizziness and giddiness",624
+253,dizziness postural,"Dizziness postural. Also known as: Dizziness on standing up, Dizziness postural, Dizziness upon standing",815
+254,drug eruption,"Drug eruption. Also known as: Dermatitis due to drugs and medicaments taken internally, Dermatitis due to drugs and medicines taken internally, Dermatitis medicamentosa",323
+255,drug hypersensitivity,"Drug hypersensitivity. Also known as: Allergic reaction to antibiotics, Drug allergy, Drug hypersensitivity",739
+256,drug ineffective,"Drug ineffective. Also known as: Drug effect lack of, Drug ineffective, Efficacy lack",885
+257,dry eye,"Dry eye. Also known as: Conjunctival xerosis, Dry eye, Dry eye NOS",136
+258,dry mouth,"Dry mouth. Also known as: Dry mouth, Dryness oral, Mouth became dry",708
+259,dry skin,"Dry skin. Also known as: Dry skin, Drying, Hot dry skin",67
+260,dry throat,"Dry throat. Also known as: Dry throat, Pharynx dry, Throat dry",551
+261,duodenal ulcer,"Duodenal ulcer. Also known as: Acute duodenal ulcer, Acute duodenal ulcer without mention of haemorrhage or perforation, Acute duodenal ulcer without mention of hemorrhage or perforation",830
+262,duodenitis,"Duodenitis. Also known as: Duodenitis, Duodenitis, without mention of hemorrhage, Peptic duodenitis",279
+263,dysaesthesia,"Dysaesthesia. Also known as: Dysaesthesia, Dysesthesia thigh, Dysesthesia extremity",827
+264,dysarthria,"Dysarthria. Also known as: Dysarthria, Inarticulateness, Slurred speech",636
+265,dysgeusia,"Dysgeusia. Also known as: After taste, Bad taste, Dysgensia",483
+266,dyskinesia,"Dyskinesia. Also known as: Abnormal involuntary movements, Acute dyskinesia, Body movements involuntary",107
+267,dysmenorrhoea,"Dysmenorrhoea. Also known as: Cramps menstrual, Dysmenorrhea, Dysmenorrhoea",485
+268,dyspareunia,"Dyspareunia. Also known as: Coitus painful, Deep dyspareunia, Dyspareunia",201
+269,dyspepsia,"Dyspepsia. Also known as: Acid dyspepsia, Acid indigestion, Difficult digestion",881
+270,dysphagia,"Dysphagia. Also known as: Deglutition disorder, Disorder deglutition, Dysphagia",640
+271,dysphonia,"Dysphonia. Also known as: Distorted voice, Disturbance in loudness, Dysphonia",737
+272,dysphoria,Dysphoria. Also known as: Dysphoria,324
+273,dyspnoea,"Dyspnoea. Also known as: Air hunger, Breath shortness, Breathing difficult",300
+274,dyspnoea exertional,"Dyspnoea exertional. Also known as: DOE, Dyspnea exertional, Dyspnoea exertional",941
+275,dysuria,"Dysuria. Also known as: Burning micturition, Difficulty in micturition, Difficulty voiding",906
+276,ear disorder,"Ear disorder. Also known as: Degenerative and vascular disorders of ear, Disorder ear, Ear disorder",341
+277,ear infection,"Ear infection. Also known as: Ear infection, Ear infection NOS, Otitis",599
+278,ear pain,"Ear pain. Also known as: Ear ache, Ear pain, Earache",429
+279,ecchymosis,"Ecchymosis. Also known as: Ecchymoses, Ecchymosis, Ecchymosis NOS",232
+280,eczema,"Eczema. Also known as: Dermatitis eczematoid, Eczema, Eczema (rash) in the outer ear",661
+281,ejaculation delayed,"Ejaculation delayed. Also known as: Ejaculation delayed, Ejaculation inhibited",358
+282,ejaculation disorder,"Ejaculation disorder. Also known as: Abnormal ejaculation, Ejaculation abnormal, Ejaculation disorder",190
+283,ejaculation failure,"Ejaculation failure. Also known as: Ejaculation decreased, Ejaculation failure, Anejaculation",114
+284,electrocardiogram abnormal,"Electrocardiogram abnormal. Also known as: Abnormal ECG, Abnormal EKG, Disorder ECG/EKG (NOS)",477
+285,electrocardiogram qt prolonged,"Electrocardiogram QT prolonged. Also known as: Electrocardiogram QT corrected interval prolonged, Electrocardiogram QT prolonged, Long QT",949
+286,electrocardiogram st segment depression,"Electrocardiogram ST segment depression. Also known as: Electrocardiogram ST segment depression, ST depressed, ST segment depressed",153
+287,electroencephalogram abnormal,"Electroencephalogram abnormal. Also known as: Abnormal EEG, Abnormal electroencephalogram, Alpha or Beta wave disappeared",276
+288,electrolyte imbalance,"Electrolyte imbalance. Also known as: Disorders of fluid, electrolyte and acid-base balance, Electrolyte abnormality, Electrolyte and fluid balance disorder NOS",805
+289,embolism,"Embolism. Also known as: Embolism NOS, Embolism - blood clot, Embolism embolus",503
+290,embolism venous,"Embolism venous. Also known as: Embolism and thrombosis of other specified veins, Embolism and thrombosis of unspecified site, Embolism venous",535
+291,emotional disorder,"Emotional disorder. Also known as: Emotional disorder, Emotional disturbance NOS, Emotional problems",843
+292,emphysema,"Emphysema. Also known as: Compensatory emphysema, Emphysema, Emphysema pulmonary",89
+293,encephalopathy,"Encephalopathy. Also known as: Encephalopathy, Encephalopathy acute, Encephalopathy chronic",151
+294,endocrine disorder,"Endocrine disorder. Also known as: Disorder endocrine, Endocrine disorder, Endocrine disorder NOS",241
+295,endometrial disorder,"Endometrial disorder. Also known as: Disorder endometrial, Endometrial disorder, Endometrial disorder NOS",222
+296,endophthalmitis,"Endophthalmitis. Also known as: Acute endophthalmitis, Chronic endophthalmitis, Endophthalmitis",142
+297,enteritis,"Enteritis. Also known as: Active ileal inflammation, Enteritis, Ileitis",422
+298,enterocolitis,"Enterocolitis. Also known as: Enterocolitis, Ileocolitis, Chronic enterocolitis",904
+299,enuresis,"Enuresis. Also known as: Bed wetting, Enuresis, Enuresis (emotional origin, exc incontinence NOS)",682
+300,eosinophilia,"Eosinophilia. Also known as: Eosinophilia, Eosinophilia (excl pulmonary), Eosinophilic granulocytosis",270
+301,epididymitis,"Epididymitis. Also known as: Epididymitis, Epididymitis NOS, Epididymal infection",287
+302,epigastric discomfort,"Epigastric discomfort. Also known as: Discomfort epigastric, Gastric irritation, Irritable stomach",863
+303,epistaxis,"Epistaxis. Also known as: Bleeding nose, Epistaxis, Haemorrhage nasal",958
+304,erectile dysfunction,"Erectile dysfunction. Also known as: Erectile disturbance, Erection decreased, Erection failure",943
+305,eructation,"Eructation. Also known as: Belching, Burbulence, Burping",919
+306,erythema,"Erythema. Also known as: Erythema, Erythema auricular, Erythema circumocular-blepharal",175
+307,erythema multiforme,"Erythema multiforme. Also known as: Bullous erythema multiforme, EM, Erythema exsudativum multiforme",258
+308,erythema nodosum,"Erythema nodosum. Also known as: Erythema nodosum, Erythema nodosum-like lesion, Erythema Nodosum",910
+309,erythema of eyelid,"Erythema of eyelid. Also known as: Erythema of eyelid, Redness of eyelid, Hyperaemia eyelid",558
+310,euphoric mood,"Euphoric mood. Also known as: Elevated mood, Euphoria, Euphoric",861
+311,excoriation,excoriation,257
+312,exophthalmos,"Exophthalmos. Also known as: Bulging eyes, Constant exophthalmos, Exophthalmos",978
+313,exostosis,"Exostosis. Also known as: Bone spur, Calcaneal spur, Exostosis",81
+314,extrapyramidal disorder,"Extrapyramidal disorder. Also known as: Benign shuddering attacks, Drug-induced extrapyramidal side effects, Extrapyramidal disorder",901
+315,extrasystoles,"Extrasystoles. Also known as: Bigeminal rhythm, Bigeminy, Coupled beats",577
+316,extravasation,"Extravasation. Also known as: Extravasation, Extravasation NOS",250
+317,eye discharge,"Eye discharge. Also known as: Burning discharge eyes, Discharge eye, Eye discharge",29
+318,eye disorder,"Eye disorder. Also known as: Disorder eye, Disorder of eye, unspecified, Eye abnormality",13
+319,eye haemorrhage,"Eye haemorrhage. Also known as: Eye haemorrhage, Eye haemorrhage NOS, Eye hemorrhage",702
+320,eye infection,"Eye infection. Also known as: Eye infection, Eye infection NOS, Parasitic infestation of orbit",831
+321,eye irritation,"Eye irritation. Also known as: Burning eyes, Burning in eyes, Burning sensation in eye",647
+322,eye oedema,"Eye oedema. Also known as: Eye oedema, Eye edema",440
+323,eye pain,"Eye pain. Also known as: Aching eye socket, Eye ache, Eye pain",896
+324,eye pruritus,"Eye pruritus. Also known as: Eye itching, Eyeball itching, Itching eyes",848
+325,eye swelling,"Eye swelling. Also known as: Eye swelling, Eyes swollen, Swelling or mass of eye",545
+326,eyelid oedema,"Eyelid oedema. Also known as: Edema eyelid, Edema of eyelid, Eyelid edema",786
+327,face oedema,"Face oedema. Also known as: Edema face, Face edema, Face oedema",766
+328,faecalith,"Faecalith. Also known as: Faecalith, Fecalith, Stercolith",857
+329,faecaloma,"Faecaloma. Also known as: Faecal impaction, Faecal impaction (causing obstruction), Faecal impaction (excl obstruction)",812
+330,faeces discoloured,"Faeces discoloured. Also known as: Black stools, Discoloration fecal, Discoloration stool",902
+331,fasting,"Fasting. Also known as: Fasting, Intermittent Fasting, Fasting, Intermittent",591
+332,fatigue,"Fatigue. Also known as: Enervation, Exhaustion, Exhaustion due to excessive exertion",799
+333,febrile neutropenia,"Febrile neutropenia. Also known as: Febrile neutropenia, Neutropenic fever, Febrile Neutropenia",583
+334,feeling abnormal,"Feeling abnormal. Also known as: Cotton wool in head, Feeling abnormal, Feeling bad",95
+335,feeling cold,"Feeling cold. Also known as: Chilliness, Coldness, Coldness general",344
+336,feeling drunk,"Feeling drunk. Also known as: Drunk-like effect, Drunkenness feeling of, Feeling drunk",376
+337,feeling hot,"Feeling hot. Also known as: Extremities hot feeling of, Feeling hot, Feeling of warmth",233
+338,feeling jittery,"Feeling jittery. Also known as: Feeling jittery, Jitteriness",770
+339,fibrocystic breast disease,"Fibrocystic breast disease. Also known as: Adenosis sclerosing, Breast cystic fibrosis, Breast fibrocystic",592
+340,flank pain,"Flank pain. Also known as: Flank pain, Pain flank, Side stitch",557
+341,flat affect,"Flat affect. Also known as: Affect lack, Affect loss, Detachment emotional",246
+342,flatulence,"Flatulence. Also known as: Abdominal wind, Air in intestines, Air in stomach",209
+343,fluid overload,fluid overload,691
+344,fluid retention,"Fluid retention. Also known as: Body fluid retention, Extracellular fluid increased, Fluid retention",940
+345,flushing,"Flushing. Also known as: Facial flushing, Flushed, Flushed chest",823
+346,foetor hepaticus,"Foetor hepaticus. Also known as: Fector hepaticus, Fetor hepaticus, Foetor hepaticus",162
+347,folliculitis,"Folliculitis. Also known as: Folliculitis, Pustular folliculitis, Scalp folliculitis",308
+348,fracture,"Fracture. Also known as: Bone fracture (not spontaneous), Fracture, Fracture bone",362
+349,functional gastrointestinal disorder,"Functional gastrointestinal disorder. Also known as: Bowel dysfunction, Colonic dysfunction, Functional bowel syndrome",1
+350,fungal infection,"Fungal infection. Also known as: Fungal infection, Fungal infection NOS, Infection fungal",145
+351,fungal skin infection,"Fungal skin infection. Also known as: Dermatitis fungal, Dermatitis fungal NOS, Dermatitis fungoid",30
+352,furuncle,"Furuncle. Also known as: Boil, Boil in external ear, Boil in nose",164
+353,gait disturbance,"Gait disturbance. Also known as: Abnormal gait, Abnormality of gait, Difficulty in walking",31
+354,galactorrhoea,"Galactorrhoea. Also known as: Female lactation, Galactorrhea, Galactorrhea associated with childbirth, unspecified as to episode of care",111
+355,gamma-glutamyltransferase increased,"Gamma-glutamyltransferase increased. Also known as: Gamma glutamyl transpeptidase increased, Gamma GT increased, Gamma GT raised",731
+356,gangrene,"Gangrene. Also known as: Gangrene, Gangrene cutaneous, Gangrene hemorrhagic",363
+357,gastric ulcer,"Gastric ulcer. Also known as: Acute gastric ulcer without mention of haemorrhage or perforation, Acute gastric ulcer without mention of hemorrhage or perforation, Acute gastric ulcer without mention of hemorrhage or perforation, without mention of obstruction",586
+358,gastritis,"Gastritis. Also known as: Acute gastritis, Acute gastritis, without mention of hemorrhage, Gastric inflammation",615
+359,gastroenteritis,"Gastroenteritis. Also known as: Gastroenteritis, Gastroenteritis NOS, Gastroenterocolitis",347
+360,gastrointestinal carcinoma,"Gastrointestinal carcinoma. Also known as: Carcinoma gastrointestinal, Carcinoma intestinal, Gastrointestinal carcinoma",186
+361,gastrointestinal disorder,"Gastrointestinal disorder. Also known as: Disorder gastrointestinal, Disorders of function of stomach, Functional digestive disorders, not elsewhere classified",606
+362,gastrointestinal haemorrhage,"Gastrointestinal haemorrhage. Also known as: Acute on chronic G.I. haemorrhage, Bleeding gastrointestinal, Gastro intestinal bleed",265
+363,gastrointestinal infection,"Gastrointestinal infection. Also known as: Gastrointestinal infection, Gastrointestinal infection NOS, GI infection",296
+364,gastrointestinal pain,"Gastrointestinal pain. Also known as: Colonospasm, Gastrointestinal pain, Gastrointestinal pain NOS",825
+365,gastrointestinal perforation,"Gastrointestinal perforation. Also known as: Gastrointestinal perforation, Gastrointestinal perforation (NOS), Gastrointestinal perforation NOS",884
+366,gastrointestinal ulcer,"Gastrointestinal ulcer. Also known as: Gastro-intestinal ulcer NOS, Gastrointestinal ulcer NOS, Ulcer gastrointestinal",774
+367,gastrooesophageal reflux disease,"Gastrooesophageal reflux disease. Also known as: Acid reflux (oesophageal), Esophageal reflux, Gastrooesophageal reflux",332
+368,generalised oedema,"Generalised oedema. Also known as: Anasarca, Edema generalized, Generalised oedema",810
+369,genital candidiasis,"Genital candidiasis. Also known as: Candidiasis genital, Candidiasis of other urogenital sites, Genital candida",102
+370,gingival bleeding,"Gingival bleeding. Also known as: Bleeding from teeth, Bleeding gingival, Gingival bleeding",705
+371,gingival pain,"Gingival pain. Also known as: Gingival pain, Gum pain, Pain gum",929
+372,gingivitis,"Gingivitis. Also known as: Acute gingivitis, Chronic gingivitis, Gingivitis",355
+373,glaucoma,"Glaucoma. Also known as: Corticosteroid-induced glaucoma, Corticosteroid-induced glaucoma, glaucomatous stage, Corticosteroid-induced glaucoma, residual stage",704
+374,glossitis,"Glossitis. Also known as: Glossitis, Glossitis acute, Inflammation tongue",181
+375,glossodynia,"Glossodynia. Also known as: Glossodynia, Pain tongue, Sore tongue",453
+376,glucose tolerance impaired,"Glucose tolerance impaired. Also known as: Abnormal glucose tolerance, Borderline diabetes, Chemical diabetes",0
+377,glycosuria,"Glycosuria. Also known as: Glycosuria, Glycosuria aggravated, Glucosuria",657
+378,goitre,"Goitre. Also known as: Dyshormonogenic goiter, Dyshormonogenic goitre, Enlarged thyroid",622
+379,gout,"Gout. Also known as: Articular gout, Gout, Gout acute",384
+380,gravitational oedema,"Gravitational oedema. Also known as: Dependent oedema, Edema dependent, Gravitational edema",17
+381,gynaecomastia,"Gynaecomastia. Also known as: Breast enlargement male, Breast enlargement male bilateral, Enlargement breast male",954
+382,haematemesis,"Haematemesis. Also known as: Blood clot discharge, Coffee ground vomiting, Emesis bloody",140
+383,haematochezia,"Haematochezia. Also known as: Blood in stool, Blood stool, Bloody stool",952
+384,haematocrit decreased,"Haematocrit decreased. Also known as: Haematocrit decreased, Haematocrit low, Haematocrit value decreased",331
+385,haematoma,"Haematoma. Also known as: Haematoma, Haematoma NOS, Hematoma",814
+386,haematuria,"Haematuria. Also known as: Frank haematuria, Haematuria, Haematuria microscopic",449
+387,haemoglobin,"Haemoglobin. Also known as: Haem, Haemoglobin, Hem",530
+388,haemoglobin decreased,"Haemoglobin decreased. Also known as: Decreased hemoglobin, Haemoglobin decreased, Haemoglobin low",790
+389,haemolytic anaemia,"Haemolytic anaemia. Also known as: Acquired haemolytic anaemia, Acquired haemolytic anaemia, unspecified, Acquired haemolytic anaemias",378
+390,haemolytic uraemic syndrome,"Haemolytic uraemic syndrome. Also known as: Haemolytic uraemic syndrome, Haemolytic-uraemic syndrome, Hemolytic uremic syndrome",410
+391,haemoptysis,"Haemoptysis. Also known as: Blood streaked sputum, Coughing blood, Haemoptysis",176
+392,haemorrhage,"Haemorrhage. Also known as: Bleeding, Blood loss of (NOS), Haemorrhage NOS",908
+393,haemorrhage intracranial,"Haemorrhage intracranial. Also known as: Bleeding intracranial, Haemorrhage intracranial, Hemorrhage intracranial",472
+394,haemorrhagic disorder,"Haemorrhagic disorder. Also known as: Haemorrhage abnormal, Haemorrhagic disorder, Haemorrhagic disorder due to circulating anticoagulants",933
+395,haemorrhoids,"Haemorrhoids. Also known as: External haemorrhoids, External haemorrhoids with other complication, External haemorrhoids without mention of complication",28
+396,hair colour changes,"Hair colour changes. Also known as: Hair colour changes, Hair colour renewed, Hair darkened",696
+397,hair disorder,"Hair disorder. Also known as: Abnormalities of the hair, Diseases of hair and hair follicles, Disorder hair",72
+398,hair texture abnormal,"Hair texture abnormal. Also known as: Curly hair straightened, Dry hair, Hair dryness",974
+399,hallucination,"Hallucination. Also known as: Drug-induced hallucinosis, Hallucinating, Hallucination",118
+400,hangover,"Hangover. Also known as: Hangover, Hangover (excl alcohol), Hangover effect",858
+401,headache,"Headache. Also known as: Cephalalgia, Cephalalgia or cephalgia, Cephalgia",589
+402,hemiplegia,"Hemiplegia. Also known as: Flaccid hemiplegia, Hemiplegia, Hemiplegia (left)",847
+403,hepatic cancer,"Hepatic cancer. Also known as: Cancer of liver resectable, Cancer of liver, primary, Cancer of liver, primary, non-resectable",383
+404,hepatic enzyme increased,"Hepatic enzyme increased. Also known as: Elevated liver enzyme levels, Elevated liver enzymes, Hepatic enzymes increased",607
+405,hepatic failure,"Hepatic failure. Also known as: Failure liver, Hepatic failure, Liver failure",675
+406,hepatic function abnormal,"Hepatic function abnormal. Also known as: Acute derangement of liver function, Dysfunction hepatic nonicteric, Function liver abnormal",433
+407,hepatic necrosis,"Hepatic necrosis. Also known as: Acute and subacute necrosis of liver, Hepatic lobule necrosis, Hepatic necrosis",697
+408,hepatic steatosis,"Hepatic steatosis. Also known as: Degeneration fatty liver, Fatty liver, Fatty liver infiltration",260
+409,hepatitis,"Hepatitis. Also known as: Hepatitis, Hepatitis in other infectious diseases classified elsewhere, Hepatitis nonicteric",462
+410,hepatitis cholestatic,"Hepatitis cholestatic. Also known as: Cholestatic hepatitis, Hepatitis cholestatic, Hepatitis toxic obstructive",101
+411,hepatobiliary disease,"Hepatobiliary disease. Also known as: Hepatobiliary disease NOS, Hepatobiliary disease",267
+412,hepatocellular injury,"Hepatocellular injury. Also known as: Disease hepatocellular, Hepatic intracellular deposit of bilirubin, Hepatic intracellular pigmentation",218
+413,hepatomegaly,"Hepatomegaly. Also known as: Hepatomegaly, Liver enlargement, Enlarged Liver",412
+414,hepatotoxicity,"Hepatotoxicity. Also known as: Hepatotoxic effect, Hepatotoxicity, Hepatotoxicity aggravated",408
+415,hernia,"Hernia. Also known as: Hernia, Hernia NOS, Hernia of other specified sites",507
+416,herpes simplex,"Herpes simplex. Also known as: Herpes hominis type II, Herpes simplex, Herpes simplex NOS",264
+417,herpes virus infection,"Herpes virus infection. Also known as: Herpes infection, Herpes NOS, Herpes viral infection NOS",254
+418,herpes zoster,"Herpes zoster. Also known as: Herpes zoster, Herpes zoster (excl ophthalmic), Herpes zoster C2",179
+419,hiatus hernia,"Hiatus hernia. Also known as: Axial hiatal hernia, H hernia, Hernia hiatal",725
+420,hiccups,"Hiccups. Also known as: Hiccough, Hiccup, Hiccups",327
+421,hirsutism,"Hirsutism. Also known as: Hirsuitism, Hirsutism, Idiopathic hirsutism",981
+422,hostility,"Hostility. Also known as: Hostility, Hostilities",141
+423,hot flush,"Hot flush. Also known as: Aggravation of hot flushes, Exacerbation of hot flushes, Feeling of hot flushes",192
+424,hyperacusis,"Hyperacusis. Also known as: Auditory hyperacuity, Hearing abnormally acute, Hyperacusis",237
+425,hyperaemia,"Hyperaemia. Also known as: Hyperaemia, Hyperemia, Hyperemias",395
+426,hyperaesthesia,"Hyperaesthesia. Also known as: Hyperaesthesia, Hyperaesthesia skin, Hyperaesthesia symmetric of limbs",125
+427,hyperbilirubinaemia,"Hyperbilirubinaemia. Also known as: Aggravated bilirubinemia, Bilirubinaemia, Bilirubinaemia aggravated",944
+428,hypercalcaemia,"Hypercalcaemia. Also known as: Calcium repletion serum, Hypercalcaemia, Hypercalcemia",883
+429,hypercalciuria,"Hypercalciuria. Also known as: Hypercalcinuria, Hypercalciuria, Idiopathic hypercalciuria",792
+430,hypercholesterolaemia,"Hypercholesterolaemia. Also known as: Cholesterol blood excessive, Hypercholesteremia, Hypercholesterolaemia",845
+431,hyperglycaemia,"Hyperglycaemia. Also known as: Drug-induced hyperglycaemia, Hyperglycaemia, Hyperglycaemia drug-induced",816
+432,hyperhidrosis,"Hyperhidrosis. Also known as: Diaphoresis, Drenching sweats, Excess sweating",510
+433,hyperkalaemia,"Hyperkalaemia. Also known as: Hyperkalaemia, Hyperkalemia, Hyperpotassaemia",515
+434,hyperkeratosis,"Hyperkeratosis. Also known as: Acquired keratoderma, Callosities, Callosity",59
+435,hyperkinesia,"Hyperkinesia. Also known as: Hyperkinesia, Hyperkinesis, Hyperkinetic reaction",419
+436,hyperlactacidaemia,"Hyperlactacidaemia. Also known as: Hyperlactacidaemia, Hyperlactacidemia, Symptomatic hyperlactataemia",301
+437,hyperlipidaemia,"Hyperlipidaemia. Also known as: Hyperlipaemia, Hyperlipemia, Hyperlipidaemia NOS",411
+438,hypermagnesaemia,"Hypermagnesaemia. Also known as: Hypermagnesaemia, Hypermagnesemia",694
+439,hypernatraemia,"Hypernatraemia. Also known as: Hypernatraemia, Hypernatremia, Salt retention",989
+440,hyperpathia,Hyperpathia. Also known as: Hyperpathia,689
+441,hyperphosphataemia,"Hyperphosphataemia. Also known as: Hyperphosphataemia, Hyperphosphatemia, Hyperphosphatemias",638
+442,hyperreflexia,"Hyperreflexia. Also known as: Achilles tendon reflex exaggerated, Exaggerated reflexes, Hyperreflexia",716
+443,hypersensitivity,"Hypersensitivity. Also known as: Acute allergic reaction, Allergic reaction, Allergic reaction NOS",303
+444,hypersomnia,"Hypersomnia. Also known as: Hypersomnia, Hypersomnia related to another mental condition, Other hypersomnia",783
+445,hypertension,"Hypertension. Also known as: Blood pressure high, Blood pressure increased refractory, HBP",488
+446,hyperthyroidism,"Hyperthyroidism. Also known as: Hyperthyroidism, Hyperthyroidism aggravated, Thyrotoxicosis",866
+447,hypertonia,"Hypertonia. Also known as: Generally increased tone, Hypertonia, Hypertonicity",779
+448,hypertrichosis,"Hypertrichosis. Also known as: Hairiness, Hypertrichosis, Hypertrichosis aggravated",421
+449,hypertriglyceridaemia,"Hypertriglyceridaemia. Also known as: Hypertriglyceridaemia, Hypertriglyceridemia, Pure hyperglyceridaemia",741
+450,hyperuricaemia,"Hyperuricaemia. Also known as: Hyperuricaemia, Hyperuricaemic, Hyperuricemia",877
+451,hyperventilation,"Hyperventilation. Also known as: Breathing abnormally deep, Hyperpnea, Hyperpnoea",669
+452,hypoaesthesia,"Hypoaesthesia. Also known as: Body numbness, Hypalgesia, Hypesthesia",630
+453,hypoaesthesia oral,"Hypoaesthesia oral. Also known as: Hypoaesthesia oral NOS, Hypoaesthesia tongue, Numbness circumoral",802
+454,hypoalbuminaemia,"Hypoalbuminaemia. Also known as: Hypoalbuminaemia, Hypoalbuminemia",559
+455,hypocalcaemia,"Hypocalcaemia. Also known as: Hypocalcaemia, Hypocalcemia, Hypocalcemias",987
+456,hypochloraemia,"Hypochloraemia. Also known as: Hypochloraemia, Hypochloremia",146
+457,hypochromic anaemia,"Hypochromic anaemia. Also known as: Anaemia hypochromic, Anaemia- Hypochromic microcytic picture, Anemia hypochromic",560
+458,hypoglycaemia,"Hypoglycaemia. Also known as: Hypoglycaemia, Hypoglycaemia night, Hypoglycaemia NOS",60
+459,hypohidrosis,"Hypohidrosis. Also known as: Hyphidrosis, Hypohidrosis, Sweating decreased",180
+460,hypokalaemia,"Hypokalaemia. Also known as: Hypokalaemia, Hypokalemia, Hypopotassaemia",838
+461,hypokinesia,"Hypokinesia. Also known as: Activity motor retarded, Hypokinesia, Motor activity retarded",25
+462,hypomagnesaemia,"Hypomagnesaemia. Also known as: Hypomagnesaemia, Hypomagnesemia",46
+463,hypomania,"Hypomania. Also known as: Hypomania, Hypomanic psychosis",835
+464,hyponatraemia,"Hyponatraemia. Also known as: Hyponatraemia, Hyponatremia, Hyponatremic",64
+465,hypophosphataemia,"Hypophosphataemia. Also known as: Hypophosphataemia, Hypophosphatemia, Phosphorus deficiency",171
+466,hypoproteinaemia,"Hypoproteinaemia. Also known as: Hypoproteinaemia, Hypoproteinemia, Hypoproteinemias",546
+467,hyporeflexia,"Hyporeflexia. Also known as: Achilles tendon reflex decreased, Diminished reflexes, Hyporeflexia",62
+468,hypotension,"Hypotension. Also known as: Blood pressure low, Chronic hypotension, Hypotension",918
+469,hypothermia,"Hypothermia. Also known as: Hypopyrexia, Hypothermia, Hypothermias",469
+470,hypothyroidism,"Hypothyroidism. Also known as: Acquired hypothyroidism, Acquired hypothyroidism other, Hypothyroidism",738
+471,hypotonia,"Hypotonia. Also known as: Abdominal flaccidity, Atonia, Atony skeletal muscle",229
+472,hypoventilation,"Hypoventilation. Also known as: Hypoventilation, Ventilation difficult, Alveolar hypoventilation",370
+473,hypoxia,"Hypoxia. Also known as: Alveolar aeration decreased, Hypoxaemia, Hypoxemia",77
+474,ileus,"Ileus. Also known as: Ileus, Ileus of bowel, Ileus of colon",605
+475,ileus paralytic,"Ileus paralytic. Also known as: Adynamic ileus, Chronic duodenal ileus, Ileus paralytic",555
+476,ill-defined disorder,"Ill-defined disorder. Also known as: Ill defined experience, Ill-defined disorder NOS, Other ill-defined and unknown causes of morbidity and mortality",506
+477,immune system disorder,"Immune system disorder. Also known as: Disorder immune system (NOS), Disorders involving the immune mechanism, Immune disorder (NOS)",298
+478,impaired gastric emptying,"Impaired gastric emptying. Also known as: Delayed gastric emptying, Gastric stasis, Gastroparesis",721
+479,impaired healing,"Impaired healing. Also known as: Delayed healing of wound, Granulation suppressed, Healing abnormal",437
+480,impetigo,"Impetigo. Also known as: Impetigo, Impetigo contagious, Impetigo NOS",390
+481,inappropriate antidiuretic hormone secretion,"Inappropriate antidiuretic hormone secretion. Also known as: ADH inappropriate, ADH inappropriate secretion, Inapprop. ADH secretion syndrome",524
+482,incontinence,"Incontinence. Also known as: Childhood incontinence, Continuous leakage, Incontinence",217
+483,increased appetite,"Increased appetite. Also known as: Appetite exaggerated, Appetite excessive, Appetite increased NOS",426
+484,increased bronchial secretion,"Increased bronchial secretion. Also known as: Airway secretion excessive, Bronchial secretion excessive, Bronchorrhea",537
+485,increased tendency to bruise,"Increased tendency to bruise. Also known as: Increased tendency to bruise, Spontaneous bruising, Tendency to bruise easily",800
+486,induration,Induration. Also known as: Induration,189
+487,infarction,"Infarction. Also known as: Infarct, Infarct infarction, Infarction NOS",926
+488,infection,"Infection. Also known as: Infect and parasitic cond in the mother classifiable elsewhere, but compg preg, c/birth or puerp, Infect and parasitic conds in the mother class elsewhere, but comp preg, c/birth, or the puerp, Infection",777
+489,infestation,"Infestation. Also known as: Infestation NOS, Infestation, unspecified, Other infestation",917
+490,inflammation,"Inflammation. Also known as: Inflammation localised, Inflammation localized, Inflammation NOS",961
+491,influenza,"Influenza. Also known as: Flu, Flu syndrome, Influenza",502
+492,influenza like illness,"Influenza like illness. Also known as: Flu like symptoms, Flu-like aching, Flu-like illness",760
+493,infusion site pain,"Infusion site pain. Also known as: Burning infusion site, Infusion site pain, Infusion site tenderness",451
+494,infusion site reaction,"Infusion site reaction. Also known as: Infusion site reaction, Infusion site maceration, Infusion site muscle reaction",248
+495,injection site bruising,Injection site bruising. Also known as: Injection site bruising,785
+496,injection site erythema,"Injection site erythema. Also known as: Injection site erythema, Injection site redness, Injection site vascular redness",352
+497,injection site haemorrhage,"Injection site haemorrhage. Also known as: Ecchymosis injection site, Hemorrhage injection site, Injection site bleeding",337
+498,injection site induration,"Injection site induration. Also known as: Injection site induration, Injection site painful induration, Injection site sclerosis",448
+499,injection site inflammation,"Injection site inflammation. Also known as: Inflammation at site of injection, Inflammation injection site, Injection site inflammation",912
+500,injection site pain,"Injection site pain. Also known as: Injection site burning, Injection site pain, Injection site tenderness",554
+501,injection site pruritus,"Injection site pruritus. Also known as: Injection site itching, Injection site pruritus",513
+502,injection site reaction,"Injection site reaction. Also known as: Injection site reaction, Injection site reaction NOS, Reaction injection site (NOS)",69
+503,injection site swelling,"Injection site swelling. Also known as: Swelling of injection site, Injection site swelling",123
+504,injury,"Injury. Also known as: Accidental injury, Adult maltreatment syndrome, Certain early complications of trauma",531
+505,insomnia,"Insomnia. Also known as: Difficulty sleeping, Insomnia, Insomnia (non-organic)",320
+506,instillation site pain,"Instillation site pain. Also known as: Instillation site pain, Instillation site allodynia, Instillation site tenderness",391
+507,intermittent claudication,"Intermittent claudication. Also known as: Claudication, Claudication intermittent, Intermittent claudication",289
+508,international normalised ratio increased,"International normalised ratio increased. Also known as: INR increased, International normalised ratio increased, Raised INR",205
+509,interstitial lung disease,"Interstitial lung disease. Also known as: Interstitial lung disease, Interstitial lung fibrosis, Interstitial pneumonia",829
+510,intestinal obstruction,"Intestinal obstruction. Also known as: Bowel obstruction, Impaction of intestine, Impaction of intestine, unspecified",897
+511,intestinal perforation,"Intestinal perforation. Also known as: Bowel perforation, Intestinal perforation, Intestinal perforation NOS",763
+512,intracranial pressure increased,"Intracranial pressure increased. Also known as: Hypertension intracranial, Increased intracranial pressure, Intracranial hypertension",379
+513,intraocular pressure increased,"Intraocular pressure increased. Also known as: Increased intraocular pressure, Intraocular pressure high, Intraocular pressure increased",921
+514,iritis,"Iritis. Also known as: Iritis, Granulomatous iritis, Iritides",930
+515,iron deficiency anaemia,"Iron deficiency anaemia. Also known as: Anaemia iron deficiency, Anemia iron deficiency, Iron def anaemia",953
+516,irritability,"Irritability. Also known as: Erethism, Feeling irritated, Irritability",819
+517,irritable bowel syndrome,"Irritable bowel syndrome. Also known as: Bowel disorder psychogenic, Colitis mucous, Colon spastic",130
+518,ischaemia,"Ischaemia. Also known as: Ischaemia NOS, Ischemia, Ischaemia",993
+519,jaundice,"Jaundice. Also known as: Icterus, Jaundice, Jaundice (excl neonatal)",19
+520,jaundice cholestatic,"Jaundice cholestatic. Also known as: Cholestatic jaundice, Jaundice cholestatic, Jaundice extrahepatic obstructive",698
+521,joint stiffness,"Joint stiffness. Also known as: Ankle stiffness, Early morning joint stiffness, Jaw joint rigid state of",548
+522,joint swelling,"Joint swelling. Also known as: Ankle swelling, Ankles swelling, Ankles swollen",400
+523,keratitis,"Keratitis. Also known as: Certain types of keratoconjunctivitis, Corneal inflammation, Filamentary keratitis",291
+524,ketosis,"Ketosis. Also known as: Ketosis, Ketoacidosis, Ketoacidoses",389
+525,laboratory test abnormal,"Laboratory test abnormal. Also known as: Chemistry abnormal, Lab test abnormal, Lab test abnormality",471
+526,labyrinthitis,"Labyrinthitis. Also known as: Circumscribed labyrinthitis, Labyrinthitis, Labyrinthitis (excl dizziness)",695
+527,laceration,laceration,431
+528,lacrimal disorder,"Lacrimal disorder. Also known as: Dacryops, Dislocation of lacrimal gland, Lacrimal disorder NOS",310
+529,lacrimal structural disorder,"Lacrimal structural disorder. Also known as: Disorders of lacrimal system, Other change of lacrimal passages, Other changes of lacrimal passages",92
+530,lacrimation increased,"Lacrimation increased. Also known as: Epiphora, Epiphora due to excess lacrimation, Epiphora due to insufficient drainage",401
+531,lactic acidosis,"Lactic acidosis. Also known as: Acidosis lactic, Lactic acidosis, Lactic acidosis syndrome",425
+532,laryngeal oedema,"Laryngeal oedema. Also known as: Edema glottis, Edema larynx, Edema of larynx",856
+533,laryngeal pain,"Laryngeal pain. Also known as: Laryngeal pain, Larynx burning pain of, Larynx pain",259
+534,laryngitis,"Laryngitis. Also known as: Acute laryngitis, Chronic laryngitis, Laryngitis",166
+535,laryngospasm,"Laryngospasm. Also known as: Glottic spasm, Laryngeal spasm, Laryngismus",155
+536,lethargy,"Lethargy. Also known as: Lethargic, Lethargic tendency, Lethargy",385
+537,leukocytosis,"Leukocytosis. Also known as: Leucocytosis NOS, Leukocytosis, Polymorphonuclear leucocytosis",184
+538,leukoderma,Leukoderma. Also known as: Leukoderma,90
+539,leukopenia,"Leukopenia. Also known as: Leucopenia, Leukopenia NOS, Leukopenia",42
+540,libido decreased,"Libido decreased. Also known as: Female hypoactive sexual desire disorder due to a general medical condition, Hypoactive sexual desire disorder, Libido decreased",947
+541,libido disorder,"Libido disorder. Also known as: Influence on libido, Libido disorder NOS, Libido disorder",973
+542,libido increased,"Libido increased. Also known as: Increased libido, Libido increased, Sexual desire increased",934
+543,lichenoid keratosis,"Lichenoid keratosis. Also known as: Dermatitis lichen planus-like, Dermatitis lichenoid, Eruption lichenoid",372
+544,ligament sprain,"Ligament sprain. Also known as: Acromioclavicular (joint) (ligament) sprain, Acromioclavicular (joint) (ligament) sprains and strains, Ankle sprain",409
+545,lipase increased,"Lipase increased. Also known as: Lipase increased, Blood lipase increased",325
+546,lipodystrophy acquired,"Lipodystrophy acquired. Also known as: Lipodystrophy, Lipodystrophy acquired, Flat buttocks",726
+547,liver disorder,"Liver disorder. Also known as: Advanced chronic liver disease, Chronic hepatopathy due to metabolic defect, Chronic liver disease",247
+548,liver function test abnormal,"Liver function test abnormal. Also known as: Abnormal LFTs, Abnormal liver function tests, Deranged liver function tests",925
+549,liver injury,"Liver injury. Also known as: Acute liver damage, Damage liver, Hepatic damage",197
+550,local swelling,local swelling,292
+551,loss of consciousness,"Loss of consciousness. Also known as: Black-out (not amnesia), Blacked out, Blacked-out (not amnesia)",78
+552,loss of libido,"Loss of libido. Also known as: Lack of libido, Libido lack, Libido loss of",227
+553,lower respiratory tract infection,"Lower respiratory tract infection. Also known as: Chest infection, Lower resp tract infec, Lower resp. tract infection",183
+554,lung disorder,"Lung disorder. Also known as: Disorder lung, Disorder pulmonary, Lung disorder",668
+555,lung infection,lung infection,152
+556,lung infiltration,"Lung infiltration. Also known as: Lung infiltration, Lung infiltration NOS, Pulmonary infiltration",514
+557,lymphadenopathy,"Lymphadenopathy. Also known as: Adenopathy, Axillary adenopathy, Axillary lymph nodes enlarged",252
+558,lymphocyte count decreased,"Lymphocyte count decreased. Also known as: Lymphocyte count decreased, Lymphocyte count low, Absolute lymphocyte count decreased",821
+559,lymphocytosis,"Lymphocytosis. Also known as: Lymphocytosis, Lymphocytoses",538
+560,lymphoedema,"Lymphoedema. Also known as: Lymphedema, Lymphoedema, Lymphoedema NOS",927
+561,lymphoma,"Lymphoma. Also known as: Lymphoma, Lymphoma malignant, Lymphoma NOS",211
+562,lymphopenia,"Lymphopenia. Also known as: Lymphocytopenia, Lymphopenia, Prolonged lymphopenia",648
+563,major depression,"Major depression. Also known as: Depression endogenous, Depression psychotic, Depressive type psychosis",688
+564,malaise,"Malaise. Also known as: Feeling sick, Feeling unwell, Felt generally ill",878
+565,malignant melanoma,"Malignant melanoma. Also known as: Lentigo melanoma, Malignant melanoma, Malignant melanoma of other specified sites of skin",840
+566,malnutrition,"Malnutrition. Also known as: Arrested development following protein-calorie malnutrition, Malnutrition NOS, Malnutrition of mild degree",214
+567,mania,"Mania. Also known as: Acute mania, Atypical manic disorder, Change to manic state",6
+568,mastitis,"Mastitis. Also known as: Acute mastitis, Breast infection, Breast infection NOS",105
+569,mediastinal disorder,"Mediastinal disorder. Also known as: Mediastinal disorder NOS, Other diseases of mediastinum, not elsewhere classified, Mediastinum widened",377
+570,melaena,"Melaena. Also known as: Blood clot excretion, Melaena, Melena",837
+571,melanosis,"Melanosis. Also known as: Melanosis, Melanoses, Melanism",236
+572,memory impairment,"Memory impairment. Also known as: Forgetfulness, Hypomnesia, Memory deficit",643
+573,meningitis,"Meningitis. Also known as: Chronic meningitis, Meningitis, Meningitis due to other nonbacterial organisms classified elsewhere",489
+574,menopausal symptoms,"Menopausal symptoms. Also known as: Climacteric symptoms, Hot flushes menopausal, Hot flushes, menopausal",850
+575,menopause,"Menopause. Also known as: Climacteric, Menopausal, Menopausal or female climacteric states",223
+576,menorrhagia,menorrhagia,305
+577,menstrual disorder,"Menstrual disorder. Also known as: Disorder menstrual, Disorders of menstruation and other abnormal bleeding from female genital tract, Menstrual cycle abnormal",271
+578,menstruation irregular,"Menstruation irregular. Also known as: Irregular menstrual cycle, Irregular menstruation, Irregular periods",436
+579,mental disability,"Mental disability. Also known as: Mental disability, Mental disability NOS",399
+580,mental disorder,"Mental disorder. Also known as: Breakdown nervous, Mental aberration, Mental abnormality acute transient",539
+581,metabolic acidosis,"Metabolic acidosis. Also known as: Acidosis compensatory, Acidosis metabolic, Anion gap acidosis",466
+582,metrorrhagia,metrorrhagia,329
+583,micturition disorder,"Micturition disorder. Also known as: Micturition disorder, Other specified abnormality of urination, Urination abnormal NOS",769
+584,micturition urgency,"Micturition urgency. Also known as: Mictruition urgent, Micturition urgency, Urgency of mict",915
+585,migraine,"Migraine. Also known as: Fulgurating migraine, Migraine, Migraine aggravated",662
+586,miosis,"Miosis. Also known as: Constricted pupils, Miosis, Miosis (persistent), not due to miotics",20
+587,monocytosis,Monocytosis. Also known as: Monocytosis,801
+588,mood swings,"Mood swings. Also known as: Mood swings, Mood variable, Mood instability",913
+589,motion sickness,"Motion sickness. Also known as: Air sickness, Car sickness, Motion sickness",621
+590,mouth ulceration,"Mouth ulceration. Also known as: Buccal mucosa ulceration, Buccal ulceration, Mouth ulcer",942
+591,movement disorder,"Movement disorder. Also known as: Movement disorder, Movement disorder NOS, Movements disturbance NOS",48
+592,mucosal inflammation,"Mucosal inflammation. Also known as: Inflammation mucous membrane, Mucosal inflammation, Mucosal inflammation NOS",602
+593,mucous membrane disorder,mucous membrane disorder,722
+594,multiple fractures,"Multiple fractures. Also known as: Broken bones, Clo fos or face & oth bones, with intcran inj of oth & unspec nature, with prol loc and rtrn to pecl, Clo fos or face & oth bones, with intcran inj of oth & unspec nature, with prol loc,w/o rtrn to pecl",304
+595,muscle atrophy,"Muscle atrophy. Also known as: Atrophy muscle, Atrophy skeletal muscle, Degeneration muscle",681
+596,muscle contractions involuntary,"Muscle contractions involuntary. Also known as: Contraction skeletal muscle, Fasciculation, Fasciculation skeletal muscle",505
+597,muscle relaxant therapy,"Muscle relaxant therapy. Also known as: Muscle relaxant, Muscle relaxant therapy",642
+598,muscle rigidity,"Muscle rigidity. Also known as: Lead pipe rigidity, Marked rigidity, Muscle rigidity",980
+599,muscle spasms,"Muscle spasms. Also known as: Cramp, Cramp in hand, Cramp in legs thighs",746
+600,muscle tightness,"Muscle tightness. Also known as: Neck tightness, Perioral tension, Tightness in jaw",427
+601,muscle twitching,"Muscle twitching. Also known as: Muscle twitch, Muscle twitching, Twitch skeletal muscle",836
+602,muscular weakness,"Muscular weakness. Also known as: Hands weakness of, Lower extremities weakness of, Muscle weakness",680
+603,musculoskeletal chest pain,"Musculoskeletal chest pain. Also known as: Chest tenderness, Chest tenderness of, Chest wall pain",367
+604,musculoskeletal discomfort,"Musculoskeletal discomfort. Also known as: Back discomfort, Discomfort in joints, Neck discomfort",945
+605,musculoskeletal pain,"Musculoskeletal pain. Also known as: Musculoskeletal pain, Shoulder blade pain, Buttock pain",493
+606,musculoskeletal stiffness,"Musculoskeletal stiffness. Also known as: Early morning stiffness, Fingers stiffness, Limbs stiffness",220
+607,myalgia,"Myalgia. Also known as: Generalised muscle aches, Muscle ache, Muscle pain",350
+608,mydriasis,"Mydriasis. Also known as: Dilatation pupillary, Dilated pupils, Mydriasis",294
+609,myelitis,"Myelitis. Also known as: Myelitis, Myelitis NOS, Myeloradiculitis",678
+610,myocardial infarction,"Myocardial infarction. Also known as: Anterior MI, Attack heart (NOS), Cardiopathy necrotic",273
+611,myocardial ischaemia,"Myocardial ischaemia. Also known as: Cardiac ischaemia, Chronic ischaemic heart disease, unspecified, Chronic ischemic heart disease, unspecified",321
+612,myocarditis,"Myocarditis. Also known as: Acute myocarditis, Acute myocarditis in diseases classified elsewhere, Acute myocarditis, unspecified",811
+613,myoclonus,"Myoclonus. Also known as: Myclonic jerks, Myoclonic jerks, Myoclonus",709
+614,myopathy,"Myopathy. Also known as: Myopathy, Myopathy aggravated, Myopathy steroid",629
+615,myositis,"Myositis. Also known as: Interstitial myositis, Muscle inflammation, Myalgia and myositis, unspecified",120
+616,nail disorder,"Nail disorder. Also known as: Disease of nail, unspecified, Diseases of nail, Disorder nail",683
+617,nasal congestion,"Nasal congestion. Also known as: Congestion nasal, Nasal congestion, Nasal stuffiness",82
+618,nasal discomfort,"Nasal discomfort. Also known as: Discomfort in nose, Nasal burning, Nasal cavity strange sensation of",511
+619,nasal dryness,"Nasal dryness. Also known as: Dry nose, Nasal dryness, Nose dry feeling of",920
+620,nasopharyngitis,"Nasopharyngitis. Also known as: Acute nasopharyngitis, Acute nasopharyngitis (common cold), Catarrhal lumps",161
+621,nausea,"Nausea. Also known as: Churning of stomach, Feeling queasy, Nausea",748
+622,neck pain,"Neck pain. Also known as: Acute cervical pain, Cervical pain, Cervicalgia",751
+623,neoplasm,"Neoplasm. Also known as: Cystoma, Epithelioma, Neoplasm",173
+624,neoplasm malignant,"Neoplasm malignant. Also known as: Cancer, Cancer (NOS), Carcinoma",518
+625,nephritis,"Nephritis. Also known as: Acute nephritis, Nephritis, Nephritis acute",561
+626,nephrolithiasis,"Nephrolithiasis. Also known as: Calculus kidney, Calculus of kidney, Calculus of kidney and ureter",87
+627,nephropathy,"Nephropathy. Also known as: Nephropathy, Nephropathy NOS, Renal disease",261
+628,nephropathy toxic,"Nephropathy toxic. Also known as: Analgesic nephropathy, Nephropathy toxic, Radiocontrast nephropathy",604
+629,nephrotic syndrome,"Nephrotic syndrome. Also known as: Nephrosis, Nephrosis osmotic, Nephrotic syndrome",795
+630,nervous system disorder,"Nervous system disorder. Also known as: Central nervous system disorder, Central nervous system disorder NOS, Cerebellar hemisphere disorder",719
+631,nervousness,"Nervousness. Also known as: Jumpiness, Jumpy, Nervous",744
+632,neuralgia,"Neuralgia. Also known as: Nerve pain, Neuralgia, Neuralgia affecting finger tips",456
+633,neuritis,"Neuritis. Also known as: Neuritis, Neuritis NOS, Neuronitis",244
+634,neuroleptic malignant syndrome,"Neuroleptic malignant syndrome. Also known as: Neuroleptic malignant, Neuroleptic malignant syndrome, NMS",787
+635,neuropathy peripheral,"Neuropathy peripheral. Also known as: Hereditary and idiopathic peripheral neuropathy, Hereditary and idiopathic peripheral neuropathy, other, Inflammatory and toxic neuropathy",596
+636,neurosis,"Neurosis. Also known as: Neurosis, Neurosis NOS, Neurotic disorders",960
+637,neurotoxicity,"Neurotoxicity. Also known as: Neurotic toxicity, Neurotoxicity, Neurotoxicity NOS",23
+638,neutropenia,"Neutropenia. Also known as: Neutropenia, Neutropenia aggravated, Chronic neutropenia",360
+639,neutropenic sepsis,Neutropenic sepsis. Also known as: Neutropenic sepsis,543
+640,neutrophil count decreased,"Neutrophil count decreased. Also known as: Blood neutrophil count decreased, Neutrophil count decreased, Neutrophil count low",56
+641,night blindness,"Night blindness. Also known as: Acquired night blindness, Blindness night, Decreased night vision",733
+642,night sweats,"Night sweats. Also known as: Night sweat, Night sweats, Nocturnal perspiration",988
+643,nightmare,"Nightmare. Also known as: Bad dreams, Brief nightmare, Dream anxiety disorder",893
+644,nocturia,"Nocturia. Also known as: Nocturia, Nocturia aggravated, Nocturnal frequency",438
+645,nodal arrhythmia,"Nodal arrhythmia. Also known as: Arrhythmia nodal, Arrhythmia nodal (NOS), Nodal arrhythmia",569
+646,nodule,"Nodule. Also known as: Nodule on finger, Nodule on extremity, Nodule",61
+647,non-cardiac chest pain,"Non-cardiac chest pain. Also known as: Chest pain (non-cardiac), Non-cardiac chest pain",255
+648,non-hodgkin's lymphoma,"Non-Hodgkin's lymphoma. Also known as: Diffuse lymphoma, Intermediate grade lymphoma, Low grade lymphoma",311
+649,nuchal rigidity,"Nuchal rigidity. Also known as: Neck rigid, Neck rigidity, Rigidity neck",631
+650,nystagmus,"Nystagmus. Also known as: Dissociated nystagmus, Latent nystagmus, Nystagmus",302
+651,ocular discomfort,"Ocular discomfort. Also known as: Discomfort intraocular, Visual discomfort, Ocular discomfort",434
+652,ocular hyperaemia,"Ocular hyperaemia. Also known as: Bloodshot eye, Eye blood shot, Eye red",536
+653,oculogyric crisis,"Oculogyric crisis. Also known as: Crisis oculogyric, Dyskinesia oculomotor, Ocular lateral crisis",568
+654,odynophagia,"Odynophagia. Also known as: Odynophagia, Swallowing painful",263
+655,oedema,"Oedema. Also known as: Edema, Edema (NOS), Edema NOS",330
+656,oedema peripheral,"Oedema peripheral. Also known as: Ankle edema, Ankle oedema, Edema arms",907
+657,oesophageal spasm,"Oesophageal spasm. Also known as: Esophageal spasm, Esophagospasm, Oesophageal spasm",714
+658,oesophageal stenosis,"Oesophageal stenosis. Also known as: Esophageal stenosis, Esophageal stricture, Oesophageal stenosis",459
+659,oesophageal ulcer,"Oesophageal ulcer. Also known as: Esophageal ulcer, Esophagus ulceration, Oesophageal ulcer",482
+660,oesophagitis,"Oesophagitis. Also known as: Esophagitis, Esophagitis aggravated, Esophagitis, unspecified",527
+661,oliguria,"Oliguria. Also known as: Antidiuresis, Oliguria, Oliguria transient",593
+662,onychomycosis,"Onychomycosis. Also known as: Fungal infection of nail, Nail fungal infection NOS, Onychomycosis",196
+663,opportunistic infection,"Opportunistic infection. Also known as: Opportunistic infection, Opportunistic Infections, Infection, Opportunistic",79
+664,optic atrophy,"Optic atrophy. Also known as: Atrophy optic, Atrophy optic nerve, Optic atrophy",138
+665,optic neuritis,"Optic neuritis. Also known as: Bilateral optic neuritis, Neuritis bulbar, Neuritis optic",639
+666,oral candidiasis,"Oral candidiasis. Also known as: Candida of mouth, Candida stomatitis, Candidiasis of mouth",574
+667,oral herpes,"Oral herpes. Also known as: Cold sore (herpetic), Cold sores, Fever sore",909
+668,oral pain,"Oral pain. Also known as: Mouth pain, Oral angular pain, Oral mucosa pain",317
+669,orchitis noninfective,"Orchitis noninfective. Also known as: Orchitis noninfective, Testicular inflammation",91
+670,orgasm abnormal,"Orgasm abnormal. Also known as: Orgasm abnormal, Delayed orgasm, Painful orgasm",757
+671,oropharyngeal discomfort,"Oropharyngeal discomfort. Also known as: Pharynx discomfort, Pharynx ill sensation of, Pharynx strange sensation of",740
+672,oropharyngeal pain,"Oropharyngeal pain. Also known as: Anginal symptom (throat not cardiac), Dry and sore throat, Epipharyngopynia",673
+673,orthostatic hypotension,"Orthostatic hypotension. Also known as: Hypotension orthostatic, Hypotension orthostatic asymptomatic, Hypotension orthostatic symptomatic",712
+674,osteoarthritis,"Osteoarthritis. Also known as: Ankle osteoarthritis, Arthrosis, Arthrosis multiple",97
+675,osteomyelitis,"Osteomyelitis. Also known as: Bone infection NOS, Hip osteomyelitis, Orbital osteomyelitis",580
+676,osteonecrosis,"Osteonecrosis. Also known as: Aseptic necrosis, Aseptic necrosis bone, Aseptic necrosis of bone",968
+677,osteoporosis,"Osteoporosis. Also known as: Bone fragile, Disuse osteoporosis, Idiopathic osteoporosis",508
+678,otitis externa,"Otitis externa. Also known as: Acute infection of pinna, Acute swimmers' ear, Bilateral otitis externa",278
+679,otitis media,"Otitis media. Also known as: Bilateral otitis media, Middle ear infection, Non-suppurative otitis media",497
+680,ototoxicity,"Ototoxicity. Also known as: Ototoxicity, Toxic labyrinthitis, Vestibular toxicity",439
+681,ovarian cyst,"Ovarian cyst. Also known as: Benign ovarian cyst, Corpus luteum cyst, Corpus luteum cyst or haematoma",416
+682,ovarian disorder,"Ovarian disorder. Also known as: Disorder ovarian, Gonadopathy NOS female, Ovarian disorder",526
+683,pain,"Pain. Also known as: Ache, Ache NOS, Burn lesion pain transient aggravation of",365
+684,pain in extremity,"Pain in extremity. Also known as: Aches & pains in legs, Aching in limb, Aching pain in hands, forearms, elbows",581
+685,pain in jaw,"Pain in jaw. Also known as: Jaw bone pain, Jaw pain, Pain in jaw",396
+686,pain of skin,"Pain of skin. Also known as: Pain of skin, Scalp tenderness, Scalp pain",96
+687,pallor,"Pallor. Also known as: Blanching of skin, Complexion ill, Looked pale",855
+688,palpitations,"Palpitations. Also known as: Heart pounding, Heart throbbing, Palpitation",299
+689,pancreatitis,"Pancreatitis. Also known as: Pancreatitis, Pancreatitis NOS, Pancreatitis steroid-induced",284
+690,pancreatitis acute,"Pancreatitis acute. Also known as: Acute pancreatitis, Pancreatitis acute, Pancreatitis acute on chronic",686
+691,pancytopenia,"Pancytopenia. Also known as: Pancytopenia, Secondary pancytopenia, Pancytopenia aggravated",465
+692,panic attack,"Panic attack. Also known as: Panic attack, Panic attacks, Panic Disorder",957
+693,panic reaction,"Panic reaction. Also known as: Alarm, Panic reaction, Reaction panic",57
+694,panophthalmitis,"Panophthalmitis. Also known as: Ophthalmitis, Panophthalmitis, Panophthalmitides",11
+695,papilloedema,"Papilloedema. Also known as: Disc congestion in ocular fundus, Disc oedema in ocular fundus, Disc redness in ocular fundus",601
+696,paraesthesia,"Paraesthesia. Also known as: Abnormal touch sensation, Acroparaesthesia, Disturbance of skin sensation",80
+697,paraesthesia oral,"Paraesthesia oral. Also known as: Circumoral paresthesia, Mouth paresthesia, Paraesthesia circumoral",481
+698,paralysis,"Paralysis. Also known as: Flaccid paralysis, Neuroparalysis, Other paralytic syndromes",467
+699,paranoia,"Paranoia. Also known as: Acute paranoid reaction, Other specified paranoid states, Paranoia",616
+700,paresis,"Paresis. Also known as: Paresis, Paresis in arms, Spastic paresis",663
+701,parkinsonism,"Parkinsonism. Also known as: Drug-induced parkinsonism, Parkinson's syndrome, Parkinsonism",373
+702,parosmia,"Parosmia. Also known as: Altered smell sensation, Disturbances of sensation of smell and taste, Disturbances of smell and taste",195
+703,pelvic pain,"Pelvic pain. Also known as: Pain pelvic, Pelvic pain, Pelvic pain NOS",461
+704,penis disorder,"Penis disorder. Also known as: Disorder penis, Disorders of penis, Other specified disorder of penis",566
+705,peptic ulcer,"Peptic ulcer. Also known as: Acute peptic ulcer of unspecified site without mention of haemorrhage and perforation, Acute peptic ulcer of unspecified site without mention of hemorrhage and perforation, Acute peptic ulcer of unspecified site without mention of hemorrhage and perforation, without mentio",103
+706,pericardial effusion,"Pericardial effusion. Also known as: Effusion pericardial, Effusion pericardial bloody, Pericardial effusion",808
+707,pericarditis,"Pericarditis. Also known as: Acute idiopathic pericarditis, Acute pericarditis, Acute pericarditis in diseases classified elsewhere",424
+708,perineal pain,"Perineal pain. Also known as: Perineal pain female, Perineal pain male, Perineal pain NOS",336
+709,periodontitis,"Periodontitis. Also known as: Acute apical periodontitis of pulpal origin, Acute periodontitis, Chronic apical periodontitis",14
+710,periorbital oedema,"Periorbital oedema. Also known as: Edema periorbital, Oedema periorbital, Periorbital oedema",660
+711,peripheral coldness,"Peripheral coldness. Also known as: Cold extremities, Cold feet, Cold hands",66
+712,peripheral ischaemia,"Peripheral ischaemia. Also known as: Ischaemia peripheral, Ischaemic feet, Ischaemic foot",242
+713,peripheral motor neuropathy,"Peripheral motor neuropathy. Also known as: Motor peripheral neuropathy, Neuritis motor, Peripheral motor neuropathy",867
+714,peripheral sensory neuropathy,"Peripheral sensory neuropathy. Also known as: Neuritis sensory, Peripheral sensory neuropathy, Sensory peripheral neuropathies",346
+715,peripheral vascular disorder,"Peripheral vascular disorder. Also known as: Circulatory disorder peripheral, Disorder peripheral vascular, Disorder vascular peripheral",297
+716,peritonitis,"Peritonitis. Also known as: Acute appendicitis with generalized peritonitis, Acute or unspecified pelvic peritonitis, female, Other chronic pelvic peritonitis, female",553
+717,personality disorder,"Personality disorder. Also known as: Adaptability diminished, Aggressive personality, Asthenic personality disorder",239
+718,petechiae,"Petechiae. Also known as: Petechia, Petechiae, Petechial rash",905
+719,pharyngeal oedema,"Pharyngeal oedema. Also known as: Edema of pharynx or nasopharynx, Edema pharynx, Oedema pharynx",743
+720,pharyngitis,"Pharyngitis. Also known as: Acute pharyngitis, Chronic pharyngitis, Chronic pharyngitis and nasopharyngitis",110
+721,pharyngitis streptococcal,"Pharyngitis streptococcal. Also known as: Pharyngitis streptococcal, Streptococcal pharyngitis, Streptococcal sore throat",407
+722,phlebitis,"Phlebitis. Also known as: Oth phlebitis and thrombosis complicating pregnancy and the puerperium, unspec as to eoc, Other antepartum phlebitis and thrombosis, Other phlebitis and thrombosis in pregnancy and the puerperium",446
+723,photophobia,"Photophobia. Also known as: Exacerbation of photophobia, Eyes sensitive to sunlight, Photophobia",318
+724,photopsia,"Photopsia. Also known as: Flash vision, Flashing lights, Flashing vision",685
+725,photosensitivity reaction,"Photosensitivity reaction. Also known as: Contact dermatitis and other eczema due to solar radiation, Dermatitis of exposed site, Dermatitis photosensitive",922
+726,pigmentation disorder,"Pigmentation disorder. Also known as: Abnormal pigment, Abnormal pigmentation, Mottled pigmentation",674
+727,plasmacytoma,"Plasmacytoma. Also known as: Neoplasm of uncertain behavior of plasma cells, Neoplasm of uncertain behaviour of plasma cells, Plasma cell tumor",572
+728,plasma cell myeloma,"Plasma cell myeloma. Also known as: IGA myeloma, IGD myeloma, IGE myeloma",579
+729,platelet count decreased,"Platelet count decreased. Also known as: Low platelets, Platelet count decreased, Platelet count low",340
+730,pleural effusion,"Pleural effusion. Also known as: Effusion pleural, Intrapleural fluid retention of, Other specified forms of pleural effusion, except tuberculous",375
+731,pleurisy,"Pleurisy. Also known as: Diaphragmatic pleurisy, Pleurisy, Pleurisy (excl TB)",818
+732,pleuritic pain,"Pleuritic pain. Also known as: Pain pleural, Pleural pain, Pleuritic pain",122
+733,pneumonia,"Pneumonia. Also known as: Bronchial pneumonia, Bronchopneumonia, Bronchopneumonia NOS",117
+734,pneumonia aspiration,"Pneumonia aspiration. Also known as: Aspiration pneumonia, Inhalation pneumonia, Inhalational pneumonia",486
+735,pneumothorax,"Pneumothorax. Also known as: Collapse of lung, Pneumothorax, Pneumothorax (excl traumatic)",573
+736,pollakiuria,"Pollakiuria. Also known as: Frequency of micturition, Frequency urinary, Increased urinary frequency",207
+737,polycythaemia,"Polycythaemia. Also known as: Erythrocytosis, Physiological polycythaemia, Polycythaemia",27
+738,polydipsia,"Polydipsia. Also known as: Excessive drinking, Polydipsia, Polydipsia (nocturnal)",280
+739,polyneuropathy,"Polyneuropathy. Also known as: Polyneuritis, Polyneuropathy, Polyneuropathy due to drugs",775
+740,polyuria,"Polyuria. Also known as: Diuresis, Diuresis excessive, Frequency of urination and polyuria",249
+741,post procedural haemorrhage,"Post procedural haemorrhage. Also known as: Bleeding of suture site, Bleeding postoperative, Haemorrhage or haematoma complicating a procedure, not elsewhere classified",880
+742,premenstrual syndrome,"Premenstrual syndrome. Also known as: PMS, PMT, Pre-menstrual tension syndrome",185
+743,presyncope,"Presyncope. Also known as: Lipothymia, Pre-syncope, Presyncope",474
+744,priapism,"Priapism. Also known as: Priapism, Priapism aggravated, Ischaemic priapism",463
+745,procedural pain,"Procedural pain. Also known as: Post-operative hip pain, Post-operative pain, Post procedural pain",713
+746,proctalgia,"Proctalgia. Also known as: Anal or rectal pain, Anal pain, Anus pain",985
+747,proctitis,"Proctitis. Also known as: Acute proctitis, Chronic proctitis, Periproctitis",7
+748,productive cough,"Productive cough. Also known as: Productive cough, Sputum, Expectoration",969
+749,prostate cancer,"Prostate cancer. Also known as: Adenocarcinoma of prostate, Ca prostate, Cancer of prostate",243
+750,prostatic disorder,"Prostatic disorder. Also known as: Other disorders of prostate, Other specified disorders of prostate, Prostatic disorder",859
+751,prostatitis,"Prostatitis. Also known as: Acute prostatitis, Chronic prostatitis, Inflammatory diseases of prostate",780
+752,protein total decreased,"Protein total decreased. Also known as: Protein total decreased, Proteins serum plasma low, Serum protein decreased",37
+753,protein urine present,"Protein urine present. Also known as: Protein urine positive, Urinary protein increased, Urinary protein positive",491
+754,proteinuria,"Proteinuria. Also known as: Proteinuria, Proteinuria present, Proteinuria aggravated",970
+755,prothrombin level decreased,"Prothrombin level decreased. Also known as: Coagulation factor II level decreased, Prothrombin activity decreased, Prothrombin consumption increased",99
+756,prothrombin level increased,"Prothrombin level increased. Also known as: Coagulation factor II level increased, Prothrombin activity increased, Prothrombin increased",701
+757,prurigo,Prurigo. Also known as: Prurigo,522
+758,pruritus,"Pruritus. Also known as: Extremities itchy sensation of, General pruritus, Generalised itching",972
+759,pruritus generalised,pruritus generalised,911
+760,pruritus genital,"Pruritus genital. Also known as: Genital itching, Genital itching female, Genital itching male",245
+761,pseudolymphoma,"Pseudolymphoma. Also known as: Benign lymphoma, Hodgkin's-like, Hodgkins-like",541
+762,pseudomembranous colitis,"Pseudomembranous colitis. Also known as: Colitis pseudomembranous, Enteritis pseudomembranous, Enterocolitis pseudomembranous",268
+763,psoriasis,"Psoriasis. Also known as: Exacerbation of psoriasis, Flexural psoriasis, Other psoriasis",776
+764,psychomotor retardation,Psychomotor retardation. Also known as: Psychomotor retardation,796
+765,psychotic disorder,"Psychotic disorder. Also known as: Other nonorganic psychoses, Paranoid psychosis, Psychogenic paranoid psychosis",269
+766,pulmonary congestion,"Pulmonary congestion. Also known as: Congestion pulmonary, Lung congestion, Pulmonary configuration increased",359
+767,pulmonary embolism,"Pulmonary embolism. Also known as: Acute massive pulmonary embolism, Acute P.E., Chronic P.E.",509
+768,pulmonary fibrosis,"Pulmonary fibrosis. Also known as: Fibrosis lung, Fibrosis pulmonary, Lung fibrosis",895
+769,pulmonary function test decreased,"Pulmonary function test decreased. Also known as: Function pulmonary decreased, Lung function decreased, Lung function decreased (NOS)",523
+770,pulmonary hypertension,"Pulmonary hypertension. Also known as: Hypertension pulmonary, Pulmonary hypertension, Pulmonary hypertension aggravated",955
+771,pulmonary oedema,"Pulmonary oedema. Also known as: Edema lung, Edema pulmonary, Lung edema",39
+772,punctate keratitis,"Punctate keratitis. Also known as: Keratitis punctate, Keratitis superficial diffuse, Punctate keratitis",834
+773,pupils unequal,pupils unequal,633
+774,purpura,"Purpura. Also known as: Dermatitis haemorrhagic, Dermatitis hemorrhagic, Haemolytic type rash",849
+775,pyelonephritis,"Pyelonephritis. Also known as: Other pyelonephritis or pyonephrosis, not specified as acute or chronic, Pyelitis or pyelonephritis in diseases classified elsewhere, Pyelonephritis",582
+776,pyuria,"Pyuria. Also known as: Pyuria, Urine containing pus, Urine purulent",108
+777,rales,"Rales. Also known as: Dry rale, Moist rales, Rale",464
+778,rash,"Rash. Also known as: Dry rash face, Dry rash neck, Eruption",873
+779,rash erythematous,"Rash erythematous. Also known as: Erythematous eruption, Erythematous florid universal rash, Erythematous rash",598
+780,rash generalised,rash generalised,720
+781,rash macular,"Rash macular. Also known as: Blotchy, Blotchy rash, Diffuse macular rash",348
+782,rash maculo-papular,"Rash maculo-papular. Also known as: Maculo-papular, Maculo-papular rash, Maculopapular rash",869
+783,rash papular,"Rash papular. Also known as: Dermatitis papular, Erythropapular rash, Erythropapular rash on trunk",982
+784,rash pustular,"Rash pustular. Also known as: Pustular rash, Pustular skin eruption, Rash pustular",275
+785,rectal haemorrhage,"Rectal haemorrhage. Also known as: Bleeding PR (excl gut haemorrhage and piles), Bleeding rectal, Haemorrhage from rectum (excl intestinal/piles)",36
+786,rectal tenesmus,"Rectal tenesmus. Also known as: Defaecation urge painful, Defecation urge painful, Ineffective straining at stool",382
+787,regurgitation,"Regurgitation. Also known as: Regurgitation of food, Regurgitation, Regurgitation of medication",98
+788,renal failure,"Renal failure. Also known as: Failure kidney, Insufficiency renal, Kidney failure",160
+789,renal impairment,"Renal impairment. Also known as: Chronic renal impairment, Disorders resulting from impaired renal function, Dysfunction kidney",334
+790,renal pain,"Renal pain. Also known as: Kidney pain, Pain kidney, Renal pain",234
+791,renal tubular necrosis,"Renal tubular necrosis. Also known as: Acute tubular necrosis, Kidney tubular necrosis, Kidney tubule necrosis",313
+792,respiration abnormal,"Respiration abnormal. Also known as: Respiration abnormal, Respiratory sighs, Respiration abnormal NOS",706
+793,respiratory depression,"Respiratory depression. Also known as: Depression respiratory, Respiration depressed, Respiratory depression",753
+794,respiratory disorder,"Respiratory disorder. Also known as: Disorder respiratory system, Other and unspecified diseases of upper respiratory tract, Other diseases of nasal cavity and sinuses",789
+795,respiratory distress,"Respiratory distress. Also known as: Distress respiratory, Respiratory distress",430
+796,respiratory failure,"Respiratory failure. Also known as: Failure respiratory, Other pulmonary insufficiency, not elsewhere classified, Pulmonary insufficiency following trauma and surgery",876
+797,respiratory tract congestion,"Respiratory tract congestion. Also known as: Chest congestion, Respiratory tract congestion",380
+798,respiratory tract infection,"Respiratory tract infection. Also known as: Infection respiratory, Recurrent respiratory tract infections, Respiratory infection",282
+799,restless legs syndrome,"Restless legs syndrome. Also known as: Legs restless, Restless leg syndrome, Restless legs",135
+800,retching,"Retching. Also known as: Gagging, Retching, Dry heaves",473
+801,retinal degeneration,"Retinal degeneration. Also known as: Angioid streaks of choroid, Chorioretinal atrophy, Choroidal degeneration, unspecified",860
+802,retinal detachment,"Retinal detachment. Also known as: Detached retina, Detachment retinal, Old retinal detachment, partial",649
+803,retinal disorder,"Retinal disorder. Also known as: Blister on macula of eye, Disorder retinal, Other retinal disorders",889
+804,retinal haemorrhage,"Retinal haemorrhage. Also known as: Bleeding intraretinal, Blot haemorrhages, Blot hemorrhages",871
+805,retroperitoneal haemorrhage,"Retroperitoneal haemorrhage. Also known as: Haemorrage retroperitoneal, Haemorrhage retroperitoneal, Hemorrhage retroperitoneal",950
+806,rhabdomyolysis,"Rhabdomyolysis. Also known as: Muscle dissolution, Rhabdomyolysis, Rhabdomyolyses",169
+807,rheumatoid arthritis,"Rheumatoid arthritis. Also known as: Arthritis rheumatoid, Arthritis rheumatoid aggravated, Chronic postrheumatic arthropathy",53
+808,rhinitis,"Rhinitis. Also known as: Chronic nonspecific rhinitis, Chronic rhinitis, Chronic rhinitis (excl allergic)",216
+809,rhinitis allergic,"Rhinitis allergic. Also known as: Allergic rhinitis, Allergic rhinitis (excl hay fever), Allergic rhinitis due to other allergen",47
+810,rhinorrhoea,"Rhinorrhoea. Also known as: Mucous nasal increased, Nasal discharge, Nasal discharge watery excessive",732
+811,rhonchi,"Rhonchi. Also known as: Rhonchi, Rhonchus, Respiratory Sounds",445
+812,road traffic accident,"Road traffic accident. Also known as: Accident automobile, Accident in street, Automobile accident",868
+813,rosacea,"Rosacea. Also known as: Acne rosacea, Rosacea, Rosacea-like dermatitis",212
+814,salivary gland enlargement,"Salivary gland enlargement. Also known as: Enlargement salivary gland, Hypertrophy of salivary gland, Salivary gland enlargement",182
+815,salivary hypersecretion,"Salivary hypersecretion. Also known as: Hypersalivation, Increased salivation, Ptyalism",826
+816,salpingitis,"Salpingitis. Also known as: Acute salpingitis, Acute salpingitis and oophoritis, Chronic salpingitis",366
+817,scab,"Scab. Also known as: Crust, Scab, Scabbing",225
+818,schizophreniform disorder,"Schizophreniform disorder. Also known as: Reaction schizoid, Schizophrenic reaction, Schizophreniform disorder",288
+819,sciatica,"Sciatica. Also known as: Cotunnius' disease, Ischial neuralgia, Ischias",754
+820,scleritis,"Scleritis. Also known as: Anterior scleritis, Brawny scleritis, Other scleritis",126
+821,seasonal allergy,"Seasonal allergy. Also known as: Allergic rhinitis due to pollen, Hay fever, Pollen allergy",977
+822,seborrhoeic dermatitis,"Seborrhoeic dermatitis. Also known as: Dermatitis seborrheic, Dermatitis seborrhoeic, Eczema seborrhoeic",206
+823,seborrhoeic keratosis,"Seborrhoeic keratosis. Also known as: Basal cell papilloma, Benign basal cell papilloma, Inflamed seborrheic keratosis",272
+824,sensation of foreign body,"Sensation of foreign body. Also known as: Feeling of foreign body, Foreign body feeling of oesophagus, Pharyngolarynx foreign body feeling",603
+825,sensory disturbance,"Sensory disturbance. Also known as: Abnormal physical sensation, Abnormal sensation of limbs, Sensory aberrations",549
+826,sensory loss,"Sensory loss. Also known as: Loss of sensation, Sensation loss, Sensory loss",646
+827,sepsis,"Sepsis. Also known as: Other specified septicaemias, Other specified septicemias, Pyaemia",641
+828,septic shock,"Septic shock. Also known as: Septic shock, Shock septic, Culture negative septic shock",892
+829,serotonin syndrome,"Serotonin syndrome. Also known as: Serotonin syndrome, Serotonin Syndrome, Serotonin Syndromes",128
+830,serum sickness,"Serum sickness. Also known as: Anaphylactic shock due to serum, not elsewhere classified, Other serum reaction, not elsewhere classified, Serum reaction",793
+831,sexual dysfunction,"Sexual dysfunction. Also known as: Sexual disorder NOS, Sexual dysfunction, Sexual dysfunction NOS",443
+832,shock,"Shock. Also known as: Clinically shocked, Other shock without mention of trauma, Postoperative shock, not elsewhere classified",749
+833,sialoadenitis,"Sialoadenitis. Also known as: Salivary gland infection, Salivary gland infection (excl mumps), Sialadenitis",392
+834,sinus bradycardia,"Sinus bradycardia. Also known as: Bradycardia sinus, Sinus bradycardia",595
+835,sinus congestion,"Sinus congestion. Also known as: Nasal sinus congestion, Sinus congestion, Sinus swelling",309
+836,sinus headache,"Sinus headache. Also known as: Headache sinus, Sinus headache",26
+837,sinus tachycardia,"Sinus tachycardia. Also known as: Sinus tachycardia, Tachycardia sinus, Tachycardia, Sinus",864
+838,sinusitis,"Sinusitis. Also known as: Sinus infection, Sinusitis, Sinusitis NOS",188
+839,skin atrophy,"Skin atrophy. Also known as: Atrophy skin, Crepy skin, Loss of skin elasticity",131
+840,skin burning sensation,"Skin burning sensation. Also known as: Burning sensation in face, Burning sensation skin, Burning skin",820
+841,skin cancer,"Skin cancer. Also known as: Cancer of skin, Cancer of skin (excl melanoma), Carcinoma skin",45
+842,skin discolouration,"Skin discolouration. Also known as: Darkened skin, Decoloration skin, Discoloration skin",349
+843,skin disorder,"Skin disorder. Also known as: Disorder skin (NOS), Other disorders of skin and subcutaneous tissue, Other specified conditions involving the integument of fetus and newborn",338
+844,skin exfoliation,"Skin exfoliation. Also known as: Desquamation, Exfoliation, Exfoliation NOS",293
+845,skin hyperpigmentation,"Skin hyperpigmentation. Also known as: Hyperpigmentation skin, Skin hyperpigmentation, Hypermelanosis",63
+846,skin hypertrophy,"Skin hypertrophy. Also known as: Dorsi manus hypertrophy, Finger joint skin hypertrophy, Hypertrophy of skin",851
+847,skin infection,"Skin infection. Also known as: Exacerbation of infection of skin, Local infections of skin and subcutaneous tissue, other, Other local infections of skin and subcutaneous tissue",307
+848,skin irritation,"Skin irritation. Also known as: Irritation skin, Skin irritation, Excited skin syndrome",772
+849,skin lesion,"Skin lesion. Also known as: Skin lesion, Skin lesion NOS",967
+850,skin mass,"Skin mass. Also known as: Fibrous nodule, Nodule skin, Nodule subcutaneous",653
+851,skin odour abnormal,"Skin odour abnormal. Also known as: Body odor, Body odour, Body smell altered",326
+852,skin papilloma,"Skin papilloma. Also known as: Common wart, Common warts, Flat warts",68
+853,skin striae,"Skin striae. Also known as: Extensive striae, Skin striae, Stretch marks",501
+854,skin ulcer,"Skin ulcer. Also known as: Chronic skin ulcer, Chronic skin ulcer of other specified sites, Chronic skin ulcer of unspecified site",552
+855,sleep apnoea syndrome,"Sleep apnoea syndrome. Also known as: Hypersomnia with sleep apnea, Insomnia with sleep apnea, Other and unspecified sleep apnea",665
+856,sleep disorder,"Sleep disorder. Also known as: Aftersleeping, Disorder sleep, Nonorganic sleep disorder, unspecified",414
+857,sluggishness,Sluggishness. Also known as: Sluggishness,610
+858,sneezing,"Sneezing. Also known as: Paroxysmal sneeze, Sneezing, Sneezing excessive",231
+859,snoring,"Snoring. Also known as: Snore, Snoring, Rhonchopathy",458
+860,somnambulism,"Somnambulism. Also known as: Lunatism, Sleep walking, Somnambulation",490
+861,somnolence,"Somnolence. Also known as: Daytime sleepiness, Drowsiness, Drowsy on awakening",70
+862,speech disorder,"Speech disorder. Also known as: Abnormal words or word usage NOS, Babbling, Defect speech (NOS)",619
+863,splenomegaly,"Splenomegaly. Also known as: Chronic congestive splenomegaly, Spleen dullness enlarged, Spleen enlarged",423
+864,sputum increased,"Sputum increased. Also known as: Sputum excretion increased, Sputum increased",144
+865,staphylococcal infection,"Staphylococcal infection. Also known as: Bacterial infection due to other staphylococcus, Bacterial infection due to staphylococcus aureus, Bacterial infection due to unspecified staphylococcus",852
+866,status epilepticus,"Status epilepticus. Also known as: Grand mal status, epileptic, Status epilepticus, Status epilepticus grand mal",286
+867,stevens-johnson syndrome,"Stevens-Johnson syndrome. Also known as: Stevens Johnson reaction, Stevens Johnson syndrome, Stevens Johnson type reaction",203
+868,sticky skin,Sticky skin. Also known as: Sticky skin,956
+869,stomatitis,"Stomatitis. Also known as: Buccal inflammation, Mouth irritation, Mucositis oral",853
+870,strangury,Strangury. Also known as: Strangury,3
+871,stridor,"Stridor. Also known as: Stridor, Stridor inspiratory, Respiratory Sounds",924
+872,stupor,"Stupor. Also known as: Mental torpor, Stupor, Torpor",525
+873,subarachnoid haemorrhage,"Subarachnoid haemorrhage. Also known as: Hemorrhage subarachnoid, Subarac hem following inj, w/o ment of open intcran wound, with brief loc, Subarac hem following inj, w/o ment of open intcran wound, with concussion, unspec",251
+874,subdural haematoma,"Subdural haematoma. Also known as: Chronic subdural haemotoma, Chronic subdural hemotoma, Hematoma subdural",319
+875,sudden death,"Sudden death. Also known as: Death occurring in less than 24 hours from onset of symptoms, not otherwise explained, Death sudden (NOS), Instantaneous death",575
+876,suicidal ideation,"Suicidal ideation. Also known as: Suicidal ideation, Suicidal tendency, Life weariness",935
+877,suicide attempt,"Suicide attempt. Also known as: Attempted suicide, Suicide attempt, Suicide attempt other than overdose",717
+878,sunburn,"Sunburn. Also known as: Sun blister, Sunburn, Sunburns",931
+879,supraventricular extrasystoles,"Supraventricular extrasystoles. Also known as: Extrasystoles atrial, Extrasystoles nodal, Extrasystoles supraventricular",504
+880,supraventricular tachycardia,"Supraventricular tachycardia. Also known as: Atrioventricular nodal reentrant tachycardia, AV nodal reentrant tachycardia, AV nodal tachycardia",690
+881,swelling,"Swelling. Also known as: Arms swollen red hot, Feeling swollen, Groin swelling",611
+882,swelling face,"Swelling face. Also known as: Facial puffiness, Facial swelling, Puffiness face",500
+883,syncope,"Syncope. Also known as: Faint, Fainting, Swooning",204
+884,systemic lupus erythematosus,"Systemic lupus erythematosus. Also known as: Disseminated lupus erythematosus, LE reaction systemic, LE syndrome",544
+885,tachycardia,"Tachycardia. Also known as: Tachycardia, Tachycardia (excl paroxysmal), Tachycardia nervous",290
+886,tachypnoea,"Tachypnoea. Also known as: Polypnoea, Respiration stimulated, Tachypnea",948
+887,tardive dyskinesia,"Tardive dyskinesia. Also known as: Dyskinesia tardive, Lip smacking, Tardive dyskinesia",597
+888,telangiectasia,"Telangiectasia. Also known as: Multiple telangiectases, Multiple telangietases, Telangiectasia",512
+889,temperature intolerance,"Temperature intolerance. Also known as: Cold intolerance, Heat intolerance, Heat sensitivity",817
+890,tenderness,"Tenderness. Also known as: Tenderness, Tenderness (NOS), Tenderness NOS",750
+891,tendinous contracture,"Tendinous contracture. Also known as: Contracture of tendon (sheath), Contracture tendinous, Tendinous contracture",312
+892,tendon disorder,"Tendon disorder. Also known as: Disorder tendon, Disorders of bursae and tendons in shoulder region, unspecified, Tenden disorder",765
+893,tendonitis,"Tendonitis. Also known as: Achilles bursitis or tendinitis, Achilles tendinitis, Achilles tendonitis",964
+894,tenosynovitis,"Tenosynovitis. Also known as: Achilles tenosynovitis, Bicipital tenosynovitis, Other synovitis and tenosynovitis",50
+895,tension,"Tension. Also known as: Feeling tense, Mental tension, Nervous tension",791
+896,tension headache,"Tension headache. Also known as: Band-like headache, Head tightness, Headache tension",165
+897,testicular pain,"Testicular pain. Also known as: Ache in testis, Pain in testis, Testicular pain",480
+898,tetany,"Tetany. Also known as: Carpo-pedal spasm, Generalised tetany, Hypocalcemic tetany",676
+899,therapeutic response unexpected,"Therapeutic response unexpected. Also known as: Benefit unexpected, Drug effect good unexpected beneficial, Therapeutic effect unexpected",759
+900,thinking abnormal,"Thinking abnormal. Also known as: Abnormal thinking, Irrational, Thinking abnormal",651
+901,thirst,"Thirst. Also known as: Effects of thirst, Excessive thirst, Increased thirst",335
+902,throat irritation,"Throat irritation. Also known as: Burning in throat, Local throat irritation, Pharyngo-oral irritation",700
+903,throat tightness,"Throat tightness. Also known as: Constriction throat, Pharynx closed sensation of, Throat constriction",865
+904,thrombocytopenia,"Thrombocytopenia. Also known as: Primary thrombocytopenia, Secondary thrombocytopenia, Thrombocytopaenia",627
+905,thrombocytosis,"Thrombocytosis. Also known as: Thrombocythaemia, Thrombocythemia, Thrombocytosis",875
+906,thrombophlebitis,"Thrombophlebitis. Also known as: Thrombophlebitis, Thrombophlebitis arm, Thrombophlebitis leg",798
+907,thrombosis,"Thrombosis. Also known as: Clot blood, Thrombosis, Thrombosis and thrombophlebitis of unspecified site",734
+908,thrombotic thrombocytopenic purpura,"Thrombotic thrombocytopenic purpura. Also known as: Purpura thrombopaenic thrombotic, Purpura thrombopenic thrombotic, Thrombocytopenic purpura, thrombotic",83
+909,thyroid disorder,"Thyroid disorder. Also known as: Disorder thyroid, Dysfunction thyroid, Other disorders of thyroid",984
+910,thyroid neoplasm,"Thyroid neoplasm. Also known as: Neoplasm thyroid, Thryoid neoplasia, Thyroid neoplasia",71
+911,thyroiditis,"Thyroiditis. Also known as: Iatrogenic thyroiditis, Thyroiditis, Thyroiditis NOS",450
+912,tinnitus,"Tinnitus. Also known as: Aggravated ringing in ears, Ear buzzing, Ear cracking",381
+913,tongue discolouration,"Tongue discolouration. Also known as: Discoloration tongue, Tongue black, Tongue brown",971
+914,tongue disorder,"Tongue disorder. Also known as: Diseases and other conditions of the tongue, Disorder tongue, Other specified conditions of the tongue",51
+915,tongue oedema,"Tongue oedema. Also known as: Edema tongue, Face & tongue oedema, Glossal oedema",342
+916,tongue ulceration,"Tongue ulceration. Also known as: Tongue aphtha formation, Tongue ulceration, Ulceration tongue",33
+917,tonsillitis,"Tonsillitis. Also known as: Acute tonsillitis, Acute tonsillitis (excl proven streptococcal), Infected tonsillar remnant",40
+918,tooth abscess,"Tooth abscess. Also known as: Abscess dental, Abscess paradontal, Abscess periodontal",587
+919,tooth disorder,"Tooth disorder. Also known as: Dental disorder NOS, Diseases of hard tissues of teeth, Disorder tooth",822
+920,tooth infection,"Tooth infection. Also known as: Tooth infection, Odontogenic infection",693
+921,toothache,"Toothache. Also known as: Odontalgia, Tooth ache, Toothache",428
+922,torsade de pointes,"Torsade de pointes. Also known as: Torsade de pointes, Torsades de pointes, TdP ventricular tachycardia",58
+923,torticollis,"Torticollis. Also known as: Spasmodic torticollis, Torticollis, Torticollis (excl congenital, psychogenic and traumatic)",728
+924,toxic epidermal necrolysis,"Toxic epidermal necrolysis. Also known as: Drug eruption Lyell syndrome type, Epidermal necrolysis, Lyell",711
+925,toxicity to various agents,"Toxicity to various agents. Also known as: Anti-infective agent toxicity, Barbiturate intoxication, Barbiturate intoxication (NOS)",487
+926,tracheitis,"Tracheitis. Also known as: Acute laryngitis & tracheitis, Acute laryngitis and tracheitis, Acute laryngotracheitis",106
+927,tracheobronchitis,"Tracheobronchitis. Also known as: Laryngotracheo bronchitis, Laryngotracheobronchitis, Tracheo-laryngeal bronchitis",965
+928,transaminases increased,"Transaminases increased. Also known as: Serum transaminase increased, Transaminase NOS increased, Transaminase value increased",404
+929,transient ischaemic attack,"Transient ischaemic attack. Also known as: Intermittent cerebral claudication, Other specified transient cerebral ischemias, TIA",4
+930,tremor,"Tremor. Also known as: Essential and other specified forms of tremor, Parkinsonian-like tremor, Shakiness",762
+931,trismus,"Trismus. Also known as: Jaw cramp, Jaw movements disturbance, Jaw spasm",684
+932,tubulointerstitial nephritis,"Tubulointerstitial nephritis. Also known as: Acute interstitial nephritis, Chronic interstitial nephritis, Interstitial nephritis acute",679
+933,tumour lysis syndrome,"Tumour lysis syndrome. Also known as: Tumor lysis syndrome, Tumour lysis syndrome, Laboratory tumour lysis syndrome",177
+934,ulcer,"Ulcer. Also known as: Ulcer, Ulcer NOS, Ulceration",134
+935,ulcerative keratitis,"Ulcerative keratitis. Also known as: Central corneal ulcer, Corneal ulcer marginal, Corneal ulcer NEC",703
+936,unintended pregnancy,"Unintended pregnancy. Also known as: Pregnancy unexpected, Pregnancy unintended, Unexpected pregnancy",635
+937,upper respiratory tract infection,"Upper respiratory tract infection. Also known as: Acute upper respiratory infection of multiple or unspecified sites, Acute upper respiratory infections of multiple or unspecified sites, Acute upper respiratory infections of other multiple sites",470
+938,upper-airway cough syndrome,"Upper-airway cough syndrome. Also known as: Posterior nasal drip, Postnasal drip, Chronic post nasal drip",612
+939,urethral disorder,"Urethral disorder. Also known as: Other specified disorders of urethra, Other specified disorders of urethra and urinary tract, Unspecified disorder of urethra and urinary tract",773
+940,urethritis,"Urethritis. Also known as: NGU, Non-gonococcal urethritis, Nongonococcal urethritis",519
+941,urethritis noninfective,"Urethritis noninfective. Also known as: Urethritis noninfective, Urethral irritation, Urethral inflammation",781
+942,urinary hesitation,"Urinary hesitation. Also known as: Hesitancy, Hesitancy urination, Hesitancy/poor urinary stream",788
+943,urinary incontinence,"Urinary incontinence. Also known as: Bladder incontinence, Dribbling of urine, Incontinence of urine",199
+944,urinary retention,"Urinary retention. Also known as: Acute retention, Acute retention of urine, Bladder inability to empty",369
+945,urinary tract disorder,"Urinary tract disorder. Also known as: Disorder urinary tract, Other abnormality of urination, Other symptoms involving urinary system",499
+946,urinary tract infection,"Urinary tract infection. Also known as: Chronic UTI, Infection urinary tract, Lower urinary tract infection",562
+947,urine abnormality,"Urine abnormality. Also known as: Cloudy urine, Nonspecific findings on examination of urine, Other nonspecific findings on examination of urine",844
+948,urine analysis abnormal,"Urine analysis abnormal. Also known as: Urinalysis abnormal NOS, Urinary test abnormal, Urine abnormal",172
+949,urine output increased,"Urine output increased. Also known as: Urine volume increased, Urine output increased, Urine volume 24 hour increased",699
+950,urticaria,"Urticaria. Also known as: Acute allergic urticaria, Acute urticaria, Allergic urticaria",228
+951,uterine disorder,"Uterine disorder. Also known as: Disorder uterine (NOS), Disorders of uterus, not elsewhere classified, Other specified disorders of uterus, not elsewhere classified",193
+952,uterine haemorrhage,"Uterine haemorrhage. Also known as: Atonic hemorrhage, Endometrial bleeding, Haematometra",167
+953,uterine leiomyoma,"Uterine leiomyoma. Also known as: Fibroid uterine enlarged, Fibroids, Intramural leiomyoma of uterus",150
+954,uterine spasm,"Uterine spasm. Also known as: Spasm uterine, Spasm uterine cervix, Uterine contraction tonic",405
+955,uveitis,"Uveitis. Also known as: Intermediate uveitis, Panuveitis, Pars planitis",625
+956,vaginal discharge,"Vaginal discharge. Also known as: Discharge vaginal, Leukorrhea, Leukorrhea, not specified as infective",655
+957,vaginal haemorrhage,"Vaginal haemorrhage. Also known as: Bleeding vaginal, Haemorrhage from vagina, Hemorrhage vaginal",839
+958,vaginal infection,"Vaginal infection. Also known as: Acute vaginitis, Non-specific vaginitis, Vaginal infection",281
+959,varicose vein,"Varicose vein. Also known as: Antepartum varicose veins of legs, Postpartum varicose veins of legs, Varices of other sites",121
+960,vascular headache,"Vascular headache. Also known as: Headache vascular, Vascular headache, Vascular Headaches",874
+961,vascular purpura,"Vascular purpura. Also known as: Peliosis, Purpura vascular, Vascular purpura",516
+962,vasculitis,"Vasculitis. Also known as: Angiitis, Digital vasculitis, Focal vasculitis",975
+963,vasodilation procedure,"Vasodilation procedure. Also known as: Vasodilation, Vasodilation procedure, Vasorelaxation",578
+964,vasospasm,"Vasospasm. Also known as: Angiospasm, Spasm of vein, Vasospasm",403
+965,venous thrombosis,"Venous thrombosis. Also known as: Phlebothrombosis, Thrombosis venous, Venous thrombosis",479
+966,ventricular arrhythmia,"Ventricular arrhythmia. Also known as: Arrhythmia ventricular, Arrhythmia ventricular (NOS), Malignant ventricular arrhythmias",100
+967,ventricular extrasystoles,"Ventricular extrasystoles. Also known as: Extrasystole ventricular, Extrasystole ventricular bigeminy, Extrasystoles ventricular",94
+968,ventricular fibrillation,"Ventricular fibrillation. Also known as: Fibrillation paroxysmal vent, Fibrillation ventricular, Paroxysmal ventricular fibrillation",43
+969,ventricular tachycardia,"Ventricular tachycardia. Also known as: Multifocal ventricular tachycardia, Multiform ventricular tachycardia, Paroxysmal ventricular tachycardia",34
+970,vertigo,"Vertigo. Also known as: Head revolving around, Head revolving round, Head spinning",494
+971,vestibular disorder,"Vestibular disorder. Also known as: Disorder vestibular, Vestibular abnormalities, Vestibular disorder",460
+972,viral diarrhoea,"Viral diarrhoea. Also known as: Viral diarrhoea, Viral diarrhea",550
+973,viral infection,"Viral infection. Also known as: Arthropod-borne viral disease, unspecified, Infection viral, Other arthropod-borne viral diseases",65
+974,viral upper respiratory tract infection,"Viral upper respiratory tract infection. Also known as: Upper respiratory tract infection viral NOS, Viral upper respiratory tract infection",364
+975,vision blurred,"Vision blurred. Also known as: Blurred vision, Blurring of eyes, Blurring of vision",747
+976,visual acuity reduced,"Visual acuity reduced. Also known as: Deterioration of visual acuity, Low visual acuity, Visual activity decreased",939
+977,visual impairment,"Visual impairment. Also known as: Abnormal retinal correspondence, Abnormal vision, Abnormal vision NOS",992
+978,vomiting,"Vomiting. Also known as: Bilious vomiting, Emesis, Habit vomiting",520
+979,vulvovaginal candidiasis,"Vulvovaginal candidiasis. Also known as: Candida vaginal, Candidiasis of vulva and vagina, Moniliasis vaginal",986
+980,vulvovaginal dryness,"Vulvovaginal dryness. Also known as: Dryness vaginal, Vaginal dryness, Vulvovaginal dryness",736
+981,vulvovaginal mycotic infection,"Vulvovaginal mycotic infection. Also known as: Vaginal mycosis, Vaginal yeast, Vaginal yeast infection",35
+982,vulvovaginal pruritus,"Vulvovaginal pruritus. Also known as: Labial itching, Pruritus vulvae, Vaginal itching",620
+983,vulvovaginitis,"Vulvovaginitis. Also known as: Vaginitis and vulvovaginitis, Vaginitis and vulvovaginitis in diseases classified elsewhere, Vaginitis and vulvovaginitis, unspecified",991
+984,weight decreased,"Weight decreased. Also known as: Losing wt, Loss of weight, Lost weight",532
+985,weight increased,"Weight increased. Also known as: Weight gain, Weight increase, Weight increased",374
+986,wheezing,"Wheezing. Also known as: Increased wheeziness, Wheeze, Wheeze worsened",415
+987,white blood cell count decreased,"White blood cell count decreased. Also known as: Decreased white cell count, WBC dec, White blood cell count decreased",862
+988,white blood cell count increased,"White blood cell count increased. Also known as: Increased white cell count, Raised WBC, WBC inc",664
+989,withdrawal syndrome,"Withdrawal syndrome. Also known as: Syndrome withdrawal, Withdrawal reaction, Withdrawal syndrome",353
+990,wound infection,"Wound infection. Also known as: Post-traumatic wound infection, Posttraumatic wound infection not elsewhere classified, Wound infection",784
+991,wound secretion,"Wound secretion. Also known as: Wound drainage increased, Wound secretion, Wound weeping",12
+992,xerophthalmia,"Xerophthalmia. Also known as: Xerophthalmia, Xerophthalmias",590
+993,yawning,"Yawning. Also known as: Yawn, Yawning, Yawning excessive",314

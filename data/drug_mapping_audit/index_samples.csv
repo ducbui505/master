@@ -1,0 +1,10 @@
+idx,txt_name_at_same_idx,mapping_drug_name,mapping_drug_name_position_in_txt,drug_text_name,drug_text_prefix,llm_vector_norm
+0,alfentanil,Venlafaxine,304,Venlafaxine,"Venlafaxine is an antidepressant and a serotonin and norepinephrine reuptake inhibitor (SNRI). Its active metabolite, [d",14.920042
+1,telithromycin,Ropinirole,681,Ropinirole,"Ropinirole, also known as _ReQuip_, is a non-ergoline dopamine agonist used in Parkinson's disease and restless legs syn",14.829819
+2,simeprevir,Risperidone,218,Risperidone,Risperidone is a second-generation antipsychotic (SGA) medication used in the treatment of a number of mood and mental h,14.882179
+10,azelastine,Lamotrigine,248,Lamotrigine,Lamotrigine is an antiepileptic drug belonging in the phenyltriazine class. It is used in the treatment of both epilepsy,14.871058
+50,irinotecan,Cyclophosphamide,627,Cyclophosphamide,Precursor of an alkylating nitrogen mustard antineoplastic and immunosuppressive agent that must be activated in the liv,15.051716
+100,acetylcysteine,Betaxolol,492,Betaxolol,A cardioselective beta-1-adrenergic antagonist with no partial agonist activity. Betaxolol selectively blocks catecholam,15.008356
+250,zafirlukast,Scopolamine,,Scopolamine,"Scopolamine is a tropane alkaloid isolated from members of the _Solanaceae_ family of plants, similar to [atropine] and ",15.257651
+500,tamoxifen,Nortriptyline,,Nortriptyline,"Nortriptyline hydrochloride, the active metabolite of [amitriptyline], is a tricyclic antidepressant (TCA).[L11878] It i",15.059774
+756,cabazitaxel,Telbivudine,651,Telbivudine,Telbivudine is a synthetic thymidine nucleoside analog with specific activity against the hepatitis B virus. Telbivudine,15.080117

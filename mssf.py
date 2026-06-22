@@ -1,4 +1,4 @@
-import os
+﻿import os
 import warnings
 import numpy as np
 warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -7,6 +7,7 @@ import torch
 import random
 import pickle
 import argparse
+import csv
 import torch.nn as nn
 import sys
 import time
@@ -66,7 +67,68 @@ def load_ckpt(path, model, optimizer, device):
     return ckpt
 # ----------------------------------------------------------
 
-# Obtain relevant drug and side effect matrix data
+def _csv_data_rows(path):
+    if not os.path.exists(path):
+        return None
+    with open(path, newline="", encoding="utf-8-sig") as handle:
+        return sum(1 for _ in csv.DictReader(handle))
+
+
+def _matching_mapping_file(data_dir, candidates, expected_rows):
+    seen = []
+    for filename in candidates:
+        path = os.path.join(data_dir, filename)
+        rows = _csv_data_rows(path)
+        if rows is None:
+            continue
+        seen.append(f"{filename} has {rows} rows")
+        if rows == expected_rows:
+            return filename, seen
+    return None, seen
+
+
+def validate_mapping_shapes(rawdata_dir, drug_side):
+    data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+    drug_file, drug_seen = _matching_mapping_file(
+        data_dir,
+        ["mssf_aligned_drug_mapping.csv", "drug_mapping.csv"],
+        drug_side.shape[0],
+    )
+    se_file, se_seen = _matching_mapping_file(
+        data_dir,
+        ["mssf_aligned_se_mapping.csv", "se_mapping.csv"],
+        drug_side.shape[1],
+    )
+
+    problems = []
+    if drug_file is None:
+        problems.append(
+            f"no drug mapping matches {rawdata_dir}/drug_side.pkl rows ({drug_side.shape[0]}). "
+            + "; ".join(drug_seen)
+        )
+    if se_file is None:
+        problems.append(
+            f"no SE mapping matches {rawdata_dir}/drug_side.pkl columns ({drug_side.shape[1]}). "
+            + "; ".join(se_seen)
+        )
+
+    if problems:
+        raise ValueError(
+            "Mapping/raw matrix shape mismatch. "
+            + " ; ".join(problems)
+            + ". Use mssf_aligned_* mappings with the 757x994 MSSF raw data, "
+            + "or benchmark mappings with a 759x994 benchmark raw matrix."
+        )
+
+
+def validate_llm_tensor(name, tensor, expected_rows):
+    if tensor.shape[0] != expected_rows:
+        raise ValueError(
+            f"{name} has {tensor.shape[0]} rows but the active raw matrix expects {expected_rows}. "
+            "Re-encode LLM features from the mapping/text files that belong to the same dataset."
+        )
+
+
 def read_raw_data(rawdata_dir, data_test):
 
     # Load SMDsimilarity
@@ -126,6 +188,7 @@ def read_raw_data(rawdata_dir, data_test):
     gii = open(rawdata_dir + '/' + 'drug_side.pkl', 'rb')
     drug_side = pickle.load(gii)
     gii.close()
+    validate_mapping_shapes(rawdata_dir, drug_side)
     
     # Load drug-pathway-enzyme similarity matrix
     gii = open(rawdata_dir + '/' + 'drug_pathway_enzyme_similarity.pkl', 'rb')
@@ -186,8 +249,8 @@ def fold_files(data_train, data_test,args):
     # Convert input training and testing data to NumPy arrays
     data_train = np.array(data_train)
     data_test = np.array(data_test)
+
 
-    # Obtain relevant drug and side effect matrix data
     drug_features, side_features = read_raw_data(rawdata_dir, data_test)
 
     # Initialize the drug feature matrix using the first feature
@@ -220,8 +283,10 @@ def fold_files(data_train, data_test,args):
 
     # Return train/test features and frequencies
     if getattr(args, 'use_llm', False):
-        drug_llm_all = torch.load('data/drug_llm_features.pt', map_location='cpu', weights_only=True)
-        se_llm_all   = torch.load('data/se_llm_features.pt', map_location='cpu', weights_only=True)
+        drug_llm_all = torch.load(args.drug_llm_path, map_location='cpu', weights_only=True)
+        se_llm_all   = torch.load(args.se_llm_path, map_location='cpu', weights_only=True)
+        validate_llm_tensor(args.drug_llm_path, drug_llm_all, drug_features_matrix.shape[0])
+        validate_llm_tensor(args.se_llm_path, se_llm_all, side_features_matrix.shape[0])
 
         drug_llm_train = drug_llm_all[data_train[:, 0].astype(int)].numpy()
         se_llm_train   = se_llm_all[data_train[:, 1].astype(int)].numpy()
@@ -229,8 +294,10 @@ def fold_files(data_train, data_test,args):
         se_llm_test    = se_llm_all[data_test[:, 1].astype(int)].numpy()
 
         # Load masks
-        drug_mask_all = torch.load('data/drug_text_mask.pt', map_location='cpu')
-        se_mask_all   = torch.load('data/se_text_mask.pt', map_location='cpu')
+        drug_mask_all = torch.load(args.drug_mask_path, map_location='cpu')
+        se_mask_all   = torch.load(args.se_mask_path, map_location='cpu')
+        validate_llm_tensor(args.drug_mask_path, drug_mask_all, drug_features_matrix.shape[0])
+        validate_llm_tensor(args.se_mask_path, se_mask_all, side_features_matrix.shape[0])
         drug_mask_train = drug_mask_all[data_train[:, 0].astype(int)].numpy()
         se_mask_train   = se_mask_all[data_train[:, 1].astype(int)].numpy()
         drug_mask_test  = drug_mask_all[data_test[:, 0].astype(int)].numpy()
@@ -349,10 +416,10 @@ def train_test(data_train, data_test, args, fold):
             maprec_tested = macro_prec_te
             mareca_tested = macro_recall_te
             maaupr_tested = macro_aupr_te
-        # luôn lưu LAST sau mỗi epoch (để tắt máy chạy tiếp)
+        # luÃ´n lÆ°u LAST sau má»—i epoch (Ä‘á»ƒ táº¯t mÃ¡y cháº¡y tiáº¿p)
         save_ckpt(last_path, model, optimizer, epoch, best_acc)
 
-        # nếu acc_te là tốt nhất thì lưu BEST
+        # náº¿u acc_te lÃ  tá»‘t nháº¥t thÃ¬ lÆ°u BEST
         if acc_te > best_acc:
             best_acc = acc_te
             save_ckpt(best_path, model, optimizer, epoch, best_acc)
@@ -540,6 +607,7 @@ def ten_fold(args):
     gii = open(rawpath+'/drug_side.pkl', 'rb') # Load the drug-side effect frequency matrix
     drug_side = pickle.load(gii)
     gii.close()
+    validate_mapping_shapes(rawpath, drug_side)
 
     # Benchmark dataset data
     final_positive_sample = Extract_positive_negative_samples(drug_side)
@@ -702,6 +770,14 @@ def main():
     # MSSF-LLM arguments
     parser.add_argument('--use_llm', action='store_true', default=False,
                         help='Enable LLM branch (PubMedBERT features)')
+    parser.add_argument('--drug_llm_path', type=str, default='data/drug_llm_features.pt',
+                        help='Path to encoded drug LLM features for the active dataset')
+    parser.add_argument('--se_llm_path', type=str, default='data/se_llm_features.pt',
+                        help='Path to encoded side-effect LLM features for the active dataset')
+    parser.add_argument('--drug_mask_path', type=str, default='data/drug_text_mask.pt',
+                        help='Path to drug text mask for the active dataset')
+    parser.add_argument('--se_mask_path', type=str, default='data/se_text_mask.pt',
+                        help='Path to side-effect text mask for the active dataset')
     parser.add_argument('--use_cross_modal', action='store_true', default=False,
                         help='Enable cross-modal fusion')
     parser.add_argument('--use_supcon', action='store_true', default=False,
@@ -738,3 +814,10 @@ def main():
 # Run main function
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+

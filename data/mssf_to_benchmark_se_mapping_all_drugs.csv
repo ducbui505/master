@@ -1,0 +1,972 @@
+mssf_idx,benchmark_idx,benchmark_se_name,resolution_status
+0,650,abdominal discomfort,resolved_by_full_drug_alignment
+1,361,abdominal distension,resolved_by_full_drug_alignment
+2,886,abdominal pain,resolved_by_full_drug_alignment
+3,52,abdominal pain lower,resolved_by_full_drug_alignment
+4,571,abdominal pain upper,resolved_by_full_drug_alignment
+5,833,abnormal behaviour,resolved_by_full_drug_alignment
+6,235,abnormal dreams,resolved_by_full_drug_alignment
+7,492,abnormal faeces,resolved_by_full_drug_alignment
+8,187,abscess,resolved_by_full_drug_alignment
+9,742,accommodation disorder,resolved_by_full_drug_alignment
+10,277,acidosis,resolved_by_full_drug_alignment
+11,767,acne,resolved_by_full_drug_alignment
+13,813,acute coronary syndrome,resolved_by_full_drug_alignment
+14,692,acute myocardial infarction,resolved_by_full_drug_alignment
+15,976,acute respiratory distress syndrome,resolved_by_full_drug_alignment
+16,306,adrenal insufficiency,resolved_by_full_drug_alignment
+17,652,affect lability,resolved_by_full_drug_alignment
+18,285,affective disorder,resolved_by_full_drug_alignment
+19,540,ageusia,resolved_by_full_drug_alignment
+20,2,aggression,resolved_by_full_drug_alignment
+21,659,agitation,resolved_by_full_drug_alignment
+22,418,agranulocytosis,resolved_by_full_drug_alignment
+23,900,akathisia,resolved_by_full_drug_alignment
+24,614,akinesia,resolved_by_full_drug_alignment
+25,371,alanine aminotransferase increased,resolved_by_full_drug_alignment
+26,455,albuminuria,resolved_by_full_drug_alignment
+27,882,alcohol intolerance,resolved_by_full_drug_alignment
+28,842,alopecia,resolved_by_full_drug_alignment
+29,672,altered state of consciousness,resolved_by_full_drug_alignment
+30,74,alveolitis allergic,resolved_by_full_drug_alignment
+31,454,amblyopia,resolved_by_full_drug_alignment
+32,872,amenorrhoea,resolved_by_full_drug_alignment
+33,645,amnesia,resolved_by_full_drug_alignment
+34,529,amylase increased,resolved_by_full_drug_alignment
+35,841,anaemia,resolved_by_full_drug_alignment
+36,215,anaemia macrocytic,resolved_by_full_drug_alignment
+37,670,anaemia megaloblastic,resolved_by_full_drug_alignment
+38,388,anal pruritus,resolved_by_full_drug_alignment
+39,594,anaphylactic shock,resolved_by_full_drug_alignment
+40,333,anaphylactoid reaction,resolved_by_full_drug_alignment
+41,484,aneurysm,resolved_by_full_drug_alignment
+42,356,anger,resolved_by_full_drug_alignment
+43,782,angina pectoris,resolved_by_full_drug_alignment
+44,888,angioedema,resolved_by_full_drug_alignment
+45,609,angiopathy,resolved_by_full_drug_alignment
+46,156,angle closure glaucoma,resolved_by_full_drug_alignment
+47,898,anorectal discomfort,resolved_by_full_drug_alignment
+48,54,anorectal disorder,resolved_by_full_drug_alignment
+49,914,anorgasmia,resolved_by_full_drug_alignment
+52,109,anuria,resolved_by_full_drug_alignment
+53,116,anxiety,resolved_by_full_drug_alignment
+54,498,apathy,resolved_by_full_drug_alignment
+55,567,aphasia,resolved_by_full_drug_alignment
+56,386,aplasia pure red cell,resolved_by_full_drug_alignment
+57,240,aplastic anaemia,resolved_by_full_drug_alignment
+58,588,apnoea,resolved_by_full_drug_alignment
+59,256,appendicitis,resolved_by_full_drug_alignment
+60,402,application site burn,resolved_by_full_drug_alignment
+61,570,application site dryness,resolved_by_full_drug_alignment
+62,654,application site erythema,resolved_by_full_drug_alignment
+63,127,application site irritation,resolved_by_full_drug_alignment
+64,452,application site pain,resolved_by_full_drug_alignment
+65,194,application site paraesthesia,resolved_by_full_drug_alignment
+66,752,application site pruritus,resolved_by_full_drug_alignment
+67,316,application site rash,resolved_by_full_drug_alignment
+68,547,application site reaction,resolved_by_full_drug_alignment
+69,807,application site vesicles,resolved_by_full_drug_alignment
+70,221,apraxia,resolved_by_full_drug_alignment
+71,608,arrhythmia,resolved_by_full_drug_alignment
+72,804,arrhythmia supraventricular,resolved_by_full_drug_alignment
+73,937,arteriosclerosis,resolved_by_full_drug_alignment
+74,803,arthralgia,resolved_by_full_drug_alignment
+75,55,arthritis,resolved_by_full_drug_alignment
+76,394,arthropathy,resolved_by_full_drug_alignment
+77,49,ascites,resolved_by_full_drug_alignment
+79,966,aspartate aminotransferase increased,resolved_by_full_drug_alignment
+80,22,asthenia,resolved_by_full_drug_alignment
+81,154,asthenopia,resolved_by_full_drug_alignment
+82,634,asthma,resolved_by_full_drug_alignment
+83,928,ataxia,resolved_by_full_drug_alignment
+84,565,atelectasis,resolved_by_full_drug_alignment
+85,295,atrial fibrillation,resolved_by_full_drug_alignment
+86,600,atrial flutter,resolved_by_full_drug_alignment
+87,718,atrioventricular block,resolved_by_full_drug_alignment
+88,16,atrioventricular block complete,resolved_by_full_drug_alignment
+89,468,atrioventricular block first degree,resolved_by_full_drug_alignment
+90,626,autonomic nervous system imbalance,resolved_by_full_drug_alignment
+91,794,azotaemia,resolved_by_full_drug_alignment
+92,729,back pain,resolved_by_full_drug_alignment
+93,93,bacteraemia,resolved_by_full_drug_alignment
+94,946,bacterial infection,resolved_by_full_drug_alignment
+95,174,balance disorder,resolved_by_full_drug_alignment
+96,75,basal cell carcinoma,resolved_by_full_drug_alignment
+97,343,benign neoplasm of skin,resolved_by_full_drug_alignment
+98,617,biliary colic,resolved_by_full_drug_alignment
+99,18,bipolar disorder,resolved_by_full_drug_alignment
+100,658,bipolar i disorder,resolved_by_full_drug_alignment
+101,432,bladder cancer,resolved_by_full_drug_alignment
+102,890,bladder pain,resolved_by_full_drug_alignment
+103,761,bleeding time prolonged,resolved_by_full_drug_alignment
+104,903,blepharitis,resolved_by_full_drug_alignment
+105,406,blepharospasm,resolved_by_full_drug_alignment
+106,238,blindness,resolved_by_full_drug_alignment
+107,576,blister,resolved_by_full_drug_alignment
+108,951,blood albumin decreased,resolved_by_full_drug_alignment
+109,478,blood alkaline phosphatase increased,resolved_by_full_drug_alignment
+110,9,blood bilirubin increased,resolved_by_full_drug_alignment
+111,178,blood calcium decreased,resolved_by_full_drug_alignment
+112,393,blood cholesterol increased,resolved_by_full_drug_alignment
+113,157,blood creatine phosphokinase increased,resolved_by_full_drug_alignment
+114,170,blood creatinine increased,resolved_by_full_drug_alignment
+115,413,blood disorder,resolved_by_full_drug_alignment
+116,315,blood glucose decreased,resolved_by_full_drug_alignment
+117,496,blood glucose increased,resolved_by_full_drug_alignment
+118,10,blood lactate dehydrogenase increased,resolved_by_full_drug_alignment
+119,533,blood phosphorus decreased,resolved_by_full_drug_alignment
+120,828,blood potassium decreased,resolved_by_full_drug_alignment
+121,219,blood potassium increased,resolved_by_full_drug_alignment
+122,894,blood pressure increased,resolved_by_full_drug_alignment
+123,764,blood prolactin increased,resolved_by_full_drug_alignment
+124,521,blood triglycerides increased,resolved_by_full_drug_alignment
+125,936,blood urea increased,resolved_by_full_drug_alignment
+126,351,blood uric acid increased,resolved_by_full_drug_alignment
+127,644,blood urine present,resolved_by_full_drug_alignment
+129,618,body temperature increased,resolved_by_full_drug_alignment
+130,735,bone disorder,resolved_by_full_drug_alignment
+131,809,bone pain,resolved_by_full_drug_alignment
+132,556,bradycardia,resolved_by_full_drug_alignment
+133,139,bradykinesia,resolved_by_full_drug_alignment
+134,210,brain oedema,resolved_by_full_drug_alignment
+135,476,breast cancer,resolved_by_full_drug_alignment
+136,628,breast discharge,resolved_by_full_drug_alignment
+137,328,breast disorder,resolved_by_full_drug_alignment
+138,357,breast engorgement,resolved_by_full_drug_alignment
+139,687,breast enlargement,resolved_by_full_drug_alignment
+140,345,breast neoplasm,resolved_by_full_drug_alignment
+141,44,breast pain,resolved_by_full_drug_alignment
+142,158,breast tenderness,resolved_by_full_drug_alignment
+143,266,breath odour,resolved_by_full_drug_alignment
+144,846,breath sounds abnormal,resolved_by_full_drug_alignment
+145,666,bronchial hyperreactivity,resolved_by_full_drug_alignment
+146,119,bronchitis,resolved_by_full_drug_alignment
+147,202,bronchospasm,resolved_by_full_drug_alignment
+148,542,bronchospasm paradoxical,resolved_by_full_drug_alignment
+149,727,bruxism,resolved_by_full_drug_alignment
+150,41,bundle branch block,resolved_by_full_drug_alignment
+151,86,burning sensation,resolved_by_full_drug_alignment
+152,368,bursitis,resolved_by_full_drug_alignment
+153,457,cachexia,resolved_by_full_drug_alignment
+154,15,candida infection,resolved_by_full_drug_alignment
+155,113,cardiac arrest,resolved_by_full_drug_alignment
+156,806,cardiac disorder,resolved_by_full_drug_alignment
+157,230,cardiac failure,resolved_by_full_drug_alignment
+158,758,cardiac failure congestive,resolved_by_full_drug_alignment
+159,584,cardiac flutter,resolved_by_full_drug_alignment
+160,824,cardiac murmur,resolved_by_full_drug_alignment
+161,417,cardiac output decreased,resolved_by_full_drug_alignment
+162,623,cardiogenic shock,resolved_by_full_drug_alignment
+163,5,cardiomegaly,resolved_by_full_drug_alignment
+164,224,cardiomyopathy,resolved_by_full_drug_alignment
+165,104,cardiovascular disorder,resolved_by_full_drug_alignment
+166,916,carpal tunnel syndrome,resolved_by_full_drug_alignment
+167,528,cataract,resolved_by_full_drug_alignment
+168,932,catheter site pain,resolved_by_full_drug_alignment
+169,534,cellulitis,resolved_by_full_drug_alignment
+170,963,cerebellar syndrome,resolved_by_full_drug_alignment
+171,163,cerebral haemorrhage,resolved_by_full_drug_alignment
+172,637,cerebral infarction,resolved_by_full_drug_alignment
+173,585,cerebral ischaemia,resolved_by_full_drug_alignment
+174,710,cerebrovascular accident,resolved_by_full_drug_alignment
+175,723,cerebrovascular disorder,resolved_by_full_drug_alignment
+176,983,cervix disorder,resolved_by_full_drug_alignment
+177,132,change of bowel habit,resolved_by_full_drug_alignment
+178,112,cheilitis,resolved_by_full_drug_alignment
+179,899,chest discomfort,resolved_by_full_drug_alignment
+180,143,chest pain,resolved_by_full_drug_alignment
+181,832,chills,resolved_by_full_drug_alignment
+182,870,cholecystitis,resolved_by_full_drug_alignment
+183,168,cholelithiasis,resolved_by_full_drug_alignment
+184,564,cholestasis,resolved_by_full_drug_alignment
+185,88,choreoathetosis,resolved_by_full_drug_alignment
+186,159,chromatopsia,resolved_by_full_drug_alignment
+187,38,chromaturia,resolved_by_full_drug_alignment
+188,715,chronic obstructive pulmonary disease,resolved_by_full_drug_alignment
+189,200,clostridium difficile colitis,resolved_by_full_drug_alignment
+190,730,coagulopathy,resolved_by_full_drug_alignment
+191,771,cognitive disorder,resolved_by_full_drug_alignment
+192,447,cold sweat,resolved_by_full_drug_alignment
+193,115,colitis,resolved_by_full_drug_alignment
+194,208,colitis ischaemic,resolved_by_full_drug_alignment
+195,21,colitis ulcerative,resolved_by_full_drug_alignment
+196,398,coma,resolved_by_full_drug_alignment
+197,84,completed suicide,resolved_by_full_drug_alignment
+198,475,conduction disorder,resolved_by_full_drug_alignment
+199,322,confusional state,resolved_by_full_drug_alignment
+200,887,congenital eye disorder,resolved_by_full_drug_alignment
+201,354,conjunctival haemorrhage,resolved_by_full_drug_alignment
+202,959,conjunctival hyperaemia,resolved_by_full_drug_alignment
+203,962,conjunctival oedema,resolved_by_full_drug_alignment
+204,517,conjunctivitis,resolved_by_full_drug_alignment
+205,990,conjunctivitis allergic,resolved_by_full_drug_alignment
+206,191,connective tissue disorder,resolved_by_full_drug_alignment
+207,85,constipation,resolved_by_full_drug_alignment
+208,891,contusion,resolved_by_full_drug_alignment
+209,147,conversion disorder,resolved_by_full_drug_alignment
+210,129,coordination abnormal,resolved_by_full_drug_alignment
+211,632,corneal erosion,resolved_by_full_drug_alignment
+212,32,corneal lesion,resolved_by_full_drug_alignment
+213,262,corneal opacity,resolved_by_full_drug_alignment
+214,671,coronary artery disease,resolved_by_full_drug_alignment
+215,339,cough,resolved_by_full_drug_alignment
+216,198,crohn's disease,resolved_by_full_drug_alignment
+217,677,crying,resolved_by_full_drug_alignment
+218,745,cushing's syndrome,resolved_by_full_drug_alignment
+219,253,cyanosis,resolved_by_full_drug_alignment
+220,283,cyst,resolved_by_full_drug_alignment
+221,420,cystitis,resolved_by_full_drug_alignment
+222,226,cystitis haemorrhagic,resolved_by_full_drug_alignment
+223,778,cystitis noninfective,resolved_by_full_drug_alignment
+224,707,deafness,resolved_by_full_drug_alignment
+225,24,decreased appetite,resolved_by_full_drug_alignment
+226,979,deep vein thrombosis,resolved_by_full_drug_alignment
+227,441,dehydration,resolved_by_full_drug_alignment
+228,435,delirium,resolved_by_full_drug_alignment
+229,923,delusion,resolved_by_full_drug_alignment
+230,854,dementia,resolved_by_full_drug_alignment
+231,656,dental caries,resolved_by_full_drug_alignment
+232,73,depressed level of consciousness,resolved_by_full_drug_alignment
+233,667,depressed mood,resolved_by_full_drug_alignment
+234,756,depression,resolved_by_full_drug_alignment
+235,938,derealisation,resolved_by_full_drug_alignment
+236,137,dermatitis,resolved_by_full_drug_alignment
+237,442,dermatitis acneiform,resolved_by_full_drug_alignment
+238,149,dermatitis atopic,resolved_by_full_drug_alignment
+239,444,dermatitis bullous,resolved_by_full_drug_alignment
+240,613,dermatitis contact,resolved_by_full_drug_alignment
+241,755,dermatitis exfoliative,resolved_by_full_drug_alignment
+242,387,diabetes mellitus,resolved_by_full_drug_alignment
+243,274,diarrhoea,resolved_by_full_drug_alignment
+244,563,diarrhoea haemorrhagic,resolved_by_full_drug_alignment
+245,213,diplopia,resolved_by_full_drug_alignment
+246,797,discomfort,resolved_by_full_drug_alignment
+247,8,disorientation,resolved_by_full_drug_alignment
+248,76,disseminated intravascular coagulation,resolved_by_full_drug_alignment
+249,133,disturbance in attention,resolved_by_full_drug_alignment
+250,724,disturbance in sexual arousal,resolved_by_full_drug_alignment
+251,397,diverticulitis,resolved_by_full_drug_alignment
+252,624,dizziness,resolved_by_full_drug_alignment
+253,815,dizziness postural,resolved_by_full_drug_alignment
+254,323,drug eruption,resolved_by_full_drug_alignment
+255,739,drug hypersensitivity,resolved_by_full_drug_alignment
+256,885,drug ineffective,resolved_by_full_drug_alignment
+257,136,dry eye,resolved_by_full_drug_alignment
+258,708,dry mouth,resolved_by_full_drug_alignment
+259,67,dry skin,resolved_by_full_drug_alignment
+260,551,dry throat,resolved_by_full_drug_alignment
+261,830,duodenal ulcer,resolved_by_full_drug_alignment
+262,279,duodenitis,resolved_by_full_drug_alignment
+263,827,dysaesthesia,resolved_by_full_drug_alignment
+264,636,dysarthria,resolved_by_full_drug_alignment
+265,483,dysgeusia,resolved_by_full_drug_alignment
+266,107,dyskinesia,resolved_by_full_drug_alignment
+267,485,dysmenorrhoea,resolved_by_full_drug_alignment
+268,201,dyspareunia,resolved_by_full_drug_alignment
+269,881,dyspepsia,resolved_by_full_drug_alignment
+270,640,dysphagia,resolved_by_full_drug_alignment
+271,737,dysphonia,resolved_by_full_drug_alignment
+272,324,dysphoria,resolved_by_full_drug_alignment
+273,300,dyspnoea,resolved_by_full_drug_alignment
+274,941,dyspnoea exertional,resolved_by_full_drug_alignment
+275,906,dysuria,resolved_by_full_drug_alignment
+276,341,ear disorder,resolved_by_full_drug_alignment
+277,599,ear infection,resolved_by_full_drug_alignment
+278,429,ear pain,resolved_by_full_drug_alignment
+279,232,ecchymosis,resolved_by_full_drug_alignment
+280,661,eczema,resolved_by_full_drug_alignment
+281,358,ejaculation delayed,resolved_by_full_drug_alignment
+282,190,ejaculation disorder,resolved_by_full_drug_alignment
+283,114,ejaculation failure,resolved_by_full_drug_alignment
+284,477,electrocardiogram abnormal,resolved_by_full_drug_alignment
+285,949,electrocardiogram qt prolonged,resolved_by_full_drug_alignment
+286,153,electrocardiogram st segment depression,resolved_by_full_drug_alignment
+287,276,electroencephalogram abnormal,resolved_by_full_drug_alignment
+288,805,electrolyte imbalance,resolved_by_full_drug_alignment
+289,503,embolism,resolved_by_full_drug_alignment
+290,535,embolism venous,resolved_by_full_drug_alignment
+291,843,emotional disorder,resolved_by_full_drug_alignment
+292,89,emphysema,resolved_by_full_drug_alignment
+293,151,encephalopathy,resolved_by_full_drug_alignment
+294,241,endocrine disorder,resolved_by_full_drug_alignment
+295,222,endometrial disorder,resolved_by_full_drug_alignment
+296,142,endophthalmitis,resolved_by_full_drug_alignment
+297,422,enteritis,resolved_by_full_drug_alignment
+298,904,enterocolitis,resolved_by_full_drug_alignment
+299,682,enuresis,resolved_by_full_drug_alignment
+300,270,eosinophilia,resolved_by_full_drug_alignment
+301,287,epididymitis,resolved_by_full_drug_alignment
+302,863,epigastric discomfort,resolved_by_full_drug_alignment
+303,958,epistaxis,resolved_by_full_drug_alignment
+304,943,erectile dysfunction,resolved_by_full_drug_alignment
+305,919,eructation,resolved_by_full_drug_alignment
+306,175,erythema,resolved_by_full_drug_alignment
+307,258,erythema multiforme,resolved_by_full_drug_alignment
+308,910,erythema nodosum,resolved_by_full_drug_alignment
+309,558,erythema of eyelid,resolved_by_full_drug_alignment
+310,861,euphoric mood,resolved_by_full_drug_alignment
+311,257,excoriation,resolved_by_full_drug_alignment
+312,978,exophthalmos,resolved_by_full_drug_alignment
+313,81,exostosis,resolved_by_full_drug_alignment
+314,901,extrapyramidal disorder,resolved_by_full_drug_alignment
+315,577,extrasystoles,resolved_by_full_drug_alignment
+316,250,extravasation,resolved_by_full_drug_alignment
+317,29,eye discharge,resolved_by_full_drug_alignment
+318,13,eye disorder,resolved_by_full_drug_alignment
+319,702,eye haemorrhage,resolved_by_full_drug_alignment
+320,831,eye infection,resolved_by_full_drug_alignment
+321,647,eye irritation,resolved_by_full_drug_alignment
+322,440,eye oedema,resolved_by_full_drug_alignment
+323,896,eye pain,resolved_by_full_drug_alignment
+324,848,eye pruritus,resolved_by_full_drug_alignment
+325,545,eye swelling,resolved_by_full_drug_alignment
+326,786,eyelid oedema,resolved_by_full_drug_alignment
+327,766,face oedema,resolved_by_full_drug_alignment
+330,902,faeces discoloured,resolved_by_full_drug_alignment
+331,591,fasting,resolved_by_full_drug_alignment
+332,799,fatigue,resolved_by_full_drug_alignment
+333,583,febrile neutropenia,resolved_by_full_drug_alignment
+334,95,feeling abnormal,resolved_by_full_drug_alignment
+335,344,feeling cold,resolved_by_full_drug_alignment
+336,376,feeling drunk,resolved_by_full_drug_alignment
+337,233,feeling hot,resolved_by_full_drug_alignment
+338,770,feeling jittery,resolved_by_full_drug_alignment
+339,592,fibrocystic breast disease,resolved_by_full_drug_alignment
+340,557,flank pain,resolved_by_full_drug_alignment
+341,246,flat affect,resolved_by_full_drug_alignment
+342,209,flatulence,resolved_by_full_drug_alignment
+343,691,fluid overload,resolved_by_full_drug_alignment
+344,940,fluid retention,resolved_by_full_drug_alignment
+345,823,flushing,resolved_by_full_drug_alignment
+346,162,foetor hepaticus,resolved_by_full_drug_alignment
+347,308,folliculitis,resolved_by_full_drug_alignment
+350,145,fungal infection,resolved_by_full_drug_alignment
+351,30,fungal skin infection,resolved_by_full_drug_alignment
+352,164,furuncle,resolved_by_full_drug_alignment
+353,31,gait disturbance,resolved_by_full_drug_alignment
+354,111,galactorrhoea,resolved_by_full_drug_alignment
+355,731,gamma-glutamyltransferase increased,resolved_by_full_drug_alignment
+356,363,gangrene,resolved_by_full_drug_alignment
+357,586,gastric ulcer,resolved_by_full_drug_alignment
+358,615,gastritis,resolved_by_full_drug_alignment
+359,347,gastroenteritis,resolved_by_full_drug_alignment
+360,186,gastrointestinal carcinoma,resolved_by_full_drug_alignment
+361,606,gastrointestinal disorder,resolved_by_full_drug_alignment
+362,265,gastrointestinal haemorrhage,resolved_by_full_drug_alignment
+363,296,gastrointestinal infection,resolved_by_full_drug_alignment
+364,825,gastrointestinal pain,resolved_by_full_drug_alignment
+365,884,gastrointestinal perforation,resolved_by_full_drug_alignment
+366,774,gastrointestinal ulcer,resolved_by_full_drug_alignment
+367,332,gastrooesophageal reflux disease,resolved_by_full_drug_alignment
+368,810,generalised oedema,resolved_by_full_drug_alignment
+369,102,genital candidiasis,resolved_by_full_drug_alignment
+370,705,gingival bleeding,resolved_by_full_drug_alignment
+371,929,gingival pain,resolved_by_full_drug_alignment
+372,355,gingivitis,resolved_by_full_drug_alignment
+373,704,glaucoma,resolved_by_full_drug_alignment
+374,181,glossitis,resolved_by_full_drug_alignment
+375,453,glossodynia,resolved_by_full_drug_alignment
+376,0,glucose tolerance impaired,resolved_by_full_drug_alignment
+377,657,glycosuria,resolved_by_full_drug_alignment
+378,622,goitre,resolved_by_full_drug_alignment
+379,384,gout,resolved_by_full_drug_alignment
+380,17,gravitational oedema,resolved_by_full_drug_alignment
+381,954,gynaecomastia,resolved_by_full_drug_alignment
+382,140,haematemesis,resolved_by_full_drug_alignment
+383,952,haematochezia,resolved_by_full_drug_alignment
+384,331,haematocrit decreased,resolved_by_full_drug_alignment
+385,814,haematoma,resolved_by_full_drug_alignment
+386,449,haematuria,resolved_by_full_drug_alignment
+387,530,haemoglobin,resolved_by_full_drug_alignment
+388,790,haemoglobin decreased,resolved_by_full_drug_alignment
+389,378,haemolytic anaemia,resolved_by_full_drug_alignment
+390,410,haemolytic uraemic syndrome,resolved_by_full_drug_alignment
+391,176,haemoptysis,resolved_by_full_drug_alignment
+392,908,haemorrhage,resolved_by_full_drug_alignment
+393,472,haemorrhage intracranial,resolved_by_full_drug_alignment
+394,933,haemorrhagic disorder,resolved_by_full_drug_alignment
+395,28,haemorrhoids,resolved_by_full_drug_alignment
+396,696,hair colour changes,resolved_by_full_drug_alignment
+397,72,hair disorder,resolved_by_full_drug_alignment
+398,974,hair texture abnormal,resolved_by_full_drug_alignment
+399,118,hallucination,resolved_by_full_drug_alignment
+400,858,hangover,resolved_by_full_drug_alignment
+401,589,headache,resolved_by_full_drug_alignment
+402,847,hemiplegia,resolved_by_full_drug_alignment
+403,383,hepatic cancer,resolved_by_full_drug_alignment
+404,607,hepatic enzyme increased,resolved_by_full_drug_alignment
+405,675,hepatic failure,resolved_by_full_drug_alignment
+406,433,hepatic function abnormal,resolved_by_full_drug_alignment
+407,697,hepatic necrosis,resolved_by_full_drug_alignment
+408,260,hepatic steatosis,resolved_by_full_drug_alignment
+409,462,hepatitis,resolved_by_full_drug_alignment
+410,101,hepatitis cholestatic,resolved_by_full_drug_alignment
+411,267,hepatobiliary disease,resolved_by_full_drug_alignment
+412,218,hepatocellular injury,resolved_by_full_drug_alignment
+413,412,hepatomegaly,resolved_by_full_drug_alignment
+414,408,hepatotoxicity,resolved_by_full_drug_alignment
+415,507,hernia,resolved_by_full_drug_alignment
+416,264,herpes simplex,resolved_by_full_drug_alignment
+417,254,herpes virus infection,resolved_by_full_drug_alignment
+418,179,herpes zoster,resolved_by_full_drug_alignment
+419,725,hiatus hernia,resolved_by_full_drug_alignment
+420,327,hiccups,resolved_by_full_drug_alignment
+421,981,hirsutism,resolved_by_full_drug_alignment
+422,141,hostility,resolved_by_full_drug_alignment
+423,192,hot flush,resolved_by_full_drug_alignment
+424,237,hyperacusis,resolved_by_full_drug_alignment
+425,395,hyperaemia,resolved_by_full_drug_alignment
+426,125,hyperaesthesia,resolved_by_full_drug_alignment
+427,944,hyperbilirubinaemia,resolved_by_full_drug_alignment
+428,883,hypercalcaemia,resolved_by_full_drug_alignment
+429,792,hypercalciuria,resolved_by_full_drug_alignment
+430,845,hypercholesterolaemia,resolved_by_full_drug_alignment
+431,816,hyperglycaemia,resolved_by_full_drug_alignment
+432,510,hyperhidrosis,resolved_by_full_drug_alignment
+433,515,hyperkalaemia,resolved_by_full_drug_alignment
+434,59,hyperkeratosis,resolved_by_full_drug_alignment
+435,419,hyperkinesia,resolved_by_full_drug_alignment
+436,301,hyperlactacidaemia,resolved_by_full_drug_alignment
+437,411,hyperlipidaemia,resolved_by_full_drug_alignment
+438,694,hypermagnesaemia,resolved_by_full_drug_alignment
+439,989,hypernatraemia,resolved_by_full_drug_alignment
+440,689,hyperpathia,resolved_by_full_drug_alignment
+441,638,hyperphosphataemia,resolved_by_full_drug_alignment
+442,716,hyperreflexia,resolved_by_full_drug_alignment
+443,303,hypersensitivity,resolved_by_full_drug_alignment
+444,783,hypersomnia,resolved_by_full_drug_alignment
+445,488,hypertension,resolved_by_full_drug_alignment
+446,866,hyperthyroidism,resolved_by_full_drug_alignment
+447,779,hypertonia,resolved_by_full_drug_alignment
+448,421,hypertrichosis,resolved_by_full_drug_alignment
+449,741,hypertriglyceridaemia,resolved_by_full_drug_alignment
+450,877,hyperuricaemia,resolved_by_full_drug_alignment
+451,669,hyperventilation,resolved_by_full_drug_alignment
+452,630,hypoaesthesia,resolved_by_full_drug_alignment
+453,802,hypoaesthesia oral,resolved_by_full_drug_alignment
+454,559,hypoalbuminaemia,resolved_by_full_drug_alignment
+455,987,hypocalcaemia,resolved_by_full_drug_alignment
+456,146,hypochloraemia,resolved_by_full_drug_alignment
+457,560,hypochromic anaemia,resolved_by_full_drug_alignment
+458,60,hypoglycaemia,resolved_by_full_drug_alignment
+459,180,hypohidrosis,resolved_by_full_drug_alignment
+460,838,hypokalaemia,resolved_by_full_drug_alignment
+461,25,hypokinesia,resolved_by_full_drug_alignment
+462,46,hypomagnesaemia,resolved_by_full_drug_alignment
+463,835,hypomania,resolved_by_full_drug_alignment
+464,64,hyponatraemia,resolved_by_full_drug_alignment
+465,171,hypophosphataemia,resolved_by_full_drug_alignment
+466,546,hypoproteinaemia,resolved_by_full_drug_alignment
+467,62,hyporeflexia,resolved_by_full_drug_alignment
+468,918,hypotension,resolved_by_full_drug_alignment
+470,738,hypothyroidism,resolved_by_full_drug_alignment
+471,229,hypotonia,resolved_by_full_drug_alignment
+472,370,hypoventilation,resolved_by_full_drug_alignment
+473,77,hypoxia,resolved_by_full_drug_alignment
+474,605,ileus,resolved_by_full_drug_alignment
+475,555,ileus paralytic,resolved_by_full_drug_alignment
+476,506,ill-defined disorder,resolved_by_full_drug_alignment
+477,298,immune system disorder,resolved_by_full_drug_alignment
+478,721,impaired gastric emptying,resolved_by_full_drug_alignment
+479,437,impaired healing,resolved_by_full_drug_alignment
+480,390,impetigo,resolved_by_full_drug_alignment
+481,524,inappropriate antidiuretic hormone secretion,resolved_by_full_drug_alignment
+482,217,incontinence,resolved_by_full_drug_alignment
+483,426,increased appetite,resolved_by_full_drug_alignment
+485,800,increased tendency to bruise,resolved_by_full_drug_alignment
+486,189,induration,resolved_by_full_drug_alignment
+487,926,infarction,resolved_by_full_drug_alignment
+488,777,infection,resolved_by_full_drug_alignment
+489,917,infestation,resolved_by_full_drug_alignment
+490,961,inflammation,resolved_by_full_drug_alignment
+491,502,influenza,resolved_by_full_drug_alignment
+492,760,influenza like illness,resolved_by_full_drug_alignment
+493,451,infusion site pain,resolved_by_full_drug_alignment
+494,248,infusion site reaction,resolved_by_full_drug_alignment
+495,785,injection site bruising,resolved_by_full_drug_alignment
+496,352,injection site erythema,resolved_by_full_drug_alignment
+497,337,injection site haemorrhage,resolved_by_full_drug_alignment
+498,448,injection site induration,resolved_by_full_drug_alignment
+499,912,injection site inflammation,resolved_by_full_drug_alignment
+500,554,injection site pain,resolved_by_full_drug_alignment
+501,513,injection site pruritus,resolved_by_full_drug_alignment
+502,69,injection site reaction,resolved_by_full_drug_alignment
+503,123,injection site swelling,resolved_by_full_drug_alignment
+504,531,injury,resolved_by_full_drug_alignment
+505,320,insomnia,resolved_by_full_drug_alignment
+506,391,instillation site pain,resolved_by_full_drug_alignment
+507,289,intermittent claudication,resolved_by_full_drug_alignment
+508,205,international normalised ratio increased,resolved_by_full_drug_alignment
+509,829,interstitial lung disease,resolved_by_full_drug_alignment
+510,897,intestinal obstruction,resolved_by_full_drug_alignment
+511,763,intestinal perforation,resolved_by_full_drug_alignment
+512,379,intracranial pressure increased,resolved_by_full_drug_alignment
+513,921,intraocular pressure increased,resolved_by_full_drug_alignment
+514,930,iritis,resolved_by_full_drug_alignment
+515,953,iron deficiency anaemia,resolved_by_full_drug_alignment
+516,819,irritability,resolved_by_full_drug_alignment
+518,993,ischaemia,resolved_by_full_drug_alignment
+519,19,jaundice,resolved_by_full_drug_alignment
+520,698,jaundice cholestatic,resolved_by_full_drug_alignment
+521,548,joint stiffness,resolved_by_full_drug_alignment
+522,400,joint swelling,resolved_by_full_drug_alignment
+523,291,keratitis,resolved_by_full_drug_alignment
+524,389,ketosis,resolved_by_full_drug_alignment
+525,471,laboratory test abnormal,resolved_by_full_drug_alignment
+526,695,labyrinthitis,resolved_by_full_drug_alignment
+527,431,laceration,resolved_by_full_drug_alignment
+528,310,lacrimal disorder,resolved_by_full_drug_alignment
+529,92,lacrimal structural disorder,resolved_by_full_drug_alignment
+530,401,lacrimation increased,resolved_by_full_drug_alignment
+531,425,lactic acidosis,resolved_by_full_drug_alignment
+532,856,laryngeal oedema,resolved_by_full_drug_alignment
+533,259,laryngeal pain,resolved_by_full_drug_alignment
+534,166,laryngitis,resolved_by_full_drug_alignment
+535,155,laryngospasm,resolved_by_full_drug_alignment
+536,385,lethargy,resolved_by_full_drug_alignment
+537,184,leukocytosis,resolved_by_full_drug_alignment
+538,90,leukoderma,resolved_by_full_drug_alignment
+539,42,leukopenia,resolved_by_full_drug_alignment
+540,947,libido decreased,resolved_by_full_drug_alignment
+541,973,libido disorder,resolved_by_full_drug_alignment
+542,934,libido increased,resolved_by_full_drug_alignment
+543,372,lichenoid keratosis,resolved_by_full_drug_alignment
+544,409,ligament sprain,resolved_by_full_drug_alignment
+545,325,lipase increased,resolved_by_full_drug_alignment
+546,726,lipodystrophy acquired,resolved_by_full_drug_alignment
+547,247,liver disorder,resolved_by_full_drug_alignment
+548,925,liver function test abnormal,resolved_by_full_drug_alignment
+549,197,liver injury,resolved_by_full_drug_alignment
+550,292,local swelling,resolved_by_full_drug_alignment
+551,78,loss of consciousness,resolved_by_full_drug_alignment
+552,227,loss of libido,resolved_by_full_drug_alignment
+553,183,lower respiratory tract infection,resolved_by_full_drug_alignment
+554,668,lung disorder,resolved_by_full_drug_alignment
+555,152,lung infection,resolved_by_full_drug_alignment
+556,514,lung infiltration,resolved_by_full_drug_alignment
+557,252,lymphadenopathy,resolved_by_full_drug_alignment
+558,821,lymphocyte count decreased,resolved_by_full_drug_alignment
+559,538,lymphocytosis,resolved_by_full_drug_alignment
+560,927,lymphoedema,resolved_by_full_drug_alignment
+561,211,lymphoma,resolved_by_full_drug_alignment
+562,648,lymphopenia,resolved_by_full_drug_alignment
+563,688,major depression,resolved_by_full_drug_alignment
+564,878,malaise,resolved_by_full_drug_alignment
+565,840,malignant melanoma,resolved_by_full_drug_alignment
+566,214,malnutrition,resolved_by_full_drug_alignment
+567,6,mania,resolved_by_full_drug_alignment
+568,105,mastitis,resolved_by_full_drug_alignment
+569,377,mediastinal disorder,resolved_by_full_drug_alignment
+570,837,melaena,resolved_by_full_drug_alignment
+571,236,melanosis,resolved_by_full_drug_alignment
+572,643,memory impairment,resolved_by_full_drug_alignment
+573,489,meningitis,resolved_by_full_drug_alignment
+574,850,menopausal symptoms,resolved_by_full_drug_alignment
+575,223,menopause,resolved_by_full_drug_alignment
+576,305,menorrhagia,resolved_by_full_drug_alignment
+577,271,menstrual disorder,resolved_by_full_drug_alignment
+578,436,menstruation irregular,resolved_by_full_drug_alignment
+579,399,mental disability,resolved_by_full_drug_alignment
+580,539,mental disorder,resolved_by_full_drug_alignment
+581,466,metabolic acidosis,resolved_by_full_drug_alignment
+582,329,metrorrhagia,resolved_by_full_drug_alignment
+583,769,micturition disorder,resolved_by_full_drug_alignment
+584,915,micturition urgency,resolved_by_full_drug_alignment
+585,662,migraine,resolved_by_full_drug_alignment
+586,20,miosis,resolved_by_full_drug_alignment
+587,801,monocytosis,resolved_by_full_drug_alignment
+588,913,mood swings,resolved_by_full_drug_alignment
+589,621,motion sickness,resolved_by_full_drug_alignment
+590,942,mouth ulceration,resolved_by_full_drug_alignment
+591,48,movement disorder,resolved_by_full_drug_alignment
+592,602,mucosal inflammation,resolved_by_full_drug_alignment
+593,722,mucous membrane disorder,resolved_by_full_drug_alignment
+595,681,muscle atrophy,resolved_by_full_drug_alignment
+596,505,muscle contractions involuntary,resolved_by_full_drug_alignment
+597,642,muscle relaxant therapy,resolved_by_full_drug_alignment
+598,980,muscle rigidity,resolved_by_full_drug_alignment
+599,746,muscle spasms,resolved_by_full_drug_alignment
+600,427,muscle tightness,resolved_by_full_drug_alignment
+601,836,muscle twitching,resolved_by_full_drug_alignment
+602,680,muscular weakness,resolved_by_full_drug_alignment
+603,367,musculoskeletal chest pain,resolved_by_full_drug_alignment
+604,945,musculoskeletal discomfort,resolved_by_full_drug_alignment
+605,493,musculoskeletal pain,resolved_by_full_drug_alignment
+606,220,musculoskeletal stiffness,resolved_by_full_drug_alignment
+607,350,myalgia,resolved_by_full_drug_alignment
+608,294,mydriasis,resolved_by_full_drug_alignment
+609,678,myelitis,resolved_by_full_drug_alignment
+610,273,myocardial infarction,resolved_by_full_drug_alignment
+611,321,myocardial ischaemia,resolved_by_full_drug_alignment
+612,811,myocarditis,resolved_by_full_drug_alignment
+613,709,myoclonus,resolved_by_full_drug_alignment
+614,629,myopathy,resolved_by_full_drug_alignment
+615,120,myositis,resolved_by_full_drug_alignment
+616,683,nail disorder,resolved_by_full_drug_alignment
+617,82,nasal congestion,resolved_by_full_drug_alignment
+618,511,nasal discomfort,resolved_by_full_drug_alignment
+619,920,nasal dryness,resolved_by_full_drug_alignment
+620,161,nasopharyngitis,resolved_by_full_drug_alignment
+621,748,nausea,resolved_by_full_drug_alignment
+622,751,neck pain,resolved_by_full_drug_alignment
+623,173,neoplasm,resolved_by_full_drug_alignment
+624,518,neoplasm malignant,resolved_by_full_drug_alignment
+625,561,nephritis,resolved_by_full_drug_alignment
+626,87,nephrolithiasis,resolved_by_full_drug_alignment
+627,261,nephropathy,resolved_by_full_drug_alignment
+628,604,nephropathy toxic,resolved_by_full_drug_alignment
+629,795,nephrotic syndrome,resolved_by_full_drug_alignment
+630,719,nervous system disorder,resolved_by_full_drug_alignment
+631,744,nervousness,resolved_by_full_drug_alignment
+632,456,neuralgia,resolved_by_full_drug_alignment
+633,244,neuritis,resolved_by_full_drug_alignment
+634,787,neuroleptic malignant syndrome,resolved_by_full_drug_alignment
+635,596,neuropathy peripheral,resolved_by_full_drug_alignment
+636,960,neurosis,resolved_by_full_drug_alignment
+637,23,neurotoxicity,resolved_by_full_drug_alignment
+638,360,neutropenia,resolved_by_full_drug_alignment
+639,543,neutropenic sepsis,resolved_by_full_drug_alignment
+640,56,neutrophil count decreased,resolved_by_full_drug_alignment
+641,733,night blindness,resolved_by_full_drug_alignment
+642,988,night sweats,resolved_by_full_drug_alignment
+643,893,nightmare,resolved_by_full_drug_alignment
+644,438,nocturia,resolved_by_full_drug_alignment
+645,569,nodal arrhythmia,resolved_by_full_drug_alignment
+646,61,nodule,resolved_by_full_drug_alignment
+647,255,non-cardiac chest pain,resolved_by_full_drug_alignment
+648,311,non-hodgkin's lymphoma,resolved_by_full_drug_alignment
+649,631,nuchal rigidity,resolved_by_full_drug_alignment
+650,302,nystagmus,resolved_by_full_drug_alignment
+651,434,ocular discomfort,resolved_by_full_drug_alignment
+652,536,ocular hyperaemia,resolved_by_full_drug_alignment
+653,568,oculogyric crisis,resolved_by_full_drug_alignment
+654,263,odynophagia,resolved_by_full_drug_alignment
+655,330,oedema,resolved_by_full_drug_alignment
+656,907,oedema peripheral,resolved_by_full_drug_alignment
+657,714,oesophageal spasm,resolved_by_full_drug_alignment
+658,459,oesophageal stenosis,resolved_by_full_drug_alignment
+659,482,oesophageal ulcer,resolved_by_full_drug_alignment
+660,527,oesophagitis,resolved_by_full_drug_alignment
+661,593,oliguria,resolved_by_full_drug_alignment
+662,196,onychomycosis,resolved_by_full_drug_alignment
+663,79,opportunistic infection,resolved_by_full_drug_alignment
+664,138,optic atrophy,resolved_by_full_drug_alignment
+665,639,optic neuritis,resolved_by_full_drug_alignment
+666,574,oral candidiasis,resolved_by_full_drug_alignment
+667,909,oral herpes,resolved_by_full_drug_alignment
+668,317,oral pain,resolved_by_full_drug_alignment
+669,91,orchitis noninfective,resolved_by_full_drug_alignment
+670,757,orgasm abnormal,resolved_by_full_drug_alignment
+671,740,oropharyngeal discomfort,resolved_by_full_drug_alignment
+672,673,oropharyngeal pain,resolved_by_full_drug_alignment
+673,712,orthostatic hypotension,resolved_by_full_drug_alignment
+674,97,osteoarthritis,resolved_by_full_drug_alignment
+675,580,osteomyelitis,resolved_by_full_drug_alignment
+676,968,osteonecrosis,resolved_by_full_drug_alignment
+677,508,osteoporosis,resolved_by_full_drug_alignment
+678,278,otitis externa,resolved_by_full_drug_alignment
+679,497,otitis media,resolved_by_full_drug_alignment
+680,439,ototoxicity,resolved_by_full_drug_alignment
+681,416,ovarian cyst,resolved_by_full_drug_alignment
+682,526,ovarian disorder,resolved_by_full_drug_alignment
+683,365,pain,resolved_by_full_drug_alignment
+684,581,pain in extremity,resolved_by_full_drug_alignment
+685,396,pain in jaw,resolved_by_full_drug_alignment
+686,96,pain of skin,resolved_by_full_drug_alignment
+687,855,pallor,resolved_by_full_drug_alignment
+688,299,palpitations,resolved_by_full_drug_alignment
+689,284,pancreatitis,resolved_by_full_drug_alignment
+690,686,pancreatitis acute,resolved_by_full_drug_alignment
+691,465,pancytopenia,resolved_by_full_drug_alignment
+692,957,panic attack,resolved_by_full_drug_alignment
+693,57,panic reaction,resolved_by_full_drug_alignment
+694,11,panophthalmitis,resolved_by_full_drug_alignment
+695,601,papilloedema,resolved_by_full_drug_alignment
+696,80,paraesthesia,resolved_by_full_drug_alignment
+697,481,paraesthesia oral,resolved_by_full_drug_alignment
+698,467,paralysis,resolved_by_full_drug_alignment
+699,616,paranoia,resolved_by_full_drug_alignment
+700,663,paresis,resolved_by_full_drug_alignment
+701,373,parkinsonism,resolved_by_full_drug_alignment
+702,195,parosmia,resolved_by_full_drug_alignment
+703,461,pelvic pain,resolved_by_full_drug_alignment
+704,566,penis disorder,resolved_by_full_drug_alignment
+705,103,peptic ulcer,resolved_by_full_drug_alignment
+706,808,pericardial effusion,resolved_by_full_drug_alignment
+707,424,pericarditis,resolved_by_full_drug_alignment
+708,336,perineal pain,resolved_by_full_drug_alignment
+709,14,periodontitis,resolved_by_full_drug_alignment
+710,660,periorbital oedema,resolved_by_full_drug_alignment
+711,66,peripheral coldness,resolved_by_full_drug_alignment
+712,242,peripheral ischaemia,resolved_by_full_drug_alignment
+713,867,peripheral motor neuropathy,resolved_by_full_drug_alignment
+714,346,peripheral sensory neuropathy,resolved_by_full_drug_alignment
+715,297,peripheral vascular disorder,resolved_by_full_drug_alignment
+716,553,peritonitis,resolved_by_full_drug_alignment
+717,239,personality disorder,resolved_by_full_drug_alignment
+718,905,petechiae,resolved_by_full_drug_alignment
+719,743,pharyngeal oedema,resolved_by_full_drug_alignment
+720,110,pharyngitis,resolved_by_full_drug_alignment
+721,407,pharyngitis streptococcal,resolved_by_full_drug_alignment
+722,446,phlebitis,resolved_by_full_drug_alignment
+723,318,photophobia,resolved_by_full_drug_alignment
+724,685,photopsia,resolved_by_full_drug_alignment
+725,922,photosensitivity reaction,resolved_by_full_drug_alignment
+726,674,pigmentation disorder,resolved_by_full_drug_alignment
+729,340,platelet count decreased,resolved_by_full_drug_alignment
+730,375,pleural effusion,resolved_by_full_drug_alignment
+731,818,pleurisy,resolved_by_full_drug_alignment
+732,122,pleuritic pain,resolved_by_full_drug_alignment
+733,117,pneumonia,resolved_by_full_drug_alignment
+734,486,pneumonia aspiration,resolved_by_full_drug_alignment
+735,573,pneumothorax,resolved_by_full_drug_alignment
+736,207,pollakiuria,resolved_by_full_drug_alignment
+737,27,polycythaemia,resolved_by_full_drug_alignment
+738,280,polydipsia,resolved_by_full_drug_alignment
+739,775,polyneuropathy,resolved_by_full_drug_alignment
+741,880,post procedural haemorrhage,resolved_by_full_drug_alignment
+742,185,premenstrual syndrome,resolved_by_full_drug_alignment
+743,474,presyncope,resolved_by_full_drug_alignment
+744,463,priapism,resolved_by_full_drug_alignment
+745,713,procedural pain,resolved_by_full_drug_alignment
+746,985,proctalgia,resolved_by_full_drug_alignment
+747,7,proctitis,resolved_by_full_drug_alignment
+748,969,productive cough,resolved_by_full_drug_alignment
+749,243,prostate cancer,resolved_by_full_drug_alignment
+750,859,prostatic disorder,resolved_by_full_drug_alignment
+751,780,prostatitis,resolved_by_full_drug_alignment
+752,37,protein total decreased,resolved_by_full_drug_alignment
+753,491,protein urine present,resolved_by_full_drug_alignment
+754,970,proteinuria,resolved_by_full_drug_alignment
+755,99,prothrombin level decreased,resolved_by_full_drug_alignment
+756,701,prothrombin level increased,resolved_by_full_drug_alignment
+757,522,prurigo,resolved_by_full_drug_alignment
+758,972,pruritus,resolved_by_full_drug_alignment
+759,911,pruritus generalised,resolved_by_full_drug_alignment
+760,245,pruritus genital,resolved_by_full_drug_alignment
+761,541,pseudolymphoma,resolved_by_full_drug_alignment
+762,268,pseudomembranous colitis,resolved_by_full_drug_alignment
+763,776,psoriasis,resolved_by_full_drug_alignment
+764,796,psychomotor retardation,resolved_by_full_drug_alignment
+765,269,psychotic disorder,resolved_by_full_drug_alignment
+766,359,pulmonary congestion,resolved_by_full_drug_alignment
+767,509,pulmonary embolism,resolved_by_full_drug_alignment
+768,895,pulmonary fibrosis,resolved_by_full_drug_alignment
+769,523,pulmonary function test decreased,resolved_by_full_drug_alignment
+770,955,pulmonary hypertension,resolved_by_full_drug_alignment
+771,39,pulmonary oedema,resolved_by_full_drug_alignment
+772,834,punctate keratitis,resolved_by_full_drug_alignment
+773,633,pupils unequal,resolved_by_full_drug_alignment
+774,849,purpura,resolved_by_full_drug_alignment
+775,582,pyelonephritis,resolved_by_full_drug_alignment
+776,108,pyuria,resolved_by_full_drug_alignment
+777,464,rales,resolved_by_full_drug_alignment
+778,873,rash,resolved_by_full_drug_alignment
+779,598,rash erythematous,resolved_by_full_drug_alignment
+780,720,rash generalised,resolved_by_full_drug_alignment
+781,348,rash macular,resolved_by_full_drug_alignment
+782,869,rash maculo-papular,resolved_by_full_drug_alignment
+783,982,rash papular,resolved_by_full_drug_alignment
+784,275,rash pustular,resolved_by_full_drug_alignment
+785,36,rectal haemorrhage,resolved_by_full_drug_alignment
+786,382,rectal tenesmus,resolved_by_full_drug_alignment
+787,98,regurgitation,resolved_by_full_drug_alignment
+788,160,renal failure,resolved_by_full_drug_alignment
+789,334,renal impairment,resolved_by_full_drug_alignment
+790,234,renal pain,resolved_by_full_drug_alignment
+791,313,renal tubular necrosis,resolved_by_full_drug_alignment
+792,706,respiration abnormal,resolved_by_full_drug_alignment
+793,753,respiratory depression,resolved_by_full_drug_alignment
+794,789,respiratory disorder,resolved_by_full_drug_alignment
+795,430,respiratory distress,resolved_by_full_drug_alignment
+796,876,respiratory failure,resolved_by_full_drug_alignment
+797,380,respiratory tract congestion,resolved_by_full_drug_alignment
+798,282,respiratory tract infection,resolved_by_full_drug_alignment
+799,135,restless legs syndrome,resolved_by_full_drug_alignment
+800,473,retching,resolved_by_full_drug_alignment
+801,860,retinal degeneration,resolved_by_full_drug_alignment
+802,649,retinal detachment,resolved_by_full_drug_alignment
+803,889,retinal disorder,resolved_by_full_drug_alignment
+804,871,retinal haemorrhage,resolved_by_full_drug_alignment
+805,950,retroperitoneal haemorrhage,resolved_by_full_drug_alignment
+806,169,rhabdomyolysis,resolved_by_full_drug_alignment
+807,53,rheumatoid arthritis,resolved_by_full_drug_alignment
+808,216,rhinitis,resolved_by_full_drug_alignment
+809,47,rhinitis allergic,resolved_by_full_drug_alignment
+810,732,rhinorrhoea,resolved_by_full_drug_alignment
+811,445,rhonchi,resolved_by_full_drug_alignment
+812,868,road traffic accident,resolved_by_full_drug_alignment
+813,212,rosacea,resolved_by_full_drug_alignment
+814,182,salivary gland enlargement,resolved_by_full_drug_alignment
+815,826,salivary hypersecretion,resolved_by_full_drug_alignment
+816,366,salpingitis,resolved_by_full_drug_alignment
+817,225,scab,resolved_by_full_drug_alignment
+818,288,schizophreniform disorder,resolved_by_full_drug_alignment
+819,754,sciatica,resolved_by_full_drug_alignment
+820,126,scleritis,resolved_by_full_drug_alignment
+821,977,seasonal allergy,resolved_by_full_drug_alignment
+822,206,seborrhoeic dermatitis,resolved_by_full_drug_alignment
+824,603,sensation of foreign body,resolved_by_full_drug_alignment
+825,549,sensory disturbance,resolved_by_full_drug_alignment
+826,646,sensory loss,resolved_by_full_drug_alignment
+827,641,sepsis,resolved_by_full_drug_alignment
+828,892,septic shock,resolved_by_full_drug_alignment
+829,128,serotonin syndrome,resolved_by_full_drug_alignment
+830,793,serum sickness,resolved_by_full_drug_alignment
+831,443,sexual dysfunction,resolved_by_full_drug_alignment
+832,749,shock,resolved_by_full_drug_alignment
+833,392,sialoadenitis,resolved_by_full_drug_alignment
+834,595,sinus bradycardia,resolved_by_full_drug_alignment
+835,309,sinus congestion,resolved_by_full_drug_alignment
+836,26,sinus headache,resolved_by_full_drug_alignment
+837,864,sinus tachycardia,resolved_by_full_drug_alignment
+838,188,sinusitis,resolved_by_full_drug_alignment
+839,131,skin atrophy,resolved_by_full_drug_alignment
+840,820,skin burning sensation,resolved_by_full_drug_alignment
+841,45,skin cancer,resolved_by_full_drug_alignment
+842,349,skin discolouration,resolved_by_full_drug_alignment
+843,338,skin disorder,resolved_by_full_drug_alignment
+844,293,skin exfoliation,resolved_by_full_drug_alignment
+845,63,skin hyperpigmentation,resolved_by_full_drug_alignment
+846,851,skin hypertrophy,resolved_by_full_drug_alignment
+847,307,skin infection,resolved_by_full_drug_alignment
+848,772,skin irritation,resolved_by_full_drug_alignment
+849,967,skin lesion,resolved_by_full_drug_alignment
+850,653,skin mass,resolved_by_full_drug_alignment
+851,326,skin odour abnormal,resolved_by_full_drug_alignment
+852,68,skin papilloma,resolved_by_full_drug_alignment
+853,501,skin striae,resolved_by_full_drug_alignment
+854,552,skin ulcer,resolved_by_full_drug_alignment
+855,665,sleep apnoea syndrome,resolved_by_full_drug_alignment
+856,414,sleep disorder,resolved_by_full_drug_alignment
+857,610,sluggishness,resolved_by_full_drug_alignment
+858,231,sneezing,resolved_by_full_drug_alignment
+859,458,snoring,resolved_by_full_drug_alignment
+860,490,somnambulism,resolved_by_full_drug_alignment
+861,70,somnolence,resolved_by_full_drug_alignment
+862,619,speech disorder,resolved_by_full_drug_alignment
+863,423,splenomegaly,resolved_by_full_drug_alignment
+865,852,staphylococcal infection,resolved_by_full_drug_alignment
+866,286,status epilepticus,resolved_by_full_drug_alignment
+867,203,stevens-johnson syndrome,resolved_by_full_drug_alignment
+868,956,sticky skin,resolved_by_full_drug_alignment
+869,853,stomatitis,resolved_by_full_drug_alignment
+870,3,strangury,resolved_by_full_drug_alignment
+871,924,stridor,resolved_by_full_drug_alignment
+872,525,stupor,resolved_by_full_drug_alignment
+873,251,subarachnoid haemorrhage,resolved_by_full_drug_alignment
+874,319,subdural haematoma,resolved_by_full_drug_alignment
+875,575,sudden death,resolved_by_full_drug_alignment
+876,935,suicidal ideation,resolved_by_full_drug_alignment
+877,717,suicide attempt,resolved_by_full_drug_alignment
+878,931,sunburn,resolved_by_full_drug_alignment
+879,504,supraventricular extrasystoles,resolved_by_full_drug_alignment
+880,690,supraventricular tachycardia,resolved_by_full_drug_alignment
+881,611,swelling,resolved_by_full_drug_alignment
+882,500,swelling face,resolved_by_full_drug_alignment
+883,204,syncope,resolved_by_full_drug_alignment
+884,544,systemic lupus erythematosus,resolved_by_full_drug_alignment
+885,290,tachycardia,resolved_by_full_drug_alignment
+886,948,tachypnoea,resolved_by_full_drug_alignment
+887,597,tardive dyskinesia,resolved_by_full_drug_alignment
+888,512,telangiectasia,resolved_by_full_drug_alignment
+889,817,temperature intolerance,resolved_by_full_drug_alignment
+890,750,tenderness,resolved_by_full_drug_alignment
+891,312,tendinous contracture,resolved_by_full_drug_alignment
+892,765,tendon disorder,resolved_by_full_drug_alignment
+893,964,tendonitis,resolved_by_full_drug_alignment
+894,50,tenosynovitis,resolved_by_full_drug_alignment
+895,791,tension,resolved_by_full_drug_alignment
+896,165,tension headache,resolved_by_full_drug_alignment
+897,480,testicular pain,resolved_by_full_drug_alignment
+898,676,tetany,resolved_by_full_drug_alignment
+899,759,therapeutic response unexpected,resolved_by_full_drug_alignment
+900,651,thinking abnormal,resolved_by_full_drug_alignment
+901,335,thirst,resolved_by_full_drug_alignment
+902,700,throat irritation,resolved_by_full_drug_alignment
+903,865,throat tightness,resolved_by_full_drug_alignment
+904,627,thrombocytopenia,resolved_by_full_drug_alignment
+905,875,thrombocytosis,resolved_by_full_drug_alignment
+906,798,thrombophlebitis,resolved_by_full_drug_alignment
+907,734,thrombosis,resolved_by_full_drug_alignment
+908,83,thrombotic thrombocytopenic purpura,resolved_by_full_drug_alignment
+909,984,thyroid disorder,resolved_by_full_drug_alignment
+910,71,thyroid neoplasm,resolved_by_full_drug_alignment
+911,450,thyroiditis,resolved_by_full_drug_alignment
+912,381,tinnitus,resolved_by_full_drug_alignment
+913,971,tongue discolouration,resolved_by_full_drug_alignment
+914,51,tongue disorder,resolved_by_full_drug_alignment
+915,342,tongue oedema,resolved_by_full_drug_alignment
+916,33,tongue ulceration,resolved_by_full_drug_alignment
+917,40,tonsillitis,resolved_by_full_drug_alignment
+918,587,tooth abscess,resolved_by_full_drug_alignment
+919,822,tooth disorder,resolved_by_full_drug_alignment
+920,693,tooth infection,resolved_by_full_drug_alignment
+921,428,toothache,resolved_by_full_drug_alignment
+922,58,torsade de pointes,resolved_by_full_drug_alignment
+923,728,torticollis,resolved_by_full_drug_alignment
+924,711,toxic epidermal necrolysis,resolved_by_full_drug_alignment
+925,487,toxicity to various agents,resolved_by_full_drug_alignment
+926,106,tracheitis,resolved_by_full_drug_alignment
+927,965,tracheobronchitis,resolved_by_full_drug_alignment
+928,404,transaminases increased,resolved_by_full_drug_alignment
+929,4,transient ischaemic attack,resolved_by_full_drug_alignment
+930,762,tremor,resolved_by_full_drug_alignment
+931,684,trismus,resolved_by_full_drug_alignment
+932,679,tubulointerstitial nephritis,resolved_by_full_drug_alignment
+933,177,tumour lysis syndrome,resolved_by_full_drug_alignment
+934,134,ulcer,resolved_by_full_drug_alignment
+935,703,ulcerative keratitis,resolved_by_full_drug_alignment
+936,635,unintended pregnancy,resolved_by_full_drug_alignment
+937,470,upper respiratory tract infection,resolved_by_full_drug_alignment
+938,612,upper-airway cough syndrome,resolved_by_full_drug_alignment
+939,773,urethral disorder,resolved_by_full_drug_alignment
+942,788,urinary hesitation,resolved_by_full_drug_alignment
+943,199,urinary incontinence,resolved_by_full_drug_alignment
+944,369,urinary retention,resolved_by_full_drug_alignment
+945,499,urinary tract disorder,resolved_by_full_drug_alignment
+946,562,urinary tract infection,resolved_by_full_drug_alignment
+950,228,urticaria,resolved_by_full_drug_alignment
+951,193,uterine disorder,resolved_by_full_drug_alignment
+952,167,uterine haemorrhage,resolved_by_full_drug_alignment
+953,150,uterine leiomyoma,resolved_by_full_drug_alignment
+954,405,uterine spasm,resolved_by_full_drug_alignment
+955,625,uveitis,resolved_by_full_drug_alignment
+956,655,vaginal discharge,resolved_by_full_drug_alignment
+957,839,vaginal haemorrhage,resolved_by_full_drug_alignment
+958,281,vaginal infection,resolved_by_full_drug_alignment
+959,121,varicose vein,resolved_by_full_drug_alignment
+960,874,vascular headache,resolved_by_full_drug_alignment
+961,516,vascular purpura,resolved_by_full_drug_alignment
+962,975,vasculitis,resolved_by_full_drug_alignment
+963,578,vasodilation procedure,resolved_by_full_drug_alignment
+964,403,vasospasm,resolved_by_full_drug_alignment
+965,479,venous thrombosis,resolved_by_full_drug_alignment
+966,100,ventricular arrhythmia,resolved_by_full_drug_alignment
+967,94,ventricular extrasystoles,resolved_by_full_drug_alignment
+968,43,ventricular fibrillation,resolved_by_full_drug_alignment
+969,34,ventricular tachycardia,resolved_by_full_drug_alignment
+970,494,vertigo,resolved_by_full_drug_alignment
+971,460,vestibular disorder,resolved_by_full_drug_alignment
+972,550,viral diarrhoea,resolved_by_full_drug_alignment
+973,65,viral infection,resolved_by_full_drug_alignment
+974,364,viral upper respiratory tract infection,resolved_by_full_drug_alignment
+975,747,vision blurred,resolved_by_full_drug_alignment
+976,939,visual acuity reduced,resolved_by_full_drug_alignment
+977,992,visual impairment,resolved_by_full_drug_alignment
+978,520,vomiting,resolved_by_full_drug_alignment
+979,986,vulvovaginal candidiasis,resolved_by_full_drug_alignment
+980,736,vulvovaginal dryness,resolved_by_full_drug_alignment
+981,35,vulvovaginal mycotic infection,resolved_by_full_drug_alignment
+982,620,vulvovaginal pruritus,resolved_by_full_drug_alignment
+983,991,vulvovaginitis,resolved_by_full_drug_alignment
+984,532,weight decreased,resolved_by_full_drug_alignment
+985,374,weight increased,resolved_by_full_drug_alignment
+986,415,wheezing,resolved_by_full_drug_alignment
+987,862,white blood cell count decreased,resolved_by_full_drug_alignment
+988,664,white blood cell count increased,resolved_by_full_drug_alignment
+989,353,withdrawal syndrome,resolved_by_full_drug_alignment
+990,784,wound infection,resolved_by_full_drug_alignment
+991,12,wound secretion,resolved_by_full_drug_alignment
+992,590,xerophthalmia,resolved_by_full_drug_alignment
+993,314,yawning,resolved_by_full_drug_alignment

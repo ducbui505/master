@@ -1,5 +1,5 @@
 """
-build_texts.py - Ghep mapping + PubChem/ADReCS text -> drug_texts.csv, se_texts.csv
+build_texts.py - Ghep mapping + PubChem/ADReCS text -> text CSVs.
 
 Input:
     data/drug_mapping.csv    (idx, drugbank_id, drug_name)
@@ -7,25 +7,45 @@ Input:
     data/drugbank_text.csv   (drugbank_id, drug_name, description, moa)
     data/adrecs_text.csv     (adr_term, adr_synonyms, meddra_code, adr_term_lower)
 
-Output:
+Default output:
     data/drug_texts.csv  (idx, drug_name, drug_text)
     data/se_texts.csv    (idx, se_name, se_text)
 
 Chay:
     python prepare_data/build_texts.py
+    python prepare_data/build_texts.py --drug-mapping data/benchmark_drug_mapping.csv \
+        --se-mapping data/benchmark_se_mapping.csv \
+        --drug-output data/benchmark_drug_texts.csv \
+        --se-output data/benchmark_se_texts.csv
 """
 
+import argparse
 import os
 import pandas as pd
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Build drug/SE texts from mapping files.")
+    parser.add_argument("--drug-mapping", default=os.path.join(DATA, "drug_mapping.csv"),
+                        help="Path to drug mapping CSV.")
+    parser.add_argument("--se-mapping", default=os.path.join(DATA, "se_mapping.csv"),
+                        help="Path to side-effect mapping CSV.")
+    parser.add_argument("--drug-output", default=os.path.join(DATA, "drug_texts.csv"),
+                        help="Output path for drug texts CSV.")
+    parser.add_argument("--se-output", default=os.path.join(DATA, "se_texts.csv"),
+                        help="Output path for side-effect texts CSV.")
+    return parser.parse_args()
+
+
 def main():
-    drug_map = pd.read_csv(os.path.join(DATA, "drug_mapping.csv"))
-    se_map   = pd.read_csv(os.path.join(DATA, "se_mapping.csv"))
-    print(f"drug_mapping: {len(drug_map)} drugs")
-    print(f"se_mapping  : {len(se_map)} SEs")
+    args = parse_args()
+
+    drug_map = pd.read_csv(args.drug_mapping)
+    se_map   = pd.read_csv(args.se_mapping)
+    print(f"drug_mapping: {len(drug_map)} drugs -> {args.drug_mapping}")
+    print(f"se_mapping  : {len(se_map)} SEs -> {args.se_mapping}")
 
     # -- Drug texts (PubChem) --------------------------------------------------
     drugbank_path = os.path.join(DATA, "drugbank_text.csv")
@@ -50,12 +70,12 @@ def main():
         drugs["drug_text"] = drugs["drug_name"]
 
     drug_out = drugs[["idx", "drug_name", "drug_text"]].copy()
-    drug_out.to_csv(os.path.join(DATA, "drug_texts.csv"), index=False, encoding="utf-8")
+    drug_out.to_csv(args.drug_output, index=False, encoding="utf-8")
 
     full = drug_out["drug_text"].str.len() > drug_out["drug_name"].str.len()
     print(f"Drug texts co mo ta day du : {full.sum()}/{len(drug_out)}")
     print(f"Drug texts fallback (ten)  : {(~full).sum()}/{len(drug_out)}")
-    print("Saved -> data/drug_texts.csv")
+    print(f"Saved -> {args.drug_output}")
 
     # -- SE texts (ADReCS) -----------------------------------------------------
     adrecs_path = os.path.join(DATA, "adrecs_text.csv")
@@ -117,12 +137,12 @@ def main():
         ses["se_text"] = ses["se_name"]
         se_out = ses[["idx", "se_name", "se_text"]].copy()
 
-    se_out.to_csv(os.path.join(DATA, "se_texts.csv"), index=False, encoding="utf-8")
+    se_out.to_csv(args.se_output, index=False, encoding="utf-8")
 
     full_se = se_out["se_text"].str.len() > se_out["se_name"].str.len() + 2
     print(f"SE texts co ADReCS term    : {full_se.sum()}/{len(se_out)}")
     print(f"SE texts fallback (ten)    : {(~full_se).sum()}/{len(se_out)}")
-    print("Saved -> data/se_texts.csv")
+    print(f"Saved -> {args.se_output}")
 
     print("\nSample drug_texts:")
     print(drug_out.head(3)[["drug_name","drug_text"]].to_string())

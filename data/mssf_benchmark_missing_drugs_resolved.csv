@@ -1,0 +1,3 @@
+benchmark_idx,benchmark_drug_name,reason
+338,lamivudine and abacavir,Present in benchmark FrequencyData.mat but no matching row in MSSF drug_side.pkl
+556,salmeterol and fluticasone,Present in benchmark FrequencyData.mat but no matching row in MSSF drug_side.pkl

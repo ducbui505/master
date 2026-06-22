@@ -1,0 +1,234 @@
+mapping_idx,drugbank_id,mapping_name,normalized_name,core_name,stemmed_core
+669,DB02032,1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid,1- 3-mercapto-2-methyl-propionyl -pyrrolidine-2-carboxylic acid,1- 3-mercapto-2-methyl-propionyl -pyrrolidine-2-carboxylic acid,1- 3-mercapto-2-methyl-propionyl -pyrrolidine-2-carboxyl
+187,DB03322,1-(Isopropylamino)-3-(1-Naphthyloxy)-2-Propanol,1- isopropylamino -3- 1-naphthyloxy -2-propanol,1- isopropylamino -3- 1-naphthyloxy -2-propanol,1- isopropylamino -3- 1-naphthyloxy -2-propanol
+15,DB07701,"1-BENZYL-4-[(5,6-DIMETHOXY-1-INDANON-2-YL)METHYL]PIPERIDINE",1-benzyl-4- 5 6-dimethoxy-1-indanon-2-yl methyl piperidine,1-benzyl-4- 5 6-dimethoxy-1-indanon-2-yl methyl piperidine,1-benzyl-4- 5 6-dimethoxy-1-indanon-2-yl methyl piperidine
+558,DB07768,"(10ALPHA,13ALPHA,14BETA,17ALPHA)-17-HYDROXYANDROST-4-EN-3-ONE",10alpha 13alpha 14beta 17alpha -17-hydroxyandrost-4-en-3-one,10alpha 13alpha 14beta 17alpha -17-hydroxyandrost-4-en-3-one,10alpha 13alpha 14beta 17alpha -17-hydroxyandrost-4-en-3-one
+604,DB07886,"(11alpha,14beta)-11,17,21-trihydroxypregn-4-ene-3,20-dione",11alpha 14beta -11 17 21-trihydroxypregn-4-ene-3 20-dione,11alpha 14beta -11 17 21-trihydroxypregn-4-ene-3 20-dione,11alpha 14beta -11 17 21-trihydroxypregn-4-ene-3 20-dione
+716,DB07702,"(16ALPHA,17ALPHA)-ESTRA-1,3,5(10)-TRIENE-3,16,17-TRIOL",16alpha 17alpha -estra-1 3 5 10 -triene-3 16 17-triol,16alpha 17alpha -estra-1 3 5 10 -triene-3 16 17-triol,16alpha 17alpha -estra-1 3 5 10 -triene-3 16 17-triol
+556,DB08567,"(1S,4S)-4-(3,4-dichlorophenyl)-N-methyl-1,2,3,4-tetrahydronaphthalen-1-amine",1s 4s -4- 3 4-dichlorophenyl -n-methyl-1 2 3 4-tetrahydronaphthalen-1-amine,1s 4s -4- 3 4-dichlorophenyl -n-methyl-1 2 3 4-tetrahydronaphthalen-1-amine,1s 4s -4- 3 4-dichlorophenyl -n-methyl-1 2 3 4-tetrahydronaphthalen-1-amine
+117,DB03125,"2,4-Diamino-5-(3,4,5-Trimethoxy-Benzyl)-Pyrimidin-1-Ium",2 4-diamino-5- 3 4 5-trimethoxy-benzyl -pyrimidin-1-ium,2 4-diamino-5- 3 4 5-trimethoxy-benzyl -pyrimidin-1-ium,2 4-diamino-5- 3 4 5-trimethoxy-benzyl -pyrimidin-1-ium
+186,DB06987,2-(4-(2-HYDROXY-3-(ISOPROPYLAMINO)PROPOXY)PHENYL)ETHANAMIDE,2- 4- 2-hydroxy-3- isopropylamino propoxy phenyl ethanamide,2- 4- 2-hydroxy-3- isopropylamino propoxy phenyl ethanamide,2- 4- 2-hydroxy-3- isopropylamino propoxy phenyl ethanam
+267,DB08046,2-chloro-5-[(1S)-1-hydroxy-3-oxo-2H-isoindol-1-yl]benzenesulfonamide,2-chloro-5- 1s -1-hydroxy-3-oxo-2h-isoindol-1-yl benzenesulfonamide,2-chloro-5- 1s -1-hydroxy-3-oxo-2h-isoindol-1-yl benzenesulfonamide,2-chloro-5- 1s -1-hydroxy-3-oxo-2h-isoindol-1-yl benzenesulfonam
+651,DB04441,2-Fluoroadenosine,2-fluoroadenosine,2-fluoroadenosine,2-fluoroadenosine
+240,DB07129,"(2R)-1-(2,6-dimethylphenoxy)propan-2-amine",2r -1- 2 6-dimethylphenoxy propan-2-amine,2r -1- 2 6-dimethylphenoxy propan-2-amine,2r -1- 2 6-dimethylphenoxy propan-2-amine
+155,DB02932,(2r)-N-[4-Cyano-3-(Trifluoromethyl)Phenyl]-3-[(4-Fluorophenyl)Sulfonyl]-2-Hydroxy-2-Methylpropanamide,2r -n- 4-cyano-3- trifluoromethyl phenyl -3- 4-fluorophenyl sulfonyl -2-hydroxy-2-methylpropanamide,2r -n- 4-cyano-3- trifluoromethyl phenyl -3- 4-fluorophenyl sulfonyl -2-hydroxy-2-methylpropanamide,2r -n- 4-cyano-3- trifluoromethyl phenyl -3- 4-fluorophenyl sulfonyl -2-hydroxy-2-methylpropanam
+563,DB08298,(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid,2s -2- 6-methoxynaphthalen-2-yl propanoic acid,2s -2- 6-methoxynaphthalen-2-yl propanoic acid,2s -2- 6-methoxynaphthalen-2-yl propano
+6,DB08472,(3R)-N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine,3r -n-methyl-3-phenyl-3- 4- trifluoromethyl phenoxy propan-1-amine,3r -n-methyl-3-phenyl-3- 4- trifluoromethyl phenoxy propan-1-amine,3r -n-methyl-3-phenyl-3- 4- trifluoromethyl phenoxy propan-1-amine
+5,DB08544,(3S)-N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine,3s -n-methyl-3-phenyl-3- 4- trifluoromethyl phenoxy propan-1-amine,3s -n-methyl-3-phenyl-3- 4- trifluoromethyl phenoxy propan-1-amine,3s -n-methyl-3-phenyl-3- 4- trifluoromethyl phenoxy propan-1-amine
+394,DB07191,"4-({6-AMINO-5-BROMO-2-[(4-CYANOPHENYL)AMINO]PYRIMIDIN-4-YL}OXY)-3,5-DIMETHYLBENZONITRILE",4- 6-amino-5-bromo-2- 4-cyanophenyl amino pyrimidin-4-yl oxy -3 5-dimethylbenzonitrile,4- 6-amino-5-bromo-2- 4-cyanophenyl amino pyrimidin-4-yl oxy -3 5-dimethylbenzonitrile,4- 6-amino-5-bromo-2- 4-cyanophenyl amino pyrimidin-4-yl oxy -3 5-dimethylbenzonitrile
+103,DB08764,4-BROMO-2-FLUORO-N-[(4E)-6-METHOXY-7-[(1-METHYLPIPERIDIN-4-YL)METHOXY]QUINAZOLIN-4(1H)-YLIDENE]ANILINE,4-bromo-2-fluoro-n- 4e -6-methoxy-7- 1-methylpiperidin-4-yl methoxy quinazolin-4 1h -ylidene aniline,4-bromo-2-fluoro-n- 4e -6-methoxy-7- 1-methylpiperidin-4-yl methoxy quinazolin-4 1h -ylidene aniline,4-bromo-2-fluoro-n- 4e -6-methoxy-7- 1-methylpiperidin-4-yl methoxy quinazolin-4 1h -ylidene aniline
+125,DB07467,"4-chloro-N-[(2S)-2-methyl-2,3-dihydro-1H-indol-1-yl]-3-sulfamoylbenzamide",4-chloro-n- 2s -2-methyl-2 3-dihydro-1h-indol-1-yl -3-sulfamoylbenzamide,4-chloro-n- 2s -2-methyl-2 3-dihydro-1h-indol-1-yl -3-sulfamoylbenzamide,4-chloro-n- 2s -2-methyl-2 3-dihydro-1h-indol-1-yl -3-sulfamoylbenzam
+726,DB08477,"5-chloro-N-({(5S)-2-oxo-3-[4-(3-oxomorpholin-4-yl)phenyl]-1,3-oxazolidin-5-yl}methyl)thiophene-2-carboxamide",5-chloro-n- 5s -2-oxo-3- 4- 3-oxomorpholin-4-yl phenyl -1 3-oxazolidin-5-yl methyl thiophene-2-carboxamide,5-chloro-n- 5s -2-oxo-3- 4- 3-oxomorpholin-4-yl phenyl -1 3-oxazolidin-5-yl methyl thiophene-2-carboxamide,5-chloro-n- 5s -2-oxo-3- 4- 3-oxomorpholin-4-yl phenyl -1 3-oxazolidin-5-yl methyl thiophene-2-carboxam
+402,DB03256,"5-Formyl-5,6,7,8-Tetrahydrofolate",5-formyl-5 6 7 8-tetrahydrofolate,5-formyl-5 6 7 8-tetrahydrofolate,5-formyl-5 6 7 8-tetrahydrofol
+445,DB08607,"(5R)-5-(4-{[(2R)-6-HYDROXY-2,5,7,8-TETRAMETHYL-3,4-DIHYDRO-2H-CHROMEN-2-YL]METHOXY}BENZYL)-1,3-THIAZOLIDINE-2,4-DIONE",5r -5- 4- 2r -6-hydroxy-2 5 7 8-tetramethyl-3 4-dihydro-2h-chromen-2-yl methoxy benzyl -1 3-thiazolidine-2 4-dione,5r -5- 4- 2r -6-hydroxy-2 5 7 8-tetramethyl-3 4-dihydro-2h-chromen-2-yl methoxy benzyl -1 3-thiazolidine-2 4-dione,5r -5- 4- 2r -6-hydroxy-2 5 7 8-tetramethyl-3 4-dihydro-2h-chromen-2-yl methoxy benzyl -1 3-thiazolidine-2 4-dione
+281,DB08734,"6,6-DIMETHYL-1-[3-(2,4,5-TRICHLOROPHENOXY)PROPOXY]-1,6-DIHYDRO-1,3,5-TRIAZINE-2,4-DIAMINE",6 6-dimethyl-1- 3- 2 4 5-trichlorophenoxy propoxy -1 6-dihydro-1 3 5-triazine-2 4-diamine,6 6-dimethyl-1- 3- 2 4 5-trichlorophenoxy propoxy -1 6-dihydro-1 3 5-triazine-2 4-diamine,6 6-dimethyl-1- 3- 2 4 5-trichlorophenoxy propoxy -1 6-dihydro-1 3 5-triazine-2 4-diamine
+361,DB02692,"(6r,1'r,2's)-5,6,7,8 Tetrahydrobiopterin",6r 1 r 2 s -5 6 7 8 tetrahydrobiopterin,6r 1 r 2 s -5 6 7 8 tetrahydrobiopterin,6r 1 r 2 s -5 6 7 8 tetrahydrobiopterin
+359,DB03918,"6s-5,6,7,8-Tetrahydrobiopterin",6s-5 6 7 8-tetrahydrobiopterin,6s-5 6 7 8-tetrahydrobiopterin,6s-5 6 7 8-tetrahydrobiopterin
+736,DB03528,9-Beta-D-Xylofuranosyl-Adenine,9-beta-d-xylofuranosyl-adenine,9-beta-d-xylofuranosyl-adenine,9-beta-d-xylofuranosyl-adenine
+26,DB05488,99mTc-ciprofloxacin,99mtc-ciprofloxacin,99mtc-ciprofloxacin,99mtc-ciprofloxacin
+395,DB00284,Acarbose,acarbose,acarbose,acarbose
+194,DB00316,Acetaminophen,acetaminophen,acetaminophen,acetaminophen
+369,DB03856,Alpha-Difluoromethylornithine,alpha-difluoromethylornithine,alpha-difluoromethylornithine,alpha-difluoromethylornithine
+479,DB00132,Alpha-Linolenic Acid,alpha-linolenic acid,alpha-linolenic acid,alpha-linolen
+422,DB00321,Amitriptyline,amitriptyline,amitriptyline,amitriptyline
+331,DB00543,Amoxapine,amoxapine,amoxapine,amoxapine
+717,DB05379,APL-202,apl-202,apl-202,apl-202
+227,DB00407,Ardeparin,ardeparin,ardeparin,ardeparin
+196,DB01274,Arformoterol,arformoterol,arformoterol,arformoterol
+299,DB05340,ATL-2502,atl-2502,atl-2502,atl-2502
+329,DB00572,Atropine,atropine,atropine,atropine
+509,DB08822,Azilsartan medoxomil,azilsartan medoxomil,azilsartan medoxomil,azilsartan medoxomil
+657,DB01053,Benzylpenicillin,benzylpenicillin,benzylpenicillin,benzylpenicillin
+301,DB05229,Beraprost,beraprost,beraprost,beraprost
+595,DB00443,Betamethasone,betamethasone,betamethasone,betamethasone
+518,DB01019,Bethanechol,bethanechol,bethanechol,bethanechol
+470,DB04851,Biricodar dicitrate,biricodar dicitrate,biricodar dicitrate,biricodar dicitr
+505,DB00963,Bromfenac,bromfenac,bromfenac,bromfenac
+473,DB00258,Calcium Acetate,calcium acetate,,
+474,DB01164,Calcium Chloride,calcium chloride,,
+478,DB00326,Calcium Gluceptate,calcium gluceptate,gluceptate,glucept
+667,DB01197,Captopril,captopril,captopril,captopril
+515,DB00190,Carbidopa,carbidopa,carbidopa,carbidopa
+511,DB06775,Carglumic Acid,carglumic acid,carglumic acid,carglum
+362,DB00395,Carisoprodol,carisoprodol,carisoprodol,carisoprodol
+732,DB00535,Cefdinir,cefdinir,cefdinir,cefdinir
+627,DB01416,Cefpodoxime,cefpodoxime,cefpodoxime,cefpodoxime
+681,DB01112,Cefuroxime,cefuroxime,cefuroxime,cefuroxime
+607,DB06777,Chenodeoxycholic acid,chenodeoxycholic acid,chenodeoxycholic acid,chenodeoxychol
+385,DB01494,Chloral betaine,chloral betaine,chloral betaine,chloral betaine
+96,DB03681,Chloro Diiron-Oxo Moiety,chloro diiron-oxo moiety,chloro diiron-oxo moiety,chloro diiron-oxo moiety
+753,DB00477,Chlorpromazine,chlorpromazine,chlorpromazine,chlorpromazine
+271,DB00310,Chlorthalidone,chlorthalidone,chlorthalidone,chlorthalidone
+531,DB00515,Cisplatin,cisplatin,cisplatin,cisplatin
+471,DB04272,Citric Acid,citric acid,citric acid,citr
+522,DB00720,Clodronate,clodronate,clodronate,clodron
+738,DB00318,Codeine,codeine,codeine,codeine
+508,DB01111,Colistimethate,colistimethate,colistimethate,colistimeth
+566,DB00091,Cyclosporine,cyclosporine,cyclosporine,cyclosporine
+279,DB00847,Cysteamine,cysteamine,cysteamine,cysteamine
+687,DB01638,D-Sorbitol,d-sorbitol,d-sorbitol,d-sorbitol
+521,DB00970,Dactinomycin,dactinomycin,dactinomycin,dactinomycin
+416,DB06637,Dalfampridine,dalfampridine,dalfampridine,dalfampridine
+156,DB08826,Deferiprone,deferiprone,deferiprone,deferiprone
+755,DB04485,Deoxythymidine,deoxythymidine,deoxythymidine,deoxythymidine
+731,DB01151,Desipramine,desipramine,desipramine,desipramine
+81,DB03034,Dextrofloxacine,dextrofloxacine,dextrofloxacine,dextrofloxacine
+680,DB00271,Diatrizoate,diatrizoate,diatrizoate,diatrizo
+131,DB00804,Dicyclomine,dicyclomine,dicyclomine,dicyclomine
+464,DB00861,Diflunisal,diflunisal,diflunisal,diflunisal
+498,DB02831,Dihydrogenphosphate Ion,dihydrogenphosphate ion,dihydrogenphosphate ion,dihydrogenphosph ion
+506,DB00280,Disopyramide,disopyramide,disopyramide,disopyram
+746,DB05314,DN-101,dn-101,dn-101,dn-101
+492,DB03756,"Docosa-4,7,10,13,16,19-Hexaenoic Acid",docosa-4 7 10 13 16 19-hexaenoic acid,docosa-4 7 10 13 16 19-hexaenoic acid,docosa-4 7 10 13 16 19-hexaeno
+491,DB00632,Docosanol,docosanol,docosanol,docosanol
+481,DB01184,Domperidone,domperidone,domperidone,domperidone
+638,DB00869,Dorzolamide,dorzolamide,dorzolamide,dorzolam
+734,DB00366,Doxylamine,doxylamine,doxylamine,doxylamine
+513,DB01126,Dutasteride,dutasteride,dutasteride,dutaster
+526,DB01084,Emedastine,emedastine,emedastine,emedastine
+229,DB01225,Enoxaparin,enoxaparin,enoxaparin,enoxaparin
+529,DB00751,Epinastine,epinastine,epinastine,epinastine
+312,DB04933,Eritoran,eritoran,eritoran,eritoran
+754,DB08866,Estradiol valerate/Dienogest,estradiol valerate dienogest,estradiol valerate dienogest,estradiol valer dienogest
+714,DB04573,Estriol,estriol,estriol,estriol
+640,DB04574,Estropipate,estropipate,estropipate,estropip
+497,DB03994,Ethanolamine,ethanolamine,ethanolamine,ethanolamine
+495,DB06689,Ethanolamine Oleate,ethanolamine oleate,ethanolamine oleate,ethanolamine ole
+662,DB00977,Ethinyl Estradiol,ethinyl estradiol,ethinyl estradiol,ethinyl estradiol
+284,DB01077,Etidronic acid,etidronic acid,etidronic acid,etidron
+181,DB00749,Etodolac,etodolac,etodolac,etodolac
+225,DB01628,Etoricoxib,etoricoxib,etoricoxib,etoricoxib
+278,DB04953,Ezogabine,ezogabine,ezogabine,ezogabine
+517,DB01023,Felodipine,felodipine,felodipine,felodipine
+370,DB00573,Fenoprofen,fenoprofen,fenoprofen,fenoprofen
+514,DB01205,Flumazenil,flumazenil,flumazenil,flumazenil
+675,DB00591,Fluocinolone Acetonide,fluocinolone acetonide,fluocinolone acetonide,fluocinolone aceton
+592,DB00712,Flurbiprofen,flurbiprofen,flurbiprofen,flurbiprofen
+652,DB00588,Fluticasone Propionate,fluticasone propionate,fluticasone propionate,fluticasone propion
+256,DB06717,Fosaprepitant,fosaprepitant,fosaprepitant,fosaprepitant
+484,DB06716,Fospropofol,fospropofol,fospropofol,fospropofol
+259,DB05286,FTY 720,fty 720,fty 720,fty 720
+213,DB00743,Gadobenate Dimeglumine,gadobenate dimeglumine,gadobenate dimeglumine,gadoben dimeglumine
+442,DB00225,Gadodiamide,gadodiamide,gadodiamide,gadodiam
+317,DB06705,Gadofosveset trisodium,gadofosveset trisodium,gadofosveset trisodium,gadofosveset trisodium
+625,DB00789,Gadopentetate dimeglumine,gadopentetate dimeglumine,gadopentetate dimeglumine,gadopentet dimeglumine
+303,DB08884,Gadoxetate,gadoxetate,gadoxetate,gadoxet
+214,DB01440,Gamma Hydroxybutyric Acid,gamma hydroxybutyric acid,gamma hydroxybutyric acid,gamma hydroxybutyr
+292,DB02000,Gamma-Phenyl-Butyric Acid,gamma-phenyl-butyric acid,gamma-phenyl-butyric acid,gamma-phenyl-butyr
+272,DB00986,Glycopyrrolate,glycopyrrolate,glycopyrrolate,glycopyrrol
+169,DB00629,Guanabenz,guanabenz,guanabenz,guanabenz
+724,DB05891,HD-O,hd-o,hd-o,hd-o
+174,DB02351,Hirulog,hirulog,hirulog,hirulog
+722,DB05381,histamine dihydrochloride,histamine dihydrochloride,histamine dihydrochloride,histamine dihydrochlor
+501,DB00667,Histamine Phosphate,histamine phosphate,histamine,histamine
+684,DB01611,Hydroxychloroquine,hydroxychloroquine,hydroxychloroquine,hydroxychloroquine
+379,DB01005,Hydroxyurea,hydroxyurea,hydroxyurea,hydroxyurea
+480,DB00159,Icosapent,icosapent,icosapent,icosapent
+432,DB08887,Icosapent ethyl,icosapent ethyl,icosapent ethyl,icosapent ethyl
+356,DB00328,Indomethacin,indomethacin,indomethacin,indomethacin
+512,DB06704,Iobenguane,iobenguane,iobenguane,iobenguane
+171,DB05347,iontophoretic acyclovir,iontophoretic acyclovir,iontophoretic acyclovir,iontophoret acyclovir
+94,DB01592,Iron,iron,iron,iron
+466,DB08944,Isoaminile,isoaminile,isoaminile,isoaminile
+426,DB01247,Isocarboxazid,isocarboxazid,isocarboxazid,isocarboxazid
+487,DB00753,Isoflurane,isoflurane,isoflurane,isoflurane
+704,DB01026,Ketoconazole,ketoconazole,ketoconazole,ketoconazole
+410,DB01009,Ketoprofen,ketoprofen,ketoprofen,ketoprofen
+520,DB01235,L-DOPA,l-dopa,l-dopa,l-dopa
+399,DB00650,Leucovorin,leucovorin,leucovorin,leucovorin
+140,DB08918,Levomilnacipran,levomilnacipran,levomilnacipran,levomilnacipran
+494,DB05291,lidocaine patch,lidocaine patch,lidocaine,lidocaine
+465,DB00431,Lindane,lindane,lindane,lindane
+313,DB01583,Liotrix,liotrix,liotrix,liotrix
+688,DB01356,Lithium,lithium,lithium,lithium
+706,DB08827,Lomitapide,lomitapide,lomitapide,lomitap
+262,DB00836,Loperamide,loperamide,loperamide,loperam
+523,DB06795,Mafenide,mafenide,mafenide,mafen
+485,DB00888,Mechlorethamine,mechlorethamine,mechlorethamine,mechlorethamine
+381,DB00939,Meclofenamic acid,meclofenamic acid,meclofenamic acid,meclofenam
+666,DB00784,Mefenamic acid,mefenamic acid,mefenamic acid,mefenam
+661,DB00358,Mefloquine,mefloquine,mefloquine,mefloquine
+689,DB01065,Melatonin,melatonin,melatonin,melatonin
+519,DB01033,Mercaptopurine,mercaptopurine,mercaptopurine,mercaptopurine
+504,DB02577,Mesoheme,mesoheme,mesoheme,mesoheme
+314,DB04817,Metamizole,metamizole,metamizole,metamizole
+721,DB00333,Methadone,methadone,methadone,methadone
+486,DB00553,Methoxsalen,methoxsalen,methoxsalen,methoxsalen
+616,DB00959,Methylprednisolone,methylprednisolone,methylprednisolone,methylprednisolone
+192,DB01233,Metoclopramide,metoclopramide,metoclopramide,metoclopram
+488,DB00235,Milrinone,milrinone,milrinone,milrinone
+527,DB00305,Mitomycin,mitomycin,mitomycin,mitomycin
+502,DB00648,Mitotane,mitotane,mitotane,mitotane
+93,DB02013,Monoazido-Mu-Oxo-Diiron,monoazido-mu-oxo-diiron,monoazido-mu-oxo-diiron,monoazido-mu-oxo-diiron
+593,DB05289,MPC-7869,mpc-7869,mpc-7869,mpc-7869
+510,DB03151,(Mu-4-Sulfido)-Tetra-Nuclear Copper Ion,mu-4-sulfido -tetra-nuclear copper ion,mu-4-sulfido -tetra-nuclear copper ion,mu-4-sulfido -tetra-nuclear copper ion
+542,DB00688,Mycophenolate mofetil,mycophenolate mofetil,mycophenolate mofetil,mycophenol mofetil
+536,DB07475,N-[(1R)-1-(DIHYDROXYBORYL)-3-METHYLBUTYL]-N-(PYRAZIN-2-YLCARBONYL)-L-PHENYLALANINAMIDE,n- 1r -1- dihydroxyboryl -3-methylbutyl -n- pyrazin-2-ylcarbonyl -l-phenylalaninamide,n- 1r -1- dihydroxyboryl -3-methylbutyl -n- pyrazin-2-ylcarbonyl -l-phenylalaninamide,n- 1r -1- dihydroxyboryl -3-methylbutyl -n- pyrazin-2-ylcarbonyl -l-phenylalaninam
+92,DB01703,N-(2-Ferrocenylethyl)Maleimide,n- 2-ferrocenylethyl maleimide,n- 2-ferrocenylethyl maleimide,n- 2-ferrocenylethyl maleim
+578,DB03894,N-Propargyl-1(S)-Aminoindan,n-propargyl-1 s -aminoindan,n-propargyl-1 s -aminoindan,n-propargyl-1 s -aminoindan
+582,DB05302,naltrexone depot,naltrexone depot,naltrexone depot,naltrexone depot
+530,DB00716,Nedocromil,nedocromil,nedocromil,nedocromil
+264,DB01400,Neostigmine,neostigmine,neostigmine,neostigmine
+507,DB06802,Nepafenac,nepafenac,nepafenac,nepafenac
+167,DB00627,Niacin,niacin,niacin,niacin
+210,DB00622,Nicardipine,nicardipine,nicardipine,nicardipine
+730,DB01595,Nitrazepam,nitrazepam,nitrazepam,nitrazepam
+489,DB00435,Nitric Oxide,nitric oxide,nitric oxide,nitr oxide
+377,DB00727,Nitroglycerin,nitroglycerin,nitroglycerin,nitroglycerin
+742,DB00717,Norethindrone,norethindrone,norethindrone,norethindrone
+500,DB00540,Nortriptyline,nortriptyline,nortriptyline,nortriptyline
+110,DB00275,Olmesartan,olmesartan,olmesartan,olmesartan
+682,DB00991,Oxaprozin,oxaprozin,oxaprozin,oxaprozin
+300,DB05143,OXI4503,oxi4503,oxi4503,oxi4503
+729,DB01192,Oxymorphone,oxymorphone,oxymorphone,oxymorphone
+126,DB00556,Perflutren,perflutren,perflutren,perflutren
+694,DB00850,Perphenazine,perphenazine,perphenazine,perphenazine
+99,DB02626,Phenylferricrocin-Iron,phenylferricrocin-iron,phenylferricrocin-iron,phenylferricrocin-iron
+467,DB09015,Potassium Canrenoate,potassium canrenoate,canrenoate,canreno
+476,DB00761,Potassium Chloride,potassium chloride,,
+468,DB06715,Potassium Iodide,potassium iodide,,
+528,DB06813,Pralatrexate,pralatrexate,pralatrexate,pralatrex
+392,DB01058,Praziquantel,praziquantel,praziquantel,praziquantel
+690,DB00860,Prednisolone,prednisolone,prednisolone,prednisolone
+590,DB00635,Prednisone,prednisone,prednisone,prednisone
+683,DB01168,Procarbazine,procarbazine,procarbazine,procarbazine
+679,DB00433,Prochlorperazine,prochlorperazine,prochlorperazine,prochlorperazine
+643,DB00818,Propofol,propofol,propofol,propofol
+496,DB02110,Protoporphyrin Ix Containing Co,protoporphyrin ix containing co,protoporphyrin ix containing co,protoporphyrin ix containing co
+499,DB03934,Protoporphyrin Ix Containing Zn,protoporphyrin ix containing zn,protoporphyrin ix containing zn,protoporphyrin ix containing zn
+751,DB00344,Protriptyline,protriptyline,protriptyline,protriptyline
+583,DB05508,PTI-901,pti-901,pti-901,pti-901
+614,DB01346,Quinidine barbiturate,quinidine barbiturate,quinidine barbiturate,quinidine barbitur
+648,DB00468,Quinine,quinine,quinine,quinine
+750,DB00863,Ranitidine,ranitidine,ranitidine,ranitidine
+413,DB06155,Rimonabant,rimonabant,rimonabant,rimonabant
+298,DB01398,Salicylate-sodium,salicylate-sodium,salicylate-sodium,salicylate-sodium
+95,DB04811,Salophen iron chelate,salophen iron chelate,salophen iron chelate,salophen iron chel
+97,DB04810,Salophen-10-carboxylate iron chelate,salophen-10-carboxylate iron chelate,salophen-10-carboxylate iron chelate,salophen-10-carboxyl iron chel
+20,DB05665,SCH-503034,sch-503034,sch-503034,sch-503034
+250,DB00747,Scopolamine,scopolamine,scopolamine,scopolamine
+503,DB01153,Sertaconazole,sertaconazole,sertaconazole,sertaconazole
+211,DB01236,Sevoflurane,sevoflurane,sevoflurane,sevoflurane
+462,DB01105,Sibutramine,sibutramine,sibutramine,sibutramine
+311,DB00815,Sodium lauryl sulfate,sodium lauryl sulfate,lauryl,lauryl
+304,DB05630,Sodium stibogluconate,sodium stibogluconate,stibogluconate,stiboglucon
+165,DB01015,Sulfamethoxazole,sulfamethoxazole,sulfamethoxazole,sulfamethoxazole
+671,DB00605,Sulindac,sulindac,sulindac,sulindac
+275,DB00469,Tenoxicam,tenoxicam,tenoxicam,tenoxicam
+280,DB02638,Terlipressin,terlipressin,terlipressin,terlipressin
+745,DB01420,Testosterone Propionate,testosterone propionate,testosterone propionate,testosterone propion
+357,DB00360,Tetrahydrobiopterin,tetrahydrobiopterin,tetrahydrobiopterin,tetrahydrobiopterin
+524,DB00500,Tolmetin,tolmetin,tolmetin,tolmetin
+452,DB02665,Trans-2-Phenylcyclopropylamine,trans-2-phenylcyclopropylamine,trans-2-phenylcyclopropylamine,trans-2-phenylcyclopropylamine
+451,DB00752,Tranylcypromine,tranylcypromine,tranylcypromine,tranylcypromine
+718,DB00831,Trifluoperazine,trifluoperazine,trifluoperazine,trifluoperazine
+516,DB00432,Trifluridine,trifluridine,trifluridine,trifluridine
+383,DB04455,Trimethyl Glycine,trimethyl glycine,trimethyl glycine,trimethyl glycine
+477,DB07424,tripotassium (1R)-4-biphenyl-4-yl-1-phosphonatobutane-1-sulfonate,tripotassium 1r -4-biphenyl-4-yl-1-phosphonatobutane-1-sulfonate,tripotassium 1r -4-biphenyl-4-yl-1-phosphonatobutane-1-sulfonate,tripotassium 1r -4-biphenyl-4-yl-1-phosphonatobutane-1-sulfon
+443,DB00197,Troglitazone,troglitazone,troglitazone,troglitazone
+740,DB00194,Vidarabine,vidarabine,vidarabine,vidarabine
+701,DB05251,VRX496,vrx496,vrx496,vrx496
+570,DB00943,Zalcitabine,zalcitabine,zalcitabine,zalcitabine
+433,DB00744,Zileuton,zileuton,zileuton,zileuton
+589,DB01198,Zopiclone,zopiclone,zopiclone,zopiclone
+631,DB01624,Zuclopenthixol,zuclopenthixol,zuclopenthixol,zuclopenthixol

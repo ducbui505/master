@@ -1,0 +1,972 @@
+mssf_idx,benchmark_idx,benchmark_se_name
+0,650,abdominal discomfort
+1,361,abdominal distension
+2,886,abdominal pain
+3,52,abdominal pain lower
+4,571,abdominal pain upper
+5,833,abnormal behaviour
+6,235,abnormal dreams
+7,492,abnormal faeces
+8,187,abscess
+9,742,accommodation disorder
+10,277,acidosis
+11,767,acne
+13,813,acute coronary syndrome
+14,692,acute myocardial infarction
+15,976,acute respiratory distress syndrome
+16,306,adrenal insufficiency
+17,652,affect lability
+18,285,affective disorder
+19,540,ageusia
+20,2,aggression
+21,659,agitation
+22,418,agranulocytosis
+23,900,akathisia
+24,614,akinesia
+25,371,alanine aminotransferase increased
+26,455,albuminuria
+27,882,alcohol intolerance
+28,842,alopecia
+29,672,altered state of consciousness
+30,74,alveolitis allergic
+31,454,amblyopia
+32,872,amenorrhoea
+33,645,amnesia
+34,529,amylase increased
+35,841,anaemia
+36,215,anaemia macrocytic
+37,670,anaemia megaloblastic
+38,388,anal pruritus
+39,594,anaphylactic shock
+40,333,anaphylactoid reaction
+41,484,aneurysm
+42,356,anger
+43,782,angina pectoris
+44,888,angioedema
+45,609,angiopathy
+46,156,angle closure glaucoma
+47,898,anorectal discomfort
+48,54,anorectal disorder
+49,914,anorgasmia
+52,109,anuria
+53,116,anxiety
+54,498,apathy
+55,567,aphasia
+56,386,aplasia pure red cell
+57,240,aplastic anaemia
+58,588,apnoea
+59,256,appendicitis
+60,402,application site burn
+61,570,application site dryness
+62,654,application site erythema
+63,127,application site irritation
+64,452,application site pain
+65,194,application site paraesthesia
+66,752,application site pruritus
+67,316,application site rash
+68,547,application site reaction
+69,807,application site vesicles
+70,221,apraxia
+71,608,arrhythmia
+72,804,arrhythmia supraventricular
+73,937,arteriosclerosis
+74,803,arthralgia
+75,55,arthritis
+76,394,arthropathy
+77,49,ascites
+79,966,aspartate aminotransferase increased
+80,22,asthenia
+81,154,asthenopia
+82,634,asthma
+83,928,ataxia
+84,565,atelectasis
+85,295,atrial fibrillation
+86,600,atrial flutter
+87,718,atrioventricular block
+88,16,atrioventricular block complete
+89,468,atrioventricular block first degree
+90,626,autonomic nervous system imbalance
+91,794,azotaemia
+92,729,back pain
+93,93,bacteraemia
+94,946,bacterial infection
+95,174,balance disorder
+96,75,basal cell carcinoma
+97,343,benign neoplasm of skin
+98,617,biliary colic
+99,18,bipolar disorder
+100,658,bipolar i disorder
+101,432,bladder cancer
+102,890,bladder pain
+103,761,bleeding time prolonged
+104,903,blepharitis
+105,406,blepharospasm
+106,238,blindness
+107,576,blister
+108,951,blood albumin decreased
+109,478,blood alkaline phosphatase increased
+110,9,blood bilirubin increased
+111,178,blood calcium decreased
+112,393,blood cholesterol increased
+113,157,blood creatine phosphokinase increased
+114,170,blood creatinine increased
+115,413,blood disorder
+116,315,blood glucose decreased
+117,496,blood glucose increased
+118,10,blood lactate dehydrogenase increased
+119,533,blood phosphorus decreased
+120,828,blood potassium decreased
+121,219,blood potassium increased
+122,894,blood pressure increased
+123,764,blood prolactin increased
+124,521,blood triglycerides increased
+125,936,blood urea increased
+126,351,blood uric acid increased
+127,644,blood urine present
+129,618,body temperature increased
+130,735,bone disorder
+131,809,bone pain
+132,556,bradycardia
+133,139,bradykinesia
+134,210,brain oedema
+135,476,breast cancer
+136,628,breast discharge
+137,328,breast disorder
+138,357,breast engorgement
+139,687,breast enlargement
+140,345,breast neoplasm
+141,44,breast pain
+142,158,breast tenderness
+143,266,breath odour
+144,846,breath sounds abnormal
+145,666,bronchial hyperreactivity
+146,119,bronchitis
+147,202,bronchospasm
+148,542,bronchospasm paradoxical
+149,727,bruxism
+150,41,bundle branch block
+151,86,burning sensation
+152,368,bursitis
+153,457,cachexia
+154,15,candida infection
+155,113,cardiac arrest
+156,806,cardiac disorder
+157,230,cardiac failure
+158,758,cardiac failure congestive
+159,584,cardiac flutter
+160,824,cardiac murmur
+161,417,cardiac output decreased
+162,623,cardiogenic shock
+163,5,cardiomegaly
+164,224,cardiomyopathy
+165,104,cardiovascular disorder
+166,916,carpal tunnel syndrome
+167,528,cataract
+168,932,catheter site pain
+169,534,cellulitis
+170,963,cerebellar syndrome
+171,163,cerebral haemorrhage
+172,637,cerebral infarction
+173,585,cerebral ischaemia
+174,710,cerebrovascular accident
+175,723,cerebrovascular disorder
+176,983,cervix disorder
+177,132,change of bowel habit
+178,112,cheilitis
+179,899,chest discomfort
+180,143,chest pain
+181,832,chills
+182,870,cholecystitis
+183,168,cholelithiasis
+184,564,cholestasis
+185,88,choreoathetosis
+186,159,chromatopsia
+187,38,chromaturia
+188,715,chronic obstructive pulmonary disease
+189,200,clostridium difficile colitis
+190,730,coagulopathy
+191,771,cognitive disorder
+192,447,cold sweat
+193,115,colitis
+194,208,colitis ischaemic
+195,21,colitis ulcerative
+196,398,coma
+197,84,completed suicide
+198,475,conduction disorder
+199,322,confusional state
+200,887,congenital eye disorder
+201,354,conjunctival haemorrhage
+202,959,conjunctival hyperaemia
+203,962,conjunctival oedema
+204,517,conjunctivitis
+205,990,conjunctivitis allergic
+206,191,connective tissue disorder
+207,85,constipation
+208,891,contusion
+209,147,conversion disorder
+210,129,coordination abnormal
+211,632,corneal erosion
+212,32,corneal lesion
+213,262,corneal opacity
+214,671,coronary artery disease
+215,339,cough
+216,198,crohn's disease
+217,677,crying
+218,745,cushing's syndrome
+219,253,cyanosis
+220,283,cyst
+221,420,cystitis
+222,226,cystitis haemorrhagic
+223,778,cystitis noninfective
+224,707,deafness
+225,24,decreased appetite
+226,979,deep vein thrombosis
+227,441,dehydration
+228,435,delirium
+229,923,delusion
+230,854,dementia
+231,656,dental caries
+232,73,depressed level of consciousness
+233,667,depressed mood
+234,756,depression
+235,938,derealisation
+236,137,dermatitis
+237,442,dermatitis acneiform
+238,149,dermatitis atopic
+239,444,dermatitis bullous
+240,613,dermatitis contact
+241,755,dermatitis exfoliative
+242,387,diabetes mellitus
+243,274,diarrhoea
+244,563,diarrhoea haemorrhagic
+245,213,diplopia
+246,797,discomfort
+247,8,disorientation
+248,76,disseminated intravascular coagulation
+249,133,disturbance in attention
+250,724,disturbance in sexual arousal
+251,397,diverticulitis
+252,624,dizziness
+253,815,dizziness postural
+254,323,drug eruption
+255,739,drug hypersensitivity
+256,885,drug ineffective
+257,136,dry eye
+258,708,dry mouth
+259,67,dry skin
+260,551,dry throat
+261,830,duodenal ulcer
+262,279,duodenitis
+263,827,dysaesthesia
+264,636,dysarthria
+265,483,dysgeusia
+266,107,dyskinesia
+267,485,dysmenorrhoea
+268,201,dyspareunia
+269,881,dyspepsia
+270,640,dysphagia
+271,737,dysphonia
+272,324,dysphoria
+273,300,dyspnoea
+274,941,dyspnoea exertional
+275,906,dysuria
+276,341,ear disorder
+277,599,ear infection
+278,429,ear pain
+279,232,ecchymosis
+280,661,eczema
+281,358,ejaculation delayed
+282,190,ejaculation disorder
+283,114,ejaculation failure
+284,477,electrocardiogram abnormal
+285,949,electrocardiogram qt prolonged
+286,153,electrocardiogram st segment depression
+287,276,electroencephalogram abnormal
+288,805,electrolyte imbalance
+289,503,embolism
+290,535,embolism venous
+291,843,emotional disorder
+292,89,emphysema
+293,151,encephalopathy
+294,241,endocrine disorder
+295,222,endometrial disorder
+296,142,endophthalmitis
+297,422,enteritis
+298,904,enterocolitis
+299,682,enuresis
+300,270,eosinophilia
+301,287,epididymitis
+302,863,epigastric discomfort
+303,958,epistaxis
+304,943,erectile dysfunction
+305,919,eructation
+306,175,erythema
+307,258,erythema multiforme
+308,910,erythema nodosum
+309,558,erythema of eyelid
+310,861,euphoric mood
+311,257,excoriation
+312,978,exophthalmos
+313,81,exostosis
+314,901,extrapyramidal disorder
+315,577,extrasystoles
+316,250,extravasation
+317,29,eye discharge
+318,13,eye disorder
+319,702,eye haemorrhage
+320,831,eye infection
+321,647,eye irritation
+322,440,eye oedema
+323,896,eye pain
+324,848,eye pruritus
+325,545,eye swelling
+326,786,eyelid oedema
+327,766,face oedema
+330,902,faeces discoloured
+331,591,fasting
+332,799,fatigue
+333,583,febrile neutropenia
+334,95,feeling abnormal
+335,344,feeling cold
+336,376,feeling drunk
+337,233,feeling hot
+338,770,feeling jittery
+339,592,fibrocystic breast disease
+340,557,flank pain
+341,246,flat affect
+342,209,flatulence
+343,691,fluid overload
+344,940,fluid retention
+345,823,flushing
+346,162,foetor hepaticus
+347,308,folliculitis
+350,145,fungal infection
+351,30,fungal skin infection
+352,164,furuncle
+353,31,gait disturbance
+354,111,galactorrhoea
+355,731,gamma-glutamyltransferase increased
+356,363,gangrene
+357,586,gastric ulcer
+358,615,gastritis
+359,347,gastroenteritis
+360,186,gastrointestinal carcinoma
+361,606,gastrointestinal disorder
+362,265,gastrointestinal haemorrhage
+363,296,gastrointestinal infection
+364,825,gastrointestinal pain
+365,884,gastrointestinal perforation
+366,774,gastrointestinal ulcer
+367,332,gastrooesophageal reflux disease
+368,810,generalised oedema
+369,102,genital candidiasis
+370,705,gingival bleeding
+371,929,gingival pain
+372,355,gingivitis
+373,704,glaucoma
+374,181,glossitis
+375,453,glossodynia
+376,0,glucose tolerance impaired
+377,657,glycosuria
+378,622,goitre
+379,384,gout
+380,17,gravitational oedema
+381,954,gynaecomastia
+382,140,haematemesis
+383,952,haematochezia
+384,331,haematocrit decreased
+385,814,haematoma
+386,449,haematuria
+387,530,haemoglobin
+388,790,haemoglobin decreased
+389,378,haemolytic anaemia
+390,410,haemolytic uraemic syndrome
+391,176,haemoptysis
+392,908,haemorrhage
+393,472,haemorrhage intracranial
+394,933,haemorrhagic disorder
+395,28,haemorrhoids
+396,696,hair colour changes
+397,72,hair disorder
+398,974,hair texture abnormal
+399,118,hallucination
+400,858,hangover
+401,589,headache
+402,847,hemiplegia
+403,383,hepatic cancer
+404,607,hepatic enzyme increased
+405,675,hepatic failure
+406,433,hepatic function abnormal
+407,697,hepatic necrosis
+408,260,hepatic steatosis
+409,462,hepatitis
+410,101,hepatitis cholestatic
+411,267,hepatobiliary disease
+412,218,hepatocellular injury
+413,412,hepatomegaly
+414,408,hepatotoxicity
+415,507,hernia
+416,264,herpes simplex
+417,254,herpes virus infection
+418,179,herpes zoster
+419,725,hiatus hernia
+420,327,hiccups
+421,981,hirsutism
+422,141,hostility
+423,192,hot flush
+424,237,hyperacusis
+425,395,hyperaemia
+426,125,hyperaesthesia
+427,944,hyperbilirubinaemia
+428,883,hypercalcaemia
+429,792,hypercalciuria
+430,845,hypercholesterolaemia
+431,816,hyperglycaemia
+432,510,hyperhidrosis
+433,515,hyperkalaemia
+434,59,hyperkeratosis
+435,419,hyperkinesia
+436,301,hyperlactacidaemia
+437,411,hyperlipidaemia
+438,694,hypermagnesaemia
+439,989,hypernatraemia
+440,689,hyperpathia
+441,638,hyperphosphataemia
+442,716,hyperreflexia
+443,303,hypersensitivity
+444,783,hypersomnia
+445,488,hypertension
+446,866,hyperthyroidism
+447,779,hypertonia
+448,421,hypertrichosis
+449,741,hypertriglyceridaemia
+450,877,hyperuricaemia
+451,669,hyperventilation
+452,630,hypoaesthesia
+453,802,hypoaesthesia oral
+454,559,hypoalbuminaemia
+455,987,hypocalcaemia
+456,146,hypochloraemia
+457,560,hypochromic anaemia
+458,60,hypoglycaemia
+459,180,hypohidrosis
+460,838,hypokalaemia
+461,25,hypokinesia
+462,46,hypomagnesaemia
+463,835,hypomania
+464,64,hyponatraemia
+465,171,hypophosphataemia
+466,546,hypoproteinaemia
+467,62,hyporeflexia
+468,918,hypotension
+470,738,hypothyroidism
+471,229,hypotonia
+472,370,hypoventilation
+473,77,hypoxia
+474,605,ileus
+475,555,ileus paralytic
+476,506,ill-defined disorder
+477,298,immune system disorder
+478,721,impaired gastric emptying
+479,437,impaired healing
+480,390,impetigo
+481,524,inappropriate antidiuretic hormone secretion
+482,217,incontinence
+483,426,increased appetite
+485,800,increased tendency to bruise
+486,189,induration
+487,926,infarction
+488,777,infection
+489,917,infestation
+490,961,inflammation
+491,502,influenza
+492,760,influenza like illness
+493,451,infusion site pain
+494,248,infusion site reaction
+495,785,injection site bruising
+496,352,injection site erythema
+497,337,injection site haemorrhage
+498,448,injection site induration
+499,912,injection site inflammation
+500,554,injection site pain
+501,513,injection site pruritus
+502,69,injection site reaction
+503,123,injection site swelling
+504,531,injury
+505,320,insomnia
+506,391,instillation site pain
+507,289,intermittent claudication
+508,205,international normalised ratio increased
+509,829,interstitial lung disease
+510,897,intestinal obstruction
+511,763,intestinal perforation
+512,379,intracranial pressure increased
+513,921,intraocular pressure increased
+514,930,iritis
+515,953,iron deficiency anaemia
+516,819,irritability
+518,993,ischaemia
+519,19,jaundice
+520,698,jaundice cholestatic
+521,548,joint stiffness
+522,400,joint swelling
+523,291,keratitis
+524,389,ketosis
+525,471,laboratory test abnormal
+526,695,labyrinthitis
+527,431,laceration
+528,310,lacrimal disorder
+529,92,lacrimal structural disorder
+530,401,lacrimation increased
+531,425,lactic acidosis
+532,856,laryngeal oedema
+533,259,laryngeal pain
+534,166,laryngitis
+535,155,laryngospasm
+536,385,lethargy
+537,184,leukocytosis
+538,90,leukoderma
+539,42,leukopenia
+540,947,libido decreased
+541,973,libido disorder
+542,934,libido increased
+543,372,lichenoid keratosis
+544,409,ligament sprain
+545,325,lipase increased
+546,726,lipodystrophy acquired
+547,247,liver disorder
+548,925,liver function test abnormal
+549,197,liver injury
+550,292,local swelling
+551,78,loss of consciousness
+552,227,loss of libido
+553,183,lower respiratory tract infection
+554,668,lung disorder
+555,152,lung infection
+556,514,lung infiltration
+557,252,lymphadenopathy
+558,821,lymphocyte count decreased
+559,538,lymphocytosis
+560,927,lymphoedema
+561,211,lymphoma
+562,648,lymphopenia
+563,688,major depression
+564,878,malaise
+565,840,malignant melanoma
+566,214,malnutrition
+567,6,mania
+568,105,mastitis
+569,377,mediastinal disorder
+570,837,melaena
+571,236,melanosis
+572,643,memory impairment
+573,489,meningitis
+574,850,menopausal symptoms
+575,223,menopause
+576,305,menorrhagia
+577,271,menstrual disorder
+578,436,menstruation irregular
+579,399,mental disability
+580,539,mental disorder
+581,466,metabolic acidosis
+582,329,metrorrhagia
+583,769,micturition disorder
+584,915,micturition urgency
+585,662,migraine
+586,20,miosis
+587,801,monocytosis
+588,913,mood swings
+589,621,motion sickness
+590,942,mouth ulceration
+591,48,movement disorder
+592,602,mucosal inflammation
+593,722,mucous membrane disorder
+595,681,muscle atrophy
+596,505,muscle contractions involuntary
+597,642,muscle relaxant therapy
+598,980,muscle rigidity
+599,746,muscle spasms
+600,427,muscle tightness
+601,836,muscle twitching
+602,680,muscular weakness
+603,367,musculoskeletal chest pain
+604,945,musculoskeletal discomfort
+605,493,musculoskeletal pain
+606,220,musculoskeletal stiffness
+607,350,myalgia
+608,294,mydriasis
+609,678,myelitis
+610,273,myocardial infarction
+611,321,myocardial ischaemia
+612,811,myocarditis
+613,709,myoclonus
+614,629,myopathy
+615,120,myositis
+616,683,nail disorder
+617,82,nasal congestion
+618,511,nasal discomfort
+619,920,nasal dryness
+620,161,nasopharyngitis
+621,748,nausea
+622,751,neck pain
+623,173,neoplasm
+624,518,neoplasm malignant
+625,561,nephritis
+626,87,nephrolithiasis
+627,261,nephropathy
+628,604,nephropathy toxic
+629,795,nephrotic syndrome
+630,719,nervous system disorder
+631,744,nervousness
+632,456,neuralgia
+633,244,neuritis
+634,787,neuroleptic malignant syndrome
+635,596,neuropathy peripheral
+636,960,neurosis
+637,23,neurotoxicity
+638,360,neutropenia
+639,543,neutropenic sepsis
+640,56,neutrophil count decreased
+641,733,night blindness
+642,988,night sweats
+643,893,nightmare
+644,438,nocturia
+645,569,nodal arrhythmia
+646,61,nodule
+647,255,non-cardiac chest pain
+648,311,non-hodgkin's lymphoma
+649,631,nuchal rigidity
+650,302,nystagmus
+651,434,ocular discomfort
+652,536,ocular hyperaemia
+653,568,oculogyric crisis
+654,263,odynophagia
+655,330,oedema
+656,907,oedema peripheral
+657,714,oesophageal spasm
+658,459,oesophageal stenosis
+659,482,oesophageal ulcer
+660,527,oesophagitis
+661,593,oliguria
+662,196,onychomycosis
+663,79,opportunistic infection
+664,138,optic atrophy
+665,639,optic neuritis
+666,574,oral candidiasis
+667,909,oral herpes
+668,317,oral pain
+669,91,orchitis noninfective
+670,757,orgasm abnormal
+671,740,oropharyngeal discomfort
+672,673,oropharyngeal pain
+673,712,orthostatic hypotension
+674,97,osteoarthritis
+675,580,osteomyelitis
+676,968,osteonecrosis
+677,508,osteoporosis
+678,278,otitis externa
+679,497,otitis media
+680,439,ototoxicity
+681,416,ovarian cyst
+682,526,ovarian disorder
+683,365,pain
+684,581,pain in extremity
+685,396,pain in jaw
+686,96,pain of skin
+687,855,pallor
+688,299,palpitations
+689,284,pancreatitis
+690,686,pancreatitis acute
+691,465,pancytopenia
+692,957,panic attack
+693,57,panic reaction
+694,11,panophthalmitis
+695,601,papilloedema
+696,80,paraesthesia
+697,481,paraesthesia oral
+698,467,paralysis
+699,616,paranoia
+700,663,paresis
+701,373,parkinsonism
+702,195,parosmia
+703,461,pelvic pain
+704,566,penis disorder
+705,103,peptic ulcer
+706,808,pericardial effusion
+707,424,pericarditis
+708,336,perineal pain
+709,14,periodontitis
+710,660,periorbital oedema
+711,66,peripheral coldness
+712,242,peripheral ischaemia
+713,867,peripheral motor neuropathy
+714,346,peripheral sensory neuropathy
+715,297,peripheral vascular disorder
+716,553,peritonitis
+717,239,personality disorder
+718,905,petechiae
+719,743,pharyngeal oedema
+720,110,pharyngitis
+721,407,pharyngitis streptococcal
+722,446,phlebitis
+723,318,photophobia
+724,685,photopsia
+725,922,photosensitivity reaction
+726,674,pigmentation disorder
+729,340,platelet count decreased
+730,375,pleural effusion
+731,818,pleurisy
+732,122,pleuritic pain
+733,117,pneumonia
+734,486,pneumonia aspiration
+735,573,pneumothorax
+736,207,pollakiuria
+737,27,polycythaemia
+738,280,polydipsia
+739,775,polyneuropathy
+741,880,post procedural haemorrhage
+742,185,premenstrual syndrome
+743,474,presyncope
+744,463,priapism
+745,713,procedural pain
+746,985,proctalgia
+747,7,proctitis
+748,969,productive cough
+749,243,prostate cancer
+750,859,prostatic disorder
+751,780,prostatitis
+752,37,protein total decreased
+753,491,protein urine present
+754,970,proteinuria
+755,99,prothrombin level decreased
+756,701,prothrombin level increased
+757,522,prurigo
+758,972,pruritus
+759,911,pruritus generalised
+760,245,pruritus genital
+761,541,pseudolymphoma
+762,268,pseudomembranous colitis
+763,776,psoriasis
+764,796,psychomotor retardation
+765,269,psychotic disorder
+766,359,pulmonary congestion
+767,509,pulmonary embolism
+768,895,pulmonary fibrosis
+769,523,pulmonary function test decreased
+770,955,pulmonary hypertension
+771,39,pulmonary oedema
+772,834,punctate keratitis
+773,633,pupils unequal
+774,849,purpura
+775,582,pyelonephritis
+776,108,pyuria
+777,464,rales
+778,873,rash
+779,598,rash erythematous
+780,720,rash generalised
+781,348,rash macular
+782,869,rash maculo-papular
+783,982,rash papular
+784,275,rash pustular
+785,36,rectal haemorrhage
+786,382,rectal tenesmus
+787,98,regurgitation
+788,160,renal failure
+789,334,renal impairment
+790,234,renal pain
+791,313,renal tubular necrosis
+792,706,respiration abnormal
+793,753,respiratory depression
+794,789,respiratory disorder
+795,430,respiratory distress
+796,876,respiratory failure
+797,380,respiratory tract congestion
+798,282,respiratory tract infection
+799,135,restless legs syndrome
+800,473,retching
+801,860,retinal degeneration
+802,649,retinal detachment
+803,889,retinal disorder
+804,871,retinal haemorrhage
+805,950,retroperitoneal haemorrhage
+806,169,rhabdomyolysis
+807,53,rheumatoid arthritis
+808,216,rhinitis
+809,47,rhinitis allergic
+810,732,rhinorrhoea
+811,445,rhonchi
+812,868,road traffic accident
+813,212,rosacea
+814,182,salivary gland enlargement
+815,826,salivary hypersecretion
+816,366,salpingitis
+817,225,scab
+818,288,schizophreniform disorder
+819,754,sciatica
+820,126,scleritis
+821,977,seasonal allergy
+822,206,seborrhoeic dermatitis
+824,603,sensation of foreign body
+825,549,sensory disturbance
+826,646,sensory loss
+827,641,sepsis
+828,892,septic shock
+829,128,serotonin syndrome
+830,793,serum sickness
+831,443,sexual dysfunction
+832,749,shock
+833,392,sialoadenitis
+834,595,sinus bradycardia
+835,309,sinus congestion
+836,26,sinus headache
+837,864,sinus tachycardia
+838,188,sinusitis
+839,131,skin atrophy
+840,820,skin burning sensation
+841,45,skin cancer
+842,349,skin discolouration
+843,338,skin disorder
+844,293,skin exfoliation
+845,63,skin hyperpigmentation
+846,851,skin hypertrophy
+847,307,skin infection
+848,772,skin irritation
+849,967,skin lesion
+850,653,skin mass
+851,326,skin odour abnormal
+852,68,skin papilloma
+853,501,skin striae
+854,552,skin ulcer
+855,665,sleep apnoea syndrome
+856,414,sleep disorder
+857,610,sluggishness
+858,231,sneezing
+859,458,snoring
+860,490,somnambulism
+861,70,somnolence
+862,619,speech disorder
+863,423,splenomegaly
+865,852,staphylococcal infection
+866,286,status epilepticus
+867,203,stevens-johnson syndrome
+868,956,sticky skin
+869,853,stomatitis
+870,3,strangury
+871,924,stridor
+872,525,stupor
+873,251,subarachnoid haemorrhage
+874,319,subdural haematoma
+875,575,sudden death
+876,935,suicidal ideation
+877,717,suicide attempt
+878,931,sunburn
+879,504,supraventricular extrasystoles
+880,690,supraventricular tachycardia
+881,611,swelling
+882,500,swelling face
+883,204,syncope
+884,544,systemic lupus erythematosus
+885,290,tachycardia
+886,948,tachypnoea
+887,597,tardive dyskinesia
+888,512,telangiectasia
+889,817,temperature intolerance
+890,750,tenderness
+891,312,tendinous contracture
+892,765,tendon disorder
+893,964,tendonitis
+894,50,tenosynovitis
+895,791,tension
+896,165,tension headache
+897,480,testicular pain
+898,676,tetany
+899,759,therapeutic response unexpected
+900,651,thinking abnormal
+901,335,thirst
+902,700,throat irritation
+903,865,throat tightness
+904,627,thrombocytopenia
+905,875,thrombocytosis
+906,798,thrombophlebitis
+907,734,thrombosis
+908,83,thrombotic thrombocytopenic purpura
+909,984,thyroid disorder
+910,71,thyroid neoplasm
+911,450,thyroiditis
+912,381,tinnitus
+913,971,tongue discolouration
+914,51,tongue disorder
+915,342,tongue oedema
+916,33,tongue ulceration
+917,40,tonsillitis
+918,587,tooth abscess
+919,822,tooth disorder
+920,693,tooth infection
+921,428,toothache
+922,58,torsade de pointes
+923,728,torticollis
+924,711,toxic epidermal necrolysis
+925,487,toxicity to various agents
+926,106,tracheitis
+927,965,tracheobronchitis
+928,404,transaminases increased
+929,4,transient ischaemic attack
+930,762,tremor
+931,684,trismus
+932,679,tubulointerstitial nephritis
+933,177,tumour lysis syndrome
+934,134,ulcer
+935,703,ulcerative keratitis
+936,635,unintended pregnancy
+937,470,upper respiratory tract infection
+938,612,upper-airway cough syndrome
+939,773,urethral disorder
+942,788,urinary hesitation
+943,199,urinary incontinence
+944,369,urinary retention
+945,499,urinary tract disorder
+946,562,urinary tract infection
+950,228,urticaria
+951,193,uterine disorder
+952,167,uterine haemorrhage
+953,150,uterine leiomyoma
+954,405,uterine spasm
+955,625,uveitis
+956,655,vaginal discharge
+957,839,vaginal haemorrhage
+958,281,vaginal infection
+959,121,varicose vein
+960,874,vascular headache
+961,516,vascular purpura
+962,975,vasculitis
+963,578,vasodilation procedure
+964,403,vasospasm
+965,479,venous thrombosis
+966,100,ventricular arrhythmia
+967,94,ventricular extrasystoles
+968,43,ventricular fibrillation
+969,34,ventricular tachycardia
+970,494,vertigo
+971,460,vestibular disorder
+972,550,viral diarrhoea
+973,65,viral infection
+974,364,viral upper respiratory tract infection
+975,747,vision blurred
+976,939,visual acuity reduced
+977,992,visual impairment
+978,520,vomiting
+979,986,vulvovaginal candidiasis
+980,736,vulvovaginal dryness
+981,35,vulvovaginal mycotic infection
+982,620,vulvovaginal pruritus
+983,991,vulvovaginitis
+984,532,weight decreased
+985,374,weight increased
+986,415,wheezing
+987,862,white blood cell count decreased
+988,664,white blood cell count increased
+989,353,withdrawal syndrome
+990,784,wound infection
+991,12,wound secretion
+992,590,xerophthalmia
+993,314,yawning

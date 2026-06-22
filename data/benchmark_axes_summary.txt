@@ -1,0 +1,7 @@
+Source: data analysis/data/FrequencyData.mat
+R dimensions: 759 rows x 994 columns
+Drugs count: 759
+Side effects count: 994
+Order guarantee:
+- Line i in benchmark_drugs_ordered.txt corresponds to row i of matrix R.
+- Line j in benchmark_sideeffects_ordered.txt corresponds to column j of matrix R.

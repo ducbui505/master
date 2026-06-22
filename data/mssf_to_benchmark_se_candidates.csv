@@ -1,0 +1,50 @@
+mssf_idx,candidate_benchmark_idx,candidate_se_name
+12,148,actinic keratosis
+12,272,seborrhoeic keratosis
+50,495,antisocial personality disorder
+50,768,antisocial behaviour
+50,879,asocial behaviour
+51,495,antisocial personality disorder
+51,768,antisocial behaviour
+51,879,asocial behaviour
+78,495,antisocial personality disorder
+78,768,antisocial behaviour
+78,879,asocial behaviour
+128,124,body temperature decreased
+128,469,hypothermia
+328,812,faecaloma
+328,857,faecalith
+329,812,faecaloma
+329,857,faecalith
+348,304,multiple fractures
+348,362,fracture
+349,1,functional gastrointestinal disorder
+349,130,irritable bowel syndrome
+469,124,body temperature decreased
+469,469,hypothermia
+484,144,sputum increased
+484,537,increased bronchial secretion
+517,1,functional gastrointestinal disorder
+517,130,irritable bowel syndrome
+594,304,multiple fractures
+594,362,fracture
+727,572,plasmacytoma
+727,579,plasma cell myeloma
+728,572,plasmacytoma
+728,579,plasma cell myeloma
+740,249,polyuria
+740,699,urine output increased
+823,148,actinic keratosis
+823,272,seborrhoeic keratosis
+864,144,sputum increased
+864,537,increased bronchial secretion
+940,519,urethritis
+940,781,urethritis noninfective
+941,519,urethritis
+941,781,urethritis noninfective
+947,172,urine analysis abnormal
+947,844,urine abnormality
+948,172,urine analysis abnormal
+948,844,urine abnormality
+949,249,polyuria
+949,699,urine output increased

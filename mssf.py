@@ -770,13 +770,13 @@ def main():
     # MSSF-LLM arguments
     parser.add_argument('--use_llm', action='store_true', default=False,
                         help='Enable LLM branch (PubMedBERT features)')
-    parser.add_argument('--drug_llm_path', type=str, default='data/drug_llm_features.pt',
+    parser.add_argument('--drug_llm_path', type=str, default='data/mssf_aligned_drug_llm_features.pt',
                         help='Path to encoded drug LLM features for the active dataset')
-    parser.add_argument('--se_llm_path', type=str, default='data/se_llm_features.pt',
+    parser.add_argument('--se_llm_path', type=str, default='data/mssf_aligned_se_llm_features.pt',
                         help='Path to encoded side-effect LLM features for the active dataset')
-    parser.add_argument('--drug_mask_path', type=str, default='data/drug_text_mask.pt',
+    parser.add_argument('--drug_mask_path', type=str, default='data/mssf_aligned_drug_text_mask.pt',
                         help='Path to drug text mask for the active dataset')
-    parser.add_argument('--se_mask_path', type=str, default='data/se_text_mask.pt',
+    parser.add_argument('--se_mask_path', type=str, default='data/mssf_aligned_se_text_mask.pt',
                         help='Path to side-effect text mask for the active dataset')
     parser.add_argument('--use_cross_modal', action='store_true', default=False,
                         help='Enable cross-modal fusion')

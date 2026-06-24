@@ -3,6 +3,7 @@ import warnings
 import numpy as np
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning, module="numpy")
+warnings.filterwarnings("ignore", message=".*align should be passed as Python or NumPy boolean.*", category=Warning)
 import torch
 import random
 import pickle
@@ -633,6 +634,7 @@ def ten_fold(args):
 
     # Lists to store results for different evaluation metrics
     total_acc, total_wf1, total_maf1,total_kappa,total_mcc,total_prec,total_reca,total_aupr = [], [], [], [], [], [], [], []
+    fold_rows = []
 
     # Ten-fold cross-validation experiment
     start_fold = getattr(args, 'start_fold', 1)
@@ -657,6 +659,17 @@ def ten_fold(args):
         total_prec.append(macro_precision)
         total_reca.append(macro_recall)
         total_aupr.append(macro_aupr)
+        fold_rows.append({
+            'fold': fold,
+            'acc': acc,
+            'weighted_f1': weighted_f1,
+            'macro_f1': macro_f1,
+            'kappa': kappa,
+            'mcc': mcc,
+            'macro_precision': macro_precision,
+            'macro_recall': macro_recall,
+            'macro_aupr': macro_aupr,
+        })
 
 
         # Print the average results of all folds so far
@@ -679,38 +692,50 @@ def ten_fold(args):
         print('Total_aupr:')
         print(np.mean(total_aupr))
 
-        # Save results to a text file after each fold
-        with open("./result.txt",'a') as f:
-            print("fold:"+str(fold),file=f)
 
-            print('Total_acc:',file=f)
-            print(np.mean(total_acc),file=f)
-
-            print('Total_weighted_f1:',file=f)
-            print(np.mean(total_wf1),file=f)
-
-            print('Total_macro_f1:',file=f)
-            print(np.mean(total_maf1),file=f)
-
-            print('Total_kappa:',file=f)
-            print(np.mean(total_kappa),file=f)
-
-            print('Total_mcc:',file=f)
-            print(np.mean(total_mcc),file=f)
-
-            print('Total_precision:',file=f)
-            print(np.mean(total_prec),file=f)
-
-            print('Total_recall:',file=f)
-            print(np.mean(total_reca),file=f)
-            
-            print('Total_aupr:',file=f)
-            print(np.mean(total_aupr),file=f)
-
-            print("\n",file=f) # Add a newline for separation between folds
         fold += 1 # Increment the fold counter
 
         sys.stdout.flush()
+
+    if fold_rows:
+        result_dir = os.path.join("results", "run_" + datetime.now().strftime("%Y%m%d_%H%M%S"))
+        os.makedirs(result_dir, exist_ok=True)
+
+        metric_keys = [
+            'acc', 'weighted_f1', 'macro_f1', 'kappa', 'mcc',
+            'macro_precision', 'macro_recall', 'macro_aupr'
+        ]
+        metric_names = {
+            'acc': 'Accuracy',
+            'weighted_f1': 'Weighted F1',
+            'macro_f1': 'Macro F1',
+            'kappa': 'Kappa',
+            'mcc': 'MCC',
+            'macro_precision': 'Macro Precision',
+            'macro_recall': 'Macro Recall',
+            'macro_aupr': 'Macro AUPR',
+        }
+
+        csv_path = os.path.join(result_dir, "fold_metrics.csv")
+        with open(csv_path, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=['fold'] + metric_keys)
+            writer.writeheader()
+            writer.writerows(fold_rows)
+
+        summary_path = os.path.join(result_dir, "summary.txt")
+        with open(summary_path, 'w', encoding='utf-8') as f:
+            f.write("Metric              Mean      Std       Mean \u00b1 Std\n")
+            f.write("-" * 62 + "\n")
+            for key in metric_keys:
+                values = np.array([row[key] for row in fold_rows], dtype=float)
+                mean = float(np.mean(values))
+                std = float(np.std(values, ddof=1)) if len(values) > 1 else 0.0
+                f.write(f"{metric_names[key]:<19} {mean:.6f}  {std:.6f}  {mean:.6f} \u00b1 {std:.6f}\n")
+
+        print("================================== final summary")
+        print("Result directory: " + result_dir)
+        print("Fold metrics CSV: " + csv_path)
+        print("Paper summary TXT: " + summary_path)
 
 
 # Benchmark dataset data extraction

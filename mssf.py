@@ -9,6 +9,7 @@ import random
 import pickle
 import argparse
 import csv
+import json
 import torch.nn as nn
 import sys
 import time
@@ -33,24 +34,205 @@ from sklearn.preprocessing import label_binarize
 np.random.seed(42)
 random.seed(42)
 
+METRIC_KEYS = [
+    'acc', 'weighted_f1', 'macro_f1', 'kappa', 'mcc',
+    'macro_precision', 'macro_recall', 'macro_aupr'
+]
+METRIC_NAMES = {
+    'acc': 'Accuracy',
+    'weighted_f1': 'Weighted F1',
+    'macro_f1': 'Macro F1',
+    'kappa': 'Kappa',
+    'mcc': 'MCC',
+    'macro_precision': 'Macro Precision',
+    'macro_recall': 'Macro Recall',
+    'macro_aupr': 'Macro AUPR',
+}
+RUN_CONFIG_KEYS = [
+    'epochs', 'lr', 'embed_dim', 'weight_decay', 'dropout', 'gp',
+    'batch_size', 'test_batch_size', 'dataset', 'rawpath',
+    'use_llm', 'drug_llm_path', 'se_llm_path', 'drug_mask_path',
+    'se_mask_path', 'use_cross_modal', 'use_supcon', 'alpha_supcon',
+    'temperature', 'cross_modal_variant'
+]
+
+
+class TeeLogger:
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, data):
+        for stream in self.streams:
+            stream.write(data)
+            stream.flush()
+
+    def flush(self):
+        for stream in self.streams:
+            stream.flush()
+
+
+def _config_from_args(args):
+    return {key: getattr(args, key) for key in RUN_CONFIG_KEYS}
+
+
+def _explicit_cli_keys(argv):
+    option_to_key = {
+        '--epochs': 'epochs',
+        '--lr': 'lr',
+        '--embed_dim': 'embed_dim',
+        '--weight_decay': 'weight_decay',
+        '--dropout': 'dropout',
+        '--gp': 'gp',
+        '--batch_size': 'batch_size',
+        '--test_batch_size': 'test_batch_size',
+        '--dataset': 'dataset',
+        '--rawpath': 'rawpath',
+        '--use_llm': 'use_llm',
+        '--drug_llm_path': 'drug_llm_path',
+        '--se_llm_path': 'se_llm_path',
+        '--drug_mask_path': 'drug_mask_path',
+        '--se_mask_path': 'se_mask_path',
+        '--use_cross_modal': 'use_cross_modal',
+        '--use_supcon': 'use_supcon',
+        '--alpha_supcon': 'alpha_supcon',
+        '--temperature': 'temperature',
+        '--cross_modal_variant': 'cross_modal_variant',
+    }
+    return {option_to_key[arg] for arg in argv if arg in option_to_key}
+
+
+def setup_run(args, explicit_keys):
+    if args.resume:
+        run_dir = os.path.normpath(args.resume)
+        config_path = os.path.join(run_dir, "config.json")
+        if not os.path.exists(config_path):
+            raise FileNotFoundError(f"Resume config not found: {config_path}")
+        with open(config_path, "r", encoding="utf-8") as f:
+            saved_config = json.load(f)
+        current_config = _config_from_args(args)
+        mismatches = []
+        for key in explicit_keys:
+            if key in saved_config and current_config.get(key) != saved_config[key]:
+                mismatches.append(f"{key}: current={current_config.get(key)!r}, saved={saved_config[key]!r}")
+        if mismatches:
+            raise ValueError("Resume arguments do not match saved config. " + "; ".join(mismatches))
+        for key, value in saved_config.items():
+            setattr(args, key, value)
+        args.run_dir = run_dir
+        args.run_name = os.path.basename(run_dir.rstrip(os.sep))
+        return run_dir
+
+    run_name = args.run_name
+    if not run_name:
+        flags = []
+        if args.use_llm:
+            flags.append("llm")
+        if args.use_cross_modal:
+            flags.append(args.cross_modal_variant)
+        if args.use_supcon:
+            flags.append("supcon")
+        suffix = "_".join(flags) if flags else "baseline"
+        run_name = datetime.now().strftime("%Y%m%d_%H%M%S") + "_" + suffix
+
+    if os.path.basename(os.path.normpath(run_name)) != run_name:
+        raise ValueError("--run_name must be a simple name, not a path. Use --resume for an existing run directory.")
+    run_dir = os.path.join("runs", run_name)
+    if os.path.exists(run_dir):
+        raise FileExistsError(f"Run directory already exists: {run_dir}. Use --resume {run_dir} or choose another --run_name.")
+    os.makedirs(run_dir, exist_ok=True)
+    args.run_name = run_name
+    args.run_dir = run_dir
+    with open(os.path.join(run_dir, "config.json"), "w", encoding="utf-8") as f:
+        json.dump(_config_from_args(args), f, indent=2, ensure_ascii=False)
+    return run_dir
+
+
+def attach_run_logger(run_dir):
+    log_path = os.path.join(run_dir, "train.log")
+    log_file = open(log_path, "a", encoding="utf-8")
+    sys.stdout = TeeLogger(sys.__stdout__, log_file)
+    sys.stderr = TeeLogger(sys.__stderr__, log_file)
+    return log_file
+
+
+def _fold_metrics_path(args):
+    return os.path.join(args.run_dir, "fold_metrics.csv")
+
+
+def _summary_path(args):
+    return os.path.join(args.run_dir, "summary.txt")
+
+
+def _run_state_path(args):
+    return os.path.join(args.run_dir, "run_state.json")
+
+
+def load_fold_metrics(args):
+    path = _fold_metrics_path(args)
+    if not os.path.exists(path):
+        return []
+    with open(path, newline="", encoding="utf-8") as f:
+        rows = []
+        for row in csv.DictReader(f):
+            parsed = {'fold': int(row['fold'])}
+            for key in METRIC_KEYS:
+                parsed[key] = float(row[key])
+            rows.append(parsed)
+        return rows
+
+
+def write_run_outputs(args, fold_rows, current_fold=None, status="running"):
+    sorted_rows = sorted(fold_rows, key=lambda row: row['fold'])
+    csv_path = _fold_metrics_path(args)
+    with open(csv_path, 'w', newline='', encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=['fold'] + METRIC_KEYS)
+        writer.writeheader()
+        writer.writerows(sorted_rows)
+
+    summary_path = _summary_path(args)
+    with open(summary_path, 'w', encoding='utf-8') as f:
+        f.write("Metric              Mean      Std       Mean +/- Std\n")
+        f.write("-" * 62 + "\n")
+        for key in METRIC_KEYS:
+            values = np.array([row[key] for row in sorted_rows], dtype=float)
+            mean = float(np.mean(values))
+            std = float(np.std(values, ddof=1)) if len(values) > 1 else 0.0
+            f.write(f"{METRIC_NAMES[key]:<19} {mean:.6f}  {std:.6f}  {mean:.6f} +/- {std:.6f}\n")
+
+    state = {
+        "status": status,
+        "current_fold": current_fold,
+        "completed_folds": [row['fold'] for row in sorted_rows],
+        "updated_at": datetime.now().isoformat(timespec="seconds"),
+    }
+    with open(_run_state_path(args), "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
+
+
 # -------------------- Checkpoint utils --------------------
-def _ckpt_dir(fold: int):
-    d = os.path.join("checkpoints", f"fold_{fold}")
+def _ckpt_dir(args, fold: int):
+    d = os.path.join(args.run_dir, "checkpoints", f"fold_{fold}")
     os.makedirs(d, exist_ok=True)
     return d
 
-def save_ckpt(path, model, optimizer, epoch, best_acc):
+def save_ckpt(path, model, optimizer, epoch, best_acc, best_metrics=None):
+    rng_state = {
+        "torch": torch.get_rng_state(),
+        "numpy": np.random.get_state(),
+        "python": random.getstate(),
+    }
+    if torch.cuda.is_available():
+        rng_state["cuda"] = torch.cuda.get_rng_state_all()
+    tmp_path = path + ".tmp"
     torch.save({
         "model": model.state_dict(),
         "optimizer": optimizer.state_dict(),
         "epoch": epoch,
         "best_acc": best_acc,
-        "rng_state": {
-            "torch": torch.get_rng_state(),
-            "numpy": np.random.get_state(),
-            "python": random.getstate(),
-        }
-    }, path)
+        "best_metrics": best_metrics,
+        "rng_state": rng_state,
+    }, tmp_path)
+    os.replace(tmp_path, path)
 
 def load_ckpt(path, model, optimizer, device):
     ckpt = torch.load(path, map_location=device, weights_only=False)
@@ -65,6 +247,7 @@ def load_ckpt(path, model, optimizer, device):
         torch.set_rng_state(rng)
     if "numpy" in rs: np.random.set_state(rs["numpy"])
     if "python" in rs: random.setstate(rs["python"])
+    if "cuda" in rs and torch.cuda.is_available(): torch.cuda.set_rng_state_all(rs["cuda"])
     return ckpt
 # ----------------------------------------------------------
 
@@ -190,7 +373,7 @@ def read_raw_data(rawdata_dir, data_test):
     drug_side = pickle.load(gii)
     gii.close()
     validate_mapping_shapes(rawdata_dir, drug_side)
-    
+
     # Load drug-pathway-enzyme similarity matrix
     gii = open(rawdata_dir + '/' + 'drug_pathway_enzyme_similarity.pkl', 'rb')
     drug_p_e_sim = pickle.load(gii)
@@ -250,7 +433,8 @@ def fold_files(data_train, data_test,args):
     # Convert input training and testing data to NumPy arrays
     data_train = np.array(data_train)
     data_test = np.array(data_test)
-
+
+
 
     drug_features, side_features = read_raw_data(rawdata_dir, data_test)
 
@@ -342,7 +526,7 @@ def train_test(data_train, data_test, args, fold):
     train_batch = args.batch_size
     if getattr(args, 'use_supcon', False) and args.batch_size < 128:
         train_batch = 128
-    
+
     # Wrap datasets in DataLoader for batch training and evaluation
     _train = torch.utils.data.DataLoader(trainset, batch_size=train_batch, shuffle=True,
                                           pin_memory=False)
@@ -369,35 +553,59 @@ def train_test(data_train, data_test, args, fold):
         supcon_loss_fn = SupervisedContrastiveLoss(temperature=getattr(args, 'temperature', 0.1))
 
         # -------- checkpoint setup (per fold) --------
-    ckpt_dir = _ckpt_dir(fold)
+    ckpt_dir = _ckpt_dir(args, fold)
     last_path = os.path.join(ckpt_dir, "last.pt")
     best_path = os.path.join(ckpt_dir, "best.pt")
 
     start_epoch = 1
     best_acc = 0.0
+    best_metrics = None
 
     if os.path.exists(last_path):
         try:
             ckpt = load_ckpt(last_path, model, optimizer, device)
             start_epoch = ckpt.get("epoch", 0) + 1
             best_acc = ckpt.get("best_acc", 0.0)
+            best_metrics = ckpt.get("best_metrics")
             print(f"[fold {fold}] RESUME from epoch {start_epoch}, best_acc={best_acc}")
         except (RuntimeError, KeyError) as e:
             print(f"[fold {fold}] Checkpoint incompatible (architecture changed?), training from scratch. ({e})")
             start_epoch = 1
             best_acc = 0.0
+            best_metrics = None
     # ---------------------------------------------
 
+    if start_epoch > args.epochs:
+        if best_metrics is not None:
+            print(f"[fold {fold}] checkpoint already reached epoch {args.epochs}; returning saved best metrics")
+            return tuple(best_metrics[key] for key in METRIC_KEYS)
+        eval_path = best_path if os.path.exists(best_path) else last_path
+        if os.path.exists(eval_path):
+            print(f"[fold {fold}] checkpoint already reached epoch {args.epochs}; evaluating {eval_path}")
+            load_ckpt(eval_path, model, optimizer, device)
+            acc_te, weighted_f1_te, macro_f1_te, kappa_te, mcc_te, rating_te, pred_te, macro_prec_te, macro_recall_te, macro_aupr_te = test(model, _test, device, args)
+            return acc_te, weighted_f1_te, macro_f1_te, kappa_te, mcc_te, macro_prec_te, macro_recall_te, macro_aupr_te
+
     # Initialize evaluation metric
-    acc_tested = 0
-    wf1_tested =  0
-    maf1_tested = 0
-    ka_tested = 0
-    mcc_tested = 0
-    maprec_tested = 0
-    mareca_tested = 0
-    maaupr_tested = 0
-    
+    if best_metrics is not None:
+        acc_tested = best_metrics['acc']
+        wf1_tested = best_metrics['weighted_f1']
+        maf1_tested = best_metrics['macro_f1']
+        ka_tested = best_metrics['kappa']
+        mcc_tested = best_metrics['mcc']
+        maprec_tested = best_metrics['macro_precision']
+        mareca_tested = best_metrics['macro_recall']
+        maaupr_tested = best_metrics['macro_aupr']
+    else:
+        acc_tested = 0
+        wf1_tested = 0
+        maf1_tested = 0
+        ka_tested = 0
+        mcc_tested = 0
+        maprec_tested = 0
+        mareca_tested = 0
+        maaupr_tested = 0
+
     # Model training and testing
     for epoch in range(start_epoch, args.epochs + 1):
         # ----------- Training step -----------
@@ -407,8 +615,19 @@ def train_test(data_train, data_test, args, fold):
         acc_tr,weighted_f1_tr,macro_f1_tr,kappa_tr,mcc_tr,rating_tr,pred_tr,macro_prec_tr,macro_recall_tr,macro_aupr_tr = test(model,_train,device,args)
         acc_te,weighted_f1_te,macro_f1_te,kappa_te,mcc_te,rating_te,pred_te,macro_prec_te,macro_recall_te,macro_aupr_te = test(model,_test,device,args)
 
+        current_metrics = {
+            'acc': acc_te,
+            'weighted_f1': weighted_f1_te,
+            'macro_f1': macro_f1_te,
+            'kappa': kappa_te,
+            'mcc': mcc_te,
+            'macro_precision': macro_prec_te,
+            'macro_recall': macro_recall_te,
+            'macro_aupr': macro_aupr_te,
+        }
+
         # If current test accuracy is best so far, update tracked metrics
-        if  acc_te>acc_tested:            
+        if  acc_te>acc_tested:
             acc_tested = acc_te
             wf1_tested =  weighted_f1_te
             maf1_tested = macro_f1_te
@@ -417,13 +636,15 @@ def train_test(data_train, data_test, args, fold):
             maprec_tested = macro_prec_te
             mareca_tested = macro_recall_te
             maaupr_tested = macro_aupr_te
-        # luÃ´n lÆ°u LAST sau má»—i epoch (Ä‘á»ƒ táº¯t mÃ¡y cháº¡y tiáº¿p)
-        save_ckpt(last_path, model, optimizer, epoch, best_acc)
 
-        # náº¿u acc_te lÃ  tá»‘t nháº¥t thÃ¬ lÆ°u BEST
-        if acc_te > best_acc:
+        # Save BEST when current test accuracy improves.
+        if best_metrics is None or acc_te > best_acc:
             best_acc = acc_te
-            save_ckpt(best_path, model, optimizer, epoch, best_acc)
+            best_metrics = current_metrics
+            save_ckpt(best_path, model, optimizer, epoch, best_acc, best_metrics)
+
+        # Always save LAST after every epoch so interrupted runs can resume.
+        save_ckpt(last_path, model, optimizer, epoch, best_acc, best_metrics)
 
         # Print training results of current epoch
         print("Epoch: %d <Train> acc: %.5f, weighted_f1: %.5f, macro_f1: %.5f, kappa: %.5f ,mcc: %.5f,precision:%.5f,recall: %.5f,aupr:%.5f" %(
@@ -449,18 +670,18 @@ def kl_func(mu,logvar):
 # Loss computation
 def calculate_loss(multi_pred,recCon,recAdd,mu, logvar,batch_ratings,batch_drug,batch_side,device,
                    f_fused=None, supcon_loss_fn=None, alpha_supcon=0.1):
-    
+
     # Compute KL divergence
     kl_div = kl_func(mu, logvar).mean()
 
     # Define multi-class classification loss with class weights for imbalance
     class_weights = torch.tensor([1.0, 1.0, 1.0, 2.0, 5.0]).to(device)
-    loss_func = nn.CrossEntropyLoss(weight=class_weights) 
+    loss_func = nn.CrossEntropyLoss(weight=class_weights)
 
     # Convert frequencies to integer class indices: -> {0,1,2,3,4}
     multi_labels = (batch_ratings.long()-1).to(device)
 
-    # Concatenate drug and side effect vectors 
+    # Concatenate drug and side effect vectors
     batch_vec = torch.cat((batch_drug, batch_side), dim=1)
 
     # Split the drug features into 11 different parts
@@ -495,7 +716,7 @@ def calculate_loss(multi_pred,recCon,recAdd,mu, logvar,batch_ratings,batch_drug,
     if supcon_loss_fn is not None and f_fused is not None:
         L_con = supcon_loss_fn(f_fused, multi_labels)
         Loss = Loss + alpha_supcon * L_con
-   
+
     return Loss
 
 
@@ -515,18 +736,18 @@ def train(model, train_loader, optimizer, device, args=None, supcon_loss_fn=None
         else:
             batch_drug, batch_side, batch_ratings = data
             batch_drug_llm = batch_se_llm = batch_drug_mask = batch_se_mask = None
-       
+
         # Clear gradients from the previous step
         optimizer.zero_grad()
 
-        # model outputs 
+        # model outputs
         if batch_drug_llm is not None:
             outputs = model(batch_drug, batch_side, device, batch_drug_llm, batch_se_llm, batch_drug_mask, batch_se_mask)
             multi_pred, recCon, recAdd, mu, logvar, f_fused = outputs
         else:
             multi_pred, recCon, recAdd, mu, logvar = model(batch_drug, batch_side, device)
             f_fused = None
-        
+
         # Calculate the loss
         loss = calculate_loss(multi_pred, recCon, recAdd, mu, logvar,
                               batch_ratings, batch_drug, batch_side, device,
@@ -569,11 +790,11 @@ def test(model, test_loader, device, args=None):
             multi_pred, recCon, recAdd, mu, logvar = model(test_drug, test_side, device)
 
         # Classify the predicted data, and in classification, the indices will be in the form of 0, 1, 2, 3, 4
-        pred = torch.argmax(multi_pred.cpu(), dim=1).numpy() 
+        pred = torch.argmax(multi_pred.cpu(), dim=1).numpy()
         pred_all.append(list(pred)) # Store predictions
 
         # True labels, and subtract 1 from the true labels to match the 0, 1, 2, 3, 4 format
-        multi_label_all.append(list((test_ratings.long()-1).cpu().numpy())) 
+        multi_label_all.append(list((test_ratings.long()-1).cpu().numpy()))
 
         # Get predicted probabilities and calculate AUPR
         softmax = torch.nn.Softmax(dim=1)
@@ -581,7 +802,7 @@ def test(model, test_loader, device, args=None):
         prob_all.append(pred_prob)
 
 
-       
+
     pred_all = np.array(sum(pred_all, []))  # Flatten the list of predictions into a single array
     multi_label_all = np.array(sum(multi_label_all, []))  # Flatten the list of true labels into a single array
     prob_all = np.vstack(prob_all)  # Stack the probability arrays vertically
@@ -598,7 +819,7 @@ def test(model, test_loader, device, args=None):
     macro_recall = recall_score(multi_label_all, pred_all, average='macro')
     multi_label_all_onehot = label_binarize(multi_label_all, classes=[0, 1, 2, 3, 4])
     macro_aupr = average_precision_score(multi_label_all_onehot, prob_all, average='macro')
-    
+
     # Return all computed metrics and prediction outputs
     return acc,weighted_f1,macro_f1,kappa,mcc,multi_label_all,pred_all,macro_precision,macro_recall,macro_aupr
 
@@ -621,7 +842,7 @@ def ten_fold(args):
     data = []
     data_x = []
     data_y = []
-    
+
     # Create the dataset
     for i in range(X.shape[0]):
         data_x.append((X[i, 0], X[i, 1])) # (drug, side effect) pair
@@ -633,19 +854,30 @@ def ten_fold(args):
     kfold = StratifiedKFold(10,random_state=42,shuffle=True)
 
     # Lists to store results for different evaluation metrics
-    total_acc, total_wf1, total_maf1,total_kappa,total_mcc,total_prec,total_reca,total_aupr = [], [], [], [], [], [], [], []
-    fold_rows = []
+    fold_rows = load_fold_metrics(args)
+    completed_folds = {row['fold'] for row in fold_rows}
+    total_acc = [row['acc'] for row in fold_rows]
+    total_wf1 = [row['weighted_f1'] for row in fold_rows]
+    total_maf1 = [row['macro_f1'] for row in fold_rows]
+    total_kappa = [row['kappa'] for row in fold_rows]
+    total_mcc = [row['mcc'] for row in fold_rows]
+    total_prec = [row['macro_precision'] for row in fold_rows]
+    total_reca = [row['macro_recall'] for row in fold_rows]
+    total_aupr = [row['macro_aupr'] for row in fold_rows]
 
     # Ten-fold cross-validation experiment
     start_fold = getattr(args, 'start_fold', 1)
+    data = np.array(data)
 
     for k, (train, test) in enumerate(kfold.split(data_x, data_y)):
         if fold < start_fold:
             fold += 1
             continue
+        if fold in completed_folds:
+            print(f"==================================fold {fold} already complete; skip")
+            fold += 1
+            continue
         print("==================================fold {} start".format(fold))
-        # Convert the dataset into numpy array
-        data = np.array(data)
 
         # Train and test the model on the current fold
         acc,weighted_f1,macro_f1,kappa,mcc,macro_precision,macro_recall,macro_aupr  = train_test(data[train].tolist(), data[test].tolist(), args, fold)
@@ -670,7 +902,8 @@ def ten_fold(args):
             'macro_recall': macro_recall,
             'macro_aupr': macro_aupr,
         })
-
+        completed_folds.add(fold)
+        write_run_outputs(args, fold_rows, current_fold=fold, status="running")
 
         # Print the average results of all folds so far
         print("==================================fold {} end".format(fold))
@@ -692,50 +925,16 @@ def ten_fold(args):
         print('Total_aupr:')
         print(np.mean(total_aupr))
 
-
         fold += 1 # Increment the fold counter
-
         sys.stdout.flush()
 
     if fold_rows:
-        result_dir = os.path.join("results", "run_" + datetime.now().strftime("%Y%m%d_%H%M%S"))
-        os.makedirs(result_dir, exist_ok=True)
-
-        metric_keys = [
-            'acc', 'weighted_f1', 'macro_f1', 'kappa', 'mcc',
-            'macro_precision', 'macro_recall', 'macro_aupr'
-        ]
-        metric_names = {
-            'acc': 'Accuracy',
-            'weighted_f1': 'Weighted F1',
-            'macro_f1': 'Macro F1',
-            'kappa': 'Kappa',
-            'mcc': 'MCC',
-            'macro_precision': 'Macro Precision',
-            'macro_recall': 'Macro Recall',
-            'macro_aupr': 'Macro AUPR',
-        }
-
-        csv_path = os.path.join(result_dir, "fold_metrics.csv")
-        with open(csv_path, 'w', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=['fold'] + metric_keys)
-            writer.writeheader()
-            writer.writerows(fold_rows)
-
-        summary_path = os.path.join(result_dir, "summary.txt")
-        with open(summary_path, 'w', encoding='utf-8') as f:
-            f.write("Metric              Mean      Std       Mean \u00b1 Std\n")
-            f.write("-" * 62 + "\n")
-            for key in metric_keys:
-                values = np.array([row[key] for row in fold_rows], dtype=float)
-                mean = float(np.mean(values))
-                std = float(np.std(values, ddof=1)) if len(values) > 1 else 0.0
-                f.write(f"{metric_names[key]:<19} {mean:.6f}  {std:.6f}  {mean:.6f} \u00b1 {std:.6f}\n")
-
+        status = "complete" if len(completed_folds) >= 10 else "partial"
+        write_run_outputs(args, fold_rows, current_fold=None, status=status)
         print("================================== final summary")
-        print("Result directory: " + result_dir)
-        print("Fold metrics CSV: " + csv_path)
-        print("Paper summary TXT: " + summary_path)
+        print("Run directory: " + args.run_dir)
+        print("Fold metrics CSV: " + _fold_metrics_path(args))
+        print("Paper summary TXT: " + _summary_path(args))
 
 
 # Benchmark dataset data extraction
@@ -748,7 +947,7 @@ def Extract_positive_negative_samples(DAL):
         for j in range(DAL.shape[1]):  # Loop through each column (side effect)
             interaction_target[k, 0] = i  # Store the drug index
             interaction_target[k, 1] = j  # Store the side effect index
-            interaction_target[k, 2] = DAL[i, j]  # Store the frequency value 
+            interaction_target[k, 2] = DAL[i, j]  # Store the frequency value
             k = k + 1  # Increment the counter
 
     # sort all datas
@@ -781,7 +980,7 @@ def main():
                         metavar = 'FLOAT', help = 'dropout rate')
     parser.add_argument('--gp', type = int, default = 64,
                         metavar = 'gp', help = 'hyper_gauss')
-    
+
     # Batch size settings
     parser.add_argument('--batch_size', type = int, default = 32,
                         metavar = 'N', help = 'input batch size for training')
@@ -791,7 +990,7 @@ def main():
                         metavar = 'STRING', help = 'dataset')
     parser.add_argument('--rawpath', type=str, default='./Datas',
                         metavar='STRING', help='rawpath')
-    
+
     # MSSF-LLM arguments
     parser.add_argument('--use_llm', action='store_true', default=False,
                         help='Enable LLM branch (PubMedBERT features)')
@@ -816,9 +1015,16 @@ def main():
                         help='Cross-modal fusion variant')
     parser.add_argument('--start_fold', type=int, default=1,
                         metavar='N', help='Skip folds before this number (resume from fold N)')
+    parser.add_argument('--run_name', type=str, default=None,
+                        help='Name for a new run directory under runs/')
+    parser.add_argument('--resume', type=str, default=None,
+                        help='Resume from an existing run directory')
 
     # Parse arguments
     args = parser.parse_args()
+    explicit_keys = _explicit_cli_keys(sys.argv[1:])
+    run_dir = setup_run(args, explicit_keys)
+    log_file = attach_run_logger(run_dir)
 
 
     # =======================
@@ -830,6 +1036,7 @@ def main():
     print('batch_size: ' + str(args.batch_size))
     print('dimension of Bayesian: ' + str(args.gp))
     print('weight decay: ' + str(args.weight_decay))
+    print('run directory: ' + str(args.run_dir))
 
     # =======================
     # Run Ten-Fold Cross-Validation
